@@ -242,7 +242,7 @@
 
 - id: download_table_action
   # translation: "Action"
-  translation: "貢献手段"
+  translation: "利用方法"
 
 - id: download_official_current_version
   # translation: "Official Current Version"
