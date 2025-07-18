@@ -1,29 +1,60 @@
 ---
-title: Open Guide to Kanban - In the Context of Knowledge Work
-short_title: Open Guide to Kanban
-description: The Open Guide to Kanban is a free, community-driven reference for applying Kanban in knowledge work. It defines the core practices, and metrics necessary to improve flow, optimise value delivery, and enhance team sustainability. This guide supports scalable Kanban implementations across diverse industries and complements other agile, lean, and flow-based approaches.
+# title: Open Guide to Kanban - In the Context of Knowledge Work
+title: カンバンガイド（オープン版） - 知的活動（ナレッジワーク）文脈
+# short_title: Open Guide to Kanban
+short_title: カンバンガイド（オープン版）
+# description: The Open Guide to Kanban is a free, community-driven reference for applying Kanban in knowledge work. It defines the core practices, and metrics necessary to improve flow, optimise value delivery, and enhance team sustainability. This guide supports scalable Kanban implementations across diverse industries and complements other agile, lean, and flow-based approaches.
+description: カンバンガイド（オープン版）は、知的活動（ナレッジワーク）におけるカンバンの適用に関する無料のコミュニティ主体のリファレンスです。フローを改善し、価値提供を最適化し、チームの持続可能性を向上させるために必要な中核となるプラクティスと計測指標を定義しています。このガイドは、多様な業界でのスケーラブルなカンバン実践をサポートし、他のアジャイル、リーン、およびフローベースのアプローチを補完します。
 keywords:
   - Kanban
+  - カンバン
   - Open Guide to Kanban
+  - カンバンガイド（オープン版）
   - knowledge work
+  - 知的活動
+  - ナレッジワーク
   - flow optimisation
+  - フローの最適化
   - WIP limits
+  - WIP制限
   - value delivery
+  - 価値提供
+  - バリューデリバリー
   - agile
+  - アジャイル
   - lean
+  - リーン
   - continuous improvement
+  - 継続的改善
   - service level expectation
+  - サービスレベル期待値
+  - SLE
   - cumulative flow
+  - 累積フロー
   - throughput
+  - スループット
   - metrics
+  - 計測指標
+  - メトリクス
   - work item age
+  - 作業項目の年齢
   - flow efficiency
+  - フロー効率
   - visualisation
+  - 可視化
+  - ビジュアライゼーション
   - work in progress
+  - 進行中の作業
+  - 仕掛かり作業
   - process improvement
+  - プロセス改善
   - kanban board
+  - カンバンボード
   - definition of workflow
+  - ワークフローの定義
   - outcome-oriented delivery
+  - アウトカム指向の提供
+  - 成果指向の提供
 author:
   - John Coleman
 date: 2025-07-02T09:00:00Z
@@ -42,7 +73,8 @@ aliases:
 
 This work, Open Guide to Kanban, is an adaptation of the [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), which is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). The original guide is © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Changes were made to the original. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Portions highlighted in italic are © 2025_ Orderly Disruption Limited, licensed under CC BY-SA 4.0. All other content is from © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., also licensed under CC BY-SA 4.0.
 
-## Preface
+<!-- ## Preface -->
+## 序文
 
 This document aims to provide _open_ _and adaptable_ guidance for Kanban _and Flow, drawing on ideas curated from various communities_. _It aims to serve as a coherent reference for various communities in addition to their own content._ Depending on the context, various approaches can complement Kanban, allowing it to accommodate a range of Value delivery and organizational challenges.
 
