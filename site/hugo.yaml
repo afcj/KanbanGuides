@@ -121,4 +121,7 @@ markup:
       attribute:
         block: true
         title: true
-
+# 後で消す
+caches:
+  images:
+    dir: :cacheDir/images
