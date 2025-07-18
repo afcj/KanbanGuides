@@ -69,6 +69,8 @@ jobs:
             hugo-
       - name: Configure Git
         run: git config core.quotepath false
+      - name: Change dir
+        run: cd cd site
       - name: Build with Hugo
         run: |
           hugo \
