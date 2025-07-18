@@ -24,7 +24,7 @@ guide_comparison:
   # purpose: "Community-expanded handbook"
   purpose: "コミュニティによって拡張されたハンドブック"  
   # ethos: "Inclusive, evolving, collaborative"
-  ethos: "包摂性があり、進化的で、強力によって成り立つ"
+  ethos: "包摂性があり、進化的で、コラボレーションによって成り立つ"
   # audience: "Teams blending Kanban with other approaches"
   audience: "カンバンを他のアプローチと組み合わせて活用しているチーム"
   # use_case: "How do we apply Kanban in *our* context?"
