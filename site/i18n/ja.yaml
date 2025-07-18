@@ -587,7 +587,7 @@
 
 - id: living_document_updated_label
   # translation: "Living Document - Updated"
-  translation: "鮮度を保ったドキュメント - 更新日"
+  translation: "継続更新ドキュメント - 更新日"
 
 - id: active_fork_updated_label
   # translation: "Active Fork - Updated"
@@ -615,7 +615,7 @@
 
 - id: read_fork_button
   # translation: "Read Fork"
-  translation: "フォークを読む"
+  translation: "フォーク元を読む"
 
 - id: view_archive_button
   # translation: "View Archive"
