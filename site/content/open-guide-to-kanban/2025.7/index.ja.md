@@ -71,73 +71,114 @@ aliases:
   - /open-guide-to-kanban/latest/
 ---
 
-This work, Open Guide to Kanban, is an adaptation of the [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), which is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). The original guide is © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Changes were made to the original. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Portions highlighted in italic are © 2025_ Orderly Disruption Limited, licensed under CC BY-SA 4.0. All other content is from © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., also licensed under CC BY-SA 4.0.
+<!-- This work, Open Guide to Kanban, is an adaptation of the [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), which is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). The original guide is © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Changes were made to the original. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Portions highlighted in italic are © 2025_ Orderly Disruption Limited, licensed under CC BY-SA 4.0. All other content is from © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., also licensed under CC BY-SA 4.0. -->
+この「カンバンガイド（オープン版）」は、[カンバンガイド2025年5月版](https://kanbanguides.org/history/kanban-guide-2025/)をもとにした適応版であり、クリエイティブ・コモンズ 表示-継承　4.0 国際（CC BY-SA 4.0）の下で提供されています。原典の著作権は、© 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc.に帰属します。本ガイドでは、原典に一部改変を加えており、変更を含むすべての内容は、CC BY-SA 4.0の下で提供されています。斜体で示された一部の箇所は、© 2025_ Orderly Disruption Limitedによるものであり、同ライセンスの下で提供されています。それ以外のすべての内容は、© 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc.によるものであり、同様にCC BY-SA 4.0の下で提供されています。
 
 <!-- ## Preface -->
 ## 序文
 
-This document aims to provide _open_ _and adaptable_ guidance for Kanban _and Flow, drawing on ideas curated from various communities_. _It aims to serve as a coherent reference for various communities in addition to their own content._ Depending on the context, various approaches can complement Kanban, allowing it to accommodate a range of Value delivery and organizational challenges.
+<!-- This document aims to provide _open_ _and adaptable_ guidance for Kanban _and Flow, drawing on ideas curated from various communities_. _It aims to serve as a coherent reference for various communities in addition to their own content._ Depending on the context, various approaches can complement Kanban, allowing it to accommodate a range of Value delivery and organizational challenges. -->
+このガイドは、カンバンと _フロー_ に関する _オープン_ で _適応可能な_ ガイダンスを提供することを目的としている。これは、_さまざまなコミュニティから収集されたアイデアを基にしている_。_それぞれのコミュニティ独自のコンテンツに加えて、一貫性のあるリファレンスとして機能することを目指している_。カンバンは、さまざまなアプローチによって補完することで、価値の提供や組織の課題に関するある程度幅の広いニーズに柔軟に適応できるようになる。
 
-_The use of the italics font supports the Creative Commons adaptation notice on the cover page; italics are not for emphasis. The use of a capital letter at the start of a word indicates a convention listed in the appendix of this document, e.g., Value is either a potential or realized benefit for a Stakeholder, including meeting the needs of the customer, the end-user, the decision-maker, the organization, and the environment._
+<!-- _The use of the italics font supports the Creative Commons adaptation notice on the cover page; italics are not for emphasis. The use of a capital letter at the start of a word indicates a convention listed in the appendix of this document, e.g., Value is either a potential or realized benefit for a Stakeholder, including meeting the needs of the customer, the end-user, the decision-maker, the organization, and the environment._ -->
+_斜体フォントの使用は、このガイドの表紙に記載されたクリエイティブ・コモンズの適応通知をサポートするためのものであり、強調を目的としたものではない。また、単語の冒頭を大文字で始めることで、このガイドの付録に記載された慣例を示す。例えばValueは、顧客、エンドユーザー、意思決定者、組織、環境のニーズを満たすことを含む、ステークホルダーにとっての潜在的または実現された恩恵を指す。_
 
-## Definition of Kanban in the Context of Knowledge Work
+<!-- ## Definition of Kanban in the Context of Knowledge Work -->
+## 知的活動（ナレッジワーク）におけるカンバンの定義
 
-Kanban is a strategy for optimizing the _Flow_ of _Value_ through a _system_. It is a signaling system to call for Work or inventory. It comprises the following three practices working in tandem:
+<!-- Kanban is a strategy for optimizing the _Flow_ of _Value_ through a _system_. It is a signaling system to call for Work or inventory. It comprises the following three practices working in tandem: -->
+カンバンとは、あるシステムを通じて _価値_ の _流れ（フロー）_ を最適化するための戦略である。それは、作業や在庫を引き寄せるためのシグナリングシステム（信号による呼び出しの仕組み）でもある。以下の3つのプラクティスが連携して機能する。
 
-- Defining and _Visualizing_ a workflow.
-- Actively managing _Items_ in a workflow.
-- Improving _Flow_.
+<!-- - Defining and _Visualizing_ a workflow. -->
+- ワークフローを定義し _可視化する_
+<!-- - Actively managing _Items_ in a workflow. -->
+- ワークフロー内の _項目_ を主体的に管理する
+<!-- - Improving _Flow_. -->
+- _フロー_ を改善する
 
-In their implementation, these Kanban practices are collectively called a Kanban system. Those who participate in the Value delivery of a Kanban system are called Kanban system members.
+<!-- In their implementation, these Kanban practices are collectively called a Kanban system. Those who participate in the Value delivery of a Kanban system are called Kanban system members. -->
+これらのカンバンのプラクティスを実装したものを、総称して@<w>カンバンシステムと呼ぶ。カンバンシステムの価値提供に参加する人たちを、カンバンシステムメンバーと呼ぶ。
 
-## Why Use Kanban?
+<!-- ## Why Use Kanban? -->
+## カンバンを使う理由
 
-Central to the _understanding_ of Kanban is the concept of _Flow_. _In a Kanban system, Flow_ is the movement of Value through that Kanban system. As most _Kanban_ workflows exist to optimize Value, the strategy of Kanban is to optimize Value by optimizing Flow, which means striving to find the right balance of effectiveness, efficiency, and predictability:
+<!-- Central to the _understanding_ of Kanban is the concept of _Flow_. _In a Kanban system, Flow_ is the movement of Value through that Kanban system. As most _Kanban_ workflows exist to optimize Value, the strategy of Kanban is to optimize Value by optimizing Flow, which means striving to find the right balance of effectiveness, efficiency, and predictability: -->
+カンバンの _理解_ の中心にあるのは、_フロー_ の概念である。_カンバンシステムにおけるフロー_ とは、価値がそのシステム内を移動することを指す。ほとんどの _カンバン_ のワークフローが価値を最適化するために存在するように、カンバンの戦略はフローを最適化することで価値を最適化する。これは、効果性、効率性、予測可能性の適切なバランスを追求することを意味する。
 
-- An effective workflow is one that delivers what stakeholders _desire,_ when they _desire_ it.
-- An efficient workflow allocates available _capacity_ optimally to deliver Value.
-- A predictable workflow means being able to _reasonably_ forecast Value delivery within an acceptable degree of uncertainty.
+<!-- - An effective workflow is one that delivers what stakeholders _desire,_ when they _desire_ it. -->
+- 効果的なワークフローは、ステークホルダーが _求めるもの_ を _求めるタイミング_ で提供する
+<!-- - An efficient workflow allocates available _capacity_ optimally to deliver Value. -->
+- 効率的なワークフローは、利用可能な _キャパシティ_ をできるだけ最適に配分し、価値を提供する
+<!-- - A predictable workflow means being able to _reasonably_ forecast Value delivery within an acceptable degree of uncertainty. -->
+- 予測可能なワークフローは、許容できる不確実性の範囲内で価値の提供を _ある程度_ 予測できることを意味する
 
-The strategy of _a_ Kanban _system_ is to _enable_ Kanban system members to ask the right questions sooner as part of a continuous improvement effort in pursuit of these goals. Kanban system members should aim for a sustainable balance among these three elements. _Kanban is also a way to reduce overburden (excessive workload) and to manage demand so that Work is delivered optimally given the available capacity. It is not perfect, but it should foster constant improvement and an optimized Flow of Value._
+<!-- The strategy of _a_ Kanban _system_ is to _enable_ Kanban system members to ask the right questions sooner as part of a continuous improvement effort in pursuit of these goals. Kanban system members should aim for a sustainable balance among these three elements. _Kanban is also a way to reduce overburden (excessive workload) and to manage demand so that Work is delivered optimally given the available capacity. It is not perfect, but it should foster constant improvement and an optimized Flow of Value._ -->
+カンバン _システム_ の戦略は、カンバンシステムメンバーが、これらの目標を追求するための継続的な改善の一環として、適切な質問を早期に行えるように _支援する_。カンバンシステムメンバーは、これら3つの要素の持続可能なバランスを目指すべきである。_カンバンは、過剰な作業負荷（オーバーバーデン）を軽減し、利用可能なキャパシティに応じて作業結果が最適に提供されるように需要を管理する手段でもある。完璧な手段ではないが、継続的な改善と価値フローの最適化を促すものであるべきだ。_
 
-_Side benefits are happier Kanban system members, higher quality, and the ability to adapt to demand. A good Kanban system is self-regulating, i.e., the Kanban system signals and adjusts to issues without intervention._
+<!-- _Side benefits are happier Kanban system members, higher quality, and the ability to adapt to demand. A good Kanban system is self-regulating, i.e., the Kanban system signals and adjusts to issues without intervention._ -->
+_副次的な恩恵としては、カンバンシステムメンバーの満足度の向上、品質の向上、需要への適応力の向上が挙げられる。優れたカンバンシステムは自己調整的であり、すなわち、介入　なしにシグナルを発し、課題に応じて自ら調整を行うものである_。
 
-Because Kanban _can_ _Visualize_ virtually any workflow, its application is not limited to any specific industry or context. Professional Knowledge Workers in finance, utilities, healthcare, and software (to name a few), have benefited from Kanban practices. Kanban in most contexts where Value is delivered.
+<!-- Because Kanban _can_ _Visualize_ virtually any workflow, its application is not limited to any specific industry or context. Professional Knowledge Workers in finance, utilities, healthcare, and software (to name a few), have benefited from Kanban practices. Kanban in most contexts where Value is delivered. -->
+カンバンは、ほぼすべてのワークフローを _可視化できる_ ため、その適用範囲は特定の業界や状況に限定されない。金融、ヘルスケア、ソフトウェアなどの分野で働くプロフェッショナルなナレッジワーカーが、カンバンのプラクティスから恩恵を受けている。カンバンは、価値が提供されるほとんどの状況において使うことができる。
 
-## Kanban Theory
+<!-- ## Kanban Theory -->
+## カンバンの理論
 
-_The Kanban system_ draws on _various approaches and understanding_ including, but not limited to, systems thinking _(5)_, lean principles _(4)_, queuing theory (batch size _(6-7)_ and queue size _(1,13-14)_), variation _(2,11)_, and quality control _(2,8,10)_. Continually improving a Kanban system based on these approaches and understanding is one way organizations can attempt to optimize the delivery of Value. Many existing _Value_\-oriented approaches share the _ideas_ upon which Kanban is based. Because of these similarities, Kanban can be used to augment those delivery approaches.
+<!-- _The Kanban system_ draws on _various approaches and understanding_ including, but not limited to, systems thinking _(5)_, lean principles _(4)_, queuing theory (batch size _(6-7)_ and queue size _(1,13-14)_), variation _(2,11)_, and quality control _(2,8,10)_. Continually improving a Kanban system based on these approaches and understanding is one way organizations can attempt to optimize the delivery of Value. Many existing _Value_\-oriented approaches share the _ideas_ upon which Kanban is based. Because of these similarities, Kanban can be used to augment those delivery approaches. -->
+_カンバンシステム_ は、システム思考 _(5)_、リーン原則 _(4)_、待ち行列理論（バッチサイズ _(6-7)_ とキューサイズ _(1,13014)_）、変動（プロセスのばらつき） _(2,11)_、品質管理 _(1,8,10)_ といった、_さまざまなアプローチや理解_ に基づいている。これらのアプローチや理解に基づいてカンバンシステムを継続的に改善していくことは、組織が価値の提供を最適化しようとする手段のひとつである。既存の多くの _価値_ 指向のアプローチは、カンバンの基礎となる _考え方_ と共通点を持つ。こうした共通性から、カンバンはそれらの提供アプローチを補完する形でも活用できる。
 
-## Kanban Practices
+<!-- ## Kanban Practices -->
+## カンバンのプラクティス
 
-### Defining and Visualizing the Workflow
+<!-- ### Defining and Visualizing the Workflow -->
+### ワークフローを定義し可視化する
 
-Optimizing _Flow_ requires defining what _Flow_ _of Value_ means in a given context, _the (ideally) smooth movement and delivery of potential or (ideally) realized benefits for Stakeholders_. The explicit shared understanding of Flow among Kanban system members within their context is called a Definition of Workflow. _Definition of Workflow_ is a fundamental concept of Kanban. All other elements of this guide depend heavily on how workflow is defined.
+<!-- Optimizing _Flow_ requires defining what _Flow_ _of Value_ means in a given context, _the (ideally) smooth movement and delivery of potential or (ideally) realized benefits for Stakeholders_. The explicit shared understanding of Flow among Kanban system members within their context is called a Definition of Workflow. _Definition of Workflow_ is a fundamental concept of Kanban. All other elements of this guide depend heavily on how workflow is defined. -->
+_フロー_ を最適化するためには、その状況において _価値のフロー_ の意味を定義する必要がある。_ここでいう価値のフローとは、ステークホルダーにとっての潜在的、あるいは、（理想的には）実現された恩恵が、状況内でスムーズに移動し、提供させることを指す_。カンバンシステムメンバーが、その状況内で共有するフローの明示的な共有理解のことをワークフローの定義と呼ぶ。_ワークフローの定義_ は、カンバンの基本概念であり、本ガイドの他の要素はすべて、ワークフローがどのように定義されているかに大きく依存している。
 
-_To inform optimal workflow operation and facilitate continuous improvement, at a minimum_, Kanban system members must create their _Definition of Workflow_ using all of the following elements:
+<!-- _To inform optimal workflow operation and facilitate continuous improvement, at a minimum_, Kanban system members must create their _Definition of Workflow_ using all of the following elements: -->
+_最適なワークフローの運用を実現し、継続的な改善を促進するために、少なくとも_、カンバンシステムメンバーは以下のすべての要素を用いて _ワークフローの定義_ を作成する必要がある。
 
-1. A definition of the individual units of Value that are moving through the workflow, referred to as _Work Items (or Items)_.
-2. _Depending on the Work Item, for at least one coherent ‘started’ and ‘finished’ point pair:_
-   - [ ] One or more defined states that the _Work Items_ _Flow_ through from ‘started’ to ‘finished.’
-   - [ ] _Work Items_ between the ‘started’ and ‘finished’ points, even if waiting in a Queue or Buffer, are considered:
-     - _‘Started but Not Finished Work’ (SNFW) or_
-     - _Work in Progress_/_Process_ (WIP).
-   - [ ] A definition of how WIP will be controlled from ‘started’ to ‘finished.’
-   - [ ] _A set of_ Explicit policies about how _Work Items_ can _Flow_ through each state from ‘started’ to ‘finished’ _defect-free_. _For example, Kanban system members might have a policy that is explicit about fixing any known defects in an Item before moving it to the next state, so that no known defect is passed to a subsequent process._
-   - [ ] A _Service Level Expectation_ (SLE): A forecast of how long it should take a _Work Item_ to _Flow_ from ‘started’ to ‘finished.’ _Note that there is no guarantee that what happened in the past will happen in the future._
-   - [ ] A _Visualization_ of the _Service Level Expectation_ on the Kanban board.
+<!-- 1. A definition of the individual units of Value that are moving through the workflow, referred to as _Work Items (or Items)_. -->
+1. ワークフローを移動する個々の価値単位の定義（これらは _作業項目または項目と呼ばれる）
+<!-- 2. _Depending on the Work Item, for at least one coherent ‘started’ and ‘finished’ point pair:_ -->
+2. 作業項目に応じて、少なくともひと組の一貫性のある「開始」点と「終了」点の定義
+   <!-- - [ ] One or more defined states that the _Work Items_ _Flow_ through from ‘started’ to ‘finished.’ -->
+   - [ ] _作業項目_ が「開始」から「終了」までの間の _フロー_ を示すひとつ以上の状態の定義
+   <!-- - [ ] _Work Items_ between the ‘started’ and ‘finished’ points, even if waiting in a Queue or Buffer, are considered: -->
+   - [ ] たとえキューやバッファで待機している場合であっても、「開始」点と「終了」点の間にある _作業項目_ は対象扱い
+     <!-- - _‘Started but Not Finished Work’ (SNFW) or_ -->
+	 - _「開始しているが終了していない作業」（SNFW: Started but Not Finished Work） あるいは_ 
+     <!-- - _Work in Progress_/_Process_ (WIP). -->
+	 - _進行中の作業（WIP: Work in Progress / Process）_
+   <!-- - [ ] A definition of how WIP will be controlled from ‘started’ to ‘finished.’ -->
+   - [ ] 「開始」から「終了」までの間のWIPの制御方法の定義
+   <!-- - [ ] _A set of_ Explicit policies about how _Work Items_ can _Flow_ through each state from ‘started’ to ‘finished’ _defect-free_. _For example, Kanban system members might have a policy that is explicit about fixing any known defects in an Item before moving it to the next state, so that no known defect is passed to a subsequent process._ -->
+   - [ ] _作業項目_ が _「開始」から「終了」までの各状態を _欠陥なく_、どのように _流れる_ かについての _一連の_ 明示的なポリシー       
+	 例えば、カンバンシステムメンバーが、「既知の欠陥を修正しない限りは項目を次の状態に移してはならない」というポリシーを明示していれば、既知の欠陥が後続のプロセスに渡ることはない
+   <!-- - [ ] A _Service Level Expectation_ (SLE): A forecast of how long it should take a _Work Item_ to _Flow_ from ‘started’ to ‘finished.’ _Note that there is no guarantee that what happened in the past will happen in the future._ -->
+   - [ ] _サービスレベル期待値（SLE: Service Level Expectation）_: _作業項目_ が「開始」から「終了」まで _流れる_ のにかかるべき時間の予測のこと  
+     _過去に起きたことが、今後も同じように起きるとは限らない点に注意すること_
+   <!-- - [ ] A _Visualization_ of the _Service Level Expectation_ on the Kanban board. -->
+   - [ ] カンバンボード上における _サービスレベル期待値_ の _可視化_
 
-The order in which these elements are implemented is not important as long as they are all _implemented_. Kanban system members often require additional _Definition of Workflow_ elements, such as values, principles, and working agreements, depending on the _circumstances of the_ Kanban system _members_. _There are resources in the appendix of this guide and elsewhere to help decide on appropriate options_.
+<!-- The order in which these elements are implemented is not important as long as they are all _implemented_. Kanban system members often require additional _Definition of Workflow_ elements, such as values, principles, and working agreements, depending on the _circumstances of the_ Kanban system _members_. _There are resources in the appendix of this guide and elsewhere to help decide on appropriate options_. -->
+これらがすべて _実装されている_ 限り、実装の順序は重要ではない。カンバンシステムメンバーは、_カンバンシステムメンバーの置かれた状況_ に応じて、価値基準、原則、ワーキングアグリーメントなど、_ワークフローの定義_ の要素を追加で必要とすることがよくある。_その選択肢は多岐にわたり、本ガイドの付録やその他の資料に、どの要素を取り入れるかを判断するための参考資料がある_。
 
-Kanban system members also often require more than one _Definition of Workflow_. Those multiple _Definitions of Workflow_ could be for multiple groups of Kanban system members, different levels of the organization, etc. While this guide prescribes no minimum or maximum number of _Definitions of Workflow_, it encourages establishing a _Definition of Workflow_ wherever the Kanban system members require connecting _Flow_ to _Value_.
+<!-- Kanban system members also often require more than one _Definition of Workflow_. Those multiple _Definitions of Workflow_ could be for multiple groups of Kanban system members, different levels of the organization, etc. While this guide prescribes no minimum or maximum number of _Definitions of Workflow_, it encourages establishing a _Definition of Workflow_ wherever the Kanban system members require connecting _Flow_ to _Value_. -->
+カンバンシステムメンバーが、複数の _ワークフローの定義_ を必要とすることもよくある。これらの複数の _ワークフローの定義_ は、複数のカンバンシステムメンバーによるグループ、組織の異なるレベルなどに対応することができる。本ガイドでは、 _ワークフローの定義_ の最小数や最大数を規定していないが、カンバンシステムメンバーが _フロー_ を _価値_ に結びつける必要がある場合は、どこであっても _ワークフローの定義_ を確立することを推奨している。
 
-_Enabling Flow is the act of fostering a smooth and balanced system to create Value. The Definition of Workflow should ensure that the system is balanced to optimize the Flow of Value. Kanban system members accomplish this by improving how they validate that Value was delivered, and eliminating Work that fails to deliver Value._
+<!-- _Enabling Flow is the act of fostering a smooth and balanced system to create Value. The Definition of Workflow should ensure that the system is balanced to optimize the Flow of Value. Kanban system members accomplish this by improving how they validate that Value was delivered, and eliminating Work that fails to deliver Value._ -->
+_フローを可能にするとは、価値を生み出すために、システムをスムーズかつバランスの取れた状態に整える行為である。ワークフローの定義では、価値フローを最適化できるようにシステムのバランスを確保する必要がある。カンバンシステムメンバーは、価値が提供されたことを検証する方法を改善し、価値を生まない作業を取り除くことで、それを実現する_。
 
-The _Visualization_ of one _or more_ _Definitions of Workflow_ is _described as_ a Kanban board. There are no specific guidelines for how a _Visualization_ should look. Consideration should be given to all aspects of a _Definition of Workflow_ (e.g., _Work Items_, policies) along with any other context-specific factors that may affect how Value _Flows_.
+<!-- The _Visualization_ of one _or more_ _Definitions of Workflow_ is _described as_ a Kanban board. There are no specific guidelines for how a _Visualization_ should look. Consideration should be given to all aspects of a _Definition of Workflow_ (e.g., _Work Items_, policies) along with any other context-specific factors that may affect how Value _Flows_. -->
+ひとつ _以上_ の _ワークフローの定義_ を _可視化_ したものが、カンバンボード _として説明される_。_可視化_ がどのような形式であるべきかについて、特に決まった指針はない。 _ワークフローの定義_ のすべての側面（_作業項目_ やポリシーなど）に加え、価値 _フロー_ に影響を与える可能性のあるその他の状況固有な要因を考慮する必要がある。
 
-_In a software team, Kanban might Visualize feature development from idea to deployment. In a marketing team, it might track a campaign from design to launch._
+<!-- _In a software team, Kanban might Visualize feature development from idea to deployment. In a marketing team, it might track a campaign from design to launch._ -->
+_ソフトウェアチームでは、カンバンがアイデアからデプロイまでのフィーチャー開発を可視化する場合がある。マーケティングチームでは、キャンペーンのデザインからローンチまでを追跡するために使われる場合がある_。
 
-Kanban system members are limited only by their imagination regarding how they make _Flow_ _visible and how they foster purposeful and intentional interactions with the right people at the right time_. _It is recommended to Visualize each step in a workflow to prevent waste from remaining hidden._
+<!-- Kanban system members are limited only by their imagination regarding how they make _Flow_ _visible and how they foster purposeful and intentional interactions with the right people at the right time_. _It is recommended to Visualize each step in a workflow to prevent waste from remaining hidden._ -->
+カンバンシステムメンバーが _フロー_ を _どのように可視化するか、また、適切なタイミングで適切な人と意図的かつ目的を持った対話をどのように促すか_ について制限を受けるのは、カンバンシステムメンバーの想像力によってのみである。_無駄が見えないままにならないよう、ワークフローの各ステップを可視化することが推奨される_。
 
 ### Actively Managing Items in a Workflow
 
