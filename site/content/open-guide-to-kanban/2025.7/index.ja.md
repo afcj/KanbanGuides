@@ -125,7 +125,7 @@ _副次的な恩恵としては、カンバンシステムメンバーの満足�
 ## カンバンの理論
 
 <!-- _The Kanban system_ draws on _various approaches and understanding_ including, but not limited to, systems thinking _(5)_, lean principles _(4)_, queuing theory (batch size _(6-7)_ and queue size _(1,13-14)_), variation _(2,11)_, and quality control _(2,8,10)_. Continually improving a Kanban system based on these approaches and understanding is one way organizations can attempt to optimize the delivery of Value. Many existing _Value_\-oriented approaches share the _ideas_ upon which Kanban is based. Because of these similarities, Kanban can be used to augment those delivery approaches. -->
-_カンバンシステム_ は、システム思考 _(5)_、リーン原則 _(4)_、待ち行列理論（バッチサイズ _(6-7)_ とキューサイズ _(1,13014)_）、変動（プロセスのばらつき） _(2,11)_、品質管理 _(1,8,10)_ といった、_さまざまなアプローチや理解_ に基づいている。これらのアプローチや理解に基づいてカンバンシステムを継続的に改善していくことは、組織が価値の提供を最適化しようとする手段のひとつである。既存の多くの _価値_ 指向のアプローチは、カンバンの基礎となる _考え方_ と共通点を持つ。こうした共通性から、カンバンはそれらの提供アプローチを補完する形でも活用できる。
+_カンバンシステム_ は、システム思考 _(5)_、リーン原則 _(4)_、待ち行列理論（バッチサイズ _(6-7)_ とキューサイズ _(1,13014)_）、変動（プロセスのばらつき） _(2,11)_、品質管理 _(1,8,10)_ といった、_さまざまなアプローチや理解_ に基づいている。これらのアプローチや理解に基づいてカンバンシステムを継続的に改善していくことは、組織が価値の提供を最適化しようとする手段のひとつである。既存の多くの _価値_ 指向なアプローチは、カンバンの基礎となる _考え方_ と共通点を持つ。こうした共通性から、カンバンはそれらの提供アプローチを補完するために活用できる。
 
 <!-- ## Kanban Practices -->
 ## カンバンのプラクティス
