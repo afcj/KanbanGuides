@@ -502,7 +502,7 @@
 
 - id: contributors_title
   # translation: "Contributors"
-translation: "貢献者"
+  translation: "貢献者"
 
 - id: contributors_description_card
   # translation: "Community members who shape this guide"
