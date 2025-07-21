@@ -234,7 +234,7 @@ _ナレッジワークの文脈における適正サイズ化は、作業項目�
 _キャパシティの管理には、WIPの制御だけでは不十分なことも多い_。WIPを制御することは、_フロー_ の改善に役立つだけでなく、多くの場合、全体的な _カンバンシステムメンバーの_ 集中力、確約（コミットメント）、コラボレーションを高めることにもつながる。WIPを制御する上で許容可能な例外は、_ワークフローの定義の一部として明示的に記述しておくべきである。 
 
 <!-- ### Improving _Flow_ -->
-### _フロー_　を改善する
+### _フロー_ を改善する
 
 <!-- Given an explicit Definition of Workflow, it is the Kanban system members’ responsibility to continuously improve their _Flow_ _by_ _achieving_ a better balance of effectiveness, efficiency, and predictability. Continual study of the system can guide potential improvements. _Kanban system members often review_ the _Definition of Workflow_ to discuss and _adopt_ _needed_ changes. -->
 明示的なワークフローの定義が存在する前提で、カンバンシステムメンバーには、効果性、効率性、予測可能性のバランスをより適切にすることで、自らの _フロー_ を継続的に改善していく責任がある。システムを継続的に観察し検討することで、改善に向けた手掛かりが得られる。カンバンシステムメンバーは、しばしば _ワークフローの定義_ を見直し、_必要な_ 変更について議論し、それらを _適用する_。
@@ -248,7 +248,8 @@ _さらに望ましいのは、リーダーシップを発揮する人たち、�
 <!-- _Kanban favors evolutionary change, but it does not prohibit larger, structural changes, informed by evidence and a clear understanding of the system. Changes should be purposeful and context-driven._ -->
 _カンバンは進化的な変化を支持するが、エビデンスと明確な理解に基づく構造的なより大きな変化を禁じているわけではない。変化は、目的を持ち、状況に即したものであるべきである_。
 
-## Inform Flow Optimization with Appropriate Measures or Metrics
+<!-- ## Inform Flow Optimization with Appropriate Measures or Metrics -->
+## 適切な指標や計測指標を活用したフローの最適化
 
 - **Blocked Elapsed Time for Finished Items (BETFI):** The cumulative time for a single ‘finished’ Work Item (or a selection of ‘finished’ Items) spends in a blocked condition from ‘started’ to ‘finished,’ but not in a Queue or Buffer state. \[measure for a single Item, metric for multiple Items\]
 
