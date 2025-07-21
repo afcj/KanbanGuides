@@ -1,15 +1,15 @@
 ---
 # title: Open Guide to Kanban - In the Context of Knowledge Work
-title: カンバンガイド（オープン版） - ナレッジワーク文脈
+title: オープン版カンバンガイド - ナレッジワーク文脈
 # short_title: Open Guide to Kanban
-short_title: カンバンガイド（オープン版）
+short_title: オープン版カンバンガイド
 # description: The Open Guide to Kanban is a free, community-driven reference for applying Kanban in knowledge work. It defines the core practices, and metrics necessary to improve flow, optimise value delivery, and enhance team sustainability. This guide supports scalable Kanban implementations across diverse industries and complements other agile, lean, and flow-based approaches.
-description: カンバンガイド（オープン版）は、ナレッジワークにおけるカンバンの適用に関する無料のコミュニティ主体のリファレンスです。フローを改善し、価値提供を最適化し、チームの持続可能性を向上させるために必要な中核となるプラクティスと計測指標を定義しています。このガイドは、多様な業界でのスケーラブルなカンバン実践をサポートし、他のアジャイル、リーン、およびフローベースのアプローチを補完します。
+description: オープン版カンバンガイドは、ナレッジワークにおけるカンバンの適用に関する無料のコミュニティ主体のリファレンスです。フローを改善し、価値提供を最適化し、チームの持続可能性を向上させるために必要な中核となるプラクティスと計測指標を定義しています。このガイドは、多様な業界でのスケーラブルなカンバン実践をサポートし、他のアジャイル、リーン、およびフローベースのアプローチを補完します。
 keywords:
   - Kanban
   - カンバン
   - Open Guide to Kanban
-  - カンバンガイド（オープン版）
+  - オープン版カンバンガイド
   - knowledge work
   - ナレッジワーク
   - flow optimisation
@@ -71,7 +71,7 @@ aliases:
 ---
 
 <!-- This work, Open Guide to Kanban, is an adaptation of the [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), which is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). The original guide is © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Changes were made to the original. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Portions highlighted in italic are © 2025_ Orderly Disruption Limited, licensed under CC BY-SA 4.0. All other content is from © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., also licensed under CC BY-SA 4.0. -->
-この「カンバンガイド（オープン版）」は、[カンバンガイド2025年5月版](https://kanbanguides.org/history/kanban-guide-2025/)をもとにした適応版であり、クリエイティブ・コモンズ 表示-継承　4.0 国際（CC BY-SA 4.0）の下で提供されています。原典の著作権は、© 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc.に帰属します。本ガイドでは、原典に一部改変を加えており、変更を含むすべての内容は、CC BY-SA 4.0の下で提供されています。斜体で示された一部の箇所は、© 2025_ Orderly Disruption Limitedによるものであり、同ライセンスの下で提供されています。それ以外のすべての内容は、© 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc.によるものであり、同様にCC BY-SA 4.0の下で提供されています。
+この「オープン版カンバンガイド」は、[カンバンガイド2025年5月版](https://kanbanguides.org/history/kanban-guide-2025/)をもとにした適応版であり、クリエイティブ・コモンズ 表示-継承　4.0 国際（CC BY-SA 4.0）の下で提供されています。原典の著作権は、© 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc.に帰属します。本ガイドでは、原典に一部改変を加えており、変更を含むすべての内容は、CC BY-SA 4.0の下で提供されています。斜体で示された一部の箇所は、© 2025_ Orderly Disruption Limitedによるものであり、同ライセンスの下で提供されています。それ以外のすべての内容は、© 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc.によるものであり、同様にCC BY-SA 4.0の下で提供されています。
 
 <!-- ## Preface -->
 ## 序文
@@ -300,7 +300,7 @@ _In practice, Kanban is a journey of ongoing learning and adaptation. By startin
 ## 謝辞
 
 <!-- _People acknowledged here do not necessarily agree with what is written in this document, and that is ok. Nevertheless, the Open Guide to Kanban owes a massive debt of gratitude to:_ -->
-_ここで謝辞を述べている方々が、本ガイドの内容すべてにおいて同意しているとは限らない。それでも構わない。それでもなお、カンバンガイド（オープン版）は以下の方々に多大な感謝の意を表したい_。
+_ここで謝辞を述べている方々が、本ガイドの内容すべてにおいて同意しているとは限らない。それでも構わない。それでもなお、オープン版カンバンガイドは以下の方々に多大な感謝の意を表したい_。
 
 <!-- - All who helped to develop Kanban, including those who preferred not to be named -->
 - カンバンの発展に寄与してくれたすべての人たち――名前を挙げられることを望まなかった人たちも含む
