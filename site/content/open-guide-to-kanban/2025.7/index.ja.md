@@ -303,13 +303,22 @@ _ここで謝辞を述べている方々が、本ガイドの内容すべてに�
 <!-- - All who helped to develop Kanban, including those who preferred not to be named -->
 - カンバンの発展に寄与してくれたすべての人たち――名前を挙げられることを望まなかった人たちも含む
 <!-- - _Kanban Guide July 2020 or December 2020 version reviewers: Jean-Paul Bayley, Jose Casal, Colleen Johnson, Todd Miller, Eric Naiburg, Steve Porter, Ryan Ripley, Dave West, Julia Wester, Yuval Yeret, and Deborah Zanke_ -->
-- _カンバンガイドの2020年7月版または12月版のレビュアー: Jean-Paul Bayley、Jose Casal、Colleen Johnson、Todd Miller、Eric Naiburg、Steve Porter、Ryan Ripley、Dave West、Julia Wester、Yuval Yeret、Deborah Zanke_
+- _カンバンガイドの2020年7月版または12月版の査読者: Jean-Paul Bayley、Jose Casal、Colleen Johnson、Todd Miller、Eric Naiburg、Steve Porter、Ryan Ripley、Dave West、Julia Wester、Yuval Yeret、Deborah Zanke_
 <!-- - _Kanban Guide May 2025 version reviewers:_ Magdalena Firlit, Tom Gilb, Colleen Johnson, Christian Neverdal, Prateek Singh, Steve Tendon, and Julia Wester -->
-- _カンバンガイドの2025年5月版のレビュアー: Magdalena Firlit、Tom Gilb、Colleen Johnson、Christian Neverdal、Prateek Singh、Steve Tendon、Julia Wester_
+- _カンバンガイドの2025年5月版の査読者: Magdalena Firlit、Tom Gilb、Colleen Johnson、Christian Neverdal、Prateek Singh、Steve Tendon、Julia Wester_
 <!-- - _Open Guide to Kanban reviewers: Jim Benson, Andy Carmichael, Jose Casal, Magdalena Firlit, Michael Forni, Martin Hinshelwood, Christian Neverdal, Nader Talai, Steve Tendon, and Nigel Thurlow_ -->
-- _オープン版カンバンガイドのレビュアー: Jim Benson、Andy Carmichael、Jose Casal、Magdalena Firlit、Michael Forni、Martin Hinshelwood、Christian Neverdal、Nader Talai、Steve Tendon、Nigel Thurlow_
+- _オープン版カンバンガイドの査読者: Jim Benson、Andy Carmichael、Jose Casal、Magdalena Firlit、Michael Forni、Martin Hinshelwood、Christian Neverdal、Nader Talai、Steve Tendon、Nigel Thurlow_
 <!-- - _Influences: Russell L. Ackoff, Jim Benson, Andy Carmichael, Emily Coleman, John Cutler, W. Edwards Deming, Dominica DeGrandis, Tom Gilb, Joseph M. Juran, Siegfried Kaltenecker, Henrik Kniberg, Klaus Leopold, John Little, Troy Magennis, Taiichi Ohno, Donald G. Reinersten, Sam L. Savage, Walter Shewhart, Nader Talai, Steve Tendon, Nigel Thurlow, and Donald J. Wheeler._ -->
 - _影響を受けた人物: Russell L. Ackoff、Jim Benson、Andy Carmichael、Emily Coleman、John Cutler、W. Edwards Deming、Dominica DeGrandis、Tom Gilb、Joseph M. Juran、Siegfried Kaltenecker、Henrik Kniberg、Klaus Leopold、John Little、Troy Magennis、Taiichi Ohno、Donald G. Reinersten、Sam L. Savage、Walter Shewhart、Nader Talai、Steve Tendon、Nigel Thurlow、Donald J. Wheeler._
+
+<!-- ### Translated Acknowledgments -->
+### 翻訳について
+
+本ガイドは、英語版からの日本語翻訳である。日本語翻訳は、長沢智治、斎藤紀彦、菅原円が担当した。
+
+ - [ ] 翻訳に関する連絡先: 長沢智治（nagasawa@servantworks.co.jp）
+
+なお、本ガイドの翻訳査読は、オープンなコミュニティにより行われた。
 
 <!-- ## Appendix -->
 ## 付録
