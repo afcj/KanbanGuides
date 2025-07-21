@@ -1,17 +1,16 @@
 ---
 # title: Open Guide to Kanban - In the Context of Knowledge Work
-title: カンバンガイド（オープン版） - 知的活動（ナレッジワーク）文脈
+title: カンバンガイド（オープン版） - ナレッジワーク文脈
 # short_title: Open Guide to Kanban
 short_title: カンバンガイド（オープン版）
 # description: The Open Guide to Kanban is a free, community-driven reference for applying Kanban in knowledge work. It defines the core practices, and metrics necessary to improve flow, optimise value delivery, and enhance team sustainability. This guide supports scalable Kanban implementations across diverse industries and complements other agile, lean, and flow-based approaches.
-description: カンバンガイド（オープン版）は、知的活動（ナレッジワーク）におけるカンバンの適用に関する無料のコミュニティ主体のリファレンスです。フローを改善し、価値提供を最適化し、チームの持続可能性を向上させるために必要な中核となるプラクティスと計測指標を定義しています。このガイドは、多様な業界でのスケーラブルなカンバン実践をサポートし、他のアジャイル、リーン、およびフローベースのアプローチを補完します。
+description: カンバンガイド（オープン版）は、ナレッジワークにおけるカンバンの適用に関する無料のコミュニティ主体のリファレンスです。フローを改善し、価値提供を最適化し、チームの持続可能性を向上させるために必要な中核となるプラクティスと計測指標を定義しています。このガイドは、多様な業界でのスケーラブルなカンバン実践をサポートし、他のアジャイル、リーン、およびフローベースのアプローチを補完します。
 keywords:
   - Kanban
   - カンバン
   - Open Guide to Kanban
   - カンバンガイド（オープン版）
   - knowledge work
-  - 知的活動
   - ナレッジワーク
   - flow optimisation
   - フローの最適化
@@ -84,7 +83,7 @@ aliases:
 _斜体フォントの使用は、このガイドの表紙に記載されたクリエイティブ・コモンズの適応通知をサポートするためのものであり、強調を目的としたものではない。また、単語の冒頭を大文字で始めることで、このガイドの付録に記載された慣例を示す。例えばValueは、顧客、エンドユーザー、意思決定者、組織、環境のニーズを満たすことを含む、ステークホルダーにとっての潜在的または実現された恩恵を指す。_
 
 <!-- ## Definition of Kanban in the Context of Knowledge Work -->
-## 知的活動（ナレッジワーク）におけるカンバンの定義
+## ナレッジワークにおけるカンバンの定義
 
 <!-- Kanban is a strategy for optimizing the _Flow_ of _Value_ through a _system_. It is a signaling system to call for Work or inventory. It comprises the following three practices working in tandem: -->
 カンバンとは、あるシステムを通じて _価値_ の _流れ（フロー）_ を最適化するための戦略である。それは、作業や在庫を引き寄せるためのシグナリングシステム<!--（合図による呼び出しの仕組み）-->でもある。以下の3つのプラクティスが連携して機能する。
@@ -305,17 +304,24 @@ _People acknowledged here do not necessarily agree with what is written in this 
 - _Open Guide to Kanban reviewers: Jim Benson, Andy Carmichael, Jose Casal, Magdalena Firlit, Michael Forni, Martin Hinshelwood, Christian Neverdal, Nader Talai, Steve Tendon, and Nigel Thurlow_
 - _Influences: Russell L. Ackoff, Jim Benson, Andy Carmichael, Emily Coleman, John Cutler, W. Edwards Deming, Dominica DeGrandis, Tom Gilb, Joseph M. Juran, Siegfried Kaltenecker, Henrik Kniberg, Klaus Leopold, John Little, Troy Magennis, Taiichi Ohno, Donald G. Reinersten, Sam L. Savage, Walter Shewhart, Nader Talai, Steve Tendon, Nigel Thurlow, and Donald J. Wheeler._
 
-## Appendix
+<!-- ## Appendix -->
+## 付録
 
-### Controlling Work In Progress/Process \= Controlling ‘Started but not Finished Work’
+<!-- ### Controlling Work In Progress/Process \= Controlling ‘Started but not Finished Work’ -->
+### 進行中の作業を制御する \= 「開始しているが終了していない作業」を制御すること
 
-Control of _‘Started but not Finished Work’, also referred to as_ WIP control, can be represented on a Kanban board in any way that _Kanban system_ members deem appropriate, including, but not limited to, painter’s tape spots, Total Work Item Age or Total Elapsed Time for ‘Started’ but Not Finished Items (TETSNFI), queue controls, WIP control numbers, or WIP control ranges.
+<!-- Control of _‘Started but not Finished Work’, also referred to as_ WIP control, can be represented on a Kanban board in any way that _Kanban system_ members deem appropriate, including, but not limited to, painter’s tape spots, Total Work Item Age or Total Elapsed Time for ‘Started’ but Not Finished Items (TETSNFI), queue controls, WIP control numbers, or WIP control ranges. -->
+「_開始しているが終了していない作業（SNFW）_」を制御すること、もしくはWIPの制御 _とも呼ばれること_ は、カンバンシステムメンバーが適切と見なす方法でカンバンボード上に表現できる。例えば、ペインターテープで印をつける、作業項目の年齢の総数（TWIA）、「開始している」が終了していない項目の経過時間の総数（TETSNFI）、キューの制御、WIPの制御数、WIPの制御範囲などがある。
 
-_There are also some optional non-Kanban options, supported by some communities, such as CONWIP(16), Simplified DBR (16), or DBR(16):_
+<!-- _There are also some optional non-Kanban options, supported by some communities, such as CONWIP(16), Simplified DBR (16), or DBR(16):_ -->
+_CONWIP(16)、簡易DBR(16)、DBR(16)など、一部のコミュニティに支持されているカンバン以外の任意の選択肢も存在する_。
 
-- **CONWIP (Constant Work In Progress/Process)** (16)**:** CONWIP is a pull system that maintains a fixed total ‘Started but Not Finished Work’ (SNFW) or Work In Progress/Process (WIP) limit across the entire workflow, ‘starting’ new Work only when a ‘finished’ or ‘completed’ Item exits, regulating Flow with a single system-wide constraint. Example: A software support team allows only 15 open tickets at any time; when a ticket is resolved, a new one can be ‘started.’ Not everyone supports it.
-- **DBR** (3,16)**:** An advanced approach that manages the Flow Constraint with Buffers before the Flow Constraint and at system outputs, maximizing Throughput while protecting against variability in complex systems. Example: In a product development group, UX review (primary Flow Constraint) sets the pace (drum) with a Buffer of designs before it, a secondary Buffer before legal approval prevents overload, and new Work is released only when both Buffers have capacity. Not everyone supports it.
-- **Flow Constraint** (16)**:** The bottleneck with the least capacity in the Definition of Workflow. There can be multiple bottlenecks (all with less capacity than what is required by the demand), and the Flow Constraint is the most limited one. It restricts the Kanban system’s overall Throughput, determining the pace at which Value is delivered. Example: In a software development team, if the testing takes the longest and limits the release of features, testing is the Flow Constraint that sets the system’s pace. In Knowledge Work, bottlenecks often exhibit turbulent behaviour and can move around the workflow in unpredictable ways. But sometimes bottlenecks are stubborn.
+<!-- - **CONWIP (Constant Work In Progress/Process)** (16)**:** CONWIP is a pull system that maintains a fixed total ‘Started but Not Finished Work’ (SNFW) or Work In Progress/Process (WIP) limit across the entire workflow, ‘starting’ new Work only when a ‘finished’ or ‘completed’ Item exits, regulating Flow with a single system-wide constraint. Example: A software support team allows only 15 open tickets at any time; when a ticket is resolved, a new one can be ‘started.’ Not everyone supports it. -->
+- **CONWIP（一定のWIP数: Constant WIP）**(16): CONWIPとは、ワークフロー全体にわたって「開始しているが終了していない作業（SNFW）」または進行中の作業（WIP）の総数に制限を設けるプルシステムのことである。「終了」または「完了」した項目がワークフローから出るときにのみ新しい作業を「開始」し、システム全体に設定された単一の制約によってフローを制御する。例えば、ソフトウェアサポートチームが常に最大15件の未解決チケットまでしか対応せず、あるチケットを解決したタイミングで新しいチケットの対応を「開始」する場合などが該当する。すべての人がこの仕組みを支持しているわけではない。
+<!-- - **DBR** (3,16)**:** An advanced approach that manages the Flow Constraint with Buffers before the Flow Constraint and at system outputs, maximizing Throughput while protecting against variability in complex systems. Example: In a product development group, UX review (primary Flow Constraint) sets the pace (drum) with a Buffer of designs before it, a secondary Buffer before legal approval prevents overload, and new Work is released only when both Buffers have capacity. Not everyone supports it. -->
+- **DBR（ドラム-バッファ-ロープ: Drum-Buffer-Rope）**(3,16): DBRは、フロー制約の前やシステムの出口にバッファを設けることで、フロー制約を管理する高度なアプローチである。複雑なシステムにおいてスループットを最大化しつつ、ばらつきから保護することを目的とする。例えば、あるプロダクト開発グループでは、UXレビュー（主たるフロー制約）がペースメーカー（ドラム）として進行のペースを決定し、その前に設けられたデザインのバッファや法務承認の前に設けた第二のバッファによって過負荷を防ぐ。その両方のバッファに空きがあるときにのみ新しい作業を開始する。すべての人がこの仕組みを支持しているわけではない。
+<!-- - **Flow Constraint** (16)**:** The bottleneck with the least capacity in the Definition of Workflow. There can be multiple bottlenecks (all with less capacity than what is required by the demand), and the Flow Constraint is the most limited one. It restricts the Kanban system’s overall Throughput, determining the pace at which Value is delivered. Example: In a software development team, if the testing takes the longest and limits the release of features, testing is the Flow Constraint that sets the system’s pace. In Knowledge Work, bottlenecks often exhibit turbulent behaviour and can move around the workflow in unpredictable ways. But sometimes bottlenecks are stubborn. -->
+- **フロー制約（Flow Constraint）**(16): ワークフローの定義の中でキャパシティが最も小さいボトルネックのこと。ボトルネックは複数存在しうる（いずれも需要に対してキャパシティが不足している）が、その中で最も制限的なものがフロー制約である。これは、カンバンシステム全体のスループットを制限し、価値提供のペースを決定する。例えば、ソフトウェア開発チームにおいて、テストに最も時間がかかり、それがフィーチャーのリリースを制限してしまっている場合、テストがシステム全体のペースを決めるフロー制約となる。ナレッジワークにおいては、ボトルネックが不安定に振る舞い、ワークフロー内を予測不可能に移動することがよくある。ただし、ボトルネックが固定的に存在し続けることもある。
 - **Simplified DBR (Drum-Buffer-Rope)** (3,16)**:** A simplified scheduling method where the Kanban system’s Throughput sets the workflow pace, and Throughput acts as a replenishment signal like in CONWIP. Suppose there is a Kanban system using Simplified Drum-Buffer-Rope, and the Definition of Workflow is designed to handle up to 15 Items, with 12 actively in progress/process (drum) and a Buffer of 3 Items ready to start, ensuring Work continues smoothly if any of the 12 Items face issues by pulling from the Buffer, maintaining Flow with, for example, 13 in progress/process and 2 in reserve. The rope signals replenishment when an Item is delivered, keeping the total within the 15-Item limit, and the system prioritizes rebuilding the Buffer quickly if it is depleted, proactively resolving issues to sustain Flow. Not everyone supports it.
 
 <!-- ### If Kanban system members need to prioritize a Work Item to ‘start’ -->
@@ -352,10 +358,10 @@ _以下は、すべてのコミュニティが支持しているわけではな�
 - **価値 ÷ 作業量（Value divided by Effort）**: 見積もった価値（通常は経験に基づく推測）を、見積もった作業量（これも通常は経験に基づく推測）で割ったもの。実際の作業量と価値は往々にしてランダムである。このアプローチを検討する際には、カンバンシステムメンバーは慎重になるべきである。必要に応じて、リスクも考慮すること。
 
 <!-- ### Conventions Used in the Context of Knowledge Workd -->
-### 知的活動（ナレッジワーク）における用語
+### ナレッジワークにおける用語
 
 <!-- - **Buffer** (16)**:** A buffer is a WIP-limited (or ‘Started but Not Finished Work’ limited) area that holds Work temporarily to smooth Flow and prevent overload, and also functions as a WIP controlled queue. Not to be confused with Slack. Not everyone supports Buffer; more columns can lead to a higher amount of ‘Started but Not Finished Work’ (SNFW) or Work In Progress/Process (WIP). -->
-- **バッファ（Buffer）** (16): バッファとは、一時的な作業を保持してフローを円滑にし、過負荷を防ぐためのWIP制限（あるいは「開始しているが終了していない作業」の制限）のあるエリアである。また、WIPが制御されたキューとしても機能する。ただし、スラックとは混同しないこと。バッファを取り入れない選択肢もある。カラム（列またはステップ）が増えることで「開始しているが終了したいない作業（SNFW）」やWIP（進行中の作業）の送料が増える可能性がある。
+- **バッファ（Buffer）** (16): バッファとは、一時的な作業を保持してフローを円滑にし、過負荷を防ぐためのWIP制限（あるいは「開始しているが終了していない作業」の制限）のあるエリアである。また、WIPが制御されたキューとしても機能する。ただし、スラックとは混同しないこと。バッファを取り入れない選択肢もある。カラム（列またはステップ）が増えることで「開始しているが終了したいない作業（SNFW）」やWIP（進行中の作業）の総量が増える可能性がある。
 <!-- - **_Definition of Workflow:_** The explicit shared understanding of Flow among Kanban system members within their context, including but not limited to, _the explicit set of agreements and policies that describe how Work Items are selected, progressed, and ‘finished’ through the workflow’s distinct stages._ -->
 - **ワークフローの定義（Definition of Workflow）**: カンバンシステムメンバーが、その状況下で共有するフローに関する明示的な共通理解のこと。これには、_ワークフロー内のそれぞれのステージで作業項目をどのように選定し、進行し、「終了」するのかを記述した一連の明示的な合意事項およびポリシー_ が含まれるが、これに限らない。
 <!-- - **Explicit policy:** An explicit policy in a Kanban system is a clearly defined and visible rule or guideline that makes assumptions about workflow—such as when Work Items ‘start’ or move—transparent to Kanban system members. These policies should be Visualized on the Kanban board and be easily accessible, ensuring all Kanban system members understand and follow the same process. By making policies explicit, Kanban system members reduce ambiguity, align actions, and support the optimized Flow of Value. -->
@@ -363,7 +369,7 @@ _以下は、すべてのコミュニティが支持しているわけではな�
 <!-- - **‘Finished’ (or ‘Completed’):** When the Elapsed Time from ‘Started’ to ‘Finished’ clock stops for a ‘started’ and ‘finished’ pair in a Definition of Workflow. -->
 - **「終了（Finished）」（または「完了(Completed)」）**: ワークフローの定義における「開始」と「終了」のひと組において、「開始」から「終了」までの経過時間の計測を止めるタイミングのこと。
 <!-- - **Flow:** The (ideally smooth) movement and delivery of Work Items through the Definition of Workflow. A balanced Kanban system sustains Throughput. In an ideal world, Work that entered the system (Knowledge Work), would flow like a river, never stopping, finding the path of least resistance until reaching the customer. Not to be confused with the Definition of Workflow (DoW). In Kanban, Flow \> utilization. -->
-- **フロー（Flow）**: ワークフローの定義を通じて、作業項目を（理想的に円滑に）移動し、提供すること。バランスの取れたカンバンシステムは、スループットを持続的に維持する。理想的な世界では、システムに投入された作業（知的活動）は、川の流れのように決して止まることはなく、最小の抵抗経路を見つけながら顧客に届くまで流れ続ける。ワークフローの定義（DoW）とは混同しないこと。カンバンにおいては、フローはリソースの稼働率よりも重要である。
+- **フロー（Flow）**: ワークフローの定義を通じて、作業項目を（理想的に円滑に）移動し、提供すること。バランスの取れたカンバンシステムは、スループットを持続的に維持する。理想的な世界では、システムに投入された作業（ナレッジワーク）は、川の流れのように決して止まることはなく、最小の抵抗経路を見つけながら顧客に届くまで流れ続ける。ワークフローの定義（DoW）とは混同しないこと。カンバンにおいては、フローはリソースの稼働率よりも重要である。
 <!-- - **_kanban:_** _A kanban​ (signboard in Japanese) is a Visual cue that triggers one to select, ‘start,’ or move a Work Item. Nothing should be produced or moved without a kanban signal._ -->
 - **_カンバン（kanban）_**: _カンバン（日本語で「看板」の意）とは、作業項目を選択し、「開始」し、移動するための視覚的な合図のこと。カンバンによる合図がない限り、作業を始めたり、移動させたりするべきではない_。
 <!-- - **Kanban or Kanban system**: The holistic set of concepts in this guide. _Kanban is rooted in the idea of a signaling system (a way to call for Work or inventory in a production system)._   -->
@@ -373,7 +379,7 @@ _以下は、すべてのコミュニティが支持しているわけではな�
 <!-- - **Kanban Board:** A Visual representation of one or more Definitions of Workflow. -->
 - **カンバンボード（Kanban Board）**: ひとつ以上のワークフローの定義を視覚的に表現したもの。
 <!-- - **Knowledge Work:** The creation, application, or management of information through cognitive processes to solve (often) complex problems, make decisions, or innovate, typically requiring expertise, judgment, and collaboration. Often, Knowledge Work & associated waste are invisible. -->
-- **知的活動（Knowledge Work）**: 情報を創造し、活用し、管理しながら、しばしば複雑な問題を解決したり、意思決定を行ったり、イノベーションを起こしたりするための認知的なプロセスのこと。通常、専門知識、判断力、コラボレーションが求められる。知的活動やそれに伴う無駄はたいていは目に見えないものである。
+- **ナレッジワーク（Knowledge Work）**: 情報を創造し、活用し、管理しながら、しばしば複雑な問題を解決したり、意思決定を行ったり、イノベーションを起こしたりするための認知的なプロセスのこと。通常、専門知識、判断力、コラボレーションが求められる。ナレッジワークやそれに伴う無駄はたいていは目に見えないものである。
 <!-- - **Iterative:** Work Items are worked in repeated cycles, with each cycle involving revisiting and refining the same Work based on feedback, testing, or new insights. Kanban is not inherently unsuited to creative iterative work, but it may require thoughtful consideration or adaptation. -->
 - **反復的または、イテレーティブ（Iterative）**: 作業項目は繰り返しのサイクルで進められ、それぞれのサイクルにおいてフィードバック、テスト、新たなインサイトに基づいて同じ作業を見直し、洗練させていく。カンバンは、本質的に創造的で反復的な作業に適していないというわけではないが、そうした作業に用いるには十分な配慮や工夫が求められる場合がある。
 <!-- - **JIT:** Toyota Just-in-Time––Producing only what is needed, when it’s needed, in the amount needed to minimize waste and optimize efficiency. -->
@@ -391,7 +397,7 @@ _以下は、すべてのコミュニティが支持しているわけではな�
 <!-- - **Risk:** The chance that something bad could happen. -->
 - **リスク（Risk）**: 望ましくないことが起こる可能性のこと。
 <!-- - **Stable system:** Put simply, a system that can consistently meet the demand placed upon it. There are more accurate descriptions (7,8,20). Knowledge Work tends to produce a higher range of Work Item sizes than manufacturing work. Unequal sizes do not necessarily lead to higher variation of elapsed times (due to waiting time often being the most significant factor, etc.) or Throughput but can do so (due to external dependencies, etc.). The view in this guide is that approaches designed for manufacturing do not necessarily lack utility in Knowledge Work. -->
-- **安定したシステム（Stable system）**: 端的に言えば、与えられた需要に一貫して応えられるシステムのこと。より正確な説明については、(7,8,20)を参照のこと。知的活動では、製造業と比べて作業項目のサイズのばらつきが大きくなる傾向がある。不均一な作業サイズは、（待ち時間が最大の要因となることなどから）経過時間やスループットに大きなばらつきをもたらすとは限らないが、（外部依存などによって）ばらつきを引き起こすこともある。本ガイドでは、製造業向けに設計されたアプローチが知的活動において役に立たないとは限らない、という見解をとっている。
+- **安定したシステム（Stable system）**: 端的に言えば、与えられた需要に一貫して応えられるシステムのこと。より正確な説明については、(7,8,20)を参照のこと。ナレッジワークでは、製造業と比べて作業項目のサイズのばらつきが大きくなる傾向がある。不均一な作業サイズは、（待ち時間が最大の要因となることなどから）経過時間やスループットに大きなばらつきをもたらすとは限らないが、（外部依存などによって）ばらつきを引き起こすこともある。本ガイドでは、製造業向けに設計されたアプローチがナレッジワークにおいて役に立たないとは限らない、という見解をとっている。
 <!-- - **Stakeholder**: An entity, individual, or group responsible for, interested in, or affected by the inputs, activities, and outcomes of the Kanban system. Includes but is not limited to customer, decision-maker, or user. -->
 - **ステークホルダー（Stakeholder）**: カンバンシステムのインプット、アクティビティ、アウトカムに対して、責任を持つ、関心を持つ、または影響を受ける個人やグループ、もしくはその他の存在。顧客、意思決定者、ユーザーなどが含まれるが、これらに限らない。
 <!-- - **‘Started’:** When elapsed time clocks ‘start’ for a ‘started’ and ‘finished’ pair in a Definition of Workflow. -->
@@ -399,7 +405,7 @@ _以下は、すべてのコミュニティが支持しているわけではな�
 <!-- - **‘started’ and ‘finished’ pair:** Each of one or many ‘started’ points on a Definition of Workflow should have a matching ‘finished’ point on the same Definition of Workflow. -->
 - **「開始」と「終了」のひと組（'started' and 'finished' pair）**: ワークフローの定義における、ひとつ以上のそれぞれの「開始」点には、同じワークフローの定義内に対応する「終了」点が存在しているべきである。
 <!-- - **Takt:** The word Takt (English 'tact') is derived from the German word meaning rhythm, cadence, or cycle. Takt is related to keeping time in music. Modern usage of Takt is typically in a manufacturing context. Takt is a foundational measurement in the Toyota Product System and Lean Thinking, used to calculate the capacity required to meet demand in a stable system. Throughput, unlike Takt, which sets the expectation for the ideal pace based on demand, measures actual output per unit of time. Takt also helps achieve a balanced system to meet demand consistently by enabling Kanban system members to determine the capacity needed at each stage of a process. Calculating Takt is challenging in Knowledge Work, as it requires understanding demand in high-variation environments. Not always ideal for Knowledge Work. -->
-- **タクト（Takt）**: タクト（英語では「tact」）という語は、リズム、拍子（ケイデンス）、周期（サイクル）を意味するドイツ語に由来し、音楽における拍の取り方に関連している。現代では、主に製造業の文脈で使われる用語である。タクトは、トヨタ生産方式やリーン思考における基本的な指標であり、安定したシステムにおいて需要を満たすために必要なキャパシティを算出するために用いられる。スループットが単位時間あたりの実際のアウトプットを計測するのに対し、タクトは需要に基づいた理想的な作業ペースの期待値を設定するものである。また、プロセスの各ステージで必要なキャパシティをカンバンシステムメンバーが把握できるようにすることで、需要に一貫して応えられるバランスの取れたシステムの実現を可能にする。知的活動においてタクトを算出するのは困難であり、ばらつきの大きい環境下で需要を正しく理解する必要があるため、必ずしも知的活動に適しているとは限らない。
+- **タクト（Takt）**: タクト（英語では「tact」）という語は、リズム、拍子（ケイデンス）、周期（サイクル）を意味するドイツ語に由来し、音楽における拍の取り方に関連している。現代では、主に製造業の文脈で使われる用語である。タクトは、トヨタ生産方式やリーン思考における基本的な指標であり、安定したシステムにおいて需要を満たすために必要なキャパシティを算出するために用いられる。スループットが単位時間あたりの実際のアウトプットを計測するのに対し、タクトは需要に基づいた理想的な作業ペースの期待値を設定するものである。また、プロセスの各ステージで必要なキャパシティをカンバンシステムメンバーが把握できるようにすることで、需要に一貫して応えられるバランスの取れたシステムの実現を可能にする。ナレッジワークにおいてタクトを算出するのは困難であり、ばらつきの大きい環境下で需要を正しく理解する必要があるため、必ずしもナレッジワークに適しているとは限らない。
 <!-- - **Work:** Refers to one or more Work Items, ‘started’, ‘not started’, ‘finished,’ or ‘not finished.’ -->
 - **作業（Work）**: ひとつ以上の作業項目のことを指し、「開始している」「開始していない」「終了している」「終了していない」のいずれかの場合を含む。
 <!-- - **Work Item:** A Work Item, also referred to as an Item, holds the potential for Value.​ Various terms can be used to describe the different levels of granularity of a Work Item, as long as it has potential for Value. Work Items that do not have potential for Stakeholder Value are potentially wasteful, e.g., people focus on ‘finishing’ subtasks across multiple Work Items rather than focusing on ‘finishing’ one Item at a time. Controlling ‘Started but Not Finished Work’ (SNFW) or Work In Progress/Process (WIP) for potentially wasteful Items often reduces the collaborative effort and focus to deliver potential Value sooner. Consider the context. -->

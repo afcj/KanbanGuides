@@ -9,10 +9,10 @@ brand:
   bg_colour: "#b10002"
 guide_whatis: |
   <!-- [The Kanban Guide](/the-kanban-guide/latest) is a practical, community-curated reference for using Kanban in knowledge work. It defines the essential practices, measures, and language for designing, running, and improving Kanban systems. -->
-  [カンバンガイド](/the-kanban-guide/latest)は、知的活動（ナレッジワーク）におけるカンバン活用のためのコミュニティによって編纂された実践的な指針（リファレンス）である。カンバンシステムを設計し、運用し、改善するために不可欠なプラクティス、計測指標、用語を定義している。
+  [カンバンガイド](/the-kanban-guide/latest)は、ナレッジワークにおけるカンバン活用のためのコミュニティによって編纂された実践的な指針（リファレンス）である。カンバンシステムを設計し、運用し、改善するために不可欠なプラクティス、計測指標、用語を定義している。
 guide_overview: |
   <!-- [The Kanban Guide](/the-kanban-guide/latest) is a practical, community-curated reference for using Kanban in knowledge work. -->
-  [カンバンガイド](/the-kanban-guide/latest)は、知的活動（ナレッジワーク）におけるカンバン活用のためのコミュニティによって編纂された実践的な指針（リファレンス）である。
+  [カンバンガイド](/the-kanban-guide/latest)は、ナレッジワークにおけるカンバン活用のためのコミュニティによって編纂された実践的な指針（リファレンス）である。
 guide_logo: "open-guide-to-kanban-logo.png"
 weight: 1
 guide_license: |
@@ -38,6 +38,6 @@ layman_description: |
   [カンバンガイド](/the-kanban-guide/latest)は、カンバンを使って仕事を管理する方法を説明した、簡潔でわかりやすいハンドブックです。カンバンシステムメンバーが作業を可視化し、マルチタスクを避け、仕事の成果をより確実に提供できるように支援します。必要な要素だけに絞って書かれており、誰でも簡単に読み進められます。仕事を整理し、フローを改善したいすべてのチームに推奨します。
 practitioner_description: |
   <!-- [The Kanban Guide](/the-kanban-guide/latest) is the official, succinct manual for Kanban in knowledge work. It outlines Kanban as a strategy for optimising the flow of value through a process, using three core practices: visualising workflow, actively managing work items, and continuously improving the workflow. It defines a minimal set of required elements and flow metrics. This guide is ideal for establishing a shared understanding  of Kanban fundamentals in teams or organisations, especially where simplicity, stability, and clarity are essential. -->
-  [カンバンガイド](/the-kanban-guide/latest)は、知的活動（ナレッジワーク）におけるカンバンの公式かつ簡潔な手引きです。カンバンを価値の流れ（フロー）を最適化するための戦略として位置づけ、以下の3つの中核となるプラクティスによって構成されることを示しています。それは、「ワークフローを可視化する」「作業項目を主体的に管理する」「ワークフローを継続的に改善する」です。このガイドでは、必要最小限の要素とフロー指標を定義しています。特に、シンプルさ、安定性、明確さが求められるチームや組織において、カンバンの基本を共通理解として確立するのに最適です。
+  [カンバンガイド](/the-kanban-guide/latest)は、ナレッジワークにおけるカンバンの公式かつ簡潔な手引きです。カンバンを価値の流れ（フロー）を最適化するための戦略として位置づけ、以下の3つの中核となるプラクティスによって構成されることを示しています。それは、「ワークフローを可視化する」「作業項目を主体的に管理する」「ワークフローを継続的に改善する」です。このガイドでは、必要最小限の要素とフロー指標を定義しています。特に、シンプルさ、安定性、明確さが求められるチームや組織において、カンバンの基本を共通理解として確立するのに最適です。
 ---
 
