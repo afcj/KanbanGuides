@@ -233,15 +233,20 @@ _ナレッジワークの文脈における適正サイズ化は、作業項目�
 <!-- _Capacity management often requires more than WIP control._ Controlling WIP helps _Flow_ and often improves the collective focus, commitment, and collaboration _of the Kanban system members_. Any acceptable exceptions to controlling WIP should be _explicitly stated_ as part of the _Definition of Workflow_. -->
 _キャパシティの管理には、WIPの制御だけでは不十分なことも多い_。WIPを制御することは、_フロー_ の改善に役立つだけでなく、多くの場合、全体的な _カンバンシステムメンバーの_ 集中力、確約（コミットメント）、コラボレーションを高めることにもつながる。WIPを制御する上で許容可能な例外は、_ワークフローの定義の一部として明示的に記述しておくべきである。 
 
-### Improving _Flow_
+<!-- ### Improving _Flow_ -->
+### _フロー_　を改善する
 
-Given an explicit Definition of Workflow, it is the Kanban system members’ responsibility to continuously improve their _Flow_ _by_ _achieving_ a better balance of effectiveness, efficiency, and predictability. Continual study of the system can guide potential improvements. _Kanban system members often review_ the _Definition of Workflow_ to discuss and _adopt_ _needed_ changes.
+<!-- Given an explicit Definition of Workflow, it is the Kanban system members’ responsibility to continuously improve their _Flow_ _by_ _achieving_ a better balance of effectiveness, efficiency, and predictability. Continual study of the system can guide potential improvements. _Kanban system members often review_ the _Definition of Workflow_ to discuss and _adopt_ _needed_ changes. -->
+明示的なワークフローの定義が存在する前提で、カンバンシステムメンバーには、効果性、効率性、予測可能性のバランスをより適切にすることで、自らの _フロー_ を継続的に改善していく責任がある。システムを継続的に観察し検討することで、改善に向けた手掛かりが得られる。カンバンシステムメンバーは、しばしば _ワークフローの定義_ を見直し、_必要な_ 変更について議論し、それらを _適用する_。
 
-_Improvements are_ _often_ _just-in-time_. _Improvements are not limited by their size or scope. Sometimes, improvement is beyond the control or influence of Kanban system members. Purposeful and intentional interactions, cultivating change, and removing Blockers at all levels are key to improvement._
+<!-- _Improvements are_ _often_ _just-in-time_. _Improvements are not limited by their size or scope. Sometimes, improvement is beyond the control or influence of Kanban system members. Purposeful and intentional interactions, cultivating change, and removing Blockers at all levels are key to improvement._ -->
+_改善は、よくジャストインタイムで行われる。改善とはその規模や範囲によって制限されるものではない。ときに、改善はカンバンシステムメンバーの制御や影響力の範囲を超えることもある。意図的かつ目的をもった対話、変化を後押しする姿勢、そしてあらゆるレベルでブロックされている要因を取り除くこと——これらが改善にとって重要である。_
 
-_Better still, people who demonstrate leadership, also known as leaders, Go See, Listen, and really understand to collect the facts to inform decision-making. This is known as Genchi Genbutsu. Leaders do Genchi Genbutsu so often that the truth emerges. Knowledge of what to do is one thing, but purposeful, relentless, iterative, compassionate action toward improvement (incl. shorter feedback loops) is another._
+<!-- _Better still, people who demonstrate leadership, also known as leaders, Go See, Listen, and really understand to collect the facts to inform decision-making. This is known as Genchi Genbutsu. Leaders do Genchi Genbutsu so often that the truth emerges. Knowledge of what to do is one thing, but purposeful, relentless, iterative, compassionate action toward improvement (incl. shorter feedback loops) is another._ -->
+_さらに望ましいのは、リーダーシップを発揮する人たち、すなわちリーダーが、現場に足を運び、耳を傾け、実際に理解した上で、意思決定のための事実を収集することである。これは「現地現物（Genchi Genbutsu）」として知られている。リーダーは、この現地現物を繰り返し行うことで、実態が浮かび上がってくる。何をすべきかを知っていることと、意図的で、根気強く、反復的で、思いやりのある改善行動（短いフィードバックループを含む）を取り続けることとは、まったく別物である_。
 
-_Kanban favors evolutionary change, but it does not prohibit larger, structural changes, informed by evidence and a clear understanding of the system. Changes should be purposeful and context-driven._
+<!-- _Kanban favors evolutionary change, but it does not prohibit larger, structural changes, informed by evidence and a clear understanding of the system. Changes should be purposeful and context-driven._ -->
+_カンバンは進化的な変化を支持するが、エビデンスと明確な理解に基づく構造的なより大きな変化を禁じているわけではない。変化は、目的を持ち、状況に即したものであるべきである_。
 
 ## Inform Flow Optimization with Appropriate Measures or Metrics
 
@@ -366,7 +371,7 @@ _CONWIP(16)、簡易DBR(16)、DBR(16)など、一部のコミュニティに支�
 ### カンバンシステムメンバーがどの作業項目を「開始」するかを優先順位づける必要がある場合
 
 <!-- _Here are some optional non-Kanban techniques that some but not all communities support:_ -->
-_以下は、すべてのコミュニティが支持しているわけではないが、一部のコミュニティで採用されている、カンバン以外の任意の技法である_:
+_以下は、すべてのコミュニティが支持しているわけではないが、一部のコミュニティで採用されている、カンバン以外の任意の技法である_。
 
 <!-- - **Class of Service** (21)**:** An archetype for one or a selection of Work Items, such as, standard, (real and therefore not arbitrary) fixed date, expedite, or intangible. The choice of class of service may reflect perceived relative Value, Risk, or Cost of Delay. It is more useful as an input for deciding which Item(s) to ‘start’ next when capacity allows than reprioritizing Work Items In Progress/Process (which is not good for Flow). Prone to overloading the Kanban system when misapplied, e.g., an ‘expedite lane’ might eventually get superseded by a ‘super-expedite lane,’ and then things start to get silly. Prone to unbalanced Flow even when not misapplied. -->
 - **サービスクラス（Class of Service）**(21): ひとつまたは複数の作業項目に対する典型的な分類のこと。例えば、標準、（実際に意味のある）固定日、緊急対応、無形などが挙げられる。サービスクラスの選択は、相対的な価値、リスク、または遅延コストとして見なされるものを反映することがある。サービスクラスは、キャパシティに余力があるときに、次にどの項目（または複数の項目）を「開始」するかを判断するための情報としては有用であるが、進行中の作業項目の優先順位を入れ替える手段として用いるのは（フローに悪影響を及ぼすため）望ましくない。誤って適用されると、カンバンシステムに過負荷をもたらしやすく、例えば、「緊急対応レーン」がやがて「超緊急対応レーン」に置き換えられ、事態が滑稽なものになることもある。適切に適用していたとしても、フローの不均衡を招きやすい。 
