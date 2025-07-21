@@ -290,9 +290,11 @@ _Feedback from results (‘result feedback’) refers to the data that comes bac
 
 _In practice, Kanban is a journey of ongoing learning and adaptation. By starting with these core practices and continuously improving, Kanban system members can sustainably achieve better Flow of Value. Kanban system members should start simple and evolve their Kanban system as they learn._
 
-## History of Kanban
+<!-- ## History of Kanban -->
+## カンバンの歴史
 
-The present state of Kanban can be traced to the Toyota Production System (and its antecedents) and the work of people such as Taiichi Ohno _(9)_. The collective set of practices for Knowledge Work, now commonly referred to as _Kanban (12),_ mainly originated on a team at Corbis in 2006\. Those practices quickly spread to encompass a large and diverse international community that has continued to enhance and evolve the approach.
+<!-- The present state of Kanban can be traced to the Toyota Production System (and its antecedents) and the work of people such as Taiichi Ohno _(9)_. The collective set of practices for Knowledge Work, now commonly referred to as _Kanban (12),_ mainly originated on a team at Corbis in 2006\. Those practices quickly spread to encompass a large and diverse international community that has continued to enhance and evolve the approach. -->
+カンバンの現在の形は、トヨタ生産方式（およびその前身）や大野耐一 _(9)_ をはじめとする人たちの仕事にまで起源をたどることができる。現在一般に _カンバン(12)_ と呼ばれているナレッジワークのためのプラクティスの集合体は、2006年にCorbis社のあるチームで始まったのが主な起点である。これらのプラクティスは急速に広まり、現在では多様で国際的な大規模コミュニティによって継続的に強化され、進化し続けている。
 
 <!-- ## Acknowledgments -->
 ## 謝辞
