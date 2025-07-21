@@ -96,7 +96,7 @@ _斜体フォントの使用は、このガイドの表紙に記載されたク�
 - _フロー_ を改善する
 
 <!-- In their implementation, these Kanban practices are collectively called a Kanban system. Those who participate in the Value delivery of a Kanban system are called Kanban system members. -->
-これらのカンバンのプラクティスを実装したものを、総称して@<w>カンバンシステムと呼ぶ。カンバンシステムの価値提供に参加する人たちを、カンバンシステムメンバーと呼ぶ。
+これらのカンバンのプラクティスを実装したものを、総称してカンバンシステムと呼ぶ。カンバンシステムの価値提供に参加する人たちを、カンバンシステムメンバーと呼ぶ。
 
 <!-- ## Why Use Kanban? -->
 ## カンバンを使う理由
