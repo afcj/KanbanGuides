@@ -294,15 +294,22 @@ _In practice, Kanban is a journey of ongoing learning and adaptation. By startin
 
 The present state of Kanban can be traced to the Toyota Production System (and its antecedents) and the work of people such as Taiichi Ohno _(9)_. The collective set of practices for Knowledge Work, now commonly referred to as _Kanban (12),_ mainly originated on a team at Corbis in 2006\. Those practices quickly spread to encompass a large and diverse international community that has continued to enhance and evolve the approach.
 
-## Acknowledgments
+<!-- ## Acknowledgments -->
+## 謝辞
 
-_People acknowledged here do not necessarily agree with what is written in this document, and that is ok. Nevertheless, the Open Guide to Kanban owes a massive debt of gratitude to:_
+<!-- _People acknowledged here do not necessarily agree with what is written in this document, and that is ok. Nevertheless, the Open Guide to Kanban owes a massive debt of gratitude to:_ -->
+_ここで謝辞を述べている方々が、本ガイドの内容すべてにおいて同意しているとは限らない。それでも構わない。それでもなお、カンバンガイド（オープン版）は以下の方々に多大な感謝の意を表したい_。
 
-- All who helped to develop Kanban, including those who preferred not to be named
-- _Kanban Guide July 2020 or December 2020 version reviewers: Jean-Paul Bayley, Jose Casal, Colleen Johnson, Todd Miller, Eric Naiburg, Steve Porter, Ryan Ripley, Dave West, Julia Wester, Yuval Yeret, and Deborah Zanke_
-- _Kanban Guide May 2025 version reviewers:_ Magdalena Firlit, Tom Gilb, Colleen Johnson, Christian Neverdal, Prateek Singh, Steve Tendon, and Julia Wester
-- _Open Guide to Kanban reviewers: Jim Benson, Andy Carmichael, Jose Casal, Magdalena Firlit, Michael Forni, Martin Hinshelwood, Christian Neverdal, Nader Talai, Steve Tendon, and Nigel Thurlow_
-- _Influences: Russell L. Ackoff, Jim Benson, Andy Carmichael, Emily Coleman, John Cutler, W. Edwards Deming, Dominica DeGrandis, Tom Gilb, Joseph M. Juran, Siegfried Kaltenecker, Henrik Kniberg, Klaus Leopold, John Little, Troy Magennis, Taiichi Ohno, Donald G. Reinersten, Sam L. Savage, Walter Shewhart, Nader Talai, Steve Tendon, Nigel Thurlow, and Donald J. Wheeler._
+<!-- - All who helped to develop Kanban, including those who preferred not to be named -->
+- カンバンの発展に寄与してくれたすべての人たち――名前を挙げられることを望まなかった人たちも含む
+<!-- - _Kanban Guide July 2020 or December 2020 version reviewers: Jean-Paul Bayley, Jose Casal, Colleen Johnson, Todd Miller, Eric Naiburg, Steve Porter, Ryan Ripley, Dave West, Julia Wester, Yuval Yeret, and Deborah Zanke_ -->
+- _カンバンガイドの2020年7月版または12月版のレビュアー: Jean-Paul Bayley、Jose Casal、Colleen Johnson、Todd Miller、Eric Naiburg、Steve Porter、Ryan Ripley、Dave West、Julia Wester、Yuval Yeret、Deborah Zanke_
+<!-- - _Kanban Guide May 2025 version reviewers:_ Magdalena Firlit, Tom Gilb, Colleen Johnson, Christian Neverdal, Prateek Singh, Steve Tendon, and Julia Wester -->
+- _カンバンガイドの2025年5月版のレビュアー: Magdalena Firlit、Tom Gilb、Colleen Johnson、Christian Neverdal、Prateek Singh、Steve Tendon、Julia Wester_
+<!-- - _Open Guide to Kanban reviewers: Jim Benson, Andy Carmichael, Jose Casal, Magdalena Firlit, Michael Forni, Martin Hinshelwood, Christian Neverdal, Nader Talai, Steve Tendon, and Nigel Thurlow_ -->
+- _オープン版カンバンガイドのレビュアー: Jim Benson、Andy Carmichael、Jose Casal、Magdalena Firlit、Michael Forni、Martin Hinshelwood、Christian Neverdal、Nader Talai、Steve Tendon、Nigel Thurlow_
+<!-- - _Influences: Russell L. Ackoff, Jim Benson, Andy Carmichael, Emily Coleman, John Cutler, W. Edwards Deming, Dominica DeGrandis, Tom Gilb, Joseph M. Juran, Siegfried Kaltenecker, Henrik Kniberg, Klaus Leopold, John Little, Troy Magennis, Taiichi Ohno, Donald G. Reinersten, Sam L. Savage, Walter Shewhart, Nader Talai, Steve Tendon, Nigel Thurlow, and Donald J. Wheeler._ -->
+- _影響を受けた人物: Russell L. Ackoff、Jim Benson、Andy Carmichael、Emily Coleman、John Cutler、W. Edwards Deming、Dominica DeGrandis、Tom Gilb、Joseph M. Juran、Siegfried Kaltenecker、Henrik Kniberg、Klaus Leopold、John Little、Troy Magennis、Taiichi Ohno、Donald G. Reinersten、Sam L. Savage、Walter Shewhart、Nader Talai、Steve Tendon、Nigel Thurlow、Donald J. Wheeler._
 
 <!-- ## Appendix -->
 ## 付録
