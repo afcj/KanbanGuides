@@ -251,20 +251,32 @@ _カンバンは進化的な変化を支持するが、エビデンスと明確�
 <!-- ## Inform Flow Optimization with Appropriate Measures or Metrics -->
 ## 適切な指標や計測指標を活用したフローの最適化
 
-- **Blocked Elapsed Time for Finished Items (BETFI):** The cumulative time for a single ‘finished’ Work Item (or a selection of ‘finished’ Items) spends in a blocked condition from ‘started’ to ‘finished,’ but not in a Queue or Buffer state. \[measure for a single Item, metric for multiple Items\]
+<!-- - **Blocked Elapsed Time for Finished Items (BETFI):** The cumulative time for a single ‘finished’ Work Item (or a selection of ‘finished’ Items) spends in a blocked condition from ‘started’ to ‘finished,’ but not in a Queue or Buffer state. \[measure for a single Item, metric for multiple Items\] -->
+- **終了した項目におけるブロックされている経過時間（BETFI: Blocked Elapsed Time for Finished Items）**: 単一の「終了」した作業項目（または複数の「終了」した項目の集合）について、「開始」から「終了」までの間にブロックされている状態にあった累積時間。ただし、キューやバッファの状態にあった時間は含まないものとする。\[単一の項目の場合は指標であり、複数項目の場合は計測指標である\]
 
+<!-- > [!FOOTNOTE] -->
+<!-- > The Definition of Workflow should include a policy for defining Blockers (in context) and signaling them. -->
 > [!FOOTNOTE]
-> The Definition of Workflow should include a policy for defining Blockers (in context) and signaling them.
+> ワークフローの定義には、ブロックされている要因を状況に応じて定義し、それを合図として明示するためのポリシーに含めるべきである。
 
-- **_Cumulative Queueing or Buffer Time (CQBT):_** _The cumulative time a ‘finished’ single Work Item (or a selection of ‘finished’ Items) spends in Queueing or Buffer states from ‘started’ to ‘finished.’ \[measure for a single Work Item, metric for multiple Work Items\]_
-- **_Elapsed Time from ‘Started’ to ‘Finished’ (ETSF):_** The (typically _rounded-up) number of elapsed time units (often calendar days) from_ when a single _Work Item_ ‘started’ _to_ when a _Work Item_ ‘finished.’ _Only ‘finished’ Items get ETSFs. \[measure\]_
-- **Flow Distribution:** The Visualization and analysis of Work Item types ‘finished’ or ‘completed’ over time, enabling active management to ensure a healthy balance of effort. \[metric\]
+<!-- - **_Cumulative Queueing or Buffer Time (CQBT):_** _The cumulative time a ‘finished’ single Work Item (or a selection of ‘finished’ Items) spends in Queueing or Buffer states from ‘started’ to ‘finished.’ \[measure for a single Work Item, metric for multiple Work Items\]_ -->
+- **_累積キュー / バッファ時間（CQBT: Cumulative Queueing or Buffer Time）_**: _単一の「終了」した作業項目（または複数の「終了」した項目の集合）が、「開始」から「終了」までの間に、キューやバッファの状態にあった累積時間。\[単一の項目の場合は指標であり、複数項目の場合は計測指標である\]_
+<!-- - **_Elapsed Time from ‘Started’ to ‘Finished’ (ETSF):_** The (typically _rounded-up) number of elapsed time units (often calendar days) from_ when a single _Work Item_ ‘started’ _to_ when a _Work Item_ ‘finished.’ _Only ‘finished’ Items get ETSFs. \[measure\]_ -->
+- **_「開始」から「終了」までの経過時間（ETSF: Elapsed Time from Started to Finished）_**: 単一の _作業項目_ が「開始」されて _から_「終了」するまでに経過した単位時間数（通常は暦日（日数）で計測し、端数は切り上げられる）。ETSFは _「終了」した項目に対してのみ適用されるものとする。\[指標\]_
+<!-- - **Flow Distribution:** The Visualization and analysis of Work Item types ‘finished’ or ‘completed’ over time, enabling active management to ensure a healthy balance of effort. \[metric\] -->
+- **フロー分布（Flow Distribution）**: 作業項目のタイプ別に「終了」または「完了」した項目を可視化し分析することで時間の経過に伴う傾向を把握する。これにより、労力の健全なバランスを維持するための主体的な管理を可能となる。\[計測指標\]
 
+<!-- > [!FOOTNOTE]
+> The Definition of Workflow should clearly define any Queue and Buffer states. -->
 > [!FOOTNOTE]
-> The Definition of Workflow should clearly define any Queue and Buffer states.
+> ワークフローの定義には、キューやバッファの状態を明確に定義しておくべきである。
 
-- **_Flow Efficiency:_** The ratio of active working time to the total time an Item or a selection of Items spends in the workflow, including waiting times, between the ‘started’ and ‘finished’ points on a Definition of Workflow. _It is expressed as a percentage. It can be misleading, as time spent in active states may not be actual active time. ((ETSF-(CQBT+other non-value-adding time))/ETSF) 100\. \[metric\] Example of other non-value-adding time: Blocked Elapsed Time for Finished Items_
-- **Number of Blockers:** The number of impediments, partial or complete, at a given point in time (usually current datetime), to the Flow of Work Items from ‘started’ to ‘finished.’ \[measure\]
+<!-- - **_Flow Efficiency:_** The ratio of active working time to the total time an Item or a selection of Items spends in the workflow, including waiting times, between the ‘started’ and ‘finished’ points on a Definition of Workflow. _It is expressed as a percentage. It can be misleading, as time spent in active states may not be actual active time. ((ETSF-(CQBT+other non-value-adding time))/ETSF) 100\. \[metric\] Example of other non-value-adding time: Blocked Elapsed Time for Finished Items_ -->
+- **_フロー効率_**: ワークフローにおける「開始」から「終了」までの間に項目または複数項目の集合が費やした総時間に対する実際に作業した時間の割合。待機時間なども含めた全体の時間を母数とする。_パーセンテージで表現されるが、注意が必要である。なぜなら、進行中を示す状態にあった時間が、必ずしも実際に作業していた時間とは限らないからである_。  
+  _計算式: ((ETSF − (CQBT + その他の付加価値を生まない時間)) ／ ETSF) × 100_  
+  _例: その他の付加価値を生まない時間 ＝ 終了した項目におけるブロックされている経過時間（BETFI）_
+<!-- - **Number of Blockers:** The number of impediments, partial or complete, at a given point in time (usually current datetime), to the Flow of Work Items from ‘started’ to ‘finished.’ \[measure\] -->
+- **ブロックされている要因の数（Number of Blockers）**: 「開始」から「終了」までの作業項目のフローを妨げている（部分的または完全な）障害物の数。ある時点（通常は、現在日時）で計測される。\[指標\]
 - **Process Cycle Efficiency:** Measures the Work efficiency of a system or its parts. It is calculated by dividing Value-adding time by Time to Market and then multiplying by 100 to get a percentage. This means Kanban system members have to measure all Value-adding and all non-Value-adding time (including, but not limited to, waiting time). ((T2M-(CQBT+other non-value-adding time))/T2M) 100\. \[metric\]
 - **_Service Level Expectation:_** A forecast of how long it should take a _Work Item_ to Flow from ‘started’ to ‘finished.’ The _Service Level Expectation_ itself has two parts: a period of elapsed time and a probability associated with that period (e.g., ‘85% of _Work Items_ will be ‘finished’ in eight days or less’). _It is based on a selection of Elapsed Time from ‘Started’ to ‘Finished’ from all history, a subset of history, or if data does not exist or is insufficient, an educated guess. \[metric\]_
 - **‘Started but Not Finished Work’ (SNFW)** or **Work In Progress/Process (WIP)** _or **Flow Load**_: _The_ number of _Work Items_ ‘started’ but not ‘finished’. _\[measure\]_
