@@ -74,7 +74,7 @@
 
 - id: guides_intro_text
   # translation: "Learn what Kanban is and how to apply it to optimise the flow of value through a process. This is your comprehensive resource for Kanban knowledge and practices. Kanban Guides is the home of the The Kanban Guide, adn the Open Guide to Kanban. It is a free, community-driven reference for applying Kanban in knowledge work. The guides define the core practices, and metrics  necessary to improve flow, optimise value delivery, and enhance team sustainability. These guides support scalable Kanban adoptions across diverse industries and complement other agile, lean, and flow-based approaches."
-  translation: "カンバンとは何か、そしてプロセスを通じて価値のフローを最適化する方法を学びましょう。このサイトは、カンバンの知識と実践に関する包括的なリソースです。カンバンガイドは、「カンバンガイド」と「カンバンガイド（オープン版）」のホームです。これは、ナレッジワークにおけるカンバンの適用に関する無料のコミュニティ主体のリファレンスです。ガイドでは、フローを改善し、価値提供を最適化し、チームの持続可能性を向上させるために必要な中核となるプラクティスと計測指標を定義しています。これらのガイドは、多様な業界でのスケーラブルなカンバン導入をサポートし、他のアジャイル、リーン、およびフローベースのアプローチを補完します。"
+  translation: "カンバンとは何か、そしてプロセスを通じて価値のフローを最適化する方法を学びましょう。このサイトは、カンバンの知識と実践に関する包括的なリソースです。カンバンガイドは、「カンバンガイド」と「オープン版カンバンガイド」のホームです。これは、ナレッジワークにおけるカンバンの適用に関する無料のコミュニティ主体のリファレンスです。ガイドでは、フローを改善し、価値提供を最適化し、チームの持続可能性を向上させるために必要な中核となるプラクティスと計測指標を定義しています。これらのガイドは、多様な業界でのスケーラブルなカンバン導入をサポートし、他のアジャイル、リーン、およびフローベースのアプローチを補完します。"
 
 - id: download_title
   # translation: "Download {{ .Site.Title }}"
@@ -308,7 +308,7 @@
 
 - id: history_evolution_description
   # translation: 'The current <strong><a href="{{ .GuideLink }}">Open Guide to Kanban</a></strong> is a living document that has evolved from previous historical versions, incorporating community feedback and modern Kanban practices. For ProKanban, <a href="/history/kanban-guide-2025/">The Kanban Guide</a> is their living guide.'
-  translation: '現在の<strong><a href="{{ .GuideLink }}">カンバンガイド（オープン版）</a></strong>は、以前の歴史的なバージョンから進化した鮮度を保ったドキュメントであり、コミュニティのフィードバックと最新のカンバンプラクティスを取り入れています。ProKanbanでは、<a href="/history/kanban-guide-2025/">カンバンガイド</a>を鮮度を保ったガイドとして扱います。'
+  translation: '現在の<strong><a href="{{ .GuideLink }}">オープン版カンバンガイド</a></strong>は、以前の歴史的なバージョンから進化した鮮度を保ったドキュメントであり、コミュニティのフィードバックと最新のカンバンプラクティスを取り入れています。ProKanbanでは、<a href="/history/kanban-guide-2025/">カンバンガイド</a>を鮮度を保ったガイドとして扱います。'
 
 - id: history_fork_summary_historical
   # translation: "Historical Versions"
@@ -316,7 +316,7 @@
 
 - id: history_fork_summary_current
   # translation: "Open Guide"
-  translation: "カンバンガイド（オープン版）"
+  translation: "オープン版カンバンガイド"
 
 - id: history_fork_summary_description
   # translation: "Current guide builds upon and extends previous versions"
@@ -551,7 +551,7 @@
 # Additional translations for version-card.html
 - id: current_open_guide_label
   # translation: "Current Open Guide"
-  translation: "現在のカンバンガイド（オープン版）"
+  translation: "現在のオープン版カンバンガイド"
 
 - id: active_status_label
   # translation: "Active"
