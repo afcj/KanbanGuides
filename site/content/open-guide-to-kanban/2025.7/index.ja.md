@@ -179,40 +179,59 @@ _ソフトウェアチームでは、カンバンがアイデアからデプロ�
 <!-- Kanban system members are limited only by their imagination regarding how they make _Flow_ _visible and how they foster purposeful and intentional interactions with the right people at the right time_. _It is recommended to Visualize each step in a workflow to prevent waste from remaining hidden._ -->
 カンバンシステムメンバーが _フロー_ を _どのように可視化するか、また、適切なタイミングで適切な人と意図的かつ目的を持った対話をどのように促すか_ について制限を受けるのは、カンバンシステムメンバーの想像力によってのみである。_無駄が見えないままにならないよう、ワークフローの各ステップを可視化することが推奨される_。
 
-### Actively Managing Items in a Workflow
+<!-- ### Actively Managing Items in a Workflow -->
+### ワークフロー内の項目を主体的に管理する
 
-Items in the workflow must be actively managed. _Active management of Items in a workflow can take several forms, including, but not limited to, the following:_
+<!-- Items in the workflow must be actively managed. _Active management of Items in a workflow can take several forms, including, but not limited to, the following:_ -->
+ワークフロー内の項目は主体的に管理されなければならない。_ワークフロー内の項目を主体的に管理するには、以下を含むいくつかの形式がある（ただし、これらに限定されない）_。
 
-- _Control_ ‘_Started but Not Finished Work’ (SNFW) or Work In Progress/Process (WIP)_.
-- _Ensure_ _Work Items_ do not age unnecessarily, using the _Service Level Expectation_ as a reference.
-- _Resolve impediments that are causing blocked Work or blocked processes_.
+<!-- - _Control_ ‘_Started but Not Finished Work’ (SNFW) or Work In Progress/Process (WIP)_. -->
+- _「開始しているが終了していない作業（SNFW）」または、進行中の作業（WIP）を制御する_
+<!-- - _Ensure_ _Work Items_ do not age unnecessarily, using the _Service Level Expectation_ as a reference. -->
+- _サービスレベル期待値（SLE）_ を参考にして、_作業項目_ が不必要に _古くならないようにする_
+<!-- - _Resolve impediments that are causing blocked Work or blocked processes_. -->
+- _ブロックされている作業やプロセスを引き起こしている障害物を解消する_
 
-A common practice is for Kanban system members to review the active _Items_ _on a regular basis_. This review can occur continuously or at regular intervals. Kanban system members must explicitly control the number of _Work Items_ in a workflow from ‘started’ to ‘finished,’ directly or indirectly. That control can be represented on a Kanban board in any way that _Kanban system_ members deem appropriate.
+<!-- A common practice is for Kanban system members to review the active _Items_ _on a regular basis_. This review can occur continuously or at regular intervals. Kanban system members must explicitly control the number of _Work Items_ in a workflow from ‘started’ to ‘finished,’ directly or indirectly. That control can be represented on a Kanban board in any way that _Kanban system_ members deem appropriate. -->
+カンバンシステムメンバーは、進行中の _項目_ を _一定の頻度で_ レビューするのが一般的である。このレビューは、継続的または定期的に行う。カンバンシステムメンバーは、「開始」から「終了」までの _作業項目_ の数を、明示的に、直接または間接に制御しなければならない。この制御は、_カンバンシステム_ メンバーが適切と判断する任意の方法でカンバンボード上に表現できる。
 
-_The use of WIP limits (16) in Kanban for Knowledge Work typically indicates that demand can exceed the team’s capacity, so WIP limits (16) are used to regulate and balance the Flow of Work Items and prevent overload._
+<!-- _The use of WIP limits (16) in Kanban for Knowledge Work typically indicates that demand can exceed the team’s capacity, so WIP limits (16) are used to regulate and balance the Flow of Work Items and prevent overload._ -->
+_ナレッジワークにおけるカンバンでのWIP制限(16)を用いられているのは、需要がチームのキャパシティを上回る可能性があることを示している場合が多い。そのため、WIP制限(16)は、作業項目のフローを調整し、バランスを保ち、過負荷を防ぐために用いられる_。
 
-_In contrast, a Toyota just-in-time (JIT) pull system prevents demand from exceeding supply, as subsequent requests will not be serviced until the previous one has been fulfilled—a self-limiting or self-regulating system designed to synchronize production with actual customer demand and minimize inventory in a stable, predictable manufacturing environment._
+<!-- _In contrast, a Toyota just-in-time (JIT) pull system prevents demand from exceeding supply, as subsequent requests will not be serviced until the previous one has been fulfilled—a self-limiting or self-regulating system designed to synchronize production with actual customer demand and minimize inventory in a stable, predictable manufacturing environment._ -->
+_これに対して、トヨタのジャストインタイム（JIT）によるプルシステムは、需要が供給を上回ることを防ぐ仕組みである。前の要請が処理されるまでは、次の要請には対応しないため、これは自己制限的あるいは自己調整的なシステムであり、実際の顧客需要と生産の同期を図り、安定的かつ予測可能な製造環境における在庫の最小化を目的として設計されている_。
 
-_Making only what is needed just-in-time is the cornerstone of the Toyota Production System. The Kanban system in the Toyota Production System pulls exactly what is needed when it is needed._
+<!-- _Making only what is needed just-in-time is the cornerstone of the Toyota Production System. The Kanban system in the Toyota Production System pulls exactly what is needed when it is needed._ -->
+_必要なものを、必要な時に、必要なだけ作ること——これこそがトヨタ生産方式の礎である。トヨタ生産方式における「かんばん方式」は、必要なものを必要なときに正確に引き取る仕組み（プルシステム）である_。
 
-For Knowledge Work, Kanban system members should start Work on (_select_) an Item only when there is a clear signal that there is capacity to do so. When WIP drops below the control set in the _Definition of Workflow_, that can be a signal to select new work. Kanban system members should refrain from selecting more _Work_ into a given part of the workflow _beyond the relevant WIP control(s)_ _or selecting Work greater than their capacity. When needed, the Work should be split into smaller yet still potentially valuable Items._
+<!-- For Knowledge Work, Kanban system members should start Work on (_select_) an Item only when there is a clear signal that there is capacity to do so. When WIP drops below the control set in the _Definition of Workflow_, that can be a signal to select new work. Kanban system members should refrain from selecting more _Work_ into a given part of the workflow _beyond the relevant WIP control(s)_ _or selecting Work greater than their capacity. When needed, the Work should be split into smaller yet still potentially valuable Items._ -->
+ナレッジワークにおいては、カンバンシステムメンバーは、対応できるキャパシティに余力があるという明確な合図があるときにのみ、（_選択した_）項目に着手すべきである。_ワークフローの定義_ で定められた制限をWIPが下回ったとき、それが新たな作業を選択してよい合図となりうる。カンバンシステムメンバーは、ワークフローの特定の場所において、_WIPの制御を超えて_ _作業_ を選択したり、_自身のキャパシティを超えて作業を選択したりすることは控えるべきである。必要に応じて、作業をより小さく、それでも価値が見込まれる項目に分割するべきである_。
 
-_There is no requirement to have a repository of Work Items that are not yet Work In Progress/Process, often referred to as a backlog. A backlog is emergent and can include various stages or aspects of Work preparation. If there is one, there is no need for it to be in a list format or sequenced._
+<!-- _There is no requirement to have a repository of Work Items that are not yet Work In Progress/Process, often referred to as a backlog. A backlog is emergent and can include various stages or aspects of Work preparation. If there is one, there is no need for it to be in a list format or sequenced._ -->
+_まだ進行中ではない作業項目の保管場所、つまりいわゆるバックログを持たなければならないことはない。バックログは進化的に形成されるものであり、作業の準備に関するさまざまなステージや側面を含むことがある。もし、バックログがある場合でも、それがリスト形式である必要も、並び順がある必要もない_。
 
-_Ideally, Work should enter the Kanban system guided by policies rather than being assigned to an individual. In the pursuit of managing idle work, not idle people:_
+<!-- _Ideally, Work should enter the Kanban system guided by policies rather than being assigned to an individual. In the pursuit of managing idle work, not idle people:_ -->
+_理想的には、作業は個人に配分するのではなく、方針に基づいてカンバンシステムで扱うべきである。人の手待ち時間に着目するのではなく、滞留している作業に着目し管理することを目指す_。
 
-- _The Kanban system members should self-organize around the Work and Definition of Workflow._
-- _Kanban system members should ‘start’ Work when they are ready to work on it, bringing in new Work based on how it is being prioritized._
-- _Kanban system members––and others outside the Kanban system––should explicitly prevent Work from being pushed to Kanban system members._
-- _Beware of re-prioritization of ‘Started but Not Finished Work’ (SNFW) or_  
+<!-- - _The Kanban system members should self-organize around the Work and Definition of Workflow._ -->
+- _カンバンシステムメンバーは、作業やワークフローの定義を中心に自己組織化されるべきである_。
+<!-- - _Kanban system members should ‘start’ Work when they are ready to work on it, bringing in new Work based on how it is being prioritized._ -->
+- _カンバンシステムメンバーは、作業の準備ができたときに「開始」すべきであり、優先順位に基づいて新たな作業に取り組むべきである_。
+<!-- - _Kanban system members––and others outside the Kanban system––should explicitly prevent Work from being pushed to Kanban system members._ -->
+- _カンバンシステムメンバーおよびその外部にいる関係者は、作業がカンバンシステムメンバーにプッシュされることを、明示的に防がねばならない_。
+<!-- - _Beware of re-prioritization of ‘Started but Not Finished Work’ (SNFW) or_  
   _Work In Progress/Process (WIP), as it causes those Items to age (sit idle)_  
-  _and leads to longer or less predictable Elapsed Times from ‘Started’ to ‘Finished.’_
+  _and leads to longer or less predictable Elapsed Times from ‘Started’ to ‘Finished.’_ -->
+- _「開始しているが終了していない作業（SNFW）」や進行中の作業（WIP）の優先順位の変更には注意が必要である。そうした変更は、項目が放置され経過時間が長くなり（待機状態になり）、「開始」から「終了」までの所要時間が長くなる、あるいは予測しづらくなる原因となる_。
 
-_Rightsizing, an optional but recommended practice, refers to assessing whether Work Items fit the Service Level Expectation, or are too big for the Service Level Expectation and therefore require splitting into smaller but still potentially valuable Work Items._
+<!-- _Rightsizing, an optional but recommended practice, refers to assessing whether Work Items fit the Service Level Expectation, or are too big for the Service Level Expectation and therefore require splitting into smaller but still potentially valuable Work Items._ -->
+_適正サイズ化は、任意ではあるが推奨されるプラクティスであり、作業項目がサービスレベル期待値に適合しているか、あるいはサービスレベル期待値に対して大きすぎるため、より小さく、それでもなお価値が見込まれる作業項目に分割する必要があるかどうかを評価することを指す_。
 
-_Rightsizing, in a Knowledge Work context, is based on the assumption that Work Items need to be at or under a maximum size (according to the Kanban system members) but do not necessarily need to be the same size. If a Work Item is so large that it can’t be completed within a reasonable time (e.g., it would break the Service Level Expectation), even after starting it, Kanban system members should consider splitting it into smaller Items that each have the potential to deliver Value. Equally, Work Items can be merged._
+<!-- _Rightsizing, in a Knowledge Work context, is based on the assumption that Work Items need to be at or under a maximum size (according to the Kanban system members) but do not necessarily need to be the same size. If a Work Item is so large that it can’t be completed within a reasonable time (e.g., it would break the Service Level Expectation), even after starting it, Kanban system members should consider splitting it into smaller Items that each have the potential to deliver Value. Equally, Work Items can be merged._ -->
+_ナレッジワークの文脈における適正サイズ化は、作業項目は（カンバンシステムメンバーが定めた）最大サイズ以下である必要があるという前提に基づいているが、すべてが同じサイズである必要はないと考える。もし、作業項目があまりにも大きく、合理的な期間内に完了できない場合（例えば、サービスレベル期待値を逸脱するような場合）、たとえ作業の開始後であっても、カンバンシステムメンバーは、その作業項目をいずれも価値を提供できる可能性をもった小さな項目に分割することを検討すべきである。同様に、作業項目を統合することも可能である_。
 
-_Capacity management often requires more than WIP control._ Controlling WIP helps _Flow_ and often improves the collective focus, commitment, and collaboration _of the Kanban system members_. Any acceptable exceptions to controlling WIP should be _explicitly stated_ as part of the _Definition of Workflow_.
+<!-- _Capacity management often requires more than WIP control._ Controlling WIP helps _Flow_ and often improves the collective focus, commitment, and collaboration _of the Kanban system members_. Any acceptable exceptions to controlling WIP should be _explicitly stated_ as part of the _Definition of Workflow_. -->
+_キャパシティの管理には、WIPの制御だけでは不十分なことも多い_。WIPを制御することは、_フロー_ の改善に役立つだけでなく、多くの場合、全体的な _カンバンシステムメンバーの_ 集中力、確約（コミットメント）、コラボレーションを高めることにもつながる。WIPを制御する上で許容可能な例外は、_ワークフローの定義の一部として明示的に記述しておくべきである。 
 
 ### Improving _Flow_
 
