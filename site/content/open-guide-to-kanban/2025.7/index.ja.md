@@ -118,7 +118,7 @@ _斜体フォントの使用は、このガイドの表紙に記載されたク�
 _副次的な恩恵としては、カンバンシステムメンバーの満足度の向上、品質の向上、需要への適応力の向上が挙げられる。優れたカンバンシステムは自己調整的であり、すなわち、介入　なしにシグナルを発し、課題に応じて自ら調整を行うものである_。
 
 <!-- Because Kanban _can_ _Visualize_ virtually any workflow, its application is not limited to any specific industry or context. Professional Knowledge Workers in finance, utilities, healthcare, and software (to name a few), have benefited from Kanban practices. Kanban in most contexts where Value is delivered. -->
-カンバンは、ほぼすべてのワークフローを _可視化できる_ ため、その適用範囲は特定の業界や状況に限定されない。金融、ヘルスケア、ソフトウェアなどの分野で働くプロフェッショナルなナレッジワーカーが、カンバンのプラクティスから恩恵を受けている。カンバンは、価値が提供されるほとんどの状況において使うことができる。
+カンバンは、ほぼすべてのワークフローを _可視化できる_ ため、その適用範囲は特定の業界や状況に限定されない。金融、ヘルスケア、ソフトウェアなどの分野で働くプロフェッショナルなナレッジワーカーが、カンバンのプラクティスから恩恵を受けている。カンバンは、価値を提供するほとんどの状況において使うことができる。
 
 <!-- ## Kanban Theory -->
 ## カンバンの理論
