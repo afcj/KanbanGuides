@@ -273,30 +273,46 @@ _カンバンは進化的な変化を支持するが、エビデンスと明確�
 
 <!-- - **_Flow Efficiency:_** The ratio of active working time to the total time an Item or a selection of Items spends in the workflow, including waiting times, between the ‘started’ and ‘finished’ points on a Definition of Workflow. _It is expressed as a percentage. It can be misleading, as time spent in active states may not be actual active time. ((ETSF-(CQBT+other non-value-adding time))/ETSF) 100\. \[metric\] Example of other non-value-adding time: Blocked Elapsed Time for Finished Items_ -->
 - **_フロー効率_**: ワークフローにおける「開始」から「終了」までの間に項目または複数項目の集合が費やした総時間に対する実際に作業した時間の割合。待機時間なども含めた全体の時間を母数とする。_パーセンテージで表現されるが、注意が必要である。なぜなら、進行中を示す状態にあった時間が、必ずしも実際に作業していた時間とは限らないからである_。  
-  _計算式: ((ETSF − (CQBT + その他の付加価値を生まない時間)) ／ ETSF) × 100_  
+  _計算式: ((ETSF−(CQBT+その他の付加価値を生まない時間))／ETSF)×100_  
   _例: その他の付加価値を生まない時間 ＝ 終了した項目におけるブロックされている経過時間（BETFI）_
 <!-- - **Number of Blockers:** The number of impediments, partial or complete, at a given point in time (usually current datetime), to the Flow of Work Items from ‘started’ to ‘finished.’ \[measure\] -->
 - **ブロックされている要因の数（Number of Blockers）**: 「開始」から「終了」までの作業項目のフローを妨げている（部分的または完全な）障害物の数。ある時点（通常は、現在日時）で計測される。\[指標\]
-- **Process Cycle Efficiency:** Measures the Work efficiency of a system or its parts. It is calculated by dividing Value-adding time by Time to Market and then multiplying by 100 to get a percentage. This means Kanban system members have to measure all Value-adding and all non-Value-adding time (including, but not limited to, waiting time). ((T2M-(CQBT+other non-value-adding time))/T2M) 100\. \[metric\]
-- **_Service Level Expectation:_** A forecast of how long it should take a _Work Item_ to Flow from ‘started’ to ‘finished.’ The _Service Level Expectation_ itself has two parts: a period of elapsed time and a probability associated with that period (e.g., ‘85% of _Work Items_ will be ‘finished’ in eight days or less’). _It is based on a selection of Elapsed Time from ‘Started’ to ‘Finished’ from all history, a subset of history, or if data does not exist or is insufficient, an educated guess. \[metric\]_
-- **‘Started but Not Finished Work’ (SNFW)** or **Work In Progress/Process (WIP)** _or **Flow Load**_: _The_ number of _Work Items_ ‘started’ but not ‘finished’. _\[measure\]_
-- **Throughput:** The number of _Work Items_ ‘finished’ per unit of time. The measurement of throughput is the exact count of _Work Items_, _not revenue. \[metric\]_
-- **Time to Market, also known as Customer Lead Time:** The (typically rounded-up) number of elapsed time units (often calendar days/weeks) from when a Stakeholder’s order for a single Work Item was received to when the Work Item was delivered to the Stakeholder. It is one example of an ETSF. \[measure for a single Work Item, metric for a product or service\]
-- **Total Work Item Age (TWIA)** or **Total Elapsed Time for ‘Started’ but Not ‘Finished’ Items (TETSNFI)** **:** The total elapsed time from when all in-progress (‘started’ but not ‘finished’) Work Items ‘started’ to a specified datetime, usually the current datetime. \[metric\]
-- **Work Item Age (WIA)** or **_Elapsed Time for ‘Started’ but Not ‘Finished’ Items(ETSNFI)_** : The (typically _rounded-up) number of elapsed time units (often calendar days)_ _from_ _the datetime a single ‘not finished’ Work Item_ ‘started’ _to_ _a specified datetime, usually the current datetime. By acting on relatively older Items, feedback loops can be shortened, and Flow improves. \[measure\]_
+<!-- - **Process Cycle Efficiency:** Measures the Work efficiency of a system or its parts. It is calculated by dividing Value-adding time by Time to Market and then multiplying by 100 to get a percentage. This means Kanban system members have to measure all Value-adding and all non-Value-adding time (including, but not limited to, waiting time). ((T2M-(CQBT+other non-value-adding time))/T2M) 100\. \[metric\] -->
+- **プロセスサイクル効率**: システム全体またはその一部における作業効率を計測する指標。付加価値を生み出す時間（Value-adding time）を市場に出すまでの時間（T2M: Time to Market）で割り、100をかけることでパーセンテージとして算出する。これはカンバンシステムメンバーが、すべての付加価値を生み出す時間と、すべての付加価値を生み出さない時間（待ち時間を含むが、それに限らない）を計測しなければならないことを意味する。   
+  計算式: ((T2M−(CQBT＋その他の付加価値を生み出さない時間))／T2M×100) \[指標\]
+<!-- - **_Service Level Expectation:_** A forecast of how long it should take a _Work Item_ to Flow from ‘started’ to ‘finished.’ The _Service Level Expectation_ itself has two parts: a period of elapsed time and a probability associated with that period (e.g., ‘85% of _Work Items_ will be ‘finished’ in eight days or less’). _It is based on a selection of Elapsed Time from ‘Started’ to ‘Finished’ from all history, a subset of history, or if data does not exist or is insufficient, an educated guess. \[metric\]_ -->
+- **サービスレベル期待値（SLE）**: ひとつの作業項目がフローの「開始」から「終了」までにかかると見込まれる時間の予測のこと。_サービスレベル期待値_ 自体は経過時間とその期間で終了する確率の2つの部分からなる（例: 「85%の作業項目は8日以内に『終了』する」）。_この値は、「開始」から「終了」までの経過時間に関する、過去すべて、または一部の履歴データに基づいて算出される。データが存在しない、あるいは不十分な場合は、経験的な推定によって設定する_。_\[指標\]_
+<!-- - **‘Started but Not Finished Work’ (SNFW)** or **Work In Progress/Process (WIP)** _or **Flow Load**_: _The_ number of _Work Items_ ‘started’ but not ‘finished’. _\[measure\]_ -->
+- **「開始しているが終了していない作業（SNFW）」** または、**進行中の作業（WIP）**: 「開始」しているがまだ「終了」していない _作業項目の数_。_\[指標\]_
+<!-- - **Throughput:** The number of _Work Items_ ‘finished’ per unit of time. The measurement of throughput is the exact count of _Work Items_, _not revenue. \[metric\]_ -->
+- **スループット**: 単に時間あたりに「終了」した _作業項目_ の数。スループットの計測は、 _作業項目_ の正確な数であり、_収益ではない_。_\[指標\]_
+<!-- - **Time to Market, also known as Customer Lead Time:** The (typically rounded-up) number of elapsed time units (often calendar days/weeks) from when a Stakeholder’s order for a single Work Item was received to when the Work Item was delivered to the Stakeholder. It is one example of an ETSF. \[measure for a single Work Item, metric for a product or service\] -->
+- **市場に出すまでの時間、またはカスタマーリードタイム**: ひとつの作業項目がステークホルダーから要請を受けてから、その作業項目がステークホルダーに届くまでの経過時間の単位時間数（多くの場合、暦日（日数）または週で計測し、通常は端数は切り上げられる）。これはETSFの一例である。\[単一作業項目に対しては指標、プロダクトやサービス全体に対しては計測指標\]
+<!-- - **Total Work Item Age (TWIA)** or **Total Elapsed Time for ‘Started’ but Not ‘Finished’ Items (TETSNFI)** **:** The total elapsed time from when all in-progress (‘started’ but not ‘finished’) Work Items ‘started’ to a specified datetime, usually the current datetime. \[metric\] -->
+- **作業項目の年齢の合計（TWIA: Total Work Item Age）** または **「開始」しているが「終了」していない項目に対する経過時間（TETSNFI: Total Elapsed Time for Started but Not Finished Items）**: すべての進行中（「開始」しているがまだ「終了」していない）作業項目について、「開始」された時点から特定の日時（通常は現在日時）までの総経過時間。\[計測指標\]
+<!-- - **Work Item Age (WIA)** or **_Elapsed Time for ‘Started’ but Not ‘Finished’ Items(ETSNFI)_** : The (typically _rounded-up) number of elapsed time units (often calendar days)_ _from_ _the datetime a single ‘not finished’ Work Item_ ‘started’ _to_ _a specified datetime, usually the current datetime. By acting on relatively older Items, feedback loops can be shortened, and Flow improves. \[measure\]_ -->
+- **作業項目の年齢（WIA: Work Item Age）** または **_「開始」しているが「終了」していない項目の経過時間（ETSNFI: Elapsed Time for Started but Not Finished Items）_**: _ひとつの「終了していない」作業項目_ について、「開始」した日時 _から_ _特定日時（通常は現在日時）までの経過時間の単位時間数（多くの場合、暦日で計測し、通常は切り上げられる）_。_比較的古い項目に対応することで、フォードバックループを短縮し、フローが改善される_。 _\[指標\] 
 
-The _Flow_ metrics _and measures_ apply to the appropriate ‘started’ and ‘finished’ points established by the Kanban system members in their _Definition of Workflow_. _If there are multiple sets of ‘started’ and ‘finished’ points, some flow metrics and measures are often applied to each ‘started’ and ‘finished’ pair._
+<!-- The _Flow_ metrics _and measures_ apply to the appropriate ‘started’ and ‘finished’ points established by the Kanban system members in their _Definition of Workflow_. _If there are multiple sets of ‘started’ and ‘finished’ points, some flow metrics and measures are often applied to each ‘started’ and ‘finished’ pair._ -->
+_フロー_ の計測指標 _や指標_ は、カンバンシステムメンバーが _ワークフローの定義_ で定めた適切な「開始」点と「終了」点に適用されるものである。「開始」点と「終了」点が複数存在する場合、いくつかのフローの計測指標や指標は、それぞれのひと組の「開始」と「終了」に適用されることがよくある。
 
-**_If Kanban system members are unsure where to start, this guide suggests:_**
+<!-- **_If Kanban system members are unsure where to start, this guide suggests:_** -->
+**_カンバンシステムメンバーがどこから始めればよいかわからない場合、本ガイドは次のように提案する_**
 
-_Time to Market, and for each coherent ‘started’ and ‘finished’ pair:_
+<!-- _Time to Market, and for each coherent ‘started’ and ‘finished’ pair:_ -->
+_市場に出すまでの時間、および一貫性のあるひと組の「開始」と「終了」に対して、以下のような指標が適用できる_
 
-- _A Service Level Expectation (required for at least one ‘started’ and ‘finished’ pair),_
-- _Work Item Age or Elapsed Time for ‘Started’ but Not ‘Finished’ Items (ETSNFI),_
-- _Elapsed Time from ‘Started’ to ‘Finished’ (ETSF), and_
-- _Throughput._
+<!-- - _A Service Level Expectation (required for at least one ‘started’ and ‘finished’ pair),_ -->
+- _（少なくともひと組の「開始」と「終了」に対して必要となる）サービスレベル期待値_
+<!-- - _Work Item Age or Elapsed Time for ‘Started’ but Not ‘Finished’ Items (ETSNFI),_ -->
+- _作業項目の年齢、または「開始」しているが「終了」していない項目の経過時間（ETSNFI）_
+<!-- - _Elapsed Time from ‘Started’ to ‘Finished’ (ETSF), and_ -->
+- _「開始」から「終了」までの経過時間（ETSF）_
+<!-- - _Throughput._ -->
+- _スループット_
 
-Provided that Kanban system members use _Flow_ metrics _and measures_ as described in this guide, _and they are appropriate for the context,_ they can refer to any of them by other names. It is up to the Kanban system members to decide how best to _use_ these _Flow_ metrics _and measures, such as Visualizing them in charts or assessing variation. A proactive focus on outcomes, impact, and Value is recommended._
+<!-- Provided that Kanban system members use _Flow_ metrics _and measures_ as described in this guide, _and they are appropriate for the context,_ they can refer to any of them by other names. It is up to the Kanban system members to decide how best to _use_ these _Flow_ metrics _and measures, such as Visualizing them in charts or assessing variation. A proactive focus on outcomes, impact, and Value is recommended._ -->
+カンバンシステムメンバーが、本ガイドで示されているようにこれらの _フロー_ の計測指標 _と指標_ を使用し、かつそれが文脈に適している限り、それら計測指標と指標を他の名前で呼んでもよい。これらの _フロー_ 計測指標 _と指標_ をどのように _使用するか_ （例えば、チャートで可視化する、ばらつきを評価するなど）は、カンバンシステムメンバーが決定する。アウトカム、インパクト、価値に積極的に注力することが望ましい。
 
 ### _Outcomes, Impact, and Value_
 
@@ -367,7 +383,7 @@ _ここで謝辞を述べている方々が、本ガイドの内容すべてに�
 ### 進行中の作業を制御する \= 「開始しているが終了していない作業」を制御すること
 
 <!-- Control of _‘Started but not Finished Work’, also referred to as_ WIP control, can be represented on a Kanban board in any way that _Kanban system_ members deem appropriate, including, but not limited to, painter’s tape spots, Total Work Item Age or Total Elapsed Time for ‘Started’ but Not Finished Items (TETSNFI), queue controls, WIP control numbers, or WIP control ranges. -->
-「_開始しているが終了していない作業（SNFW）_」を制御すること、もしくはWIPの制御 _とも呼ばれること_ は、カンバンシステムメンバーが適切と見なす方法でカンバンボード上に表現できる。例えば、ペインターテープで印をつける、作業項目の年齢の総数（TWIA）、「開始している」が終了していない項目の経過時間の総数（TETSNFI）、キューの制御、WIPの制御数、WIPの制御範囲などがある。
+「_開始しているが終了していない作業（SNFW）_」を制御すること、もしくはWIPの制御 _とも呼ばれること_ は、カンバンシステムメンバーが適切と見なす方法でカンバンボード上に表現できる。例えば、ペインターテープで印をつける、作業項目の年齢の合計（TWIA）、「開始している」が終了していない項目の経過時間の合計（TETSNFI）、キューの制御、WIPの制御数、WIPの制御範囲などがある。
 
 <!-- _There are also some optional non-Kanban options, supported by some communities, such as CONWIP(16), Simplified DBR (16), or DBR(16):_ -->
 _CONWIP(16)、簡易DBR(16)、DBR(16)など、一部のコミュニティに支持されているカンバン以外の任意の選択肢も存在する_。
