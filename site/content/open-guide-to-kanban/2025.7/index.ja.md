@@ -314,15 +314,22 @@ _市場に出すまでの時間、および一貫性のあるひと組の「開�
 <!-- Provided that Kanban system members use _Flow_ metrics _and measures_ as described in this guide, _and they are appropriate for the context,_ they can refer to any of them by other names. It is up to the Kanban system members to decide how best to _use_ these _Flow_ metrics _and measures, such as Visualizing them in charts or assessing variation. A proactive focus on outcomes, impact, and Value is recommended._ -->
 カンバンシステムメンバーが、本ガイドで示されているようにこれらの _フロー_ の計測指標 _と指標_ を使用し、かつそれが文脈に適している限り、それら計測指標と指標を他の名前で呼んでもよい。これらの _フロー_ 計測指標 _と指標_ をどのように _使用するか_ （例えば、チャートで可視化する、ばらつきを評価するなど）は、カンバンシステムメンバーが決定する。アウトカム、インパクト、価値に積極的に注力することが望ましい。
 
-### _Outcomes, Impact, and Value_
+<!-- ### _Outcomes, Impact, and Value_ -->
+### _アウトカム、インパクト、価値_
 
-_Kanban system members should regularly look for evidence of outcomes/impact, e.g.:_
+<!-- _Kanban system members should regularly look for evidence of outcomes/impact, e.g.:_ -->
+_カンバンシステムメンバーは、アウトカムやインパクトのエビデンスを定期的に探すべきである。以下はその例である。_
 
-- _Customer outcomes could focus on delivering measurable Value to customers, e.g., reduced Failure Demand, customer long-term cost reduction, or addressed customer jobs (18)._
-- _User outcomes could address specific changes in user behavior that solve problems or improve experiences, e.g., ‘completing’ Work Items more effectively at the lowest costs, or better usability._
-- _Product Stakeholder outcomes could connect these behavioral changes to product performance metrics, such as trends in product customer adoption, retention, and convergence, as well as trends in feature adoption, decision-maker and user metrics, and product Time to Market._
-- _Business Stakeholder Impact, e.g., compliance, business long-term cost reduction, business results, trends in market share, customer satisfaction across all products, etc._
-- _Outcomes for Kanban system members such as improved capability, considering for example, psychological flow (15), frequency of release, tooling, skills, technical debt, user experience (UX) debt, customer experience (CX) debt, human-centered-design debt, technical domain capability, market domain capability, business domain capability, and a climate/culture for net improvement._
+<!-- - _Customer outcomes could focus on delivering measurable Value to customers, e.g., reduced Failure Demand, customer long-term cost reduction, or addressed customer jobs (18)._ -->
+- _顧客アウトカムは、顧客に対して計測可能な価値を提供することに焦点を当てるものである（例: 失敗需要の削減、顧客の長期的なコストの削減、顧客の抱える課題への対応(18)など）_
+<!-- - _User outcomes could address specific changes in user behavior that solve problems or improve experiences, e.g., ‘completing’ Work Items more effectively at the lowest costs, or better usability._ -->
+- _ユーザーアウトカムは、問題を解決したり、体験を改善したりする、ユーザー行動の具体的な変化に対応するものである（例: 作業項目を「完了」するための効率向上と低コスト化、あるいは使いやすさの向上など）_
+<!-- - _Product Stakeholder outcomes could connect these behavioral changes to product performance metrics, such as trends in product customer adoption, retention, and convergence, as well as trends in feature adoption, decision-maker and user metrics, and product Time to Market._ -->
+- _プロダクトステークホルダーのアウトカムは、こうした行動変容をプロダクトのパフォーマンスに関する計測指標と結びつけるものである（例: プロダクトの顧客による採用、継続利用、顧客体験の向上、フィーチャーの使用傾向、意思決定者やユーザーに関する計測指標、プロダクトの市場に出すまでの時間など）_
+<!-- - _Business Stakeholder Impact, e.g., compliance, business long-term cost reduction, business results, trends in market share, customer satisfaction across all products, etc._ -->
+- _ビジネスステークホルダーのインパクト（例: コンプライアンス、ビジネスの長期的なコスト削減、ビジネス結果、市場シェアの傾向、すべてのプロダクトにわたる顧客満足度など）_
+<!-- - _Outcomes for Kanban system members such as improved capability, considering for example, psychological flow (15), frequency of release, tooling, skills, technical debt, user experience (UX) debt, customer experience (CX) debt, human-centered-design debt, technical domain capability, market domain capability, business domain capability, and a climate/culture for net improvement._ -->
+- _カンバンシステムメンバーにとってのアウトカム（例: 能力の向上。例えば、心理的フロー(15)、リリース頻度、ツール、スキル、技術的負債、ユーザー体験（UX）に関する負債、顧客体験（CX）に関する負債、人間中心設計に関する負債、技術ドメインの能力、市場ドメインの能力、ビジネスドメインの能力、全体的な改善のための風土や文化などを考慮する）_
 
 Any of the above approaches can be useful. Also, consider the following:
 
