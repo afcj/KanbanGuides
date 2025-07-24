@@ -350,13 +350,17 @@ _このようなアウトカム、インパクト、価値に関する計測指�
 <!-- _Clarity and understanding of Work Items should happen just-in-time to avoid waste._ Avoid excessive focus on outputs and insufficient focus on outcomes. _Kanban system members should proactively, intentionally, purposefully, and regularly review the metrics or measures and continually improve them._ -->
 _作業項目の明確化と理解は、無駄を取るためにジャストインタイムで行うべきである。アウトプットに過度に着目し、アウトカムへの注力が不足するのを避けること。カンバンシステムメンバーは、これらの計測指標や指標を積極的に、意図的に、目的を持って、定期的に見直し、継続的に改善すべきである_。
 
-## Endnote
+<!-- ## Endnote -->
+## 最後に
 
-_Only the Kanban Practices, the minimum criteria Definition of Workflow, and a selection of metrics or measures are mandatory; everything else is optional._ _Consider the context. Kanban system members should foster the humane Flow of Value._
+<!-- _Only the Kanban Practices, the minimum criteria Definition of Workflow, and a selection of metrics or measures are mandatory; everything else is optional._ _Consider the context. Kanban system members should foster the humane Flow of Value._ -->
+_必須なのは、カンバンのプラクティス、最小限の基準としてのワークフローの定義、計測指標や指標の選定だけであり、それ以外はすべて任意である_。_状況に応じて、判断すること。カンバンシステムメンバーは、人間性を尊重した価値のフローを育むべきである_。
 
-_Feedback from results (‘result feedback’) refers to the data that comes back after changes are made, whether it’s quantitative or qualitative information about outcomes, impacts, or even shifts in the market environment. This feedback can influence Stakeholder Value outcomes, as well as the inputs, effort, resources, or costs involved going forward. (Note: People are not ‘resources.’)._
+<!-- _Feedback from results (‘result feedback’) refers to the data that comes back after changes are made, whether it’s quantitative or qualitative information about outcomes, impacts, or even shifts in the market environment. This feedback can influence Stakeholder Value outcomes, as well as the inputs, effort, resources, or costs involved going forward. (Note: People are not ‘resources.’)._ -->
+_結果からのフィードバック（「結果フィードバック」）とは、何らかの変更を加えたあとに得られるデータを指す。これは、アウトカム、インパクト、さらには市場環境の変化に関する定量的あるいは定性的な情報を含む。このフィードバックは、今後のステークホルダーにとっての価値あるアウトカムだけでなく、それに関するインプット、労力、リソース、コストにも影響を与える可能性がある（注: 人は「リソース」ではない）_。
 
-_In practice, Kanban is a journey of ongoing learning and adaptation. By starting with these core practices and continuously improving, Kanban system members can sustainably achieve better Flow of Value. Kanban system members should start simple and evolve their Kanban system as they learn._
+<!-- _In practice, Kanban is a journey of ongoing learning and adaptation. By starting with these core practices and continuously improving, Kanban system members can sustainably achieve better Flow of Value. Kanban system members should start simple and evolve their Kanban system as they learn._ -->
+_実践において、カンバンとは継続的な学習と適応の過程である。これらの基本となるプラクティスから始め、継続的に改善していくことで、カンバンシステムメンバーは価値のフローを持続的に向上させることができる。カンバンシステムメンバーは、シンプルに始め、学びながら自らのカンバンシステムを進化させていくべきである_。
 
 <!-- ## History of Kanban -->
 ## カンバンの歴史
