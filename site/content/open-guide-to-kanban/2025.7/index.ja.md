@@ -71,16 +71,16 @@ aliases:
 ---
 
 <!-- This work, Open Guide to Kanban, is an adaptation of the [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), which is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). The original guide is © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Changes were made to the original. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Portions highlighted in italic are © 2025_ Orderly Disruption Limited, licensed under CC BY-SA 4.0. All other content is from © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., also licensed under CC BY-SA 4.0. -->
-この「オープン版カンバンガイド」は、[カンバンガイド2025年5月版](https://kanbanguides.org/history/kanban-guide-2025/)をもとにした適応版であり、クリエイティブ・コモンズ 表示-継承　4.0 国際（CC BY-SA 4.0）の下で提供されています。原典の著作権は、© 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc.に帰属します。本ガイドでは、原典に一部改変を加えており、変更を含むすべての内容は、CC BY-SA 4.0の下で提供されています。斜体で示された一部の箇所は、© 2025_ Orderly Disruption Limitedによるものであり、同ライセンスの下で提供されています。それ以外のすべての内容は、© 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc.によるものであり、同様にCC BY-SA 4.0の下で提供されています。
+この「オープン版カンバンガイド」は、[カンバンガイド2025年5月版](https://kanbanguides.org/history/kanban-guide-2025/)をもとにした適応版であり、クリエイティブ・コモンズ 表示-継承 4.0 国際（CC BY-SA 4.0）の下で提供されています。原典の著作権は、© 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc.に帰属します。本ガイドでは、原典に一部改変を加えており、変更を含むすべての内容は、CC BY-SA 4.0の下で提供されています。_斜体で示された一部の箇所は、_© 2025 Orderly Disruption Limitedによるものであり、同ライセンスの下で提供されています。それ以外のすべての内容は、© 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc.によるものであり、同様にCC BY-SA 4.0の下で提供されています。
 
 <!-- ## Preface -->
 ## 序文
 
 <!-- This document aims to provide _open_ _and adaptable_ guidance for Kanban _and Flow, drawing on ideas curated from various communities_. _It aims to serve as a coherent reference for various communities in addition to their own content._ Depending on the context, various approaches can complement Kanban, allowing it to accommodate a range of Value delivery and organizational challenges. -->
-このガイドは、カンバンと _フロー_ に関する _オープン_ で _適応可能な_ ガイダンスを提供することを目的としている。これは、_さまざまなコミュニティから収集されたアイデアを基にしている_。_それぞれのコミュニティ独自のコンテンツに加えて、一貫性のあるリファレンスとして機能することを目指している_。カンバンは、さまざまなアプローチによって補完することで、価値の提供や組織の課題に関するある程度幅の広いニーズに柔軟に適応できるようになる。
+このガイドは、カンバンと _フロー_ に関する _オープン_ で _適応可能な_ ガイダンスを提供することを目的としている。これは、_さまざまなコミュニティから収集されたアイデアを基にしている_。_それぞれのコミュニティ独自のコンテンツに加えて、一貫性のあるリファレンスとして機能することを目指している_。カンバンは、さまざまなアプローチによって補完することで、価値の提供や組織の課題に関するある程度、幅の広いニーズに柔軟に適応できるようになる。
 
 <!-- _The use of the italics font supports the Creative Commons adaptation notice on the cover page; italics are not for emphasis. The use of a capital letter at the start of a word indicates a convention listed in the appendix of this document, e.g., Value is either a potential or realized benefit for a Stakeholder, including meeting the needs of the customer, the end-user, the decision-maker, the organization, and the environment._ -->
-_斜体フォントの使用は、このガイドの表紙に記載されたクリエイティブ・コモンズの適応通知をサポートするためのものであり、強調を目的としたものではない。また、単語の冒頭を大文字で始めることで、このガイドの付録に記載された慣例を示す。例えばValueは、顧客、エンドユーザー、意思決定者、組織、環境のニーズを満たすことを含む、ステークホルダーにとっての潜在的または実現された恩恵を指す。_
+_斜体フォントの使用は、このガイドの表紙に記載されたクリエイティブ・コモンズの表示要件をサポートするためのものであり、強調を目的としたものではない。また、単語の冒頭を大文字で始めることで、このガイドの付録に記載された慣例を示す。例えば、Valueは顧客、エンドユーザー、意思決定者、組織、環境のニーズを満たすことを含む、ステークホルダーにとっての潜在的または実現された恩恵を指す。_
 
 <!-- ## Definition of Kanban in the Context of Knowledge Work -->
 ## ナレッジワークにおけるカンバンの定義
@@ -115,7 +115,7 @@ _斜体フォントの使用は、このガイドの表紙に記載されたク�
 カンバン _システム_ の戦略は、カンバンシステムメンバーが、これらの目標を追求するための継続的な改善の一環として、適切な質問を早期に行えるように _支援する_。カンバンシステムメンバーは、これら3つの要素の持続可能なバランスを目指すべきである。_カンバンは、過剰な作業負荷（オーバーバーデン）を軽減し、利用可能なキャパシティに応じて作業結果が最適に提供されるように需要を管理する手段でもある。完璧な手段ではないが、継続的な改善と価値フローの最適化を促すものであるべきだ。_
 
 <!-- _Side benefits are happier Kanban system members, higher quality, and the ability to adapt to demand. A good Kanban system is self-regulating, i.e., the Kanban system signals and adjusts to issues without intervention._ -->
-_副次的な恩恵としては、カンバンシステムメンバーの満足度の向上、品質の向上、需要への適応力の向上が挙げられる。優れたカンバンシステムは自己調整的であり、すなわち、介入　なしにシグナルを発し、課題に応じて自ら調整を行うものである_。
+_副次的な恩恵としては、カンバンシステムメンバーの満足度の向上、品質の向上、需要への適応力の向上が挙げられる。優れたカンバンシステムは自己調整的であり、すなわち、介入なしにシグナルを発し、課題に応じて自ら調整を行うものである_。
 
 <!-- Because Kanban _can_ _Visualize_ virtually any workflow, its application is not limited to any specific industry or context. Professional Knowledge Workers in finance, utilities, healthcare, and software (to name a few), have benefited from Kanban practices. Kanban in most contexts where Value is delivered. -->
 カンバンは、ほぼすべてのワークフローを _可視化できる_ ため、その適用範囲は特定の業界や状況に限定されない。金融、ヘルスケア、ソフトウェアなどの分野で働くプロフェッショナルなナレッジワーカーが、カンバンのプラクティスから恩恵を受けている。カンバンは、価値を提供するほとんどの状況において使うことができる。
@@ -133,13 +133,13 @@ _カンバンシステム_ は、システム思考 _(5)_、リーン原則 _(4)
 ### ワークフローを定義し可視化する
 
 <!-- Optimizing _Flow_ requires defining what _Flow_ _of Value_ means in a given context, _the (ideally) smooth movement and delivery of potential or (ideally) realized benefits for Stakeholders_. The explicit shared understanding of Flow among Kanban system members within their context is called a Definition of Workflow. _Definition of Workflow_ is a fundamental concept of Kanban. All other elements of this guide depend heavily on how workflow is defined. -->
-_フロー_ を最適化するためには、その状況において _価値のフロー_ の意味を定義する必要がある。_ここでいう価値のフローとは、ステークホルダーにとっての潜在的、あるいは、（理想的には）実現された恩恵が、状況内で円滑に移動し、提供させることを指す_。カンバンシステムメンバーが、その状況内で共有するフローの明示的な共有理解のことをワークフローの定義と呼ぶ。_ワークフローの定義_ は、カンバンの基本概念であり、本ガイドの他の要素はすべて、ワークフローがどのように定義されているかに大きく依存している。
+_フロー_ を最適化するためには、その状況において _価値のフロー_ の意味を定義する必要がある。_ここでいう価値のフローとは、ステークホルダーにとっての潜在的あるいは（理想的には）実現された恩恵が、状況内で円滑に移動し、提供されることを指す_。カンバンシステムメンバーが、その状況内で共有するフローの明示的な共有理解のことをワークフローの定義と呼ぶ。_ワークフローの定義_ は、カンバンの基本概念であり、本ガイドの他の要素はすべて、ワークフローがどのように定義されているかに大きく依存している。
 
 <!-- _To inform optimal workflow operation and facilitate continuous improvement, at a minimum_, Kanban system members must create their _Definition of Workflow_ using all of the following elements: -->
-_最適なワークフローの運用を実現し、継続的な改善を促進するために、少なくとも_、カンバンシステムメンバーは以下のすべての要素を用いて _ワークフローの定義_ を作成する必要がある。
+_最適なワークフローの運用を実現し、継続的な改善を促進するために、少なくとも_ カンバンシステムメンバーは以下のすべての要素を用いて _ワークフローの定義_ を作成する必要がある。
 
 <!-- 1. A definition of the individual units of Value that are moving through the workflow, referred to as _Work Items (or Items)_. -->
-1. ワークフローを移動する個々の価値単位の定義（これらは _作業項目または項目と呼ばれる）
+1. ワークフローを移動する個々の価値単位の定義（これらは _作業項目_ または _項目_ と呼ばれる）
 <!-- 2. _Depending on the Work Item, for at least one coherent ‘started’ and ‘finished’ point pair:_ -->
 2. 作業項目に応じて、少なくともひと組の一貫性のある「開始」点と「終了」点の定義
    <!-- - [ ] One or more defined states that the _Work Items_ _Flow_ through from ‘started’ to ‘finished.’ -->
@@ -196,7 +196,7 @@ _ソフトウェアチームでは、カンバンがアイデアからデプロ�
 カンバンシステムメンバーは、進行中の _項目_ を _一定の頻度で_ レビューするのが一般的である。このレビューは、継続的または定期的に行う。カンバンシステムメンバーは、「開始」から「終了」までの _作業項目_ の数を、明示的に、直接または間接に制御しなければならない。この制御は、_カンバンシステム_ メンバーが適切と判断する任意の方法でカンバンボード上に表現できる。
 
 <!-- _The use of WIP limits (16) in Kanban for Knowledge Work typically indicates that demand can exceed the team’s capacity, so WIP limits (16) are used to regulate and balance the Flow of Work Items and prevent overload._ -->
-_ナレッジワークにおけるカンバンでのWIP制限(16)を用いられているのは、需要がチームのキャパシティを上回る可能性があることを示している場合が多い。そのため、WIP制限(16)は、作業項目のフローを調整し、バランスを保ち、過負荷を防ぐために用いられる_。
+_ナレッジワークにおけるカンバンでWIP制限(16)が用いられているのは、需要がチームのキャパシティを上回る可能性があることを示している場合が多い。そのため、WIP制限(16)は、作業項目のフローを調整し、バランスを保ち、過負荷を防ぐために用いられる_。
 
 <!-- _In contrast, a Toyota just-in-time (JIT) pull system prevents demand from exceeding supply, as subsequent requests will not be serviced until the previous one has been fulfilled—a self-limiting or self-regulating system designed to synchronize production with actual customer demand and minimize inventory in a stable, predictable manufacturing environment._ -->
 _これに対して、トヨタのジャストインタイム（JIT）によるプルシステムは、需要が供給を上回ることを防ぐ仕組みである。前の要請が処理されるまでは、次の要請には対応しないため、これは自己制限的あるいは自己調整的なシステムであり、実際の顧客需要と生産の同期を図り、安定的かつ予測可能な製造環境における在庫の最小化を目的として設計されている_。
@@ -214,39 +214,39 @@ _まだ進行中ではない作業項目の保管場所、つまりいわゆる�
 _理想的には、作業は個人に配分するのではなく、方針に基づいてカンバンシステムで扱うべきである。人の手待ち時間に着目するのではなく、滞留している作業に着目し管理することを目指す_。
 
 <!-- - _The Kanban system members should self-organize around the Work and Definition of Workflow._ -->
-- _カンバンシステムメンバーは、作業やワークフローの定義を中心に自己組織化されるべきである_。
+- _カンバンシステムメンバーは、作業やワークフローの定義を中心に自己組織化されるべきである_
 <!-- - _Kanban system members should ‘start’ Work when they are ready to work on it, bringing in new Work based on how it is being prioritized._ -->
-- _カンバンシステムメンバーは、作業の準備ができたときに「開始」すべきであり、優先順位に基づいて新たな作業に取り組むべきである_。
+- _カンバンシステムメンバーは、作業の準備ができたときに「開始」すべきであり、優先順位に基づいて新たな作業に取り組むべきである_
 <!-- - _Kanban system members––and others outside the Kanban system––should explicitly prevent Work from being pushed to Kanban system members._ -->
-- _カンバンシステムメンバーおよびその外部にいる関係者は、作業がカンバンシステムメンバーにプッシュされることを、明示的に防がねばならない_。
+- _カンバンシステムメンバーおよびその外部にいる関係者は、作業がカンバンシステムメンバーにプッシュされることを、明示的に防がねばならない_
 <!-- - _Beware of re-prioritization of ‘Started but Not Finished Work’ (SNFW) or_  
   _Work In Progress/Process (WIP), as it causes those Items to age (sit idle)_  
   _and leads to longer or less predictable Elapsed Times from ‘Started’ to ‘Finished.’_ -->
-- _「開始しているが終了していない作業（SNFW）」や進行中の作業（WIP）の優先順位の変更には注意が必要である。そうした変更は、項目が放置され経過時間が長くなり（待機状態になり）、「開始」から「終了」までの所要時間が長くなる、あるいは予測しづらくなる原因となる_。
+- _「開始しているが終了していない作業（SNFW）」や進行中の作業（WIP）の優先順位の変更には注意が必要である。そうした変更は、項目が放置され経過時間が長くなり（待機状態になり）、「開始」から「終了」までの所要時間が長くなる、あるいは予測しづらくなる原因となる_
 
 <!-- _Rightsizing, an optional but recommended practice, refers to assessing whether Work Items fit the Service Level Expectation, or are too big for the Service Level Expectation and therefore require splitting into smaller but still potentially valuable Work Items._ -->
-_適正サイズ化は、任意ではあるが推奨されるプラクティスであり、作業項目がサービスレベル期待値に適合しているか、あるいはサービスレベル期待値に対して大きすぎるため、より小さく、それでもなお価値が見込まれる作業項目に分割する必要があるかどうかを評価することを指す_。
+_適正サイズ化は、任意ではあるが推奨されるプラクティスである。これは、作業項目がサービスレベル期待値に適合しているか、または大きすぎるために、より小さく、それでもなお価値が見込まれる作業項目へ分割する必要があるかどうかを評価することである_。
 
 <!-- _Rightsizing, in a Knowledge Work context, is based on the assumption that Work Items need to be at or under a maximum size (according to the Kanban system members) but do not necessarily need to be the same size. If a Work Item is so large that it can’t be completed within a reasonable time (e.g., it would break the Service Level Expectation), even after starting it, Kanban system members should consider splitting it into smaller Items that each have the potential to deliver Value. Equally, Work Items can be merged._ -->
-_ナレッジワークの文脈における適正サイズ化は、作業項目は（カンバンシステムメンバーが定めた）最大サイズ以下である必要があるという前提に基づいているが、すべてが同じサイズである必要はないと考える。もし、作業項目があまりにも大きく、合理的な期間内に完了できない場合（例えば、サービスレベル期待値を逸脱するような場合）、たとえ作業の開始後であっても、カンバンシステムメンバーは、その作業項目をいずれも価値を提供できる可能性をもった小さな項目に分割することを検討すべきである。同様に、作業項目を統合することも可能である_。
+_ナレッジワークの文脈における適正サイズ化は、作業項目は（カンバンシステムメンバーが定めた）最大サイズを超えないことを前提としている。ただし、すべての作業項目が同じサイズである必要はない。作業項目が非常に大きく、合理的な期間内に完了できない場合（例えば、サービスレベル期待値を超えるような場合）、たとえ作業の開始後であっても、カンバンシステムメンバーは、その作業項目をいずれも価値を提供しうる可能性をもった小さな項目に分割することを検討すべきである。同様に、作業項目を統合することも可能である_。
 
 <!-- _Capacity management often requires more than WIP control._ Controlling WIP helps _Flow_ and often improves the collective focus, commitment, and collaboration _of the Kanban system members_. Any acceptable exceptions to controlling WIP should be _explicitly stated_ as part of the _Definition of Workflow_. -->
-_キャパシティの管理には、WIPの制御だけでは不十分なことも多い_。WIPを制御することは、_フロー_ の改善に役立つだけでなく、多くの場合、全体的な _カンバンシステムメンバーの_ 集中力、確約（コミットメント）、コラボレーションを高めることにもつながる。WIPを制御する上で許容可能な例外は、_ワークフローの定義の一部として明示的に記述しておくべきである。 
+_キャパシティの管理には、WIPの制御だけでは不十分なことも多い_。WIPを制御することは、_フロー_ の改善に役立つだけでなく、多くの場合、全体的な _カンバンシステムメンバーの_ 集中力、確約（コミットメント）、コラボレーションの向上にもつながる。WIPを制御するうえで許容可能な例外は、_ワークフローの定義の一部として明示的に記述しておくべきである。 
 
 <!-- ### Improving _Flow_ -->
 ### _フロー_ を改善する
 
 <!-- Given an explicit Definition of Workflow, it is the Kanban system members’ responsibility to continuously improve their _Flow_ _by_ _achieving_ a better balance of effectiveness, efficiency, and predictability. Continual study of the system can guide potential improvements. _Kanban system members often review_ the _Definition of Workflow_ to discuss and _adopt_ _needed_ changes. -->
-明示的なワークフローの定義が存在する前提で、カンバンシステムメンバーには、効果性、効率性、予測可能性のバランスをより適切にすることで、自らの _フロー_ を継続的に改善していく責任がある。システムを継続的に観察し検討することで、改善に向けた手掛かりが得られる。カンバンシステムメンバーは、しばしば _ワークフローの定義_ を見直し、_必要な_ 変更について議論し、それらを _適用する_。
+明示的なワークフローの定義が存在する前提で、カンバンシステムメンバーには、効果性、効率性、予測可能性のバランスをより適切にすることで、自らの _フロー_ を継続的に改善していく責任がある。システムを継続的に観察し、検討することで、改善に向けた手掛かりが得られる。カンバンシステムメンバーは、しばしば _ワークフローの定義_ を見直し、_必要な_ 変更について議論し、それらを _適用する_。
 
 <!-- _Improvements are_ _often_ _just-in-time_. _Improvements are not limited by their size or scope. Sometimes, improvement is beyond the control or influence of Kanban system members. Purposeful and intentional interactions, cultivating change, and removing Blockers at all levels are key to improvement._ -->
-_改善は、よくジャストインタイムで行われる。改善とはその規模や範囲によって制限されるものではない。ときに、改善はカンバンシステムメンバーの制御や影響力の範囲を超えることもある。意図的かつ目的をもった対話、変化を後押しする姿勢、そしてあらゆるレベルでブロックされている要因を取り除くこと——これらが改善にとって重要である。_
+_改善は、しばしばジャストインタイムで行われる。改善とはその規模や範囲によって制限されるものではない。ときに、改善はカンバンシステムメンバーの制御や影響力の範囲を超えることもある。意図的かつ目的を持った対話、変化を後押しする姿勢、そしてあらゆるレベルでブロックされている要因を取り除くこと——これらが改善にとって重要である。_
 
 <!-- _Better still, people who demonstrate leadership, also known as leaders, Go See, Listen, and really understand to collect the facts to inform decision-making. This is known as Genchi Genbutsu. Leaders do Genchi Genbutsu so often that the truth emerges. Knowledge of what to do is one thing, but purposeful, relentless, iterative, compassionate action toward improvement (incl. shorter feedback loops) is another._ -->
-_さらに望ましいのは、リーダーシップを発揮する人たち、すなわちリーダーが、現場に足を運び、耳を傾け、実際に理解した上で、意思決定のための事実を収集することである。これは「現地現物（Genchi Genbutsu）」として知られている。リーダーは、この現地現物を繰り返し行うことで、実態が浮かび上がってくる。何をすべきかを知っていることと、意図的で、根気強く、反復的で、思いやりのある改善行動（短いフィードバックループを含む）を取り続けることとは、まったく別物である_。
+_さらに望ましいのは、リーダーシップを発揮する人たち、すなわちリーダーが、現場に足を運び、耳を傾け、実際に理解したうえで、意思決定のための事実を収集することである。これは「現地現物（Genchi Genbutsu）」として知られている。リーダーは、この現地現物を繰り返し行うことで、実態が浮かび上がってくる。何をすべきかを知っていることと、意図的で、根気強く、反復的で、思いやりのある改善行動（短いフィードバックループを含む）を取り続けることとは、まったく別物である_。
 
 <!-- _Kanban favors evolutionary change, but it does not prohibit larger, structural changes, informed by evidence and a clear understanding of the system. Changes should be purposeful and context-driven._ -->
-_カンバンは進化的な変化を支持するが、エビデンスと明確な理解に基づく構造的なより大きな変化を禁じているわけではない。変化は、目的を持ち、状況に即したものであるべきである_。
+_カンバンは進化的な変化を支持するが、エビデンスと明確な理解に基づくより大きな構造的な変化を禁じているわけではない。変化は、目的を持ち、状況に即したものであるべきである_。
 
 <!-- ## Inform Flow Optimization with Appropriate Measures or Metrics -->
 ## 適切な指標や計測指標を活用したフローの最適化
@@ -264,7 +264,7 @@ _カンバンは進化的な変化を支持するが、エビデンスと明確�
 <!-- - **_Elapsed Time from ‘Started’ to ‘Finished’ (ETSF):_** The (typically _rounded-up) number of elapsed time units (often calendar days) from_ when a single _Work Item_ ‘started’ _to_ when a _Work Item_ ‘finished.’ _Only ‘finished’ Items get ETSFs. \[measure\]_ -->
 - **_「開始」から「終了」までの経過時間（ETSF: Elapsed Time from Started to Finished）_**: 単一の _作業項目_ が「開始」されて _から_「終了」するまでに経過した単位時間数（通常は暦日（日数）で計測し、端数は切り上げられる）。ETSFは _「終了」した項目に対してのみ適用されるものとする。\[指標\]_
 <!-- - **Flow Distribution:** The Visualization and analysis of Work Item types ‘finished’ or ‘completed’ over time, enabling active management to ensure a healthy balance of effort. \[metric\] -->
-- **フロー分布（Flow Distribution）**: 作業項目のタイプ別に「終了」または「完了」した項目を可視化し分析することで時間の経過に伴う傾向を把握する。これにより、労力の健全なバランスを維持するための主体的な管理を可能となる。\[計測指標\]
+- **フロー分布（Flow Distribution）**: 作業項目のタイプ別に「終了」または「完了」した項目を可視化し分析することで、時間の経過に伴う傾向を把握する。これにより、労力の健全なバランスを維持するための主体的な管理が可能になる。\[計測指標\]
 
 <!-- > [!FOOTNOTE]
 > The Definition of Workflow should clearly define any Queue and Buffer states. -->
@@ -272,35 +272,35 @@ _カンバンは進化的な変化を支持するが、エビデンスと明確�
 > ワークフローの定義には、キューやバッファの状態を明確に定義しておくべきである。
 
 <!-- - **_Flow Efficiency:_** The ratio of active working time to the total time an Item or a selection of Items spends in the workflow, including waiting times, between the ‘started’ and ‘finished’ points on a Definition of Workflow. _It is expressed as a percentage. It can be misleading, as time spent in active states may not be actual active time. ((ETSF-(CQBT+other non-value-adding time))/ETSF) 100\. \[metric\] Example of other non-value-adding time: Blocked Elapsed Time for Finished Items_ -->
-- **_フロー効率_**: ワークフローにおける「開始」から「終了」までの間に項目または複数項目の集合が費やした総時間に対する実際に作業した時間の割合。待機時間なども含めた全体の時間を母数とする。_パーセンテージで表現されるが、注意が必要である。なぜなら、進行中を示す状態にあった時間が、必ずしも実際に作業していた時間とは限らないからである_。  
+- **_フロー効率_**: ワークフローにおける「開始」から「終了」までの間に、項目または複数項目の集合が費やした総時間に対する実際に作業した時間の割合。待機時間なども含めた全体の時間を母数とする。_パーセンテージで表現されるが、注意が必要である。なぜなら、進行中を示す状態にあった時間が、必ずしも実際に作業していた時間とは限らないからである_。  
   _計算式: ((ETSF−(CQBT+その他の付加価値を生まない時間))／ETSF)×100_  
   _例: その他の付加価値を生まない時間 ＝ 終了した項目におけるブロックされている経過時間（BETFI）_
 <!-- - **Number of Blockers:** The number of impediments, partial or complete, at a given point in time (usually current datetime), to the Flow of Work Items from ‘started’ to ‘finished.’ \[measure\] -->
 - **ブロックされている要因の数（Number of Blockers）**: 「開始」から「終了」までの作業項目のフローを妨げている（部分的または完全な）障害物の数。ある時点（通常は、現在日時）で計測される。\[指標\]
 <!-- - **Process Cycle Efficiency:** Measures the Work efficiency of a system or its parts. It is calculated by dividing Value-adding time by Time to Market and then multiplying by 100 to get a percentage. This means Kanban system members have to measure all Value-adding and all non-Value-adding time (including, but not limited to, waiting time). ((T2M-(CQBT+other non-value-adding time))/T2M) 100\. \[metric\] -->
-- **プロセスサイクル効率**: システム全体またはその一部における作業効率を計測する指標。付加価値を生み出す時間（Value-adding time）を市場に出すまでの時間（T2M: Time to Market）で割り、100をかけることでパーセンテージとして算出する。これはカンバンシステムメンバーが、すべての付加価値を生み出す時間と、すべての付加価値を生み出さない時間（待ち時間を含むが、それに限らない）を計測しなければならないことを意味する。   
+- **プロセスサイクル効率**: システム全体またはその一部における作業効率を計測する指標。付加価値を生み出す時間（Value-adding time）を市場に出すまでの時間（T2M: Time to Market）で割り、100をかけてパーセンテージとして算出する。これはカンバンシステムメンバーが、すべての付加価値を生み出す時間と、すべての付加価値を生み出さない時間（待ち時間を含むが、それに限らない）を計測しなければならないことを意味する。   
   計算式: ((T2M−(CQBT＋その他の付加価値を生み出さない時間))／T2M×100) \[指標\]
 <!-- - **_Service Level Expectation:_** A forecast of how long it should take a _Work Item_ to Flow from ‘started’ to ‘finished.’ The _Service Level Expectation_ itself has two parts: a period of elapsed time and a probability associated with that period (e.g., ‘85% of _Work Items_ will be ‘finished’ in eight days or less’). _It is based on a selection of Elapsed Time from ‘Started’ to ‘Finished’ from all history, a subset of history, or if data does not exist or is insufficient, an educated guess. \[metric\]_ -->
-- **サービスレベル期待値（SLE）**: ひとつの作業項目がフローの「開始」から「終了」までにかかると見込まれる時間の予測のこと。_サービスレベル期待値_ 自体は経過時間とその期間で終了する確率の2つの部分からなる（例: 「85%の作業項目は8日以内に『終了』する」）。_この値は、「開始」から「終了」までの経過時間に関する、過去すべて、または一部の履歴データに基づいて算出される。データが存在しない、あるいは不十分な場合は、経験的な推定によって設定する_。_\[指標\]_
+- **サービスレベル期待値（SLE）**: ひとつの作業項目がフローの「開始」から「終了」までにかかると見込まれる時間の予測値。_サービスレベル期待値_ 自体は経過時間とその期間で終了する確率の2つの部分からなる（例: 「85%の作業項目は8日以内に『終了』する」）。_この値は、「開始」から「終了」までの経過時間に関する、過去すべて、または一部の履歴データに基づいて算出される。データが存在しない、あるいは不十分な場合は、経験的な推定によって設定する_。_\[指標\]_
 <!-- - **‘Started but Not Finished Work’ (SNFW)** or **Work In Progress/Process (WIP)** _or **Flow Load**_: _The_ number of _Work Items_ ‘started’ but not ‘finished’. _\[measure\]_ -->
 - **「開始しているが終了していない作業（SNFW）」** または、**進行中の作業（WIP）**: 「開始」しているがまだ「終了」していない _作業項目の数_。_\[指標\]_
 <!-- - **Throughput:** The number of _Work Items_ ‘finished’ per unit of time. The measurement of throughput is the exact count of _Work Items_, _not revenue. \[metric\]_ -->
-- **スループット**: 単に時間あたりに「終了」した _作業項目_ の数。スループットの計測は、 _作業項目_ の正確な数であり、_収益ではない_。_\[指標\]_
+- **スループット**: 単位時間あたりに「終了」した _作業項目_ の数。スループットの計測は、 _作業項目_ の正確な数であり、_収益ではない_。_\[指標\]_
 <!-- - **Time to Market, also known as Customer Lead Time:** The (typically rounded-up) number of elapsed time units (often calendar days/weeks) from when a Stakeholder’s order for a single Work Item was received to when the Work Item was delivered to the Stakeholder. It is one example of an ETSF. \[measure for a single Work Item, metric for a product or service\] -->
 - **市場に出すまでの時間、またはカスタマーリードタイム**: ひとつの作業項目がステークホルダーから要請を受けてから、その作業項目がステークホルダーに届くまでの経過時間の単位時間数（多くの場合、暦日（日数）または週単位で計測し、通常は端数は切り上げられる）。これはETSFの一例である。\[単一作業項目に対しては指標、プロダクトやサービス全体に対しては計測指標\]
 <!-- - **Total Work Item Age (TWIA)** or **Total Elapsed Time for ‘Started’ but Not ‘Finished’ Items (TETSNFI)** **:** The total elapsed time from when all in-progress (‘started’ but not ‘finished’) Work Items ‘started’ to a specified datetime, usually the current datetime. \[metric\] -->
 - **作業項目の年齢の合計（TWIA: Total Work Item Age）** または **「開始」しているが「終了」していない項目に対する経過時間（TETSNFI: Total Elapsed Time for Started but Not Finished Items）**: すべての進行中（「開始」しているがまだ「終了」していない）作業項目について、「開始」された時点から特定の日時（通常は現在日時）までの総経過時間。\[計測指標\]
 <!-- - **Work Item Age (WIA)** or **_Elapsed Time for ‘Started’ but Not ‘Finished’ Items(ETSNFI)_** : The (typically _rounded-up) number of elapsed time units (often calendar days)_ _from_ _the datetime a single ‘not finished’ Work Item_ ‘started’ _to_ _a specified datetime, usually the current datetime. By acting on relatively older Items, feedback loops can be shortened, and Flow improves. \[measure\]_ -->
-- **作業項目の年齢（WIA: Work Item Age）** または **_「開始」しているが「終了」していない項目の経過時間（ETSNFI: Elapsed Time for Started but Not Finished Items）_**: _ひとつの「終了していない」作業項目_ について、「開始」した日時 _から_ _特定日時（通常は現在日時）までの経過時間の単位時間数（多くの場合、暦日で計測し、通常は切り上げられる）_。_比較的古い項目に対応することで、フィードバックループを短縮し、フローが改善される_。 _\[指標\] 
+- **作業項目の年齢（WIA: Work Item Age）** または **_「開始」しているが「終了」していない項目の経過時間（ETSNFI: Elapsed Time for Started but Not Finished Items）_**: _ひとつの「終了していない」作業項目_ について、「開始」した日時 _から_ _特定日時（通常は現在日時）までの経過時間の単位時間数（多くの場合、暦日で計測し、通常は切り上げられる）_。_比較的古い項目に対応することで、フィードバックループを短縮し、フローが改善される_。_\[指標\]_
 
 <!-- The _Flow_ metrics _and measures_ apply to the appropriate ‘started’ and ‘finished’ points established by the Kanban system members in their _Definition of Workflow_. _If there are multiple sets of ‘started’ and ‘finished’ points, some flow metrics and measures are often applied to each ‘started’ and ‘finished’ pair._ -->
 _フロー_ の計測指標 _や指標_ は、カンバンシステムメンバーが _ワークフローの定義_ で定めた適切な「開始」点と「終了」点に適用されるものである。「開始」点と「終了」点が複数存在する場合、いくつかのフローの計測指標や指標は、それぞれのひと組の「開始」と「終了」に適用されることがよくある。
 
 <!-- **_If Kanban system members are unsure where to start, this guide suggests:_** -->
-**_カンバンシステムメンバーがどこから始めればよいかわからない場合、本ガイドは次のように提案する_**
+**_カンバンシステムメンバーがどこから始めればよいかわからない場合、本ガイドは次のように提案する_。**
 
 <!-- _Time to Market, and for each coherent ‘started’ and ‘finished’ pair:_ -->
-_市場に出すまでの時間、および一貫性のあるひと組の「開始」と「終了」に対して、以下のような指標が適用できる_
+_市場に出すまでの時間や、一貫性のあるひと組の「開始」と「終了」に対して、以下のような指標が適用できる_。
 
 <!-- - _A Service Level Expectation (required for at least one ‘started’ and ‘finished’ pair),_ -->
 - _（少なくともひと組の「開始」と「終了」に対して必要となる）サービスレベル期待値_
@@ -323,20 +323,20 @@ _カンバンシステムメンバーは、アウトカムやインパクトの�
 <!-- - _Customer outcomes could focus on delivering measurable Value to customers, e.g., reduced Failure Demand, customer long-term cost reduction, or addressed customer jobs (18)._ -->
 - _顧客アウトカムは、顧客に対して計測可能な価値を提供することに焦点を当てるものである（例: 失敗需要の削減、顧客の長期的なコストの削減、顧客の抱える課題への対応(18)など）_
 <!-- - _User outcomes could address specific changes in user behavior that solve problems or improve experiences, e.g., ‘completing’ Work Items more effectively at the lowest costs, or better usability._ -->
-- _ユーザーアウトカムは、問題を解決したり、体験を改善したりする、ユーザー行動の具体的な変化に対応するものである（例: 作業項目を「完了」するための効率向上と低コスト化、あるいは使いやすさの向上など）_
+- _ユーザーアウトカムは、問題の解決や体験の改善、ユーザー行動の具体的な変化を示すものである（例: 作業項目を「完了」するための効率向上と低コスト化、あるいは使いやすさの向上など）_
 <!-- - _Product Stakeholder outcomes could connect these behavioral changes to product performance metrics, such as trends in product customer adoption, retention, and convergence, as well as trends in feature adoption, decision-maker and user metrics, and product Time to Market._ -->
-- _プロダクトステークホルダーのアウトカムは、こうした行動変容をプロダクトのパフォーマンスに関する計測指標と結びつけるものである（例: プロダクトの顧客による採用、継続利用、顧客体験の向上、フィーチャーの使用傾向、意思決定者やユーザーに関する計測指標、プロダクトの市場に出すまでの時間など）_
+- _プロダクトステークホルダーのアウトカムは、ユーザーの行動変容とプロダクトのパフォーマンスに関する計測指標とを結びつけるものである（例: プロダクトの顧客による採用、継続利用、顧客体験の向上、フィーチャーの使用傾向、意思決定者やユーザーに関する計測指標、プロダクトの市場に出すまでの時間など）_
 <!-- - _Business Stakeholder Impact, e.g., compliance, business long-term cost reduction, business results, trends in market share, customer satisfaction across all products, etc._ -->
 - _ビジネスステークホルダーのインパクト（例: コンプライアンス、ビジネスの長期的なコスト削減、ビジネス結果、市場シェアの傾向、すべてのプロダクトにわたる顧客満足度など）_
 <!-- - _Outcomes for Kanban system members such as improved capability, considering for example, psychological flow (15), frequency of release, tooling, skills, technical debt, user experience (UX) debt, customer experience (CX) debt, human-centered-design debt, technical domain capability, market domain capability, business domain capability, and a climate/culture for net improvement._ -->
-- _カンバンシステムメンバーにとってのアウトカム（例: 能力の向上。例えば、心理的フロー(15)、リリース頻度、ツール、スキル、技術的負債、ユーザー体験（UX）に関する負債、顧客体験（CX）に関する負債、人間中心設計に関する負債、技術ドメインの能力、市場ドメインの能力、ビジネスドメインの能力、全体的な改善のための風土や文化などを考慮する）_
+- _カンバンシステムメンバーにとってのアウトカムには、能力の向上が含まれる（例: 心理的フロー(15)、リリース頻度、ツール、スキル、技術的負債、ユーザー体験（UX）に関する負債、顧客体験（CX）に関する負債、人間中心設計に関する負債、技術ドメインの能力、市場ドメインの能力、ビジネスドメインの能力、全体的な改善のための風土や文化などを考慮する）_
 
 <!-- Any of the above approaches can be useful. Also, consider the following: -->
-上記のいずれのアプローチも有用である。また、次の点も考慮すべきだ。
+上記のいずれのアプローチも有用である。加えて、次の点についても考慮すべきである。
 
 <!-- - **Failure Demand** (17)**:** Demand caused by a failure to do something or do something right for the customer. It is a signal for potential improvement. It highlights where capacity is being wasted due to previous failures, poor Work, or bad decisions. For example, a customer support team may receive repeated calls due to unclear billing instructions. \[metric\] -->
 <!-- ここのsignalは文脈から「シグナル」とした -->
-- **失敗需要（Failure Demand）**(17): 顧客に対して、何かを行わなかった、あるいは適切に行わなかったことによって生じる需要。これは改善の可能性を示すシグナルであり、過去の失敗、不適切な作業、誤った意思決定によって能力が浪費されている箇所を明らかにする。例えば、カスタマーサポートチームが不明確な請求手順によって繰り返し問い合わせを受けるような場合が該当する。 \[計測指標\]
+- **失敗需要（Failure Demand）**(17): 何かを行わなかった、あるいは適切に行わなかったことによって顧客に生じる需要。これは改善の可能性を示すシグナルであり、過去の失敗、不適切な作業、誤った意思決定によって能力が浪費されている箇所を明らかにする。例えば、カスタマーサポートチームが不明確な請求手順により問い合わせが頻発するような場合が該当する。 \[計測指標\]
 <!-- - **Time to Validated Value, also known as Time to Value or Time to Outcome:** The _rounded-up number of elapsed time units (often calendar days/weeks) from when a Stakeholder’s order for a Work Item was received to when Value was validated. It is one example of an ETSF focusing on valuable and measurable outcomes. \[measure\]_ -->
 - **価値を検証するまでの時間（Time to Validated Value）** または **価値実現までの時間（Time to Value）**、**アウトカムまでの時間（Time to Outcome）**: _ステークホルダーから作業項目の要請を受けてから、その価値が検証されるまでの経過時間の単位時間数（多くの場合、暦日や週単位で計測され、通常は切り上げられる）_。_これは、価値のある計測可能なアウトカムに焦点を当てたETSFの一例である_。_\[指標\]_
 <!-- - **Value Validated:** A Work Item that reaches the ‘finished’ point and delivers the intended Value to the Stakeholder (including, but not limited to, customer or user), meeting explicit policies, e.g., quality or experience standards. Often includes evidence and observations. -->
@@ -345,22 +345,22 @@ _カンバンシステムメンバーは、アウトカムやインパクトの�
 - **不適切な価値（Value Invalidated）**: 「終了」点に到達したか、そう見なされたが、意図した価値を提供できなかった作業項目。これはワークフローの定義で示された価値に応えておらず、エビデンスや観察結果に基づき、手戻りや却下が必要になることが多い。状況に応じて判断すること。
 
 <!-- _By measuring these kinds of outcomes, impacts, Value metrics, and Value measures, Kanban system members ensure they’re not just delivering Work quickly (outputs), but delivering real Value and improvements (outcomes and impacts) to Stakeholders, including but not limited to customers and users._ -->
-_このようなアウトカム、インパクト、価値に関する計測指標や指標を計測することで、カンバンシステムメンバーは、単に作業結果を迅速に提供している（アウトプット）だけでなく、ステークホルダー（顧客やユーザーを含むがそれに限定されない）に対して、実際の価値や改善（アウトカムやインパクト）を提供することを裏付けられる_。
+_このようなアウトカム、インパクト、価値に関する計測指標や指標を計測することで、カンバンシステムメンバーは、単に作業結果（アウトプット）を迅速に提供しているだけでなく、ステークホルダー（顧客やユーザーを含むがそれに限定されない）に対して、実際の価値や改善（アウトカムやインパクト）を提供することを裏付けられる_。
 
 <!-- _Clarity and understanding of Work Items should happen just-in-time to avoid waste._ Avoid excessive focus on outputs and insufficient focus on outcomes. _Kanban system members should proactively, intentionally, purposefully, and regularly review the metrics or measures and continually improve them._ -->
-_作業項目の明確化と理解は、無駄を取るためにジャストインタイムで行うべきである。アウトプットに過度に着目し、アウトカムへの注力が不足するのを避けること。カンバンシステムメンバーは、これらの計測指標や指標を積極的に、意図的に、目的を持って、定期的に見直し、継続的に改善すべきである_。
+_作業項目の明確化と理解は、無駄を取るために、ジャストインタイムで行うべきである。アウトプットに偏重し、アウトカムへの注力が不足するのを避けること。カンバンシステムメンバーは、これらの計測指標や指標を積極的に、意図的に、目的を持って、定期的に見直し、継続的に改善すべきである_。
 
 <!-- ## Endnote -->
 ## 最後に
 
 <!-- _Only the Kanban Practices, the minimum criteria Definition of Workflow, and a selection of metrics or measures are mandatory; everything else is optional._ _Consider the context. Kanban system members should foster the humane Flow of Value._ -->
-_必須なのは、カンバンのプラクティス、最小限の基準としてのワークフローの定義、計測指標や指標の選定だけであり、それ以外はすべて任意である_。_状況に応じて、判断すること。カンバンシステムメンバーは、人間性を尊重した価値のフローを育むべきである_。
+_カンバンのプラクティス、最小限の基準としてのワークフローの定義、計測指標や指標の選定だけが必須であり、それ以外はすべて任意であり_、_状況に応じて判断すること。カンバンシステムメンバーは、人間性を尊重した価値のフローを育むべきである_。
 
 <!-- _Feedback from results (‘result feedback’) refers to the data that comes back after changes are made, whether it’s quantitative or qualitative information about outcomes, impacts, or even shifts in the market environment. This feedback can influence Stakeholder Value outcomes, as well as the inputs, effort, resources, or costs involved going forward. (Note: People are not ‘resources.’)._ -->
-_結果からのフィードバック（「結果フィードバック」）とは、何らかの変更を加えたあとに得られるデータを指す。これは、アウトカム、インパクト、さらには市場環境の変化に関する定量的あるいは定性的な情報を含む。このフィードバックは、今後のステークホルダーにとっての価値あるアウトカムだけでなく、それに関するインプット、労力、リソース、コストにも影響を与える可能性がある（注: 人は「リソース」ではない）_。
+_結果からのフィードバック（「結果フィードバック」）とは、何らかの変更を加えたあとに得られるデータを指す。これには、アウトカム、インパクト、さらには市場環境の変化に関する定量的あるいは定性的な情報が含まれる。このフィードバックは、今後のステークホルダーにとっての価値あるアウトカムだけでなく、それに関するインプット、労力、リソース、コストにも影響を与える可能性がある（※ 人は「リソース」ではない）_。
 
 <!-- _In practice, Kanban is a journey of ongoing learning and adaptation. By starting with these core practices and continuously improving, Kanban system members can sustainably achieve better Flow of Value. Kanban system members should start simple and evolve their Kanban system as they learn._ -->
-_実践において、カンバンとは継続的な学習と適応の過程である。これらの基本となるプラクティスから始め、継続的に改善していくことで、カンバンシステムメンバーは価値のフローを持続的に向上させることができる。カンバンシステムメンバーは、シンプルに始め、学びながら自らのカンバンシステムを進化させていくべきである_。
+_実践において、カンバンとは継続的な学習と適応の過程である。これらの基本となるプラクティスから始め、継続的に改善していくことで、カンバンシステムメンバーは価値のフローを持続的に向上させることができる。カンバンシステムメンバーは、まずはシンプルに始め、学びながら自らのカンバンシステムを進化させていくべきである_。
 
 <!-- ## History of Kanban -->
 ## カンバンの歴史
@@ -372,7 +372,7 @@ _実践において、カンバンとは継続的な学習と適応の過程で�
 ## 謝辞
 
 <!-- _People acknowledged here do not necessarily agree with what is written in this document, and that is ok. Nevertheless, the Open Guide to Kanban owes a massive debt of gratitude to:_ -->
-_ここで謝辞を述べている方々が、本ガイドの内容すべてにおいて同意しているとは限らない。それでも構わない。それでもなお、オープン版カンバンガイドは以下の方々に多大な感謝の意を表したい_。
+_ここで謝辞を述べている方々が、本ガイドの内容すべてにおいて同意しているとは限らないが、それでも構わない。それでもなお、オープン版カンバンガイドは以下の方々に多大な感謝の意を表したい_。
 
 <!-- - All who helped to develop Kanban, including those who preferred not to be named -->
 - カンバンの発展に寄与してくれたすべての人たち――名前を挙げられることを望まなかった人たちも含む
