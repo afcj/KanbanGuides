@@ -287,11 +287,11 @@ _カンバンは進化的な変化を支持するが、エビデンスと明確�
 <!-- - **Throughput:** The number of _Work Items_ ‘finished’ per unit of time. The measurement of throughput is the exact count of _Work Items_, _not revenue. \[metric\]_ -->
 - **スループット**: 単に時間あたりに「終了」した _作業項目_ の数。スループットの計測は、 _作業項目_ の正確な数であり、_収益ではない_。_\[指標\]_
 <!-- - **Time to Market, also known as Customer Lead Time:** The (typically rounded-up) number of elapsed time units (often calendar days/weeks) from when a Stakeholder’s order for a single Work Item was received to when the Work Item was delivered to the Stakeholder. It is one example of an ETSF. \[measure for a single Work Item, metric for a product or service\] -->
-- **市場に出すまでの時間、またはカスタマーリードタイム**: ひとつの作業項目がステークホルダーから要請を受けてから、その作業項目がステークホルダーに届くまでの経過時間の単位時間数（多くの場合、暦日（日数）または週で計測し、通常は端数は切り上げられる）。これはETSFの一例である。\[単一作業項目に対しては指標、プロダクトやサービス全体に対しては計測指標\]
+- **市場に出すまでの時間、またはカスタマーリードタイム**: ひとつの作業項目がステークホルダーから要請を受けてから、その作業項目がステークホルダーに届くまでの経過時間の単位時間数（多くの場合、暦日（日数）または週単位で計測し、通常は端数は切り上げられる）。これはETSFの一例である。\[単一作業項目に対しては指標、プロダクトやサービス全体に対しては計測指標\]
 <!-- - **Total Work Item Age (TWIA)** or **Total Elapsed Time for ‘Started’ but Not ‘Finished’ Items (TETSNFI)** **:** The total elapsed time from when all in-progress (‘started’ but not ‘finished’) Work Items ‘started’ to a specified datetime, usually the current datetime. \[metric\] -->
 - **作業項目の年齢の合計（TWIA: Total Work Item Age）** または **「開始」しているが「終了」していない項目に対する経過時間（TETSNFI: Total Elapsed Time for Started but Not Finished Items）**: すべての進行中（「開始」しているがまだ「終了」していない）作業項目について、「開始」された時点から特定の日時（通常は現在日時）までの総経過時間。\[計測指標\]
 <!-- - **Work Item Age (WIA)** or **_Elapsed Time for ‘Started’ but Not ‘Finished’ Items(ETSNFI)_** : The (typically _rounded-up) number of elapsed time units (often calendar days)_ _from_ _the datetime a single ‘not finished’ Work Item_ ‘started’ _to_ _a specified datetime, usually the current datetime. By acting on relatively older Items, feedback loops can be shortened, and Flow improves. \[measure\]_ -->
-- **作業項目の年齢（WIA: Work Item Age）** または **_「開始」しているが「終了」していない項目の経過時間（ETSNFI: Elapsed Time for Started but Not Finished Items）_**: _ひとつの「終了していない」作業項目_ について、「開始」した日時 _から_ _特定日時（通常は現在日時）までの経過時間の単位時間数（多くの場合、暦日で計測し、通常は切り上げられる）_。_比較的古い項目に対応することで、フォードバックループを短縮し、フローが改善される_。 _\[指標\] 
+- **作業項目の年齢（WIA: Work Item Age）** または **_「開始」しているが「終了」していない項目の経過時間（ETSNFI: Elapsed Time for Started but Not Finished Items）_**: _ひとつの「終了していない」作業項目_ について、「開始」した日時 _から_ _特定日時（通常は現在日時）までの経過時間の単位時間数（多くの場合、暦日で計測し、通常は切り上げられる）_。_比較的古い項目に対応することで、フィードバックループを短縮し、フローが改善される_。 _\[指標\] 
 
 <!-- The _Flow_ metrics _and measures_ apply to the appropriate ‘started’ and ‘finished’ points established by the Kanban system members in their _Definition of Workflow_. _If there are multiple sets of ‘started’ and ‘finished’ points, some flow metrics and measures are often applied to each ‘started’ and ‘finished’ pair._ -->
 _フロー_ の計測指標 _や指標_ は、カンバンシステムメンバーが _ワークフローの定義_ で定めた適切な「開始」点と「終了」点に適用されるものである。「開始」点と「終了」点が複数存在する場合、いくつかのフローの計測指標や指標は、それぞれのひと組の「開始」と「終了」に適用されることがよくある。
@@ -331,16 +331,24 @@ _カンバンシステムメンバーは、アウトカムやインパクトの�
 <!-- - _Outcomes for Kanban system members such as improved capability, considering for example, psychological flow (15), frequency of release, tooling, skills, technical debt, user experience (UX) debt, customer experience (CX) debt, human-centered-design debt, technical domain capability, market domain capability, business domain capability, and a climate/culture for net improvement._ -->
 - _カンバンシステムメンバーにとってのアウトカム（例: 能力の向上。例えば、心理的フロー(15)、リリース頻度、ツール、スキル、技術的負債、ユーザー体験（UX）に関する負債、顧客体験（CX）に関する負債、人間中心設計に関する負債、技術ドメインの能力、市場ドメインの能力、ビジネスドメインの能力、全体的な改善のための風土や文化などを考慮する）_
 
-Any of the above approaches can be useful. Also, consider the following:
+<!-- Any of the above approaches can be useful. Also, consider the following: -->
+上記のいずれのアプローチも有用である。また、次の点も考慮すべきだ。
 
-- **Failure Demand** (17)**:** Demand caused by a failure to do something or do something right for the customer. It is a signal for potential improvement. It highlights where capacity is being wasted due to previous failures, poor Work, or bad decisions. For example, a customer support team may receive repeated calls due to unclear billing instructions. \[metric\]
-- **Time to Validated Value, also known as Time to Value or Time to Outcome:** The _rounded-up number of elapsed time units (often calendar days/weeks) from when a Stakeholder’s order for a Work Item was received to when Value was validated. It is one example of an ETSF focusing on valuable and measurable outcomes. \[measure\]_
-- **Value Validated:** A Work Item that reaches the ‘finished’ point and delivers the intended Value to the Stakeholder (including, but not limited to, customer or user), meeting explicit policies, e.g., quality or experience standards. Often includes evidence and observations.
-- **Value Invalidated:** A Work Item that reaches the ‘finished’ point or is evaluated but fails to deliver the intended Value, not meeting expectations defined in the Definition of Workflow, often requiring rework or rejection, informed by evidence and observations. Consider the context.
+<!-- - **Failure Demand** (17)**:** Demand caused by a failure to do something or do something right for the customer. It is a signal for potential improvement. It highlights where capacity is being wasted due to previous failures, poor Work, or bad decisions. For example, a customer support team may receive repeated calls due to unclear billing instructions. \[metric\] -->
+<!-- ここのsignalは文脈から「シグナル」とした -->
+- **失敗需要（Failure Demand）**(17): 顧客に対して、何かを行わなかった、あるいは適切に行わなかったことによって生じる需要。これは改善の可能性を示すシグナルであり、過去の失敗、不適切な作業、誤った意思決定によって能力が浪費されている箇所を明らかにする。例えば、カスタマーサポートチームが不明確な請求手順によって繰り返し問い合わせを受けるような場合が該当する。 \[計測指標\]
+<!-- - **Time to Validated Value, also known as Time to Value or Time to Outcome:** The _rounded-up number of elapsed time units (often calendar days/weeks) from when a Stakeholder’s order for a Work Item was received to when Value was validated. It is one example of an ETSF focusing on valuable and measurable outcomes. \[measure\]_ -->
+- **価値を検証するまでの時間（Time to Validated Value）** または **価値実現までの時間（Time to Value）**、**アウトカムまでの時間（Time to Outcome）**: _ステークホルダーから作業項目の要請を受けてから、その価値が検証されるまでの経過時間の単位時間数（多くの場合、暦日や週単位で計測され、通常は切り上げられる）_。_これは、価値のある計測可能なアウトカムに焦点を当てたETSFの一例である_。_\[指標\]_
+<!-- - **Value Validated:** A Work Item that reaches the ‘finished’ point and delivers the intended Value to the Stakeholder (including, but not limited to, customer or user), meeting explicit policies, e.g., quality or experience standards. Often includes evidence and observations. -->
+- **妥当な価値（Value Validated）**: 「終了」点に到達し、ステークホルダー（顧客やユーザーを含むがそれに限定されない）に意図した価値を提供している作業項目。これは品質や体験に関する基準など、明示的なポリシーを満たしており、多くの場合、エビデンスや観察結果を伴う。
+<!-- - **Value Invalidated:** A Work Item that reaches the ‘finished’ point or is evaluated but fails to deliver the intended Value, not meeting expectations defined in the Definition of Workflow, often requiring rework or rejection, informed by evidence and observations. Consider the context. -->
+- **不適切な価値（Value Invalidated）**: 「終了」点に到達したか、そう見なされたが、意図した価値を提供できなかった作業項目。これはワークフローの定義で示された価値に応えておらず、エビデンスや観察結果に基づき、手戻りや却下が必要になることが多い。状況に応じて判断すること。
 
-_By measuring these kinds of outcomes, impacts, Value metrics, and Value measures, Kanban system members ensure they’re not just delivering Work quickly (outputs), but delivering real Value and improvements (outcomes and impacts) to Stakeholders, including but not limited to customers and users._
+<!-- _By measuring these kinds of outcomes, impacts, Value metrics, and Value measures, Kanban system members ensure they’re not just delivering Work quickly (outputs), but delivering real Value and improvements (outcomes and impacts) to Stakeholders, including but not limited to customers and users._ -->
+_このようなアウトカム、インパクト、価値に関する計測指標や指標を計測することで、カンバンシステムメンバーは、単に作業結果を迅速に提供している（アウトプット）だけでなく、ステークホルダー（顧客やユーザーを含むがそれに限定されない）に対して、実際の価値や改善（アウトカムやインパクト）を提供することを裏付けられる_。
 
-_Clarity and understanding of Work Items should happen just-in-time to avoid waste._ Avoid excessive focus on outputs and insufficient focus on outcomes. _Kanban system members should proactively, intentionally, purposefully, and regularly review the metrics or measures and continually improve them._
+<!-- _Clarity and understanding of Work Items should happen just-in-time to avoid waste._ Avoid excessive focus on outputs and insufficient focus on outcomes. _Kanban system members should proactively, intentionally, purposefully, and regularly review the metrics or measures and continually improve them._ -->
+_作業項目の明確化と理解は、無駄を取るためにジャストインタイムで行うべきである。アウトプットに過度に着目し、アウトカムへの注力が不足するのを避けること。カンバンシステムメンバーは、これらの計測指標や指標を積極的に、意図的に、目的を持って、定期的に見直し、継続的に改善すべきである_。
 
 ## Endnote
 
