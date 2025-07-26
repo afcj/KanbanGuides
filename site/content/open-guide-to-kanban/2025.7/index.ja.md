@@ -86,7 +86,7 @@ _斜体フォントの使用は、このガイドの表紙に記載されたク�
 ## ナレッジワークにおけるカンバンの定義
 
 <!-- Kanban is a strategy for optimizing the _Flow_ of _Value_ through a _system_. It is a signaling system to call for Work or inventory. It comprises the following three practices working in tandem: -->
-カンバンとは、あるシステムを通じて _価値_ の _流れ（フロー）_ を最適化するための戦略である。それは、作業や在庫を引き寄せるためのシグナリングシステム<!--（合図による呼び出しの仕組み）-->でもある。以下の3つのプラクティスが連携して機能する。
+カンバンとは、あるシステムを通じて _価値_ の _流れ（フロー）_ を最適化するための戦略である。それは、作業や在庫を必要なときに引き寄せるためのシグナリングシステム<!--（合図による呼び出しの仕組み）-->でもある。以下の3つのプラクティスが連携して機能する。
 
 <!-- - Defining and _Visualizing_ a workflow. -->
 - ワークフローを定義し _可視化する_
