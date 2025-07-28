@@ -489,7 +489,7 @@ _以下は、すべてのコミュニティが支持しているわけではな�
 <!-- - **Risk:** The chance that something bad could happen. -->
 - **リスク（Risk）**: 望ましくないことが起こる可能性のこと。
 <!-- - **Stable system:** Put simply, a system that can consistently meet the demand placed upon it. There are more accurate descriptions (7,8,20). Knowledge Work tends to produce a higher range of Work Item sizes than manufacturing work. Unequal sizes do not necessarily lead to higher variation of elapsed times (due to waiting time often being the most significant factor, etc.) or Throughput but can do so (due to external dependencies, etc.). The view in this guide is that approaches designed for manufacturing do not necessarily lack utility in Knowledge Work. -->
-- **安定したシステム（Stable system）**: 端的に言えば、与えられた需要に一貫して応えられるシステムのこと。より正確な説明については、(7,8,20)を参照のこと。ナレッジワークでは、製造業と比べて作業項目のサイズのばらつきが大きくなる傾向がある。不均一な作業サイズは、（待ち時間が最大の要因となることなどから）経過時間やスループットに大きなばらつきをもたらすとは限らないが、（外部依存などによって）ばらつきを引き起こすこともある。本ガイドでは、製造業向けに設計されたアプローチがナレッジワークにおいて役に立たないとは限らない、という見解をとっている。
+- **安定したシステム（Stable system）**: 端的に言えば、与えられた需要に一貫して応えられるシステムのこと。より正確な説明については、(7,8,20)を参照のこと。ナレッジワークでは、製造業と比べて作業項目のサイズのばらつきが大きくなる傾向がある。不均一な作業サイズは、（待ち時間が最大の要因となることなどから）経過時間やスループットに大きなばらつきをもたらすとは限らないが、（外部依存などによって）ばらつきを引き起こすこともある。本ガイドでは、製造業向けに設計されたアプローチがナレッジワークにおいて有用性を欠くわけではないという見解をとっている。
 <!-- - **Stakeholder**: An entity, individual, or group responsible for, interested in, or affected by the inputs, activities, and outcomes of the Kanban system. Includes but is not limited to customer, decision-maker, or user. -->
 - **ステークホルダー（Stakeholder）**: カンバンシステムのインプット、アクティビティ、アウトカムに対して、責任を持つ、関心を持つ、または影響を受ける個人やグループ、もしくはその他の存在。顧客、意思決定者、ユーザーなどが含まれるが、これらに限らない。
 <!-- - **‘Started’:** When elapsed time clocks ‘start’ for a ‘started’ and ‘finished’ pair in a Definition of Workflow. -->
