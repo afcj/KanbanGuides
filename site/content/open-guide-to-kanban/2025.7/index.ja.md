@@ -145,7 +145,7 @@ _最適なワークフローの運用を実現し、継続的な改善を促進�
    <!-- - [ ] One or more defined states that the _Work Items_ _Flow_ through from ‘started’ to ‘finished.’ -->
    - [ ] _作業項目_ が「開始」から「終了」までの間の _フロー_ を示すひとつ以上の状態の定義
    <!-- - [ ] _Work Items_ between the ‘started’ and ‘finished’ points, even if waiting in a Queue or Buffer, are considered: -->
-   - [ ] たとえキューやバッファで待機している場合であっても、「開始」点と「終了」点の間にある _作業項目_ は対象扱い
+   - [ ] たとえキューやバッファで待機している場合であっても、「開始」点と「終了」点の間にある _作業項目_ は対象とみなす
      <!-- - _‘Started but Not Finished Work’ (SNFW) or_ -->
 	 - _「開始しているが終了していない作業」（SNFW: Started but Not Finished Work） あるいは_ 
      <!-- - _Work in Progress_/_Process_ (WIP). -->
@@ -154,10 +154,11 @@ _最適なワークフローの運用を実現し、継続的な改善を促進�
    - [ ] 「開始」から「終了」までの間のWIPの制御方法の定義
    <!-- - [ ] _A set of_ Explicit policies about how _Work Items_ can _Flow_ through each state from ‘started’ to ‘finished’ _defect-free_. _For example, Kanban system members might have a policy that is explicit about fixing any known defects in an Item before moving it to the next state, so that no known defect is passed to a subsequent process._ -->
    - [ ] _作業項目_ が _「開始」から「終了」までの各状態を _欠陥なく_、どのように _流れる_ かについての _一連の_ 明示的なポリシー       
-	 例えば、カンバンシステムメンバーが、「既知の欠陥を修正しない限りは項目を次の状態に移してはならない」というポリシーを明示していれば、既知の欠陥が後続のプロセスに渡ることはない
+	  例えば、カンバンシステムメンバーが、「既知の欠陥を修正しない限りは項目を次の状態に移してはならない」というポリシーを明示していれば、既知の欠陥が後続のプロセスに渡ることはない
    <!-- - [ ] A _Service Level Expectation_ (SLE): A forecast of how long it should take a _Work Item_ to _Flow_ from ‘started’ to ‘finished.’ _Note that there is no guarantee that what happened in the past will happen in the future._ -->
-   - [ ] _サービスレベル期待値（SLE: Service Level Expectation）_: ひとつの _作業項目_ が _フロー_ の「開始」から「終了」までにかかると見込まれる時間の予測のこと  
-     _過去に起きたことが、今後も同じように起きるとは限らない点に注意すること_
+   - [ ] _サービスレベル期待値（SLE: Service Level Expectation）_  
+      ひとつの _作業項目_ が _フロー_ の「開始」から「終了」までにかかると見込まれる時間の予測のこと  
+      _過去に起きたことが、今後も同じように起きるとは限らない点に注意すること_
    <!-- - [ ] A _Visualization_ of the _Service Level Expectation_ on the Kanban board. -->
    - [ ] カンバンボード上における _サービスレベル期待値_ の _可視化_
 
