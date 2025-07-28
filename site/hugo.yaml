@@ -45,6 +45,13 @@ params:
   productionSiteUrl: https://kanbanguides.org/
   brand:
     bg_colour: "#135289"
+  logo_image: "/images/kanban-guides-logo-dark.png" # URL to the site logo image
+  menu_logo: "/images/kanban-guides-logo-dark.png" # URL to the main menu logo image
+  AzureSitesConfig: "#{Guides_AzureSitesConfig}#"
+  GitVersion_SemVer: "v#{GitVersion.SemVer}#"
+  GoogleTagManagerID: "GTM-T2KD2BNT" # Replace with your actual GTM ID
+  features:
+    guideDetails: false
 sitemap:
   filename: sitemap.xml
   changefreq: daily
@@ -88,6 +95,11 @@ outputFormats:
     mediaType: application/json
     baseName: guide-translations
     isPlainText: true
+
+module:
+  imports:
+    - path: github.com/nkdAgility/HugoGuides/module
+
 markup:
   goldmark:
     renderer:

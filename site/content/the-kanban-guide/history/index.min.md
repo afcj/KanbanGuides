@@ -1,6 +1,7 @@
 ---
 title: "Oldy Times"
 layout: history
+type: guide
 ---
 
 Pro-fessy Kanban be all in da Banana Guide, made by da Kanban tribe of thinky-think folks.

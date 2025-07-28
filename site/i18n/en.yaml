@@ -466,3 +466,9 @@
 
 - id: view_archive_button
   translation: "View Archive"
+- id: guide_version_current
+  translation: "Current"
+- id: guide_version_dropdown_label
+  translation: "Select version"
+- id: guide_version_latest
+  translation: "Latest"
