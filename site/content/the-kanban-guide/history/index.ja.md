@@ -2,6 +2,7 @@
 # title: "History"
 title: "履歴"
 layout: history
+type: guide
 ---
 
 <!-- Professional Kanban is defined completely in the Kanban Guide that was created by a community of Kanban practitioners. -->
