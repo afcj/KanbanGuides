@@ -1,6 +1,7 @@
 ---
 title: "Old Banana Times"
 layout: history
+type: guide
 ---
 
 Da Open Banana Guide go _fork-fork_ from da Kanban Guide (May 2025).  
