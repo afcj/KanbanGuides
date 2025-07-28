@@ -1,6 +1,7 @@
 ---
 title: "History"
-layout: history
+layout: historylayout: history
+Type: "guide"
 ---
 
 Professional Kanban is defined completely in the Kanban Guide that was created by a community of Kanban practitioners.
