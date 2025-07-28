@@ -133,7 +133,7 @@ _カンバンシステム_ は、システム思考 _(5)_、リーン原則 _(4)
 ### ワークフローを定義し可視化する
 
 <!-- Optimizing _Flow_ requires defining what _Flow_ _of Value_ means in a given context, _the (ideally) smooth movement and delivery of potential or (ideally) realized benefits for Stakeholders_. The explicit shared understanding of Flow among Kanban system members within their context is called a Definition of Workflow. _Definition of Workflow_ is a fundamental concept of Kanban. All other elements of this guide depend heavily on how workflow is defined. -->
-_フロー_ を最適化するためには、その状況において _価値のフロー_ の意味を定義する必要がある。_ここでいう価値のフローとは、ステークホルダーにとっての潜在的あるいは（理想的には）実現された恩恵が、状況内で円滑に移動し、提供されることを指す_。カンバンシステムメンバーが、その状況内で共有するフローの明示的な共有理解のことをワークフローの定義と呼ぶ。_ワークフローの定義_ は、カンバンの基本概念であり、本ガイドの他の要素はすべて、ワークフローがどのように定義されているかに大きく依存している。
+_フロー_ を最適化するためには、その状況において _価値のフロー_ の意味を定義する必要がある。_ここでいう価値のフローとは、ステークホルダーにとっての潜在的あるいは（理想的には）実現された恩恵が、状況内で円滑に移動し、提供されることを指す_。カンバンシステムメンバーが、その状況内で共有するフローの明示的な共通理解のことをワークフローの定義と呼ぶ。_ワークフローの定義_ は、カンバンの基本概念であり、本ガイドの他の要素はすべて、ワークフローがどのように定義されているかに大きく依存している。
 
 <!-- _To inform optimal workflow operation and facilitate continuous improvement, at a minimum_, Kanban system members must create their _Definition of Workflow_ using all of the following elements: -->
 _最適なワークフローの運用を実現し、継続的な改善を促進するために、少なくとも_ カンバンシステムメンバーは以下のすべての要素を用いて _ワークフローの定義_ を作成する必要がある。
