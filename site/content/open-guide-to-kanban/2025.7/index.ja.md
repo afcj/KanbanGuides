@@ -86,7 +86,7 @@ _斜体フォントの使用は、このガイドの表紙に記載されたク�
 ## ナレッジワークにおけるカンバンの定義
 
 <!-- Kanban is a strategy for optimizing the _Flow_ of _Value_ through a _system_. It is a signaling system to call for Work or inventory. It comprises the following three practices working in tandem: -->
-カンバンとは、あるシステムを通じて _価値_ の _流れ（フロー）_ を最適化するための戦略である。それは、作業や在庫を引き寄せるためのシグナリングシステム<!--（合図による呼び出しの仕組み）-->でもある。以下の3つのプラクティスが連携して機能する。
+カンバンとは、あるシステムを通じて _価値_ の _流れ（フロー）_ を最適化するための戦略である。それは、作業や在庫を必要なときに引き寄せるためのシグナリングシステム<!--（合図による呼び出しの仕組み）-->でもある。以下の3つのプラクティスが連携して機能する。
 
 <!-- - Defining and _Visualizing_ a workflow. -->
 - ワークフローを定義し _可視化する_
@@ -115,7 +115,7 @@ _斜体フォントの使用は、このガイドの表紙に記載されたク�
 カンバン _システム_ の戦略は、カンバンシステムメンバーが、これらの目標を追求するための継続的な改善の一環として、適切な質問を早期に行えるように _支援する_。カンバンシステムメンバーは、これら3つの要素の持続可能なバランスを目指すべきである。_カンバンは、過剰な作業負荷（オーバーバーデン）を軽減し、利用可能なキャパシティに応じて作業結果が最適に提供されるように需要を管理する手段でもある。完璧な手段ではないが、継続的な改善と価値フローの最適化を促すものであるべきだ。_
 
 <!-- _Side benefits are happier Kanban system members, higher quality, and the ability to adapt to demand. A good Kanban system is self-regulating, i.e., the Kanban system signals and adjusts to issues without intervention._ -->
-_副次的な恩恵としては、カンバンシステムメンバーの満足度の向上、品質の向上、需要への適応力の向上が挙げられる。優れたカンバンシステムは自己調整的であり、すなわち、介入なしにシグナルを発し、課題に応じて自ら調整を行うものである_。
+_副次的な恩恵としては、カンバンシステムメンバーの満足度の向上、品質の向上、需要への適応力の向上が挙げられる。優れたカンバンシステムは自己調整的であり、すなわち、人の介入なしにシグナルを発し、課題に応じて自ら調整を行うものである_。
 
 <!-- Because Kanban _can_ _Visualize_ virtually any workflow, its application is not limited to any specific industry or context. Professional Knowledge Workers in finance, utilities, healthcare, and software (to name a few), have benefited from Kanban practices. Kanban in most contexts where Value is delivered. -->
 カンバンは、ほぼすべてのワークフローを _可視化できる_ ため、その適用範囲は特定の業界や状況に限定されない。金融、ヘルスケア、ソフトウェアなどの分野で働くプロフェッショナルなナレッジワーカーが、カンバンのプラクティスから恩恵を受けている。カンバンは、価値を提供するほとんどの状況において使うことができる。
