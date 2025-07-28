@@ -50,6 +50,8 @@ params:
   AzureSitesConfig: "#{Guides_AzureSitesConfig}#"
   GitVersion_SemVer: "v#{GitVersion.SemVer}#"
   GoogleTagManagerID: "GTM-T2KD2BNT" # Replace with your actual GTM ID
+  features:
+    guideDetails: false
 sitemap:
   filename: sitemap.xml
   changefreq: daily
