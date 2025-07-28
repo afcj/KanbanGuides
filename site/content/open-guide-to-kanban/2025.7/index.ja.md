@@ -246,7 +246,7 @@ _改善は、しばしばジャストインタイムで行われる。改善と�
 _さらに望ましいのは、リーダーシップを発揮する人たち、すなわちリーダーが、現場に足を運び、耳を傾け、実際に理解したうえで、意思決定のための事実を収集することである。これは「現地現物（Genchi Genbutsu）」として知られている。リーダーは、この現地現物を繰り返し行うことで、実態が浮かび上がってくる。何をすべきかを知っていることと、意図的で、根気強く、反復的で、思いやりのある改善行動（短いフィードバックループを含む）を取り続けることとは、まったく別物である_。
 
 <!-- _Kanban favors evolutionary change, but it does not prohibit larger, structural changes, informed by evidence and a clear understanding of the system. Changes should be purposeful and context-driven._ -->
-_カンバンは進化的な変化を支持するが、エビデンスと明確な理解に基づくより大きな構造的な変化を禁じているわけではない。変化は、目的を持ち、状況に即したものであるべきである_。
+_カンバンは漸進的な変化を支持するが、エビデンスと明確な理解に基づくより大きな構造的な変化を禁じているわけではない。変化は、目的を持ち、状況に即したものであるべきである_。
 
 <!-- ## Inform Flow Optimization with Appropriate Measures or Metrics -->
 ## 適切な指標や計測指標を活用したフローの最適化
