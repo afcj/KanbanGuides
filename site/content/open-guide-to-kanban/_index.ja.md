@@ -21,18 +21,18 @@ weight: 2
 guide_license: |
   この「オープン版カンバンガイド」は、[カンバンガイド2025年5月版](https://kanbanguides.org/history/kanban-guide-2025/)をもとにした適応版であり、クリエイティブ・コモンズ 表示-継承　4.0 国際（CC BY-SA 4.0）の下で提供されています。原典の著作権は、© 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc.に帰属します。本ガイドでは、原典に一部改変を加えており、変更を含むすべての内容は、CC BY-SA 4.0の下で提供されています。斜体で示された一部の箇所は、© 2025_ Orderly Disruption Limitedによるものであり、同ライセンスの下で提供されています。それ以外のすべての内容は、© 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc.によるものであり、同様にCC BY-SA 4.0の下で提供されています。 / This work, Open Guide to Kanban, is an adaptation of the [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), which is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). The original guide is © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Changes were made to the original. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Portions highlighted in italic are © 2025_ Orderly Disruption Limited, licensed under CC BY-SA 4.0. All other content is from © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., also licensed under CC BY-SA 4.0.
 guide_comparison:
-  # purpose: "Community-expanded handbook"
-  purpose: "コミュニティによって拡張されたハンドブック"  
-  # ethos: "Inclusive, evolving, collaborative"
-  ethos: "包摂性があり、進化的で、コラボレーションによって成り立つ"
-  # audience: "Teams blending Kanban with other approaches"
-  audience: "カンバンを他のアプローチと組み合わせて活用しているチーム"
-  # use_case: "How do we apply Kanban in *our* context?"
-  use_case: "*自分たちの*状況においてカンバンをどう適用するか？"
-  # content: "Rich with examples and extensions"
-  content: "豊富な具体例と拡張情報"
-  # update_model: "Community-driven, iterative"
-  update_model: "コミュニティ主体で反復的な更新"
+  - title: 目的
+    content: "コミュニティによって拡張されたハンドブック" 
+  - title: エトス
+    content: "包摂性があり、進化的で、コラボレーションによって成り立つ"
+  - title: 対象読者
+    content: "カンバンを他のアプローチと組み合わせて活用しているチーム"
+  - title: ユースケース
+    content: "*自分たちの*状況においてカンバンをどう適用するか？"
+  - title: 内容
+    content: "豊富な具体例と拡張情報"
+  - title: 更新モデル
+    content: "コミュニティ主体で反復的な更新"
 which_to_use_summary: |
   <!-- Choose the [Open Guide to Kanban](/open-guide-to-kanban/latest) if you're working across approaches or want more context and flexibility. It's well-suited to those with Lean, Agile, Scrum, or Product Management experience who want to adapt Kanban to their environment.-->
   複数のアプローチを組み合わせている場合や、より広い文脈や柔軟性を求めている場合は、[オープン版カンバンガイド](/open-guide-to-kanban/latest)を選ぶとよいでしょう。リーン、アジャイル、スクラム、プロダクトマネジメントなどの経験を活かし、カンバンを自分たちの環境に合わせて適用したい人におすすめです。   

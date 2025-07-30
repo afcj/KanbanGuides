@@ -21,12 +21,19 @@ guide_license: |
   Dis booky owned by Orderly Disruption Banana Corp and Daniel S. Vacanti Banana Inc., under da Creative Commons Happy License 4.0 International (Share bananas nicely).
 
 guide_comparison:
-  purpose: "Tiny but mighty banana book"
-  ethos: "No wobbles, only truthy stuff"
-  audience: "Banana teams who want da real real"
-  use_case: "Wut is da Kanban corey-core?"
-  content: "Super light, super right"
-  update_model: "Sometimes we polish da banana"
+  - title: Poopose
+    content: "Mini-mini, banana regla!"
+  - title: Etho-ethos
+    content: "Bee-doo! Foko, boom-boom, banana law"
+  - title: Peeps
+    content: "Bello Kanban peeps que wanto baseline-o claro"
+  - title: Use-a-Caso
+    content: "Kanban es qué en el tummytum?"
+  - title: Contenty
+    content: "Clear-o, fluf-fluf, ¡muy necesario!"
+  - title: Updatey-Boop
+    content: "Bee-boop cada rato, curado como banana"
+
 
 which_to_use_summary: |
   First time Kanbaner? Start-y with [Da Kanban Guide](/min/the-kanban-guide/latest).  

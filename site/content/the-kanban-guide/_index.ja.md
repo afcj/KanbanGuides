@@ -18,18 +18,18 @@ weight: 1
 guide_license: |
   本ガイドは、Orderly Disruption Limited, Daniel S. Vacanti, Inc.によりクリエイティブ・コモンズ（表示4.0 国際）の下で提供されています。/ This work is licensed by Orderly Disruption Limited and Daniel S. Vacanti, Inc. under a Creative Commons Attribution 4.0 International License.
 guide_comparison:
-  # purpose: "Minimal, official reference"
-  purpose: "最小限な公式リファレンス"
-  # ethos: "Focused, stable, canonical"
-  ethos: "明確な焦点があり、安定していて、規範的"
-  # audience: "Kanban system members wanting a clear baseline"
-  audience: "明確な基準を望むカンバンシステムメンバー"
-  # use_case: "What is Kanban at its core?"
-  use_case: "カンバンの本質とは何か？"
-  # content: "Clear, lightweight, and essential"
-  content: "明確、軽量で、基本に忠実"
-  # update_model: "Periodic, curated"
-  update_model: "定期的で厳選した更新"
+  - title: 目的
+    content: "最小限な公式リファレンス"
+  - title: エトス
+    content: "明確な焦点があり、安定していて、規範的"
+  - title: 対象読者
+    content: "明確な基準を望むカンバンシステムメンバー"
+  - title: ユースケース
+    content: "カンバンの本質とは何か？"
+  - title: 内容
+    content: "明確、軽量で、基本に忠実"
+  - title: 更新モデル
+    content: "定期的で厳選した更新"
 which_to_use_summary: |
   <!-- Choose  [The Kanban Guide](/the-kanban-guide/latest) if you're new to Kanban or need a stable, minimal reference. It's ideal for Kanban system members who want to start simple and build understanding. -->
   カンバンに初めて触れた人や安定した最小限のリファレンスが必要な人は、[カンバンガイド](/the-kanban-guide/latest)を選ぶとよいでしょう。シンプルに始めて、理解を深めていきたいカンバンシステムメンバーにおすすめです。

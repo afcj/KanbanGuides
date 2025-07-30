@@ -12,12 +12,18 @@ guide_whatis: |
 guide_overview: |
   La [Guía Abierta de Kanban](/open-guide-to-kanban/) es una referencia práctica y curada por la comunidad para usar Kanban en el trabajo del conocimiento. Define las prácticas esenciales, medidas y lenguaje para diseñar, ejecutar y mejorar los sistemas Kanban.
 guide_comparison:
-  purpose: "Manual ampliado por la comunidad"
-  ethos: "Inclusivo, evolutivo, colaborativo"
-  audience: "Equipos que combinan Kanban con otros enfoques"
-  use_case: "¿Cómo aplicamos Kanban en *nuestro* contexto?"
-  content: "Rico en ejemplos y extensiones"
-  update_model: "Iterativo y dirigido por la comunidad"
+  - title: Propósito
+    content: "Manual ampliado por la comunidad"
+  - title: Ética
+    content: "Inclusivo, evolutivo, colaborativo"
+  - title: Audiencia
+    content: "Equipos que combinan Kanban con otros enfoques"
+  - title: Caso de uso
+    content: "¿Cómo aplicamos Kanban en *nuestro* contexto?"
+  - title: Contenido
+    content: "Rico en ejemplos y extensiones"
+  - title: Modelo de actualización
+    content: "Iterativo y dirigido por la comunidad"
 which_to_use_summary: |
   Elige la [Guía Abierta de Kanban](/es-419/open-guide-to-kanban/latest) si estás trabajando con múltiples enfoques o quieres más contexto y flexibilidad. Es adecuada para quienes tienen experiencia en Lean, Agile, Scrum o gestión de productos y desean adaptar Kanban a su entorno.
 layman_description: |

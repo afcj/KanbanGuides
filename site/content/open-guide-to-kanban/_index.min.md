@@ -28,12 +28,19 @@ guide_license: |
   _Italic parts_ go to Orderly Banana HQ. Other bits are also fruity and legal. 🍌📄
 
 guide_comparison:
-  purpose: "Bigger banana booky for all"
-  ethos: "Sharey! Evolvey! Huggy!"
-  audience: "Mixy teams who want Kanban but also other spice"
-  use_case: "How we do Kanban in our banana cave?"
-  content: "Moar examples! Moar goodies!"
-  update_model: "Teamy-team add bits, polish bits, yay!"
+  - title: Bananapo?
+    content: "Book book by all da minions, yay!"
+  - title: Ethos
+    content: "Ooh! All together! Change-y! Fun-fun!"
+  - title: Who read?
+    content: "Team-y team use Kanban plus other stuff, okey-dokey!"
+  - title: What for?
+    content: "How we Kanban in our banana-zone?"
+  - title: Contents
+    content: "Lots of shiny shiny! Many ‘xample! Woohoo!"
+  - title: How change?
+    content: "Update by us minions, again and again! Bello!"
+
 
 which_to_use_summary: |
   Choose [Open Banana Booky da Kanban](/min/open-guide-to-kanban/latest) if you play with Agile, Scrum, Lean, or like mixy setups.  

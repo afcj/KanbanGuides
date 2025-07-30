@@ -134,8 +134,17 @@
 - id: download_table_status
   translation: "Banana State"
 
+- id: download_table_contributed_by
+  translation: "Made By Banana Friend"
+
 - id: download_preview_status
   translation: "Peeky Mode"
+
+- id: download_reference_status
+  translation: "Looky Book"
+
+- id: download_pdf_only_status
+  translation: "Only Paper-y"
 
 - id: download_preview_action
   translation: "Sneaky Peeky"
@@ -203,6 +212,9 @@
 
 - id: download_community_contributors
   translation: "Banana Crew Heroes"
+
+- id: contributors_label
+  translation: "Banana Helpers"
 
 - id: contributors_description
   translation: "These banana heads helped make all da booky stuff in all da timez."
