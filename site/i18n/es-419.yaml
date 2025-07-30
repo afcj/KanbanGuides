@@ -312,6 +312,18 @@
 - id: guide_back_to_home
   translation: "← Volver al Inicio"
 
+- id: guide_historical_version_notice_title
+  translation: "Aviso de Versión Histórica:"
+
+- id: guide_historical_version_notice_text
+  translation: "Estás viendo la versión {{ .CurrentVersion }} de esta guía."
+
+- id: guide_historical_version_notice_link
+  translation: "Ver la versión más reciente ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "para obtener la información más actualizada."
+
 - id: not_sure_which_to_use_title
   translation: "¿No estás seguro cuál usar?"
 

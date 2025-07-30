@@ -315,6 +315,18 @@
 - id: guide_back_to_home
   translation: "← Backy to Bello House"
 
+- id: guide_historical_version_notice_title
+  translation: "Old Timey Booky Warning:"
+
+- id: guide_historical_version_notice_text
+  translation: "You peeky at old version {{ .CurrentVersion }} of dis booky."
+
+- id: guide_historical_version_notice_link
+  translation: "Looky newest booky ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "for fresh-fresh banana info."
+
 - id: not_sure_which_to_use_title
   translation: "Banana Confuse? Use Which??"
 
