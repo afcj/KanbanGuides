@@ -1,6 +1,6 @@
 ---
 # title: Open Guide to Kanban - In the Context of Knowledge Work
-title: オープン版カンバンガイド - ナレッジワーク向け
+title: オープン版カンバンガイド（ナレッジワーク向け）
 # short_title: Open Guide to Kanban
 short_title: オープン版カンバンガイド
 # description: The Open Guide to Kanban is a free, community-driven reference for applying Kanban in knowledge work. It defines the core practices, and metrics necessary to improve flow, optimise value delivery, and enhance team sustainability. This guide supports scalable Kanban implementations across diverse industries and complements other agile, lean, and flow-based approaches.

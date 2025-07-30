@@ -90,7 +90,7 @@
 
 - id: about_creators_title
   # translation: "About the creators of {{ .Site.Title }}"
-  translation: "{{ .Site.Title }}のクリエイターについて"
+  translation: "{{ .Site.Title }}の作成者について"
 
 - id: read_bio_button
   # translation: "Read {{ .Name }}'s bio"
@@ -194,15 +194,15 @@
 # Download page translations
 - id: download_page_title
   # translation: "Read & Download the official {{ .Title }}"
-  translation: "公式の{{ .Title }}を読む＆ダウンロード"
+  translation: "公式の{{ .Title }}を閲覧・ダウンロード"
 
 - id: download_page_description
   # translation: "{{ .Title }} is defined here by"
-  translation: "{{ .Title }}はここで定義されています"
+  translation: "ここで定義されている{{ .Title }}は"
 
 - id: download_page_originators
   # translation: ", the originators of the {{ .Title }}."
-  translation: "、{{ .Title }}のオリジネーターです。"
+  translation: "、{{ .Title }}の作成者によるものです。"
 
 - id: download_translations_provided
   # translation: "Translations provided by the generous individuals and groups listed below. Please select the guide in the language you would like to download."
@@ -226,7 +226,7 @@
 
 - id: download_older_translations_notice
   # translation: "Translations of the {{ .Site.Title }} with older dates may not contain the most recent information."
-  translation: "掲載日付が古い{{ .Site.Title }}の翻訳版は、最新の情報が含まれていない可能性があります。"
+  translation: "掲載日付が古い{{ .Site.Title }}の翻訳版では、最新の情報が含まれていない可能性があります。"
 
 - id: download_table_language
   # translation: "Language"
