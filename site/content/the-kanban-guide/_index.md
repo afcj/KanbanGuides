@@ -14,12 +14,18 @@ weight: 1
 guide_license: |
   This work is licensed by Orderly Disruption Limited and Daniel S. Vacanti, Inc. under a Creative Commons Attribution 4.0 International License.
 guide_comparison:
-  purpose: "Minimal, official reference"
-  ethos: "Focused, stable, canonical"
-  audience: "Kanban system members wanting a clear baseline"
-  use_case: "What is Kanban at its core?"
-  content: "Clear, lightweight, and essential"
-  update_model: "Periodic, curated"
+  - title: Purpose
+    content: "Minimal, official reference"
+  - title: Ethos
+    content: "Focused, stable, canonical"
+  - title: Audience
+    content: "Kanban system members wanting a clear baseline"
+  - title: Use Case
+    content: "What is Kanban at its core?"
+  - title: Content
+    content: "Clear, lightweight, and essential"
+  - title: Update Model
+    content: "Periodic, curated"
 which_to_use_summary: |
   Choose  [The Kanban Guide](/the-kanban-guide/latest) if you're new to Kanban or need a stable, minimal reference. It's ideal for Kanban system members who want to start simple and build understanding.
 layman_description: |

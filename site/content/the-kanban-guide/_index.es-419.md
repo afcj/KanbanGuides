@@ -10,12 +10,18 @@ guide_overview: |
   La [Guía de Kanban (2025)](/history/kanban-guide-2025/) es una referencia práctica y curada por la comunidad para usar Kanban en el trabajo del conocimiento.
 guide_logo: "open-guide-to-kanban-logo.png"
 guide_comparison:
-  purpose: "Referencia oficial y mínima"
-  ethos: "Enfocado, estable, canónico"
-  audience: "Miembros de sistemas Kanban que buscan una base clara"
-  use_case: "¿Qué es Kanban en su esencia?"
-  content: "Claro, ligero y esencial"
-  update_model: "Periódico y curado"
+  - title: Propósito
+    content: "Referencia oficial y minimalista"
+  - title: Ética
+    content: "Enfocado, estable, canónico"
+  - title: Audiencia
+    content: "Miembros del sistema Kanban que desean una base clara"
+  - title: Caso de uso
+    content: "¿Qué es Kanban en su esencia?"
+  - title: Contenido
+    content: "Claro, ligero y esencial"
+  - title: Modelo de actualización
+    content: "Actualizaciones periódicas y seleccionadas"
 which_to_use_summary: |
   Elige [La Guía de Kanban](/es-419/the-kanban-guide/latest) si eres nuevo en Kanban o necesitas una referencia mínima y estable. Es ideal para miembros de sistemas Kanban que quieren comenzar de forma sencilla y construir entendimiento.
 layman_description: |
