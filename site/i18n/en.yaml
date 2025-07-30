@@ -140,6 +140,12 @@
 - id: download_preview_status
   translation: "In Preview"
 
+- id: download_reference_status
+  translation: "Reference"
+
+- id: download_pdf_only_status
+  translation: "PDF Only"
+
 - id: download_preview_action
   translation: "Preview"
 
