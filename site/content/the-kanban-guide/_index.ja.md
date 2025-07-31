@@ -20,13 +20,13 @@ guide_license: |
 guide_comparison:
   - title: 目的
     content: "最小限な公式リファレンス"
-  - title: エトス
+  - title: 価値基準
     content: "明確な焦点があり、安定していて、規範的"
   - title: 対象読者
     content: "明確な基準を望むカンバンシステムメンバー"
-  - title: ユースケース
+  - title: 利用例
     content: "カンバンの本質とは何か？"
-  - title: 内容
+  - title: コンテンツ
     content: "明確、軽量で、基本に忠実"
   - title: 更新モデル
     content: "定期的で厳選した更新"
