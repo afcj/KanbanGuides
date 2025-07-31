@@ -179,9 +179,21 @@
   # translation: "Status"
   translation: "ステータス"
 
+- id: download_table_contributed_by
+  # translation: "Contributed By"
+  translation: "貢献者"
+
 - id: download_preview_status
   # translation: "In Preview"
   translation: "プレビュー中"
+
+- id: download_reference_status
+  # translation: "Reference"
+  translation: "参考"
+
+- id: download_pdf_only_status
+  # translation: "PDF Only"
+  translation: "PDFのみ"
 
 - id: download_preview_action
   # translation: "Preview"
@@ -272,6 +284,10 @@
   # translation: "Community Contributors"
   translation: "コミュニティの貢献者"
 
+- id: contributors_label
+  # translation: "Contributors"
+  translation: "貢献者"
+
 - id: contributors_description
   # translation: "The contributors listed below are a collection of all contributors across all guides and versions."
   translation: "以下の貢献者は、すべてのガイドとバージョンにわたる貢献者の集合です。"
@@ -352,8 +368,8 @@
   translation: "PDF (英語)"
 
 - id: guide_pdf_en_us
-  translation: "PDF (EN-US)"
-  translation: "PDF (英語 - 米国)"
+  # translation: "PDF (EN-US)"
+  translation: "PDF (英語-米国)"
 
 - id: guide_pdf_en_not_available
   # translation: "PDF (EN) not available"
@@ -361,7 +377,7 @@
 
 - id: guide_pdf_en_us_not_available
   # translation: "PDF (EN-US) not available"
-  translation: "PDF (英語 - 米国) は利用できません"
+  translation: "PDF (英語-米国) は利用できません"
 
 - id: guide_coming_label
   # translation: "Coming:"
@@ -403,6 +419,22 @@
   # translation: "← Back to Home"
   translation: "← ホームに戻る"
 
+- id: guide_historical_version_notice_title
+  # translation: "Historical Version Notice:"
+  translation: "過去バージョン履歴に関する注意事項:"
+
+- id: guide_historical_version_notice_text
+  # translation: "You are viewing version {{ .CurrentVersion }} of this guide."
+  translation: "あなたは、このガイドの{{ .CurrentVersion }}版を閲覧しています。"
+
+- id: guide_historical_version_notice_link
+  # translation: "View the latest version ({{ .LatestVersion }})"
+  translation: "最新バージョン（{{ .LatestVersion }}）を閲覧"
+
+- id: guide_historical_version_notice_suffix
+  # translation: "for the most up-to-date information."
+  translation: "し、最新の情報を得るためにご利用ください。"
+
 - id: not_sure_which_to_use_title
   # translation: "Not Sure Which to Use?"
   translation: "どれを使うか迷っていますか？"
@@ -434,7 +466,7 @@
 
 - id: use_case_title
   # translation: "Use Case"
-  translation: "使用例"
+  translation: "利用例"
 
 - id: content_title
   # translation: "Content"
@@ -621,3 +653,14 @@
   # translation: "View Archive"
   translation: "アーカイブを見る"
 
+- id: guide_version_current
+  # translation: "Current"
+  translation: "現行"
+
+- id: guide_version_dropdown_label
+  # translation: "Select version"
+  translation: "バージョンを選択"
+
+- id: guide_version_latest
+  # translation: "Latest"
+  translation: "最新"
