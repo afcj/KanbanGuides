@@ -1,6 +1,6 @@
 ---
-title: Kanban Guide (May 2025)
-description: This document aims to be a unifying reference for the community by offering the minimal guidance for Kanban. Depending on the context, various approaches can complement Kanban, allowing it to accommodate the full spectrum of value delivery and organizational challenges.
+title: The Kanban Guide (May 2025)
+description: The Kanban Guide is the official, minimal reference for Kanban. Clear, stable, and focused, it defines the core practices and principles for managing flow and improving delivery across industries.
 date: 2025-05-01T09:00:00Z
 version: 2025.5
 keywords:
