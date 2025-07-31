@@ -23,13 +23,13 @@ guide_license: |
 guide_comparison:
   - title: 目的
     content: "コミュニティによって拡張されたハンドブック" 
-  - title: エトス
+  - title: 価値基準
     content: "包摂性があり、進化的で、コラボレーションによって成り立つ"
   - title: 対象読者
     content: "カンバンを他のアプローチと組み合わせて活用しているチーム"
-  - title: ユースケース
+  - title: 利用例
     content: "*自分たちの*状況においてカンバンをどう適用するか？"
-  - title: 内容
+  - title: コンテンツ
     content: "豊富な具体例と拡張情報"
   - title: 更新モデル
     content: "コミュニティ主体で反復的な更新"
