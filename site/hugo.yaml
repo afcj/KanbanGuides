@@ -53,9 +53,9 @@ params:
   og_image: /images/open-guide-to-kanban-logo-512.png
   siteProdUrl: https://kanbanguides.org
   supportEmail: support@kanbanguides.org
-  githubUrl: https://github.com/KanbanGuides/KanbanGuides
+  githubUrl: https://github.com/KanbanGuides/KanbanGuides/
   previewSiteUrl: https://red-pond-0d8225910-preview.centralus.2.azurestaticapps.net/
-  productionSiteUrl: https://kanbanguides.org/
+  productionSiteUrl: https://kanbanguides.org
   brand:
     bg_colour: '#135289'
   logo_image: "/images/kanban-guides-logo-dark.png" # URL to the site logo image

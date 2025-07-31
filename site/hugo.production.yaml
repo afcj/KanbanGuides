@@ -17,5 +17,5 @@ languages:
   es-419:
     disabled: true
   ja:
-    disabled: true
+    disabled: false
 

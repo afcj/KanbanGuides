@@ -23,6 +23,19 @@
 - id: translations_button
   translation: "Peek-a-boo Languages"
 
+- id: translators_label
+  translation: "talky-translaters"
+
+- id: guide_translation_preview_note
+  translation: "Banana Peek-a-boo:"
+
+- id: guide_translation_preview_message
+  translation: "Dis guide iz banana peek, no all done-done or right-right. You help? Join da blabla!"
+
+- id: guide_preview_link
+  translation: "You help check banana words?"
+
+
 - id: history_title
   translation: "Old Timey Time"
 
