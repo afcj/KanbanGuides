@@ -20,8 +20,19 @@
 - id: translations_description
   translation: "Accede a esta guía en múltiples idiomas y ayuda con las traducciones."
 
+
 - id: translations_button
   translation: "Ver Traducciones"
+
+- id: guide_translation_preview_note
+  translation: "Vista previa de la traducción:"
+
+- id: guide_translation_preview_message
+  translation: "Esta guía es una vista previa de la traducción y puede no estar completamente terminada o ser precisa. Por favor, ayúdanos a revisarla y mejorarla, únete a la conversación."
+
+- id: guide_preview_link
+  translation: "Ayúdanos a revisar esta traducción"
+
 
 - id: history_title
   translation: "Historia"

@@ -23,6 +23,15 @@
 - id: translations_button
   translation: "View Translations"
 
+- id: guide_translation_preview_note
+  translation: "Translation Preview:"
+
+- id: guide_translation_preview_message
+  translation: "This guide is a translation preview and may not be fully complete or accurate. Please help us review and improve it, join the discussion."
+  
+- id: guide_preview_link
+  translation: "Help us review this translation"
+
 - id: history_title
   translation: "History"
 

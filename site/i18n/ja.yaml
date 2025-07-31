@@ -32,6 +32,16 @@
   # translation: "View Translations"
   translation: "翻訳版を閲覧する"
 
+- id: guide_translation_preview_note
+  translation: "翻訳プレビュー："
+
+- id: guide_translation_preview_message
+  translation: "このガイドは翻訳のプレビューであり、完全または正確でない可能性があります。レビューと改善にご協力ください。議論に参加しましょう。"
+
+- id: guide_preview_link
+  translation: "この翻訳のレビューにご協力ください"
+
+
 - id: history_title
   # translation: "History"
   translation: "履歴"
