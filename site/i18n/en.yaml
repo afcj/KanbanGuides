@@ -20,6 +20,9 @@
 - id: translations_description
   translation: "Access this guide in multiple languages and help with translations."
 
+- id: translators_label
+  translation: "Translators"
+
 - id: translations_button
   translation: "View Translations"
 

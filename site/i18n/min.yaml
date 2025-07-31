@@ -23,6 +23,9 @@
 - id: translations_button
   translation: "Peek-a-boo Languages"
 
+- id: translators_label
+  translation: "talky-translaters"
+
 - id: guide_translation_preview_note
   translation: "Banana Peek-a-boo:"
 

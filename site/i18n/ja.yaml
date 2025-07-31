@@ -32,6 +32,9 @@
   # translation: "View Translations"
   translation: "翻訳版を閲覧する"
 
+- id: translators_label
+  translation: "翻訳者"
+
 - id: guide_translation_preview_note
   translation: "翻訳プレビュー："
 
