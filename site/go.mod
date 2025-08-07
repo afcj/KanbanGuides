@@ -1,4 +1,4 @@
-module github.com/ScrumGuides/ScrumGuide-ExpansionPack/site
+module github.com/KanbanGuides/KanbanGuides/site
 
 go 1.24.5
 
