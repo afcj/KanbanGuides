@@ -1,7 +1,7 @@
 ---
 title: Guía Kanban (mayo de 2025)
 description: Este documento pretende ser una referencia unificadora para la comunidad, que ofrece la orientación mínima sobre Kanban. Dependiendo del contexto, varios enfoques pueden complementar Kanban, lo que le permite acomodar todo el espectro de entrega de valor y desafíos organizacionales.
-date: 2025-05-01T09:00:00Z
+date: 2025-08-01T09:00:00Z
 version: 2025.5
 keywords:
   - Kanban
@@ -27,7 +27,7 @@ aliases:
 
 Mayo 2025
 
-Este documento pretende ser una referencia unificadora para la comunidad ofreciendo la orientación mínima para Kanban. Dependiendo del contexto, varios enfoques pueden complementar Kanban, lo que le permite acomodar todo el espectro de entrega de valor y desafíos organizacionales.
+Este documento pretende ser una referencia unificadora para la comunidad, que ofrece  la orientación mínima sobre Kanban. Dependiendo del contexto, varios enfoques pueden complementar Kanban, lo que le permite acomodar todo el espectro de entrega de valor y desafíos organizacionales.
 
 Esta guía contiene convenciones para algunos términos. No pretenden sustituir a otras definiciones existentes, sino aclarar cómo deben aplicarse aquí.
 
@@ -35,9 +35,9 @@ Esta guía contiene convenciones para algunos términos. No pretenden sustituir 
 
 **Kanban o sistema Kanban**: El conjunto holístico de conceptos de esta guía (específicamente en lo que se refiere al trabajo del conocimiento).
 
-**Stakeholder**: Entidad, individuo o grupo responsable, interesado en o afectado por las entradas, actividades y resultados del sistema Kanban.
+**Stakeholder**: Entidad, individuo o grupo responsable, interesado en (o afectado por) las entradas, actividades y resultados del sistema Kanban.
 
-**Valor**: Beneficio obtenido o potencial para un stakeholder. Algunos ejemplos incluyen satisfacer las necesidades del cliente, del usuario final, de la organización y del entorno.
+**Valor**: Beneficio real o potencial para un stakeholder. Algunos ejemplos incluyen satisfacer las necesidades del cliente, del usuario final, de la organización y del entorno.
 
 **Visualizar, visualización**: Cualquier método para transmitir ideas de forma efectiva, incluyendo aclaraciones conceptuales, y no necesariamente solo medios visuales.
 
@@ -52,7 +52,7 @@ Commons, la cual puede consultarse en <http://creativecommons.org/licenses/by-sa
 
 Kanban es una estrategia para optimizar el flujo de valor a través de un proceso. Comprende las siguientes tres prácticas, que funcionan de manera complementaria:
 
-- Definición y visualización del flujo de trabajo.
+- Definición y visualización de un flujo de trabajo.
 - Gestión activa de los elementos en un flujo de trabajo.
 - Mejora del flujo de trabajo.
 
@@ -72,7 +72,7 @@ Dado que Kanban puede funcionar con prácticamente cualquier flujo de trabajo, s
 
 ## Teoría de Kanban
 
-Kanban se fundamenta en la teoría de flujo, la cual abarca pero no se limita a conceptos como: el pensamiento sistémico, los principios lean, la teoría de colas (incluyendo el tamaño de lote y el tamaño de cola), la variabilidad y el control de calidad. La mejora continua, basada en estas teorías, de un sistema Kanban, es una forma en que las organizaciones pueden intentar optimizar la entrega de valor.
+Kanban se fundamenta en la teoría de flujo, la cual abarcan, entre otros, el pensamiento sistémico, los principios lean, la teoría de colas (incluyendo el tamaño de lote y el tamaño de cola), la variabilidad y el control de calidad. La mejora continua, basada en estas teorías, de un sistema Kanban, es una forma en que las organizaciones pueden intentar optimizar la entrega de valor.
 
 Muchos enfoques orientados al valor comparten la teoría en la que se basa Kanban. Debido a estas similitudes, Kanban puede y debe ser utilizado para potenciar esas técnicas de entrega.
 
@@ -80,24 +80,24 @@ Muchos enfoques orientados al valor comparten la teoría en la que se basa Kanba
 
 ### Definición y Visualización del Flujo de Trabajo
 
-Optimizar el flujo requiere definir lo que significa flujo en un contexto dado. La comprensión explícita y compartida del flujo entre los miembros del sistema Kanban dentro de su contexto se denomina Definición del Flujo de Trabajo (DoW, por su acrónimo inglés). La DoW es un concepto fundamental de Kanban. Todos los demás elementos de esta guía dependen en gran medida de cómo se define el flujo de trabajo.
+Optimizar el flujo requiere definir lo que significa flujo en un contexto dado. La comprensión explícita y compartida del flujo entre los miembros del sistema Kanban dentro de su contexto se denomina Definición del Flujo de Trabajo (DoW, por su acrónimo inglés). La DoW es un concepto fundamental de Kanban. Todos los demás componentes de esta guía dependen en gran medida de cómo se define el flujo de trabajo.
 
-Como mínimo, los miembros deben crear su DoW utilizando todos los siguientes elementos:
+Como mínimo, los miembros del sistema Kanban deben crear su DoW utilizando todos los componentes siguientes:
 
 1. Una definición de las unidades individuales de valor que se mueven a través del flujo de trabajo. Estas unidades de valor se denominan elementos de trabajo (o elementos).
 2. Una definición de cuándo se consideran iniciados y finalizados los elementos de trabajo dentro del flujo de trabajo. Dependiendo del elemento de trabajo, su flujo de trabajo puede tener más de un punto de inicio o finalización.
 3. Uno o más estados definidos por los que fluyen los elementos de trabajo desde que son iniciados hasta que son finalizados. Cualquier elemento de trabajo entre un punto de inicio y un punto de finalización se considera trabajo en curso (en adelante WIP, por su acrónimo inglés).
 4. Una definición de cómo se controlará el WIP desde su inicio hasta su finalización.
 5. Políticas explícitas sobre cómo los elementos de trabajo pueden fluir a través de cada estado desde iniciado hasta finalizado.
-6. Una expectativa de nivel de servicio (ENS), que es un pronóstico del tiempo que debería tardar un elemento de trabajo en pasar de iniciado a finalizado. La propia ENS consta de dos partes: un periodo de tiempo transcurrido y una probabilidad asociada a ese periodo (p.ej. "el 85% de los elementos de trabajo estarán finalizados en ocho días o menos"). La ENS debe basarse en el tiempo de ciclo histórico y, una vez calculada, debe visualizarse en el DoW. Si no se dispone de datos históricos de tiempo de ciclo, bastará con hacer una estimación aproximada hasta que se disponga de datos históricos suficientes para calcular correctamente la ENS.
+6. Una expectativa de nivel de servicio (ENS), que es un pronóstico del tiempo que debería tardar un elemento de trabajo en pasar de iniciado a finalizado. La propia ENS consta de dos partes: un periodo de tiempo transcurrido y una probabilidad asociada a ese periodo (p.ej. "el 85% de los elementos de trabajo estarán finalizados en ocho días o menos"). La ENS debe basarse en el tiempo de ciclo histórico y, una vez calculada, debe visualizarse en la DoW. Si no se dispone de datos históricos de tiempo de ciclo, bastará con hacer una estimación aproximada hasta que se disponga de datos históricos suficientes para calcular correctamente la ENS.
 
-El orden en que se apliquen no es importante, siempre que se adopten todas.
+El orden en que se apliquen no es importante, siempre que se adopten todos.
 
-Dependiendo de las circunstancias del equipo, los miembros del sistema Kanban a menudo requieren elementos adicionales de la DoW, como valores, principios y acuerdos de trabajo. Las opciones varían, y hay recursos más allá de esta guía que pueden ayudar a decidir cuáles incorporar.
+Dependiendo de las circunstancias del equipo, los miembros del sistema Kanban a menudo requieren componentes adicionales a la DoW, como valores, principios y acuerdos de trabajo. Las opciones varían, y hay recursos más allá de esta guía que pueden ayudar a decidir cuáles incorporar.
 
-Los miembros del sistema Kanban a menudo también requieren de más de un DoW. Esos múltiples DoWs podrían ser para diversos grupos de miembros del sistema Kanban, diferentes niveles de la organización, etc. Aunque esta guía no prescribe un número mínimo o máximo de DoWs, anima a establecer una DoW allá donde los miembros del sistema Kanban necesiten conectar el flujo con la obtención de valor.
+Los miembros del sistema Kanban a menudo también requieren de más de una DoW. Esas múltiples DoWs podrían ser para diversos grupos de miembros del sistema Kanban, diferentes niveles de la organización, etc. Aunque esta guía no prescribe un número mínimo o máximo de DoWs, anima a establecer una DoW allá donde los miembros del sistema Kanban necesiten conectar el flujo con la obtención de valor.
 
-La visualización de un DoW es un tablero Kanban. Hacer transparentes al menos los elementos mínimos de la DoW en el tablero Kanban es esencial para procesar el conocimiento que informa sobre el funcionamiento óptimo del flujo de trabajo y facilita la mejora continua del proceso.
+La visualización de una DoW es un tablero Kanban. Hacer transparentes al menos los componentes mínimos de la DoW en el tablero Kanban es esencial para procesar el conocimiento que informa sobre el funcionamiento óptimo del flujo de trabajo y facilita la mejora continua del proceso.
 
 No hay normas específicas sobre el aspecto que debe tener una visualización. Se deben considerar todos los aspectos de la DoW (p.ej. elementos de trabajo, o políticas) junto con cualquier otro factor específico del contexto que pueda afectar a cómo fluye el valor. Los miembros del sistema Kanban solo están limitados por su imaginación respecto a cómo hacer transparente el flujo.
 
@@ -106,14 +106,14 @@ No hay normas específicas sobre el aspecto que debe tener una visualización. S
 Los elementos en el flujo de trabajo deben gestionarse activamente. La gestión activa de los elementos en un flujo de trabajo puede adoptar diversas formas, incluyendo, pero no limitándose a, las siguientes:
 
 - Control del WIP.
-- Garantizar que los elementos de trabajo no envejezcan innecesariamente, utilizando la ENS como referencia.
+- Asegurarse que los elementos de trabajo no envejezcan innecesariamente, utilizando la ENS como referencia.
 - Desbloquear los elementos de trabajo bloqueados.
 
 Una práctica habitual es que los miembros del sistema Kanban revisen periódicamente los elementos activos. Esta revisión puede realizarse de forma continua, a intervalos regulares, o mediante una combinación de ambas.
 
 Los miembros del sistema Kanban deben controlar explícitamente el número de elementos de trabajo dentro de un flujo de trabajo, desde su inicio hasta su finalización. Ese control puede representarse en un tablero Kanban de la forma que los miembros del sistema Kanban consideren oportuna. Lo ideal sería que el sistema no operase ni por encima ni por debajo del punto de control acordado.
 
-Un efecto de controlar el WIP es que debería crear un sistema pull; los miembros del sistema Kanban deben empezar a trabajar en un elemento (hacer pull, o seleccionar) sólo cuando haya una señal clara de que hay capacidad para hacerlo. Cuando el WIP cae por debajo del punto de control definido en el DoW, puede ser indicativo para seleccionar nuevo trabajo. Dada una parte del flujo de trabajo, los miembros del sistema Kanban deberían abstenerse de seleccionar un número de elementos de trabajo por encima del punto de control del WIP.
+Un efecto de controlar el WIP es que debería crear un sistema pull; los miembros del sistema Kanban deben empezar a trabajar en un elemento (hacer pull, o seleccionar) sólo cuando haya evidencia de que hay capacidad para hacerlo. Cuando el WIP cae por debajo del punto de control definido en la DoW, puede ser indicativo para seleccionar nuevo trabajo. Dada una parte del flujo de trabajo, los miembros del sistema Kanban deberían abstenerse de seleccionar un número de elementos de trabajo por encima del punto de control del WIP.
 
 Controlar el WIP favorece el flujo y a menudo mejora el enfoque colectivo, el compromiso y la colaboración de los miembros del sistema Kanban. Las excepciones aceptables al control del WIP deben explicitarse como parte de la DoW.
 
@@ -128,7 +128,7 @@ Es una práctica común revisar la DoW de vez en cuando para discutir e implemen
 La aplicación de Kanban requiere la recopilación y análisis de un conjunto mínimo de métricas de flujo. Estas son un reflejo de la salud y el rendimiento actuales del sistema Kanban, y ayudarán a tomar decisiones informadas sobre cómo se entrega valor. Las cuatro métricas de flujo obligatorias a monitorizar en Kanban son:
 
 - **WIP**: El número de elementos de trabajo iniciados pero no finalizados.
-- **Rendimiento**: El número de elementos de trabajo finalizados por unidad de tiempo. Ten en cuenta que la medida del rendimiento es el recuento exacto de elementos de trabajo.
+- **Rendimiento**: El número de elementos de trabajo finalizados por unidad de tiempo. Ten en cuenta que el rendimiento es el recuento exacto de elementos de trabajo.
 - **Edad del Elemento de Trabajo**: El tiempo transcurrido desde que un elemento de trabajo es iniciado hasta el momento actual.
 - **Tiempo de Ciclo**: El tiempo transcurrido desde que un elemento de trabajo es iniciado hasta que es finalizado.
 
@@ -160,7 +160,7 @@ Julia Wester, Colleen Johnson, Prateek Singh, Christian Neverdal, Magdalena Firl
 Con el fin de transmitir su intención, se añadieron convenciones para:
 
 - Kanban, sistema Kanban, stakeholder, valor, riesgo, visualizar, y visualización.
-- El valor obtenido puede ser para los stakeholders, incluyendo (sin limitarse a) los clientes.
+- El valor obtenido puede ser para los stakeholders, incluyendo entre otros a los clientes.
 - Una definición más sencilla de Kanban, específicamente en lo que se refiere al trabajo del conocimiento.
 - La Expectativa de Nivel de Servicio se trasladó a la sección Definición del Flujo de Trabajo.
 - Menos explícito (y por tanto más flexible) con respecto a cómo se controla el WIP.
@@ -178,7 +178,7 @@ Esta obra está licenciada por Orderly Disruption Limited y Daniel S. Vacanti, I
 
 La traducción de la versión 2025.05 ha sido realizada por:
 
-● Aitor Fdez-Ceballos [linkedin.com/in/aitorfcj/](https://www.linkedin.com/in/aitorfcj/) |
+● Aitor Fernández-Ceballos [linkedin.com/in/aitorfcj/](https://www.linkedin.com/in/aitorfcj/)
 
 De los párrafos sin cambios en la versión inglesa desde la versión 2020.12, algunos se han modificado ligeramente y otros se han mantenido tal cual la traducción original de:
 
@@ -188,7 +188,7 @@ De los párrafos sin cambios en la versión inglesa desde la versión 2020.12, a
 
 Revisada por:
 
-● Jose Casal | jose.casal@actineo.xyz | https://www.linkedin.com/in/jcasal/
+● Jose Casal | <jose.casal@actineo.xyz> | [https://www.linkedin.com/in/jcasal/](https://www.linkedin.com/in/jcasal/)
 
 ### Glosario y notas de la traducción
 
@@ -196,10 +196,10 @@ Revisada por:
 |--------------|--------------|--------------|
 | Edad del Elemento de Trabajo | Work Item Age |--------------|
 | Elemento de Trabajo | Work Item |--------------|
-| Expectativa de Nivel de Servicio (ENS) | Service Level Expectation (SLE) | Dado que no hay acrónimo y en español es habitual usar ANS para los Acuerdos de Nivel de Servicio se ha optado por traducir las siglas. |
+| Expectativa de Nivel de Servicio (ENS) | Service Level Expectation (SLE) |--------------|
 | Finalizado | Finished | A veces se ha empleado "finalización" para sonar más natural, aún cuando en inglés no cambia. |
 | Iniciado | Started | A veces se ha empleado "inicio" para sonar más natural, aún cuando en inglés no cambia. |
-| Obtenido / obtención | Realized / realization | Referido al Valor. |
+| Real / obtención | Realized / realization | Referido al Valor. |
 | Pronóstico | Forecast | Por mantener la traducción oficial de la Guía de Scrum. |
 | Pull | Pull | Antaño traducido indistintamente como Tracción o Arrastre, en las obras más recientes publicadas se mantiene el original Pull. |
 | Punto de control | (noun) Control | Se mantiene "control" como verbo y gerundio. |

@@ -29,7 +29,7 @@ author:
 date: 2025-07-02T09:00:00Z
 type: guide
 forked_from: the-kanban-guide/2025.5
-lang: en
+lang: es-ES
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
@@ -39,17 +39,17 @@ aliases:
   - /open-guide-to-kanban/latest/
 ---
 
-Esta obra, la Guía Abierta de Kanban, es una adaptación de la [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), cuya licencia está sujeta a la Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). La guía original es © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Changes were made to the original. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Portions highlighted in italic are © 2025_ Orderly Disruption Limited, licensed under CC BY-SA 4.0. All other content is from © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., also licensed under CC BY-SA 4.0.
+Esta obra, la Guía Abierta de Kanban, es una adaptación de la [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), cuya licencia está sujeta a la Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). La guía original es © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Se han introducido cambios en el original. Bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Las partes resaltadas en cursiva son © 2025_ Orderly Disruption Limited, bajo licencia CC BY-SA 4.0. El resto del contenido es © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., también bajo licencia CC BY-SA 4.0.
 
-## Preface
+## Prefacio
 
-This document aims to provide _open_ _and adaptable_ guidance for Kanban _and Flow, drawing on ideas curated from various communities_. _It aims to serve as a coherent reference for various communities in addition to their own content._ Depending on the context, various approaches can complement Kanban, allowing it to accommodate a range of Value delivery and organizational challenges.
+Este documento pretende _proveer_ orientación _abierta y adaptable_ sobre Kanban _y Flujo, a partir de ideas procedentes de diversas comunidades_. _Su propósito es servir de referencia coherente para diversas comunidades como complemento para sus propios contenidos._ Dependiendo del contexto, varios enfoques pueden complementar Kanban, lo que le permite acomodar todo el espectro de entrega de valor y desafíos organizacionales.
 
-_The use of the italics font supports the Creative Commons adaptation notice on the cover page; italics are not for emphasis. The use of a capital letter at the start of a word indicates a convention listed in the appendix of this document, e.g., Value is either a potential or realized benefit for a Stakeholder, including meeting the needs of the customer, the end-user, the decision-maker, the organization, and the environment._
+_El uso de la letra cursiva respalda el aviso de adaptación de Creative Commons indicado en la portada; la cursiva no es para enfatizar. El uso de mayúsculas al principio de una palabra indica una convención que figura en el apéndice de este documento, p.ej., el Valor es un beneficio real o potencial para un Stakeholder, incluyendo la satisfacción de las necesidades del cliente, el usuario final, el responsable de la toma de decisiones, la organización y el entorno._
 
 ## Definición de Kanban en el Contexto del Trabajo del Conocimiento
 
-Kanban es una estrategia para optimizar el _Flujo de Valor_ a través de un _sistema_. _Es un mecanismo de señalización para reclamar Trabajo o inventario_. Comprende las siguientes tres prácticas, que funcionan de manera complementaria::
+Kanban es una estrategia para optimizar el _Flujo de Valor_ a través de un _sistema_. _Es un mecanismo de señalización para reclamar Trabajo o inventario_. Comprende las siguientes tres prácticas, que funcionan de manera complementaria:
 
 - Definición y _Visualización_ de un flujo de trabajo.
 - Gestión activa de los _Elementos_ en un flujo de trabajo.
@@ -57,268 +57,313 @@ Kanban es una estrategia para optimizar el _Flujo de Valor_ a través de un _sis
 
 En su implementación, estas prácticas Kanban se denominan colectivamente sistema Kanban. Los participantes en la entrega de valor de un sistema Kanban se denominan miembros del sistema Kanban.
 
-## Why Use Kanban?
+## ¿Por qué usar Kanban?
 
-Central to the _understanding_ of Kanban is the concept of _Flow_. _In a Kanban system, Flow_ is the movement of Value through that Kanban system. As most _Kanban_ workflows exist to optimize Value, the strategy of Kanban is to optimize Value by optimizing Flow, which means striving to find the right balance of effectiveness, efficiency, and predictability:
+El concepto de _Flujo_ es esencial para _entender_ Kanban. _En un sistema Kanban, el Flujo_ es el movimiento de _Valor_ potencial a través de _ese_ sistema _Kanban_. Dado que la mayoría de los flujos de trabajo _Kanban_ buscan optimizar el _Valor_, la estrategia de Kanban consiste en optimizar este Valor al mejorar el _Flujo, lo que_ significa esforzarse por encontrar el equilibrio adecuado entre eficacia, eficiencia y predictibilidad:
 
-- An effective workflow is one that delivers what stakeholders _desire,_ when they _desire_ it.
-- An efficient workflow allocates available _capacity_ optimally to deliver Value.
-- A predictable workflow means being able to _reasonably_ forecast Value delivery within an acceptable degree of uncertainty.
+- Un flujo de trabajo eficaz entrega lo que los stakeholders _desean_, cuando ellos lo _desean_.
+- Un flujo de trabajo eficiente asigna _la capacidad disponible_ de la forma más óptima posible, para entregar Valor.
+- Un flujo de trabajo predecible es capaz de pronosticar _razonablemente_ la entrega de Valor, con un margen de incertidumbre aceptable.
 
-The strategy of _a_ Kanban _system_ is to _enable_ Kanban system members to ask the right questions sooner as part of a continuous improvement effort in pursuit of these goals. Kanban system members should aim for a sustainable balance among these three elements. _Kanban is also a way to reduce overburden (excessive workload) and to manage demand so that Work is delivered optimally given the available capacity. It is not perfect, but it should foster constant improvement and an optimized Flow of Value._
+La estrategia de _un sistema Kanban_ consiste en _posibilitar_ que los miembros del sistema Kanban se hagan las preguntas adecuadas de forma más temprana, como parte de un esfuerzo de mejora continua en pos de estos objetivos. Los miembros del sistema Kanban deben buscar un equilibrio sostenible entre estos tres componentes. _Kanban es también una forma de reducir la sobrecarga (excesiva carga de trabajo) y de gestionar la demanda para que el Trabajo se entregue de forma óptima dada la capacidad disponible. No es perfecto, pero debería fomentar la mejora continua y un Flujo de Valor optimizado._
 
-_Side benefits are happier Kanban system members, higher quality, and the ability to adapt to demand. A good Kanban system is self-regulating, i.e., the Kanban system signals and adjusts to issues without intervention._
+_Los beneficios colaterales son miembros del sistema Kanban más felices, mayor calidad, y facilidad de adaptación a la demanda. Un buen sistema Kanban se autorregula, p.ej. el sistema Kanban evidencia y se ajusta a los problemas sin intervención._
 
-Because Kanban _can_ _Visualize_ virtually any workflow, its application is not limited to any specific industry or context. Professional Knowledge Workers in finance, utilities, healthcare, and software (to name a few), have benefited from Kanban practices. Kanban in most contexts where Value is delivered.
+Dado que Kanban puede _Visualizar_ prácticamente cualquier flujo de trabajo, su aplicación no se limita a ningún sector o contexto específico. Profesionales del conocimiento en áreas como finanzas, servicios públicos, sanidad y software (por mencionar algunas) se han beneficiado de las prácticas de Kanban. Kanban puede utilizarse a cualquier escala y en la mayoría de contextos en que hay entrega de valor.
 
-## Kanban Theory
+## Teoría de Kanban
 
-_The Kanban system_ draws on _various approaches and understanding_ including, but not limited to, systems thinking _(5)_, lean principles _(4)_, queuing theory (batch size _(6-7)_ and queue size _(1,13-14)_), variation _(2,11)_, and quality control _(2,8,10)_. Continually improving a Kanban system based on these approaches and understanding is one way organizations can attempt to optimize the delivery of Value. Many existing \_Value\_-oriented approaches share the _ideas_ upon which Kanban is based. Because of these similarities, Kanban can be used to augment those delivery approaches.
+_El sistema Kanban_ se fundamenta en _varios enfoques y conocimientos_ que abarcan, entre otros, el pensamiento sistémico _(5)_, los principios lean _(4)_, la teoría de colas (tamaño de lote _(6-7)_ y tamaño de cola _(1,13-14)_), la variabilidad _(2,11)_, y el control de calidad _(2,8,10)_. La mejora continua, basada en estas teorías, de un sistema Kanban, es una forma en que las organizaciones pueden intentar optimizar la entrega de _Valor_. Muchos enfoques orientados al _Valor_ comparten las _ideas_ en la que se basa Kanban. Debido a estas similitudes, Kanban puede y debe ser utilizado para potenciar esas técnicas de entrega.
 
-## Kanban Practices
+## Prácticas de Kanban
 
-### Defining and Visualizing the Workflow
+### Definición y Visualización del Flujo de Trabajo
 
-Optimizing _Flow_ requires defining what _Flow_ _of Value_ means in a given context, _the (ideally) smooth movement and delivery of potential or (ideally) realized benefits for Stakeholders_. The explicit shared understanding of Flow among Kanban system members within their context is called a Definition of Workflow. _Definition of Workflow_ is a fundamental concept of Kanban. All other elements of this guide depend heavily on how workflow is defined.
+Optimizar el _Flujo_ requiere definir lo que significa _Flujo de Valor_ en un contexto dado, _el movimiento (idealmente) fluido y entrega de beneficios potenciales o (idealmente) reales a los Stakeholders_. La comprensión explícita y compartida del _Flujo_ entre los miembros del sistema Kanban dentro de su contexto se denomina Definición del Flujo de Trabajo (DoW, por su acrónimo inglés). La _Definición del Flujo de Trabajo_ es un concepto fundamental de Kanban. Todos los demás componentes de esta guía dependen en gran medida de cómo se define el flujo de trabajo.
 
-_To inform optimal workflow operation and facilitate continuous improvement, at a minimum_, Kanban system members must create their _Definition of Workflow_ using all of the following elements:
+_Para informar sobre el funcionamiento óptimo del flujo de trabajo y facilitar la mejora continua,_ como mínimo, los miembros del sistema Kanban deben crear su _Definición del Flujo de Trabajo_ utilizando todos los componentes siguientes:
 
-1. A definition of the individual units of Value that are moving through the workflow, referred to as _Work Items (or Items)_.
-2. _Depending on the Work Item, for at least one coherent ‘started’ and ‘finished’ point pair:_
-   - [ ] One or more defined states that the _Work Items_ _Flow_ through from ‘started’ to ‘finished.’
-   - [ ] _Work Items_ between the ‘started’ and ‘finished’ points, even if waiting in a Queue or Buffer, are considered:
-     - _‘Started but Not Finished Work’ (SNFW) or_
-     - _Work in Progress_/_Process_ (WIP).
-   - [ ] A definition of how WIP will be controlled from ‘started’ to ‘finished.’
-   - [ ] _A set of_ Explicit policies about how _Work Items_ can _Flow_ through each state from ‘started’ to ‘finished’ _defect-free_. _For example, Kanban system members might have a policy that is explicit about fixing any known defects in an Item before moving it to the next state, so that no known defect is passed to a subsequent process._
-   - [ ] A _Service Level Expectation_ (SLE): A forecast of how long it should take a _Work Item_ to _Flow_ from ‘started’ to ‘finished.’ _Note that there is no guarantee that what happened in the past will happen in the future._
-   - [ ] A _Visualization_ of the _Service Level Expectation_ on the Kanban board.
+1. Una definición de las unidades individuales de _Valor_ que se mueven a través del flujo de trabajo. Estas unidades de valor se denominan _Elementos de Trabajo (o Elementos)_.
+2. _En función del Elemento de Trabajo, para al menos un par coherente de puntos de ‘inicio’ y ‘finalización’:_
+   - [ ] Uno o más estados definidos por los que _Fluyen_ los _Elementos de Trabajo_ desde que son ‘iniciados’ hasta que son ‘finalizados’.
+   - [ ] Los _Elementos de Trabajo_ entre los puntos de ‘inicio’ y ‘finalización’, incluso aquellos esperando en una Cola o Búfer, se consideran:
+     - _‘Trabajo Iniciado pero No Finalizado’ (TINoF) o_
+     - _Trabajo en Curso_/_Proceso_ (WIP, por su acrónimo inglés).
+   - [ ] Una definición de cómo se controlará el WIP desde su ‘inicio’ hasta su ‘finalización’.
+   - [ ] _Un conjunto de_ políticas explícitas sobre cómo los Elementos de Trabajo pueden fluir a través de cada estado desde ‘iniciado’ hasta ‘finalizado’ _libres de defectos_. _Por ejemplo, los miembros del sistema Kanban podrían tener una política explícita sobre la corrección de cualquier defecto conocido en un Elemento antes de moverlo al siguiente estado, de modo que ningún defecto conocido se transfiera a un proceso posterior._
+   - [ ] Una _Expectativa de Nivel de Servicio_ (ENS): un pronóstico del tiempo que debería tardar un _Elemento de Trabajo_ en _Fluir_ desde ‘iniciado’ hasta ‘finalizado’. _Ten en cuenta que nada garantiza que lo ocurrido en el pasado ocurra en el futuro._
+   - [ ] Una _Visualización_ de la _Expectativa de Nivel de Servicio_ en el tablero Kanban.
 
-The order in which these elements are implemented is not important as long as they are all _implemented_. Kanban system members often require additional _Definition of Workflow_ elements, such as values, principles, and working agreements, depending on the _circumstances of the_ Kanban system _members_. _There are resources in the appendix of this guide and elsewhere to help decide on appropriate options_.
+El orden en que se apliquen no es importante, siempre que se _implementen_ todos. Dependiendo de las _circunstancias de los miembros del sistema Kanban, estos_ a menudo requieren componentes adicionales a la _Definición de Flujo de Trabajo_, como valores, principios y acuerdos de trabajo. _Existen recursos en el apéndice de esta guía, y otros lugares, para ayudar a escoger opciones adecuadas_.
 
-Kanban system members also often require more than one _Definition of Workflow_. Those multiple _Definitions of Workflow_ could be for multiple groups of Kanban system members, different levels of the organization, etc. While this guide prescribes no minimum or maximum number of _Definitions of Workflow_, it encourages establishing a _Definition of Workflow_ wherever the Kanban system members require connecting _Flow_ to _Value_.
+Los miembros del sistema Kanban a menudo también requieren de más de una _Definición de Flujo de Trabajo_. Esas múltiples _Definiciones de Flujo de Trabajo_ podrían ser para diferentes grupos de miembros del sistema Kanban, diversos niveles de la organización, etc. Aunque esta guía no prescribe un número mínimo o máximo de _Definiciones de Flujo de Trabajo_, anima a establecer una _Definición de Flujo de Trabajo_ allá donde los miembros del sistema Kanban necesiten conectar _Flujo con Valor_.
 
-_Enabling Flow is the act of fostering a smooth and balanced system to create Value. The Definition of Workflow should ensure that the system is balanced to optimize the Flow of Value. Kanban system members accomplish this by improving how they validate that Value was delivered, and eliminating Work that fails to deliver Value._
+_Habilitar el Flujo es el acto de fomentar un sistema fluido y equilibrado para crear Valor. La Definición de Flujo de Trabajo debería garantizar de que el sistema esté equilibrado para optimizar el Flujo de Valor. Los miembros del sistema Kanban consiguen esto mejorando el cómo validan la entrega de Valor, y eliminando el Trabajo que no aporta Valor._
 
-The _Visualization_ of one _or more_ _Definitions of Workflow_ is _described as_ a Kanban board. There are no specific guidelines for how a _Visualization_ should look. Consideration should be given to all aspects of a _Definition of Workflow_ (e.g., _Work Items_, policies) along with any other context-specific factors that may affect how Value _Flows_.
+La _Visualización_ de una _o más_ _Definiciones de Flujo de Trabajo se describe como_ un tablero Kanban. No hay normas específicas sobre el aspecto que debe tener una _Visualización_. Se deben considerar todos los aspectos de la _Definición de Flujo de Trabajo_ (p.ej. _Elementos de Trabajo_, políticas) junto con cualquier otro factor específico del contexto que pueda afectar a cómo _Fluye_ el _Valor_.
 
-_In a software team, Kanban might Visualize feature development from idea to deployment. In a marketing team, it might track a campaign from design to launch._
+_En un equipo de software, Kanban puede visualizar el desarrollo de una funcionalidad desde la idea hasta su despliegue. En un equipo de marketing, podría seguir una campaña desde el diseño hasta el lanzamiento._
 
-Kanban system members are limited only by their imagination regarding how they make _Flow_ _visible and how they foster purposeful and intentional interactions with the right people at the right time_. _It is recommended to Visualize each step in a workflow to prevent waste from remaining hidden._
+Los miembros del sistema Kanban solo están limitados por su imaginación respecto a cómo hacer _visible el Flujo y cómo fomentar interacciones con intención y propósito, con las personas adecuadas, en el momento oportuno. Se recomienda Visualizar cada paso del flujo de trabajo para evitar encubrir el desperdicio._
 
-### Actively Managing Items in a Workflow
+### Gestión Activa de los Elementos en un Flujo de Trabajo
 
-Items in the workflow must be actively managed. _Active management of Items in a workflow can take several forms, including, but not limited to, the following:_
+Los _Elementos_ en el flujo de trabajo deben gestionarse activamente. La gestión activa de los _Elementos_ en un flujo de trabajo puede adoptar diversas formas, incluidas, entre otras, las siguientes:
 
-- _Control_ ‘_Started but Not Finished Work’ (SNFW) or Work In Progress/Process (WIP)_.
-- _Ensure_ _Work Items_ do not age unnecessarily, using the _Service Level Expectation_ as a reference.
-- _Resolve impediments that are causing blocked Work or blocked processes_.
+- _Controlar el ‘Trabajo Iniciado pero No Finalizado’ (TINoF) o Trabajo en Curso/Proceso (WIP)_.
+- _Asegurarse que los Elementos de Trabajo_ no envejezcan innecesariamente, utilizando la _Expectativa de Nivel de Servicio_ como referencia.
+- _Resolver los impedimentos que están causando Trabajo bloqueado o procesos bloqueados_.
 
-A common practice is for Kanban system members to review the active _Items_ _on a regular basis_. This review can occur continuously or at regular intervals. Kanban system members must explicitly control the number of _Work Items_ in a workflow from ‘started’ to ‘finished,’ directly or indirectly. That control can be represented on a Kanban board in any way that _Kanban system_ members deem appropriate.
+Una práctica habitual es que los miembros del sistema Kanban revisen _de forma regular_ los _Elementos_ activos. Esta revisión puede realizarse de forma continua o a intervalos regulares. Los miembros del sistema Kanban deben controlar explícitamente el número de _Elementos de Trabajo_ dentro de un flujo de trabajo, desde su ‘inicio’ hasta su ‘finalización’, _directa o indirectamente_. Ese control puede representarse en un tablero Kanban de la forma que los miembros del sistema Kanban consideren oportuna.
 
-_The use of WIP limits (16) in Kanban for Knowledge Work typically indicates that demand can exceed the team’s capacity, so WIP limits (16) are used to regulate and balance the Flow of Work Items and prevent overload._
+_El uso de límites WIP (16) en Kanban para el Trabajo del Conocimiento suele indicar que la demanda puede exceder la capacidad del equipo, por lo que los límites WIP (16) se utilizan para regular y equilibrar el Flujo de Elementos de Trabajo y evitar la sobrecarga._
 
-_In contrast, a Toyota just-in-time (JIT) pull system prevents demand from exceeding supply, as subsequent requests will not be serviced until the previous one has been fulfilled—a self-limiting or self-regulating system designed to synchronize production with actual customer demand and minimize inventory in a stable, predictable manufacturing environment._
+_Por el contrario, el sistema pull de Toyota just-in-time (JIT, justo-a-tiempo) evita que la demanda exceda la oferta, ya que las solicitudes posteriores no se atienden hasta que se ha cumplido la anterior: un sistema autolimitado o autorregulado diseñado para sincronizar la producción con la demanda real del cliente y minimizar el inventario en un entorno de fabricación estable y predecible._
 
-_Making only what is needed just-in-time is the cornerstone of the Toyota Production System. The Kanban system in the Toyota Production System pulls exactly what is needed when it is needed._
+_Fabricar sólo lo que se necesita justo-a-tiempo es la piedra angular del Sistema de Producción Toyota. El sistema Kanban del Sistema de Producción Toyota hace pull exactamente de lo que se necesita cuando se necesita._
 
-For Knowledge Work, Kanban system members should start Work on (_select_) an Item only when there is a clear signal that there is capacity to do so. When WIP drops below the control set in the _Definition of Workflow_, that can be a signal to select new work. Kanban system members should refrain from selecting more _Work_ into a given part of the workflow _beyond the relevant WIP control(s)_ _or selecting Work greater than their capacity. When needed, the Work should be split into smaller yet still potentially valuable Items._
+_Para Trabajo del Conocimiento,_ los miembros del sistema Kanban deben empezar a _Trabajar_ en un _Elemento_ (seleccionar) sólo cuando haya evidencia de que hay capacidad para hacerlo. Cuando el WIP cae por debajo del punto de control establecido en la _Definición de Flujo de Trabajo_, puede ser indicativo para seleccionar nuevo trabajo. Los miembros del sistema Kanban deberían abstenerse de seleccionar más _Trabajo_ en una parte dada del flujo de trabajo _sobrepasando el(los) punto(s) de control del WIP pertinente(s), o de seleccionar Trabajo por encima de su capacidad. Cuando sea necesario, el Trabajo debería dividirse en Elementos más pequeños pero aún potencialmente valiosos._
 
-_There is no requirement to have a repository of Work Items that are not yet Work In Progress/Process, often referred to as a backlog. A backlog is emergent and can include various stages or aspects of Work preparation. If there is one, there is no need for it to be in a list format or sequenced._
+_No es necesario disponer de un repositorio de los Elementos de Trabajo que aún no están En Curso/Proceso, lo que se conoce como pila (backlog en inglés). Una pila va emergiendo y puede incluir diferentes etapas o aspectos de la preparación del Trabajo. Si existe, no es necesario que esté en formato de lista ni secuenciada._
 
-_Ideally, Work should enter the Kanban system guided by policies rather than being assigned to an individual. In the pursuit of managing idle work, not idle people:_
+_Lo ideal es que el trabajo entre en el sistema Kanban guiado por políticas en lugar de ser asignado a un individuo. En busca de gestionar el trabajo inactivo, no las personas inactivas:_
 
-- _The Kanban system members should self-organize around the Work and Definition of Workflow._
-- _Kanban system members should ‘start’ Work when they are ready to work on it, bringing in new Work based on how it is being prioritized._
-- _Kanban system members––and others outside the Kanban system––should explicitly prevent Work from being pushed to Kanban system members._
-- _Beware of re-prioritization of ‘Started but Not Finished Work’ (SNFW) or_  
-  _Work In Progress/Process (WIP), as it causes those Items to age (sit idle)_  
-  _and leads to longer or less predictable Elapsed Times from ‘Started’ to ‘Finished.’_
+- _Los miembros del sistema Kanban deben autoorganizarse en torno al Trabajo y la Definición del Flujo de Trabajo._
+- _Los miembros del sistema Kanban deben ‘iniciar’ Trabajo cuando estén preparados para trabajar en él, incorporando Trabajo nuevo en función de su prioridad._
+- _Los miembros del sistema Kanban (y otros ajenos al sistema Kanban) deben evitar explícitamente que se haga push del Trabajo a los miembros del sistema Kanban._
+- _Cuidado con repriorizar ‘Trabajo Iniciado pero No Finalizado’ (TINoF) o_  
+  _Trabajo en Curso/Proceso (WIP), ya que eso hace que dichos Elementos envejezcan (permanezcan inactivos)_  
+  _y conduce a Tiempos transcurridos de ‘Iniciado’ a ‘Finalizado’ más largos o menos predecibles._
 
-_Rightsizing, an optional but recommended practice, refers to assessing whether Work Items fit the Service Level Expectation, or are too big for the Service Level Expectation and therefore require splitting into smaller but still potentially valuable Work Items._
+_Justitalla, una práctica opcional pero recomendada, se refiere a evaluar si los Elementos de Trabajo se ajustan a la Expectativa de Nivel de Servicio, o son demasiado grandes para la Expectativa de Nivel de Servicio y por lo tanto requieren ser divididos en Elementos de Trabajo más pequeños pero aún potencialmente valiosos._
 
-_Rightsizing, in a Knowledge Work context, is based on the assumption that Work Items need to be at or under a maximum size (according to the Kanban system members) but do not necessarily need to be the same size. If a Work Item is so large that it can’t be completed within a reasonable time (e.g., it would break the Service Level Expectation), even after starting it, Kanban system members should consider splitting it into smaller Items that each have the potential to deliver Value. Equally, Work Items can be merged._
+_Justitalla, en un contexto de Trabajo del Conocimiento, se basa en el supuesto de que los Elementos de Trabajo deben tener un tamaño igual o inferior a un máximo (acordado por los miembros del sistema Kanban), pero no necesariamente ser del mismo tamaño. Si un Elemento de Trabajo es tan grande que no puede completarse en un plazo razonable (p.ej. si rompiera la Expectativa de Nivel de Servicio), incluso después de iniciarlo, los miembros del sistema Kanban deberían considerar dividirlo en Elementos más pequeños con potencial de aportar Valor. Del mismo modo, los Elementos de Trabajo pueden juntarse._
 
-_Capacity management often requires more than WIP control._ Controlling WIP helps _Flow_ and often improves the collective focus, commitment, and collaboration _of the Kanban system members_. Any acceptable exceptions to controlling WIP should be _explicitly stated_ as part of the _Definition of Workflow_.
+_La gestión de la capacidad a menudo requiere de algo más que control del WIP._ Controlar el WIP favorece el _Flujo_ y a menudo mejora el enfoque colectivo, el compromiso y la colaboración de los miembros del sistema Kanban. Las excepciones aceptables al control del WIP deben _declararse explícitamente_ como parte de la _Definición de Flujo de Trabajo_.
 
-### Improving _Flow_
+### Mejorar el _Flujo_
 
-Given an explicit Definition of Workflow, it is the Kanban system members’ responsibility to continuously improve their _Flow_ _by_ _achieving_ a better balance of effectiveness, efficiency, and predictability. Continual study of the system can guide potential improvements. _Kanban system members often review_ the _Definition of Workflow_ to discuss and _adopt_ _needed_ changes.
+Dada una Definición explícita del Flujo de Trabajo, la responsabilidad de los miembros del sistema Kanban es mejorar continuamente su _Flujo logrando_ un mejor equilibrio entre eficacia, eficiencia y predictibilidad. El estudio continuo del sistema puede conducir a potenciales mejoras. _Los miembros del sistema Kanban revisan a menudo_ la _Definición de Flujo de Trabajo_ para discutir y _adoptar_ los cambios _necesarios_.
 
-_Improvements are_ _often_ _just-in-time_. _Improvements are not limited by their size or scope. Sometimes, improvement is beyond the control or influence of Kanban system members. Purposeful and intentional interactions, cultivating change, and removing Blockers at all levels are key to improvement._
+_Las mejoras suelen hacerse en su preciso momento. Las mejoras no están limitadas por su tamaño o alcance. A veces, la mejora escapa al control o la influencia de los miembros del sistema Kanban. Las interacciones con intención y propósito, la promoción de cambios, y la eliminación Bloqueos a todos los niveles son claves para la mejora._
 
-_Better still, people who demonstrate leadership, also known as leaders, Go See, Listen, and really understand to collect the facts to inform decision-making. This is known as Genchi Genbutsu. Leaders do Genchi Genbutsu so often that the truth emerges. Knowledge of what to do is one thing, but purposeful, relentless, iterative, compassionate action toward improvement (incl. shorter feedback loops) is another._
+_Mejor aún, las personas que demuestran liderazgo, también conocidas como líderes, Van a Ver por si mismos, Escuchan, y entienden de verdad la necesidad de recopilar hechos que fundamenten la toma de decisiones. Es lo que se conoce como Genchi Genbutsu. Los líderes hacen Genchi Genbutsu tan a menudo que la verdad emerge. Saber lo que hay que hacer es una cosa, pero una acción deliberada, firme, iterativa y vehemente para mejorar (incluido ciclos de retroalimentación más cortos) es otra._
 
-_Kanban favors evolutionary change, but it does not prohibit larger, structural changes, informed by evidence and a clear understanding of the system. Changes should be purposeful and context-driven._
+_Kanban favorece el cambio evolutivo, pero no prohíbe cambios estructurales de mayor envergadura, basados en evidencias y en una comprensión clara del sistema. Los cambios deben tener un propósito y estar impulsados por el contexto._
 
-## Inform Flow Optimization with Appropriate Measures or Metrics
+## Optimización de Flujo Basada en Medidas o Métricas Adecuadas
 
-- **Blocked Elapsed Time for Finished Items (BETFI):** The cumulative time for a single ‘finished’ Work Item (or a selection of ‘finished’ Items) spends in a blocked condition from ‘started’ to ‘finished,’ but not in a Queue or Buffer state. \[measure for a single Item, metric for multiple Items\]
+- **Tiempo transcurrido Bloqueado para Elementos Finalizados (TiBEF):** El tiempo acumulado que un único Elemento de Trabajo ‘finalizado’ (o una selección de Elementos ‘finalizados’) pasa en una condición bloqueada desde ‘iniciado’ hasta ‘finalizado,’ pero no en estado de Cola o Búfer. \[medida para un único Elemento, métrica para varios Elementos\]
 
-> [!FOOTNOTE]
-> The Definition of Workflow should include a policy for defining Blockers (in context) and signaling them.
+> [!NOTA]
+> La Definición del Flujo de Trabajo debe incluir una política para definir qué es un Bloqueo (en su contexto) y cómo marcarlos.
 
-- **_Cumulative Queueing or Buffer Time (CQBT):_** _The cumulative time a ‘finished’ single Work Item (or a selection of ‘finished’ Items) spends in Queueing or Buffer states from ‘started’ to ‘finished.’ \[measure for a single Work Item, metric for multiple Work Items\]_
-- **_Elapsed Time from ‘Started’ to ‘Finished’ (ETSF):_** The (typically _rounded-up) number of elapsed time units (often calendar days) from_ when a single _Work Item_ ‘started’ _to_ when a _Work Item_ ‘finished.’ _Only ‘finished’ Items get ETSFs. \[measure\]_
-- **Flow Distribution:** The Visualization and analysis of Work Item types ‘finished’ or ‘completed’ over time, enabling active management to ensure a healthy balance of effort. \[metric\]
+- **_Tiempo Acumulado en Búfer o Encolado (TABE):_** _El tiempo acumulado que un único Elemento de Trabajo ‘finalizado’ (o una selección de Elementos ‘finalizados’) pasa en estado de Cola o Búfer desde ‘iniciado’ hasta ‘finalizado’. \[medida para un único Elemento, métrica para varios Elementos\]_
+- **_Tiempo transcurrido de ‘Iniciado’ a ‘Finalizado’ (TIF):_** El número (normalmente _redondeado) de unidades de tiempo transcurridas (a menudo días naturales) desde_ el momento en que un _Elemento de Trabajo_ es ‘iniciado’ _hasta su_ ‘finalización.’ _Solo los Elementos ‘finalizados’ tienen TIF. \[medida\]_
+- **Distribución del Flujo:** La Visualización y el análisis de los tipos de Elementos de Trabajo ‘finalizados’ o ‘completados’ a lo largo del tiempo, permitiendo la gestión activa para garantizar un equilibrio adecuado del esfuerzo. \[métrica\]
 
-> [!FOOTNOTE] 
-> The Definition of Workflow should clearly define any Queue and Buffer states.
+> [!NOTA]
+> La Definición del Flujo de Trabajo debe definir claramente cualquier estado Encolado y en Búfer.
 
-**_Flow Efficiency:_** The ratio of active working time to the total time an Item or a selection of Items spends in the workflow, including waiting times, between the ‘started’ and ‘finished’ points on a Definition of Workflow. _It is expressed as a percentage. It can be misleading, as time spent in active states may not be actual active time. ((ETSF-(CQBT+other non-value-adding time))/ETSF) 100\. \[metric\] Example of other non-value-adding time: Blocked Elapsed Time for Finished Items_
-- **Number of Blockers:** The number of impediments, partial or complete, at a given point in time (usually current datetime), to the Flow of Work Items from ‘started’ to ‘finished.’ \[measure\]
-- **Process Cycle Efficiency:** Measures the Work efficiency of a system or its parts. It is calculated by dividing Value-adding time by Time to Market and then multiplying by 100 to get a percentage. This means Kanban system members have to measure all Value-adding and all non-Value-adding time (including, but not limited to, waiting time). ((T2M-(CQBT+other non-value-adding time))/T2M) 100\. \[metric\]
-- **_Service Level Expectation:_** A forecast of how long it should take a _Work Item_ to Flow from ‘started’ to ‘finished.’ The _Service Level Expectation_ itself has two parts: a period of elapsed time and a probability associated with that period (e.g., ‘85% of _Work Items_ will be ‘finished’ in eight days or less’). _It is based on a selection of Elapsed Time from ‘Started’ to ‘Finished’ from all history, a subset of history, or if data does not exist or is insufficient, an educated guess. \[metric\]_
-- **‘Started but Not Finished Work’ (SNFW)** or **Work In Progress/Process (WIP)** _or **Flow Load**_: _The_ number of _Work Items_ ‘started’ but not ‘finished’. _\[measure\]_
-- **Throughput:** The number of _Work Items_ ‘finished’ per unit of time. The measurement of throughput is the exact count of _Work Items_, _not revenue. \[metric\]_
-- **Time to Market, also known as Customer Lead Time:** The (typically rounded-up) number of elapsed time units (often calendar days/weeks) from when a Stakeholder’s order for a single Work Item was received to when the Work Item was delivered to the Stakeholder. It is one example of an ETSF. \[measure for a single Work Item, metric for a product or service\]
-- **Total Work Item Age (TWIA)** or **Total Elapsed Time for ‘Started’ but Not ‘Finished’ Items (TETSNFI)** **:** The total elapsed time from when all in-progress (‘started’ but not ‘finished’) Work Items ‘started’ to a specified datetime, usually the current datetime. \[metric\]
-- **Work Item Age (WIA)** or **_Elapsed Time for ‘Started’ but Not ‘Finished’ Items(ETSNFI)_** : The (typically _rounded-up) number of elapsed time units (often calendar days)_ _from_ _the datetime a single ‘not finished’ Work Item_ ‘started’ _to_ _a specified datetime, usually the current datetime. By acting on relatively older Items, feedback loops can be shortened, and Flow improves. \[measure\]_s
+- **_Eficiencia de Flujo:_** La relación entre el tiempo de trabajo activo y el tiempo total que un Elemento o una selección de Elementos pasan dentro del flujo de trabajo entre los puntos de ‘iniciado’ y ‘finalizado’ de una Definición del Flujo de Trabajo, incluyendo los tiempos de espera. _Se expresa en porcentaje. Puede resultar engañoso, ya que el tiempo transcurrido en estados activos puede no corresponderse con tiempo activo real. ((TIF - (TABE + otros tiempos sin-valor-añadido)) / TIF) · 100\. \[métrica\] Un ejemplo de otros tiempos sin-valor-añadido sería el Tiempo transcurrido Bloqueado para Elementos Finalizados_
+- **Número de Bloqueos:** El número de impedimentos, parciales o totales, en un momento dado (normalmente el actual), sobre el Flujo de los Elementos de Trabajo desde ‘iniciado’ hasta ‘finalizado’. \[medida\]
+- **Eficiencia de Ciclo del Proceso:** Mide la eficiencia del Trabajo de un sistema o sus partes. Se calcula dividiendo el tiempo añadiendo Valor entre el Tiempo de Lanzamiento y multiplicándolo por 100 para obtener un porcentaje. Esto significa que los miembros del sistema Kanban tienen que medir todo el tiempo que añade Valor y todo el tiempo que no lo añade (incluido, entre otros, el tiempo de espera). ((TL-(TABE+ otros tiempos sin-valor-añadido))/TL) · 100\. \[métrica\]
+- **_Expectativa de Nivel de Servicio:_** Un pronóstico del tiempo que debería tardar un _Elemento de Trabajo_ en Fluir de ‘iniciado’ a ‘finalizado’. La _Expectativa de Nivel de Servicio_ consta de dos partes: un periodo de tiempo transcurrido y una probabilidad asociada a ese periodo (p.ej. “el 85% de los Elementos de Trabajo estarán ‘finalizados’ en ocho días o menos”). _Se basa en el histórico completo de Tiempos Transcurridos de ‘iniciado’ a ‘finalizado’, en un subconjunto del histórico, o si los datos no existen o son insuficientes, en una conjetura informada. \[métrica\]_
+- **‘Trabajo Iniciado pero No Finalizado’ (TINoF)** o **Trabajo en Curso/Proceso (WIP)** _o **Carga de Flujo**_: _El_ número de _Elementos de Trabajo_ ‘iniciados’ pero no ‘finalizados’. _\[medida\]_
+- **Rendimiento:** El número de _Elementos de Trabajo_ ‘finalizados’ por unidad de tiempo. La medida del rendimiento es el recuento exacto de _Elementos de Trabajo_, _no los ingresos. \[métrica\]_
+- **Tiempo de Lanzamiento, también conocido como Tiempo de Entrega a Cliente:** El número (normalmente redondeado) de unidades de tiempo transcurridas (a menudo días/semanas naturales) desde que se recibe la solicitud de un Stakeholder para un único Elemento de Trabajo hasta que el Elemento de Trabajo se entrega al Stakeholder. Es un ejemplo de TIF. \[medida para un único Elemento de Trabajo, métrica para un producto o servicio\]
+- **Edad Total de los Elementos de Trabajo (TWIA, por su acrónimo inglés)** o **Tiempo Total transcurrido para Elementos ‘Iniciados’ pero No ‘Finalizados’ (TTEINoF)** **:** El tiempo total transcurrido desde que todos los Elementos de Trabajo en curso (‘iniciados’ pero no ‘finalizados’) se ‘iniciaron’ hasta un momento especificado, normalmente el actual. \[métrica\]
+- **Edad de los Elementos de Trabajo (WIA, por su acrónimo inglés)** o **_Tiempo transcurrido para Elementos ‘Iniciados’ pero no ‘Finalizados’ (TEINoF)_** : El _número_ (normalmente _redondeado) de unidades de tiempo transcurrido (a menudo días naturales)_ _desde_ _el momento que un único Elemento de Trabajo ‘no finalizado’_ se ‘inició’ _hasta_ _un momento especificado, normalmente el actual. Al actuar sobre los Elementos relativamente más antiguos, se pueden acortar los ciclos de retroalimentación y el Flujo mejora. \[medida\]_
 
-The _Flow_ metrics _and measures_ apply to the appropriate ‘started’ and ‘finished’ points established by the Kanban system members in their _Definition of Workflow_. _If there are multiple sets of ‘started’ and ‘finished’ points, some flow metrics and measures are often applied to each ‘started’ and ‘finished’ pair._
+Las métricas de _Flujo_ _y las medidas_ se aplican a los correspondientes puntos de ‘inicio’ y ‘finalización’ establecidos por los miembros del sistema Kanban en su _Definición de Flujo de Trabajo_. _Si hay múltiples conjuntos de puntos de ‘inicio’ y ‘finalización’, suelen aplicarse varias métricas de flujo y medidas a cada par de ‘inicio’ y ‘finalización’._
 
-_**If Kanban system members are unsure where to start, this guide suggests:**_
+_**Si los miembros del sistema Kanban no están seguros de por dónde empezar, esta guía sugiere:**_
 
-_Time to Market, and for each coherent ‘started’ and ‘finished’ pair:_
+_Tiempo de Lanzamiento, y para cada par coherente de ‘iniciado’ y ‘finalizado’:_
 
-- _A Service Level Expectation (required for at least one ‘started’ and ‘finished’ pair),_
-- _Work Item Age or Elapsed Time for ‘Started’ but Not ‘Finished’ Items (ETSNFI),_
-- _Elapsed Time from ‘Started’ to ‘Finished’ (ETSF), and_
-- _Throughput._
+- _Una Expectativa de Nivel de Servicio (requerida para al menos un par de ‘inicio’ y ‘finalización’),_
+- _Edad de los Elementos de Trabajo o Tiempo transcurrido para Elementos ‘Iniciados’ pero no ‘Finalizados’ (TEINoF),_
+- _Tiempo transcurrido de ‘Iniciado’ a ‘Finalizado’ (TIF), y_
+- _Rendimiento._
 
-Provided that Kanban system members use _Flow_ metrics _and measures_ as described in this guide, _and they are appropriate for the context,_ they can refer to any of them by other names. It is up to the Kanban system members to decide how best to _use_ these _Flow_ metrics _and measures, such as Visualizing them in charts or assessing variation. A proactive focus on outcomes, impact, and Value is recommended._
+Siempre que los miembros del sistema Kanban utilicen estas métricas _de Flujo_ _y medidas_ tal y como se describen en esta guía, _y sea apropiado para el contexto,_ pueden referirse a cualquiera de estas utilizando cualquier otro nombre que elijan. Corresponde a los miembros del sistema Kanban decidir la mejor manera de _usar_ estas métricas _de Flujo_ _y medidas, así como Visualizarlas en gráficos o evaluar la variación. Se recomienda un enfoque proactivo en resultados, impacto y Valor._
 
-### _Outcomes, Impact, and Value_
+### _Resultados, Impacto y Valor_
 
-_Kanban system members should regularly look for evidence of outcomes/impact, e.g.:_
+_Los miembros del sistema Kanban deberían buscar evidencias de resultados/impacto regularmente, p.ej.:_
 
-- _Customer outcomes could focus on delivering measurable Value to customers, e.g., reduced Failure Demand, customer long-term cost reduction, or addressed customer jobs (18)._
-- _User outcomes could address specific changes in user behavior that solve problems or improve experiences, e.g., ‘completing’ Work Items more effectively at the lowest costs, or better usability._
-- _Product Stakeholder outcomes could connect these behavioral changes to product performance metrics, such as trends in product customer adoption, retention, and convergence, as well as trends in feature adoption, decision-maker and user metrics, and product Time to Market._
-- _Business Stakeholder Impact, e.g., compliance, business long-term cost reduction, business results, trends in market share, customer satisfaction across all products, etc._
-- _Outcomes for Kanban system members such as improved capability, considering for example, psychological flow (15), frequency of release, tooling, skills, technical debt, user experience (UX) debt, customer experience (CX) debt, human-centered-design debt, technical domain capability, market domain capability, business domain capability, and a climate/culture for net improvement._
+- _Los resultados para el cliente podrían centrarse en la entrega de Valor cuantificable a cliente, p.ej. Demanda por Fallos reducida, reducción de costes a largo plazo para el cliente, o trabajos del cliente abordados (18)._
+- _Los resultados para el usuario podrían abordar cambios específicos en el comportamiento del usuario que resuelvan problemas o mejoren la experiencia, p.ej. ‘completando’ eficazmente Elementos de Trabajo al menor coste, o mejor usabilidad._
+- _Los resultados de los Stakeholders del producto podrían conectar esos cambios de comportamiento con métricas de rendimiento de producto, como tendencias en la adopción, retención y convergencia de clientes del producto, así como las tendencias en la adopción de funcionalidades, métricas de usuarios y de quienes tomen las decisiones, y el Tiempo de Lanzamiento del producto._
+- _Impacto en el negocio de los Stakeholder, p.ej. cumplimiento, reducción de costes del negocio a largo plazo, resultados empresariales, tendencias en la cuota de mercado, satisfacción del cliente en el conjunto de los productos, etc._
+- _Resultados para los miembros del sistema Kanban, tales como un incremento de la capacidad, teniendo en cuenta por ejemplo, el estado de flujo psicológico (15), la frecuencia de despliegue, las herramientas, las habilidades, la deuda técnica, la deuda de experiencia de usuario (UX en inglés), la deuda de experiencia de cliente (CX en inglés), la deuda de diseño centrado en el usuario (human-centered-design en inglés), la capacidad de dominio técnico, la capacidad de dominio del mercado, la capacidad de dominio del negocio, y un clima/cultura para la mejora neta._
 
-Any of the above approaches can be useful. Also, consider the following:
+Cualquiera de los enfoques anteriores puede ser de utilidad. Considera además lo siguiente:
 
-- **Failure Demand** (17)**:** Demand caused by a failure to do something or do something right for the customer. It is a signal for potential improvement. It highlights where capacity is being wasted due to previous failures, poor Work, or bad decisions. For example, a customer support team may receive repeated calls due to unclear billing instructions. \[metric\]
-- **Time to Validated Value, also known as Time to Value or Time to Outcome:** The _rounded-up number of elapsed time units (often calendar days/weeks) from when a Stakeholder’s order for a Work Item was received to when Value was validated. It is one example of an ETSF focusing on valuable and measurable outcomes. \[measure\]_
-- **Value Validated:** A Work Item that reaches the ‘finished’ point and delivers the intended Value to the Stakeholder (including, but not limited to, customer or user), meeting explicit policies, e.g., quality or experience standards. Often includes evidence and observations.
-- **Value Invalidated:** A Work Item that reaches the ‘finished’ point or is evaluated but fails to deliver the intended Value, not meeting expectations defined in the Definition of Workflow, often requiring rework or rejection, informed by evidence and observations. Consider the context.
+- **Demanda por Fallos** (17)**:** Demanda generada por no hacer algo por el cliente o no hacerlo bien. Es un indicador de mejora potencial. Pone de manifiesto dónde se está desperdiciando capacidad debido a errores previos, Trabajo deficiente o malas decisiones. Por ejemplo, un equipo de atención al cliente que recibe llamadas reiteradas debido a instrucciones de facturación poco claras. \[métrica\]
+- **Tiempo hasta la Validación de Valor, también conocido como Tiempo hasta el Valor o Tiempo hasta el Resultado:** El _número redondeado de unidades de tiempo transcurridas (a menudo días/semanas naturales) desde que se recibió la petición de un Stakeholder para un Elemento de Trabajo hasta que el Valor es validado. Es un ejemplo de TIF centrado en resultados valiosos y medibles. \[medida\]_
+- **Valor Validado:** Un Elemento de Trabajo que alcanza el punto de ‘finalizado’ y entrega el Valor esperado al Stakeholder (incluidos, entre otros, el cliente o el usuario), respetando las políticas explícitas, p.ej. estándares de calidad o experiencia. A menudo incluye evidencias y observaciones.
+- **Valor Invalidado:** Un Elemento de Trabajo que alcanza el punto de ‘finalizado’ o es evaluado pero no aporta el Valor esperado, incumpliendo las expectativas definidas en la Definición del Flujo de Trabajo, a menudo requiriendo de retrabajo o rechazo, en base a evidencias y observaciones. Considera el contexto.
 
-_By measuring these kinds of outcomes, impacts, Value metrics, and Value measures, Kanban system members ensure they’re not just delivering Work quickly (outputs), but delivering real Value and improvements (outcomes and impacts) to Stakeholders, including but not limited to customers and users._
+_Al medir estos tipos de resultados, impacto, métricas de Valor y medidas de Valor, los miembros del sistema Kanban se aseguran de que no sólo están entregando Trabajo rápidamente (entregables), sino aportando Valor real y mejoras (resultados e impacto) a los Stakeholders, incluidos, entre otros, a clientes y usuarios._
 
-_Clarity and understanding of Work Items should happen just-in-time to avoid waste._ Avoid excessive focus on outputs and insufficient focus on outcomes. _Kanban system members should proactively, intentionally, purposefully, and regularly review the metrics or measures and continually improve them._
+_La aclaración y comprensión de los Elementos de Trabajo debe producirse en el momento oportuno para evitar desperdicios._ Evitar centrarse demasiado en los entregables y poco en los resultados. _Los miembros del sistema Kanban deberían revisar las métricas o medidas de forma proactiva, intencionada, deliberada y regular, y mejorarlas continuamente._
 
-## Endnote
+## Apostilla
 
-_Only the Kanban Practices, the minimum criteria Definition of Workflow, and a selection of metrics or measures are mandatory; everything else is optional._ _Consider the context. Kanban system members should foster the humane Flow of Value._
+_Sólo son obligatorias las Prácticas Kanban, los criterios mínimos de la Definición del Flujo de Trabajo, y una selección de métricas o medidas; todo lo demás es opcional._ _Considera el contexto. Los miembros del sistema Kanban deben fomentar el Flujo de Valor humano._
 
-_Feedback from results (‘result feedback’) refers to the data that comes back after changes are made, whether it’s quantitative or qualitative information about outcomes, impacts, or even shifts in the market environment. This feedback can influence Stakeholder Value outcomes, as well as the inputs, effort, resources, or costs involved going forward. (Note: People are not ‘resources.’)._
+_La retroalimentación a partir de los resultados se refiere a los datos que se obtienen una vez realizados los cambios, ya sea información cuantitativa o cualitativa sobre los resultados, el impacto o incluso cambios en el entorno del mercado. Esta información puede influir en los resultados de Valor para los Stakeholder, así como en las entradas, el esfuerzo, los recursos o los costes venideros. (Nota: Las personas no son ‘recursos’)._
 
-_In practice, Kanban is a journey of ongoing learning and adaptation. By starting with these core practices and continuously improving, Kanban system members can sustainably achieve better Flow of Value. Kanban system members should start simple and evolve their Kanban system as they learn._
+_En la práctica, Kanban es un viaje de aprendizaje y adaptación continua. Comenzando con estas prácticas básicas y mejorando continuamente, los miembros del sistema Kanban pueden alcanzar de forma sostenible un mejor Flujo de Valor. Los miembros del sistema Kanban deben empezar de forma sencilla e ir evolucionando su sistema Kanban a medida que aprenden._
 
-## History of Kanban
+## Historia de Kanban
 
-The present state of Kanban can be traced to the Toyota Production System (and its antecedents) and the work of people such as Taiichi Ohno _(9)_. The collective set of practices for Knowledge Work, now commonly referred to as _Kanban (12),_ mainly originated on a team at Corbis in 2006. Those practices quickly spread to encompass a large and diverse international community that has continued to enhance and evolve the approach.
+El origen del actual Kanban se remonta al Sistema de Producción Toyota (y sus antecedentes) y al trabajo de personas como Taiichi Ohno _(9)_. El conjunto colectivo de prácticas para el trabajo del conocimiento, ahora comúnmente denominado _Kanban (12),_ se originó principalmente en un equipo de Corbis en 2006. Esas prácticas se extendieron rápidamente para abarcar una comunidad internacional amplia y diversa que ha seguido mejorando y evolucionando el enfoque.
 
-## Acknowledgments
+## Agradecimientos
 
-_People acknowledged here do not necessarily agree with what is written in this document, and that is ok. Nevertheless, the Open Guide to Kanban owes a massive debt of gratitude to:_
+_Las personas aquí reconocidas no están necesariamente de acuerdo con lo que está escrito en este documento, y eso está bien. No obstante, la Guía Abierta de Kanban tiene una enorme deuda de gratitud con:_
 
-- All who helped to develop Kanban, including those who preferred not to be named
-- _Kanban Guide July 2020 or December 2020 version reviewers: Jean-Paul Bayley, Jose Casal, Colleen Johnson, Todd Miller, Eric Naiburg, Steve Porter, Ryan Ripley, Dave West, Julia Wester, Yuval Yeret, and Deborah Zanke_
-- _Kanban Guide May 2025 version reviewers:_ Magdalena Firlit, Tom Gilb, Colleen Johnson, Christian Neverdal, Prateek Singh, Steve Tendon, and Julia Wester
-- _Open Guide to Kanban reviewers: Jim Benson, Andy Carmichael, Jose Casal, Magdalena Firlit, Michael Forni, Martin Hinshelwood, Christian Neverdal, Nader Talai, Steve Tendon, and Nigel Thurlow_
-- _Influences: Russell L. Ackoff, Jim Benson, Andy Carmichael, Emily Coleman, John Cutler, W. Edwards Deming, Dominica DeGrandis, Tom Gilb, Joseph M. Juran, Siegfried Kaltenecker, Henrik Kniberg, Klaus Leopold, John Little, Troy Magennis, Taiichi Ohno, Donald G. Reinersten, Sam L. Savage, Walter Shewhart, Nader Talai, Steve Tendon, Nigel Thurlow, and Donald J. Wheeler._
+- Todos los que ayudaron a desarrollar Kanban, incluidos los que prefirieron no ser nombrados
+- _Los revisores de las versiones de julio 2020 o diciembre 2020 de Kanban Guide: Jean-Paul Bayley, Jose Casal, Colleen Johnson, Todd Miller, Eric Naiburg, Steve Porter, Ryan Ripley, Dave West, Julia Wester, Yuval Yeret, and Deborah Zanke_
+- _Los revisores de la versión de Mayo de 2025 de Kanban Guide:_ Magdalena Firlit, Tom Gilb, Colleen Johnson, Christian Neverdal, Prateek Singh, Steve Tendon, and Julia Wester
+- _Los revisores de Open Guide to Kanban: Jim Benson, Andy Carmichael, Jose Casal, Magdalena Firlit, Michael Forni, Martin Hinshelwood, Christian Neverdal, Nader Talai, Steve Tendon, and Nigel Thurlow_
+- _Influencias: Russell L. Ackoff, Jim Benson, Andy Carmichael, Emily Coleman, John Cutler, W. Edwards Deming, Dominica DeGrandis, Tom Gilb, Joseph M. Juran, Siegfried Kaltenecker, Henrik Kniberg, Klaus Leopold, John Little, Troy Magennis, Taiichi Ohno, Donald G. Reinersten, Sam L. Savage, Walter Shewhart, Nader Talai, Steve Tendon, Nigel Thurlow, and Donald J. Wheeler._
 
-## Appendix
+## Apéndice
 
-### Controlling Work In Progress/Process = Controlling ‘Started but not Finished Work’
+### Controlando el Trabajo en Curso/Proceso = Controlando el ‘Trabajo Iniciado pero No Finalizado’
 
-Control of _‘Started but not Finished Work’, also referred to as_ WIP control, can be represented on a Kanban board in any way that _Kanban system_ members deem appropriate, including, but not limited to, painter’s tape spots, Total Work Item Age or Total Elapsed Time for ‘Started’ but Not Finished Items (TETSNFI), queue controls, WIP control numbers, or WIP control ranges.
+El control del _‘Trabajo Iniciado pero No Finalizado’, también conocido como_ control del WIP, puede representarse en un tablero Kanban de la forma que los miembros _del sistema Kanban_ consideren oportuna, incluidos, entre otros, marcas con cinta de carrocero, Edad Total de los Elementos de Trabajo o Tiempo Total transcurrido para Elementos ‘Iniciados’ pero No ‘Finalizados’ (TTEINoF), controles de cola, números de control de WIP, o rangos de control de WIP.
 
-_There are also some optional non-Kanban options, supported by some communities, such as CONWIP(16), Simplified DBR (16), or DBR(16):_
+_También existen algunas alternativas opcionales ajenas a Kanban, respaldadas por algunas comunidades, como por ejemplo CONWIP(16), DBR Simplificado (16), o DBR(16):_
 
-- **CONWIP (Constant Work In Progress/Process)** (16)**:** CONWIP is a pull system that maintains a fixed total ‘Started but Not Finished Work’ (SNFW) or Work In Progress/Process (WIP) limit across the entire workflow, ‘starting’ new Work only when a ‘finished’ or ‘completed’ Item exits, regulating Flow with a single system-wide constraint. Example: A software support team allows only 15 open tickets at any time; when a ticket is resolved, a new one can be ‘started.’ Not everyone supports it.
-- **DBR** (3,16)**:** An advanced approach that manages the Flow Constraint with Buffers before the Flow Constraint and at system outputs, maximizing Throughput while protecting against variability in complex systems. Example: In a product development group, UX review (primary Flow Constraint) sets the pace (drum) with a Buffer of designs before it, a secondary Buffer before legal approval prevents overload, and new Work is released only when both Buffers have capacity. Not everyone supports it.
-- **Flow Constraint** (16)**:** The bottleneck with the least capacity in the Definition of Workflow. There can be multiple bottlenecks (all with less capacity than what is required by the demand), and the Flow Constraint is the most limited one. It restricts the Kanban system’s overall Throughput, determining the pace at which Value is delivered. Example: In a software development team, if the testing takes the longest and limits the release of features, testing is the Flow Constraint that sets the system’s pace. In Knowledge Work, bottlenecks often exhibit turbulent behaviour and can move around the workflow in unpredictable ways. But sometimes bottlenecks are stubborn.
-- **Simplified DBR (Drum-Buffer-Rope)** (3,16)**:** A simplified scheduling method where the Kanban system’s Throughput sets the workflow pace, and Throughput acts as a replenishment signal like in CONWIP. Suppose there is a Kanban system using Simplified Drum-Buffer-Rope, and the Definition of Workflow is designed to handle up to 15 Items, with 12 actively in progress/process (drum) and a Buffer of 3 Items ready to start, ensuring Work continues smoothly if any of the 12 Items face issues by pulling from the Buffer, maintaining Flow with, for example, 13 in progress/process and 2 in reserve. The rope signals replenishment when an Item is delivered, keeping the total within the 15-Item limit, and the system prioritizes rebuilding the Buffer quickly if it is depleted, proactively resolving issues to sustain Flow. Not everyone supports it.
+- **CONWIP (acrónimo de Constant Trabajo En Curso/Proceso, Trabajo Constante En Curso/Proceso)** (16)**:** CONWIP es un sistema pull que mantiene un límite total fijo de ‘Trabajo Iniciado pero No Finalizado’ (TINoF) o Trabajo En Curso/Proceso (WIP) en todo el flujo de trabajo, ‘iniciando’ nuevo Trabajo únicamente cuando un Elemento ‘finalizado’ o ‘completado’ sale, regulando el Flujo con una única restricción para todo el sistema. Ejemplo: Un equipo de soporte de software sólo permite 15 tickets abiertos en cualquier momento; cuando se resuelve un ticket, puede ‘iniciarse’ uno nuevo. No todo el mundo apoya esta alternativa.
+- **DBR** (3,16)**:** Un enfoque avanzado que gestiona la Restricción del Flujo con Búferes previos a la Restricción del Flujo y en las salidas del sistema, maximizando el Rendimiento y al mismo tiempo protegiendo contra la variabilidad en sistemas complejos. Ejemplo: En un grupo de desarrollo de producto, la revisión de UX (Restricción del Flujo primaria) marca el ritmo (en inglés drum, tambor) con un Búfer de diseños previos, un Búfer secundario previo a la aprobación legal evita la sobrecarga, y el Trabajo nuevo solo se libera cuando ambos Búferes tienen capacidad. No todo el mundo apoya esta alternativa.
+- **Restricción del Flujo** (16)**:** El cuello de botella con menor capacidad de la Definición del Flujo de Trabajo. Puede haber múltiples cuellos de botella (todos con menos capacidad de la requerida por la demanda), y la Restricción del Flujo es el más limitante. Limita el Rendimiento global del sistema Kanban, determinando el ritmo al que se entrega el Valor. Ejemplo: En un equipo de desarrollo de software, si las pruebas llevan el mayor tiempo y limitan la entrega de funcionalidades, las pruebas son la Restricción del Flujo que marca el ritmo del sistema. En el Trabajo del Conocimiento, los cuellos de botella a menudo muestran comportamientos inesperados y pueden desplazarse por el flujo de trabajo de forma impredecible. Pero a veces los cuellos de botella son persistentes.
+- **DBR Simplificado (Drum-Buffer-Rope, Tambor-Búfer-Cuerda)** (3,16)**:** Un método de programación simplificado en el que el Rendimiento del sistema Kanban marca el ritmo del flujo de trabajo, y el Rendimiento actúa como indicador de reabastecimiento del mismo modo que en CONWIP. Supongamos que existe un sistema Kanban que utiliza Drum-Buffer-Rope Simplificado, y la Definición del Flujo de Trabajo está diseñada para gestionar hasta 15 Elementos: con 12 activamente en curso/proceso (drum) y un Búfer de 3 Elementos listos para comenzar, se asegura que el Trabajo continua ininterrumpidamente haciendo pull del Búfer en caso que alguno de los 12 Elementos encuentre problemas, manteniendo el Flujo con, por ejemplo, 13 en curso/proceso y 2 en reserva. La cuerda (rope) avisa para reabastecer cuando se entrega un Elemento, manteniendo el total dentro del límite de 15 Elementos, y el sistema da prioridad a restaurar rápidamente el Búfer si se agota, resolviendo los problemas de sustento de Flujo proactivamente. No todo el mundo apoya esta alternativa.
 
-### If Kanban system members need to prioritize a Work Item to ‘start’
+### Si los miembros del sistema Kanban necesitan priorizar un Elemento de Trabajo a ‘iniciar’
 
-_Here are some optional non-Kanban techniques that some but not all communities support:_
+_He aquí algunas técnicas opcionales ajenas a Kanban que algunas comunidades, pero no todas, apoyan:_
 
-- **Class of Service** (21)**:** An archetype for one or a selection of Work Items, such as, standard, (real and therefore not arbitrary) fixed date, expedite, or intangible. The choice of class of service may reflect perceived relative Value, Risk, or Cost of Delay. It is more useful as an input for deciding which Item(s) to ‘start’ next when capacity allows than reprioritizing Work Items In Progress/Process (which is not good for Flow). Prone to overloading the Kanban system when misapplied, e.g., an ‘expedite lane’ might eventually get superseded by a ‘super-expedite lane,’ and then things start to get silly. Prone to unbalanced Flow even when not misapplied.
-- **Cost of Delay (per unit of time)** (7)**:** The rate of Value loss per unit time for one or more Items, not to be confused with Delay Cost. It is often useful as input for deciding which Item(s) to ‘start’ next when capacity allows, rather than reprioritizing Work Items In Progress/Process (which is not good for Flow). Like most prioritization inputs, it is often based on educated guesses. It can also be real after the fact. For example, the Cost of Delay for a Work Item is $10,000 per week. Kanban system members should tread carefully before considering this approach.
-- **Data-informed Rightsizing** (24-25)**:** Sometimes more effective than other options, as Kanban system members rarely know the effort or Value in advance. It allows for more opportunism.
-- **Delay Cost (total)** (7)**:** The total cumulative loss over a period of time from a specific delay period for one or more Items. It can be actual or forecasted, and it’s important to be clear which one is being referred to. For example, if the Cost of Delay for a Work Item is $10,000 per week and it is delayed by 3 weeks, the Delay Cost is $30,000.
-- **Impact Estimation Table (IET)** (22)**:** Evaluate options against Stakeholder expectations or limits.
-- **Opportunity Cost:** The Value or benefit lost by choosing to work on one or more Work Items over other potentially valuable Work Items due to limited capacity. It reflects the trade-offs made when prioritizing within capacity in a Kanban system, where focusing on one or more Work Items means forgoing others that could have also delivered Value. Kanban system members often use metrics like Cost of Delay or Delay Cost to quantify opportunity cost. Since Value and, hence, Opportunity Cost range from being difficult to predict to being unpredictable, Kanban system members should tread carefully before attempting this approach.
-- **Random:** Can be more effective than other options, as the effort or Value is not known upfront.
-- **Real Options** (23)**:** Defer commitments until sufficient information is available, treating decisions as valuable, expiring options to maximize flexibility and manage Risk.
-- **Risk:** Do the riskiest Item first. Risk can include the likelihood that Value cannot be harvested.
-- **Shortest Job First** (24-25)**:** Select the Work Item with the lowest perceived effort, prioritizing rightsized Work Items over other Work Items. This can lead to shorter feedback loops and quicker outcomes. But, it can also lead to a delayed ‘start’ on a larger, riskier Work Item.
-- **Slack** (19)**:** Slack is leaving unused capacity in the system to cope with demand surges, unplanned work, or the emergence of unseen circumstances. In a Kanban for Knowledge Work context, it is a deliberate allocation or policy of spare capacity or time within the Definition of Workflow to absorb variability, handle unexpected disruptions, or enable continuous improvement without compromising the Kanban system’s Throughput. Example: Kanban system members might maintain a Slack by limiting their ‘Started but Not Finished Work’ (SNFW) or Work In Progress/Process (WIP) to 80% of capacity, allowing time to address urgent requests or refine processes without delaying planned work. Slack is a key concept in Lean.
-- **Value divided by Effort:** Estimated Value (usually an educated guess) divided by Estimated Effort (usually an educated guess). Actual Effort and Value tend to be random. Kanban system members should tread carefully before considering this approach. Optionally, consider Risk.
+- **Clase de Servicio** (21)**:** Un arquetipo para un Elemento de Trabajo o una selección de ellos, tales como, estándar, fecha fija (real y por lo tanto no arbitraria), urgente, o intangible. La elección de la clase de servicio puede reflejar la percepción relativa de Valor, Riesgo o Coste del Retraso. Suele ser útil como dato de entrada para decidir qué Elemento(s) ‘iniciar’ a continuación, en lugar de volver a priorizar los Elementos de Trabajo En Curso/Proceso (lo cual no es bueno para el Flujo). Propenso a sobrecargar el sistema Kanban cuando se aplica incorrectamente, p.ej. un ‘carril urgente’ podría ser desbancado por un ‘carril urgentísimo’, y entonces empieza a volverse absurdo. Propenso a desequilibrar el Flujo aunque no se aplique mal.
+- **Coste del Retraso (por unidad de tiempo)** (7)**:** La tasa de pérdida de Valor por unidad de tiempo para uno o más Elementos, que no debe confundirse con el Coste de Retraso (total). Suele ser útil para decidir qué Elemento(s) se van a ‘iniciar’ a continuación cuando la capacidad lo permita, en lugar de volver a priorizar los Elementos de Trabajo En Curso/Proceso (lo cual no es bueno para el Flujo). Como la mayoría de datos de entrada para la priorización, a menudo se basa en conjeturas informadas. También puede volverse real a posteriori. Por ejemplo, el Coste del Retraso de un Elemento de Trabajo es de 10.000€ por semana. Los miembros del sistema Kanban deben andarse con cuidado antes de considerar este enfoque.
+- **Justitalla basada en datos** (24-25)**:** A veces es más eficaz que otras opciones, ya que los miembros del sistema Kanban rara vez conocen el esfuerzo o el Valor de antemano. Permite más oportunismo.
+- **Coste de Retraso (total)** (7)**:** La pérdida total acumulada durante un periodo de tiempo, para un periodo de retraso específico, para uno o más Elementos. Puede ser real o previsto, y es importante dejar claro a cuál de ellos se hace referencia. Por ejemplo, si el Coste de Retraso para un Elemento de Trabajo es de 10.000€ por semana y se ha retrasado 3 semanas, el Coste de Retraso es 30.000€.
+- **Tabla de Estimación de Impacto (TEI)** (22)**:** Evaluar las opciones en función de las expectativas o límites de los Stakeholders.
+- **Coste de Oportunidad:** El Valor o beneficio perdido por elegir trabajar en uno o más Elementos de Trabajo sobre otros Elementos de Trabajo potencialmente valiosos debido a una capacidad limitada. Refleja las concesiones realizadas al priorizar dentro de la capacidad en un sistema Kanban, cuando centrarse en uno o varios Elementos de Trabajo significa renunciar a otros que también podrían haber aportado Valor. Los miembros del sistema Kanban suelen utilizar métricas como el Coste del Retraso o Coste de Retraso (total) para cuantificar el Coste de Oportunidad. Dado que el Valor y, por lo tanto, el Coste de Oportunidad es entre difícil de predecir e impredecible, los miembros del sistema Kanban deben andarse con cuidado antes de intentar este enfoque.
+- **Aleatorio:** Puede ser más eficaz que otras opciones, ya que el esfuerzo o el Valor no se conocen de antemano.
+- **Opciones Reales** (23)**:** Diferir los compromisos hasta que se disponga de información suficiente, tratando las decisiones como opciones valiosas que caducan, para maximizar la flexibilidad y gestionar el Riesgo.
+- **Riesgo:** Haz primero el Elemento más arriesgado. El Riesgo puede incluir la probabilidad de que no se pueda obtener Valor.
+- **Trabajo Más Pequeño Primero** (24-25)**:** Seleccione el Elemento de Trabajo con el menor esfuerzo percibido, priorizando los Elementos de Trabajo con justitalla sobre otros Elementos de Trabajo. Esto puede acortar los ciclos de retroalimentación y acelerar los resultados. Pero también puede conducir a retrasar el ‘inicio’ de un Elemento de Trabajo de mayor riesgo y tamaño.
+- **Holgura** (19)**:** La Holgura consiste en dejar capacidad no utilizada en el sistema para hacer frente a los picos de demanda, el trabajo no planificado o la aparición de circunstancias imprevistas. En un contexto de Kanban para el Trabajo del Conocimiento, es una asignación deliberada o política de reserva de capacidad o tiempo dentro de la Definición del Flujo de Trabajo para absorber la variabilidad, gestionar interrupciones inesperadas o permitir la mejora continua sin comprometer el Rendimiento del sistema Kanban. Ejemplo: Los miembros del sistema Kanban podrían mantener una Holgura limitando su ‘Trabajo Iniciado pero No Finalizado’ (TINoF) o Trabajo En Curso/Proceso (WIP) al 80% de capacidad, dejando tiempo para atender peticiones urgentes o procesos de refinamiento sin retrasar el trabajo planificado. La Holgura es un concepto clave en Lean.
+- **Valor dividido por Esfuerzo:** Valor Estimado (normalmente una conjetura informada) dividido por el Esfuerzo Estimado (normalmente una conjetura informada). El Esfuerzo y el Valor reales tienden a ser aleatorios. Los miembros del sistema Kanban deben tener cuidado antes de considerar este enfoque. Opcionalmente, considera el Riesgo.
 
-### Conventions Used in the Context of Knowledge Workd
+### Convenciones Utilizadas en el Contexto del Trabajo del Conocimiento
 
-- **Buffer** (16)**:** A buffer is a WIP-limited (or ‘Started but Not Finished Work’ limited) area that holds Work temporarily to smooth Flow and prevent overload, and also functions as a WIP controlled queue. Not to be confused with Slack. Not everyone supports Buffer; more columns can lead to a higher amount of ‘Started but Not Finished Work’ (SNFW) or Work In Progress/Process (WIP).
-- **_Definition of Workflow:_** The explicit shared understanding of Flow among Kanban system members within their context, including but not limited to, _the explicit set of agreements and policies that describe how Work Items are selected, progressed, and ‘finished’ through the workflow’s distinct stages._
-- **Explicit policy:** An explicit policy in a Kanban system is a clearly defined and visible rule or guideline that makes assumptions about workflow—such as when Work Items ‘start’ or move—transparent to Kanban system members. These policies should be Visualized on the Kanban board and be easily accessible, ensuring all Kanban system members understand and follow the same process. By making policies explicit, Kanban system members reduce ambiguity, align actions, and support the optimized Flow of Value.
-- **‘Finished’ (or ‘Completed’):** When the Elapsed Time from ‘Started’ to ‘Finished’ clock stops for a ‘started’ and ‘finished’ pair in a Definition of Workflow.
-- **Flow:** The (ideally smooth) movement and delivery of Work Items through the Definition of Workflow. A balanced Kanban system sustains Throughput. In an ideal world, Work that entered the system (Knowledge Work), would flow like a river, never stopping, finding the path of least resistance until reaching the customer. Not to be confused with the Definition of Workflow (DoW). In Kanban, Flow \> utilization.
-- **_kanban:_** _A kanban​ (signboard in Japanese) is a Visual cue that triggers one to select, ‘start,’ or move a Work Item. Nothing should be produced or moved without a kanban signal._
-- **Kanban or Kanban system**: The holistic set of concepts in this guide. _Kanban is rooted in the idea of a signaling system (a way to call for Work or inventory in a production system)._  
-  _When this guide says Kanban, assume a Kanban system._
-- **Kanban Board:** A Visual representation of one or more Definitions of Workflow.
-- **Knowledge Work:** The creation, application, or management of information through cognitive processes to solve (often) complex problems, make decisions, or innovate, typically requiring expertise, judgment, and collaboration. Often, Knowledge Work & associated waste are invisible.
-- **Iterative:** Work Items are worked in repeated cycles, with each cycle involving revisiting and refining the same Work based on feedback, testing, or new insights. Kanban is not inherently unsuited to creative iterative work, but it may require thoughtful consideration or adaptation.
-- **JIT:** Toyota Just-in-Time––Producing only what is needed, when it’s needed, in the amount needed to minimize waste and optimize efficiency.
-- **Measure:** A measure is a raw, unit-specific data point representing a single quantity, such as ‘number of Work Items completed this week’ or ‘time to complete a Work Item,’ serving as a foundational input for tracking Flow performance. Example: Kanban system members record a measure of 10 Work Items completed to date.
-- **Metric:** A metric is a quantifiable calculation derived from one or more measures to provide context for workflow performance, such as ‘average Throughput’ or ‘Throughput per week.’ Example: Kanban system members calculate a metric of 4 days average Elapsed Time ‘Started’ to ‘Finished’ by dividing the total time to complete 10 Work Items by the number of Work Items.
-- **Pull:** Work is selected (whether ‘started’ or ‘not started’ on the Definition of Workflow) only when there is capacity, chosen by Kanban system members, and prevents overload, ideally signaled by a customer, directly or indirectly.
-- **Push:** Work is assigned onto Kanban system members or into the Kanban system without considering the current capacity or readiness of Kanban system members to ‘start’ the Work.
-- **Queue:** A queue in Kanban is a waiting area for Work Items, often without strict limits, but it can serve as a Buffer if Work In Progress/Process (WIP) limits (16) or ‘Started but Not Finished Work’ (SNFW) limits are present.
-- **Risk:** The chance that something bad could happen.
-- **Stable system:** Put simply, a system that can consistently meet the demand placed upon it. There are more accurate descriptions (7,8,20). Knowledge Work tends to produce a higher range of Work Item sizes than manufacturing work. Unequal sizes do not necessarily lead to higher variation of elapsed times (due to waiting time often being the most significant factor, etc.) or Throughput but can do so (due to external dependencies, etc.). The view in this guide is that approaches designed for manufacturing do not necessarily lack utility in Knowledge Work.
-- **Stakeholder**: An entity, individual, or group responsible for, interested in, or affected by the inputs, activities, and outcomes of the Kanban system. Includes but is not limited to customer, decision-maker, or user.
-- **‘Started’:** When elapsed time clocks ‘start’ for a ‘started’ and ‘finished’ pair in a Definition of Workflow.
-- **‘started’ and ‘finished’ pair:** Each of one or many ‘started’ points on a Definition of Workflow should have a matching ‘finished’ point on the same Definition of Workflow.
-- **Takt:** The word Takt (English 'tact') is derived from the German word meaning rhythm, cadence, or cycle. Takt is related to keeping time in music. Modern usage of Takt is typically in a manufacturing context. Takt is a foundational measurement in the Toyota Product System and Lean Thinking, used to calculate the capacity required to meet demand in a stable system. Throughput, unlike Takt, which sets the expectation for the ideal pace based on demand, measures actual output per unit of time. Takt also helps achieve a balanced system to meet demand consistently by enabling Kanban system members to determine the capacity needed at each stage of a process. Calculating Takt is challenging in Knowledge Work, as it requires understanding demand in high-variation environments. Not always ideal for Knowledge Work.
-- **Work:** Refers to one or more Work Items, ‘started’, ‘not started’, ‘finished,’ or ‘not finished.’
-- **Work Item:** A Work Item, also referred to as an Item, holds the potential for Value.​ Various terms can be used to describe the different levels of granularity of a Work Item, as long as it has potential for Value. Work Items that do not have potential for Stakeholder Value are potentially wasteful, e.g., people focus on ‘finishing’ subtasks across multiple Work Items rather than focusing on ‘finishing’ one Item at a time. Controlling ‘Started but Not Finished Work’ (SNFW) or Work In Progress/Process (WIP) for potentially wasteful Items often reduces the collaborative effort and focus to deliver potential Value sooner. Consider the context.
-- **Work Item Type:** A categorization for a Work Item. Examples include but are not limited to brands, customers, features, bugs, project work, user experience (UX) research, customer experience (CX) research, human-centered design, operational work, problem statements, hypotheses, other research, and experiments. Useful for sense-making.
-- **Validated Value:** Value confirmed with evidence or observations (ideally both), formally or informally, by Stakeholders; often after one or more rounds of result feedback (and rework), by internal and external Stakeholders. Not everyone supports it.
-- **Value**: Either a potential or realized benefit for a Stakeholder. Examples include meeting the needs of the customer, the end-user, the decision-maker, the organization, and the environment.
-- **Visualize, visualization:** Any method to convey ideas effectively, including conceptual clarification, not necessarily only visual.
+- **Búfer** (16)**:** Un búfer es un área de WIP (o ‘Trabajo Iniciado pero No Finalizado’) limitado  que retiene Trabajo de forma temporal para agilizar el Flujo y evitar la sobrecarga, y que también funciona como una cola de WIP controlado. No confundir con la Holgura. No todo el mundo apoya el uso de Búfer; más columnas puede dar lugar a una mayor cantidad de ‘Trabajo Iniciado pero No Finalizado’ (TINoF) o Trabajo En Curso/Proceso (WIP).
+- **_Definición del Flujo de Trabajo:_** La comprensión explícita y compartida del Flujo entre los miembros del sistema Kanban dentro de su contexto, incluido, entre otros, _el conjunto explícito de acuerdos y políticas que describen cómo los Elementos de Trabajo se seleccionan, progresan y ‘finalizan’ a través de las distintas fases del flujo de trabajo._
+- **Política explícita:** Una política explícita en un sistema Kanban es una regla o directriz claramente definida y visible que establece premisas sobre el flujo de trabajo (como cuándo se ‘inician’ o se mueven los Elementos de Trabajo) de forma transparente para los miembros del sistema Kanban. Estas políticas deberían Visualizarse en el tablero Kanban y ser fácilmente accesibles, asegurando que todos los miembros del sistema Kanban comprenden y siguen el mismo proceso. Al hacer explícitas las políticas, los miembros del sistema Kanban reducen la ambigüedad, alinean las acciones y apoyan el Flujo de Valor optimizado.
+- **‘Finalizado’ (o ‘Completado’):** Cuando el reloj de Tiempo Transcurrido desde ‘Iniciado’ hasta ‘Finalizado’ se detiene para un par de ‘inicio’ y ‘finalización’ en una Definición del Flujo de Trabajo.
+- **Flujo:** El movimiento y la entrega (idealmente fluidos) de Elementos de Trabajo a través de la Definición del Flujo de Trabajo. Un sistema Kanban equilibrado favorece el Rendimiento. En un mundo ideal, el Trabajo que entra en el sistema (Trabajo del Conocimiento), fluiría como un río, sin detenerse nunca, encontrando el cauce con menor resistencia para llegar al cliente. No confundir con la Definición del Flujo de Trabajo (DoW). En Kanban, Flujo \> utilización.
+- **_kanban:_** _Un kanban​ (letreto en japonés) es una señal visual que le lleva a uno a seleccionar, ‘iniciar’, o mover un Elemento de Trabajo. Nada debe ser producido o movido sin una señal kanban._
+- **Kanban o sistema Kanban**: El conjunto holístico de conceptos de esta guía. _Kanban se arraiga en la idea de un sistema de señalización (una forma de pedir Trabajo o inventario en un sistema de producción)._  
+  _Cuando esta guía dice Kanban, asume un sistema Kanban._
+- **Tablero Kanban:** Una representación Visual de una o más Definiciones de Flujo de Trabajo.
+- **Trabajo del Conocimiento:** La creación, aplicación o gestión de información a través de procesos cognitivos para resolver problemas a menudo complejos, tomar decisiones, o innovar, lo que suele requerir experiencia, juicio y colaboración. A menudo, el Trabajo del Conocimiento y los desperdicios asociados son invisibles.
+- **Iterativo:** Se trabaja en los Elementos de Trabajo en ciclos repetibles, con cada ciclo se revisa y perfecciona el mismo trabajo en función de las valoraciones, las pruebas o los nuevos hallazgos. Kanban no es intrínsecamente inadecuado para el trabajo creativo iterativo, pero puede requerir de un meditado estudio o adaptación.
+- **JIT:** Toyota Just-in-Time. Producir sólo lo que se necesita, cuando se necesita y en la cantidad necesaria para minimizar el desperdicio y optimizar la eficiencia.
+- **Medida:** Una medida es un dato bruto, con unidad específica, que representa una única cantidad, como el ‘número de Elementos de Trabajo completados esta semana’ o el ‘tiempo para completar un Elemento de Trabajo’, que sirve de entrada básica para monitorizar el desempeño del Flujo. Ejemplo: Los miembros del sistema Kanban registran una medida de 10 Elementos de Trabajo completados hasta la fecha.
+- **Métrica:** Una métrica es un cálculo cuantificable derivado de una o más medidas para contextualizar el desempeño del flujo de trabajo, tales como el ‘Rendimiento medio’ o ‘Rendimiento por semana’. Ejemplo: Los miembros del sistema Kanban calculan una métrica de 4 días de Tiempo  Transcurrido medio de ‘iniciado’ a ‘finalizado’ dividiendo el tiempo total para completar 10 Elementos de Trabajo entre el número de Elementos de Trabajo.
+- **Pull:** El Trabajo es seleccionado (ya sea ‘iniciado’ o ‘no iniciado’ en la Definición del Flujo de Trabajo) solo cuando hay capacidad, elegida por los miembros del sistema Kanban, y evitando la sobrecarga, idealmente señalada por un cliente, directa o indirectamente.
+- **Push:** El Trabajo se asigna a los miembros del sistema Kanban o al sistema Kanban sin tener en cuenta la capacidad actual o la preparación de los miembros del sistema Kanban para ‘iniciar’ el Trabajo.
+- **Cola:** Una cola en Kanban es un área de espera para Elementos de Trabajo, a menudo sin límites estrictos, pero puede servir como Búfer si existen límites de Trabajo En Curso/Proceso (WIP) (16) o ‘Trabajo Iniciado pero No Finalizado’ (TINoF).
+- **Riesgo:** La posibilidad de que ocurra algo malo.
+- **Sistema estable:** En pocas palabras, un sistema que puede satisfacer sistemáticamente la demanda que se le plantea. Hay descripciones más precisas (7,8,20). El Trabajo del Conocimiento tiende a producir mayor gama de tamaños de Elementos de Trabajo que el trabajo de manufactura. Los tamaños desiguales no conducen necesariamente a una mayor variación de los tiempos transcurridos o del Rendimiento (debido a que el tiempo de espera suele ser el factor más importante, etc.), pero puede hacerlo (debido a dependencias externas, etc.). La opinión de esta guía es que los enfoques diseñados para la manufactura no carecen necesariamente de utilidad en el Trabajo del Conocimiento.
+- **Stakeholder**: Entidad, individuo o grupo responsable, interesado en (o afectado por) las entradas, actividades y resultados del sistema Kanban. Incluye, entre otros, al cliente, el responsable de la toma de decisiones, o el usuario.
+- **‘Iniciado’:** Cuando el reloj de tiempo transcurrido se ‘inicia’ para un par de ‘inicio’ y ‘finalización’ en una Definición del Flujo de Trabajo.
+- **Par de ‘inicio’ y ‘finalización’:** A cada punto(s) de ‘inicio’ en una Definición del Flujo de Trabajo le debe corresponder un punto de ‘finalización’ en la misma Definición del Flujo de Trabajo.
+- **Takt:** La palabra Takt (en español 'tacto') deriva de la palabra alemana que significa ritmo, cadencia o ciclo. Takt se relaciona con llevar el compás en la música. El uso moderno de Takt suele darse en el contexto de la manufactura. Takt es una medida básica en el Sistema de Producción Toyota y el Pensamiento Lean, se utiliza para calcular la capacidad necesaria para satisfacer la demanda en un sistema estable. El Rendimiento, a diferencia del Takt, que establece la expectativa de ritmo ideal en función de la demanda, mide la producción real por unidad de tiempo. Takt también ayuda a conseguir un sistema equilibrado para satisfacer la demanda de forma consistente, ya que permite a los miembros del sistema Kanban determinar la capacidad necesaria en cada fase de un proceso. Calcular el Takt es un reto en el Trabajo del Conocimiento, ya que requiere comprender la demanda en entornos de alta variabilidad. No siempre es ideal para el Trabajo del Conocimiento.
+- **Trabajo:** Se refiere a uno o varios Elementos de Trabajo, ‘iniciado’, ‘not started’, ‘finished,’ or ‘not finished.’
+- **Elemento de Trabajo:** Un Elemento de Trabajo, también denominado Elemento, contiene Valor en potencia.​ Se pueden utilizar varios términos para describir los diferentes niveles de granularidad de un Elemento de Trabajo, siempre que tenga potencial de Valor. Elementos de Trabajo que no tienen Valor potencial para los Stakeholders son potencialmente desperdicio, p.ej. centrarnos en ‘finalizar’ subtareas de múltiples Elementos de Trabajo en lugar de centrarnos en ‘finalizar’ un Elemento cada vez. Controlar el ‘Trabajo Iniciado pero No Finalizado’ (TINoF) o Trabajo En Curso/Proceso (WIP) para Elementos con desperdicio potencial a menudo reduce el esfuerzo de colaboración y hace que nos centremos en entregar Valor potencial de forma temprana. Considera el contexto.
+- **Tipo del Elemento de Trabajo:** Una categorización para un Elemento de Trabajo. Los ejemplos incluyen, entre otros, a marcas comerciales, clientes, funcionalidades, errores, trabajo de proyecto, investigación de la experiencia del usuario (UX en inglés), investigación de la experiencia del cliente (CX en inglés), diseño centrado en el usuario (human-centered-design en inglés), trabajo operativo, planteamientos de problemas, hipótesis, otras investigaciones y experimentos. Útil para  contextualizar las decisiones.
+- **Valor Validado:** Valor confirmado por los Stakeholders con evidencias u observaciones (idealmente ambas), ya sea formal o informalmente; a menudo después de una o más rondas de retroalimentación (y retrabajo) ante los resultados, por parte de los Stakeholders internos y externos. No todo el mundo apoya esta alternativa.
+- **Valor:** Beneficio real o potencial para un Stakeholder. Algunos ejemplos incluyen satisfacer las necesidades del cliente, del usuario final, de los que toman las decisiones, de la organización y del entorno.
+- **Visualizar, visualización:** Cualquier método para transmitir ideas de forma efectiva, incluyendo aclaraciones conceptuales, y no necesariamente solo medios visuales.
 
-## References
+## Referencias
 
-References are placed here to inform readers of opportunities for further study. They do not necessarily support the text in this guide:
+Las referencias se incluyen aquí para informar al lector de oportunidades de estudio adicionales. No respaldan necesariamente el texto de esta guía:
 
-1. _Little, J. D. C. (1961). A proof for the queuing formula: L \= λW. Operations Research, 9(3), 383–387. [https://doi.org/10.1287/opre.9.3.383](https://doi.org/10.1287/opre.9.3.383). _
-2. _Deming, W. E. (1986). Out of the crisis. MIT Press. (Peer-reviewed through its academic adoption in quality management.)_
-3. _Goldratt, E. M. (1990). Theory of Constraints. North River Press. (Peer-reviewed through academic adoption in operations research.)_
-4. _Womack, J. P., & Jones, D. T. (1996). Lean thinking: Banish waste and create wealth in your corporation. Simon & Schuster._
-5. _Ackoff, R. L. (1999). Ackoff's Best: His Classic Writings on Management. NY: John Wiley & Sons._
+1. _Little, J. D. C. (1961). A proof for the queuing formula: L \= λW. Operations Research, 9(3), 383–387. [https://doi.org/10.1287/opre.9.3.383](https://doi.org/10.1287/opre.9.3.383)._
+2. _Deming, W. E. (1986), traducción Nicolau, J., Gozalbes, M. (1989). Calidad, productividad y competitividad: la salida de la crisis. ES: Ediciones Díaz de Santos. (Revisado por pares mediante adopción académica en la gestión de la calidad.)_
+3. _Goldratt, E. M. (1990). Theory of Constraints. North River Press. (Revisado por pares mediante adopción académica en investigación operativa.)_
+4. _Womack, J. P., & Jones, D. T. (1996), traducción Atmetlla, E. (2012). Lean Thinking: Cómo utilizar el pensamiento Lean para eliminar los despilfarros y crear valor en la empresa. ES: Gestión 2000._
+5. _Ackoff, R. L. (1999), traducción Piña, R. (2002). El Paradigma De Ackoff: Una Administración Sistemática. MX: Editorial Limusa._
 6. _Hopp, W. J. and Spearman, M. L. (2004) ‘To pull or not to pull: what is the question?’, Manufacturing & Service Operations Management, 6(2), pp. 133–148. [https://doi.org/10.1287/msom.1030.0028](https://doi.org/10.1287/msom.1030.0028)._
 7. _Reinertsen, D. G. (2009). The Principles of Product Development Flow: Second Generation Lean Product Development. Redondo Beach, CA: Celeritas Publishing_
-8. _Shewhart, W. A. (1931). Economic Control of Quality of Manufactured Product. NY: D. Van Nostrand Company._
-9. _Ohno, T. (1988). Toyota Production System: Beyond Large-Scale Production. Portland, OR: Productivity Press._
-10. _Juran, J. M. (1992). Juran on Quality by Design: The New Steps for Planning Quality into Goods and Services. New York: The Free Press._
+8. _Shewhart, W. A. (1931), traducción Nicolau, J., Gozalbes, M. (1997). Control Económico de la Calidad de Productos Manufacturados. ES: Ediciones Díaz de Santos._
+9. _Ohno, T. (1988), traducción SAX traductors (1991). El Sistema de Producción Toyota: Más allá de la producción a gran escala. Productivity Press._
+10. _Juran, J. M. (1992), traducción Nicolau, J., Gozalbes, M. (1996). Juran y la Calidad por el Diseño. ES: Ediciones Díaz de Santos._
 11. _Wheeler, D. J. (1993). Understanding Variation: The Key to Managing Chaos. Knoxville, TN: SPC Press._
-12. _Wikipedia (2025) ‘Kanban (development)’. Available at: [https://en.wikipedia.org/wiki/Kanban\_(development)](<https://en.wikipedia.org/wiki/Kanban_(development)>) (Accessed: 22 June 2025).\_
-13. _Kingman, J. F. C. (1961) ‘The single server queue in heavy traffic’, Mathematical Proceedings of the Cambridge Philosophical Society, 57(4), pp. 902–904. doi: 10.1017/S0305004100035783, and the stable URL is [https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37). _
-14. _Roser, C. (2018) ‘The Kingman Formula – Variation, Utilization, and Lead Time’, AllAboutLean.com, 2 March. Available at: [https://www.allaboutlean.com/kingman-formula/](https://www.allaboutlean.com/kingman-formula/) (Accessed: 22 June 2025\)_
-15. _Csíkszentmihályi, M. (1990) Flow: The Psychology of Optimal Experience. NY: Harper & Row_
+12. _Wikipedia (2025) ‘Kanban (desarrollo)’. Disponible en: [https://es.wikipedia.org/wiki/Kanban\_(desarrollo)](<https://es.wikipedia.org/wiki/Kanban_(desarrollo)>) (Visitado el 7 de agosto de 2025)._
+13. _Kingman, J. F. C. (1961) ‘The single server queue in heavy traffic’, Mathematical Proceedings of the Cambridge Philosophical Society, 57(4), pp. 902–904. doi: 10.1017/S0305004100035783, y la URL estable es [https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37)._
+14. _Roser, C. (2018) ‘The Kingman Formula – Variation, Utilization, and Lead Time’, AllAboutLean.com, 2 March. Disponible en: [https://www.allaboutlean.com/kingman-formula/](https://www.allaboutlean.com/kingman-formula/) (Visitado el 22 de junio de 2025\)_
+15. _Csíkszentmihályi, M. (1990), traducción López, N. (1997). Fluir: Una psicología de la felicidad. Editorial Kairós, Debolsillo, Audible Audio_
 16. _Tendon, S. and Müller, W. (2015). Hyper-Productive Knowledge Work Performance: The TameFlow Approach and Its Application to Scrum and Kanban. Plantation, FL: J. Ross Publishing._
-17. _Seddon, J. (2019). Failure demand | Vanguard. \[online\] Vanguard-method.net. Available at: [https://vanguard-method.net/library/systems-principles/failure-demand/](https://vanguard-method.net/library/systems-principles/failure-demand/) \[Accessed 22 Mar. 2019\]_
+17. _Seddon, J. (2019). Failure demand | Vanguard. \[online\] Vanguard-method.net. Available at: [https://vanguard-method.net/library/systems-principles/failure-demand/](https://vanguard-method.net/library/systems-principles/failure-demand/) \[Visitado el 22 de marzo de 2019\]_
 18. Christensen, C.M., Hall, T., Dillon, K. and Duncan, D.S., 2016\. Know your customers' 'jobs to be done'. _Harvard Business Review_, 94(9), pp.54-62.
 19. DeMarco, T. (2001). _Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency_. Broadway Books.
-20. Leopold, K. (2017) Little's law and system stability – an interview with Daniel Vacanti. Leanability. Available at: [https://www.leanability.com/en/blog/2017/08/littles-law-and-system-stability](https://www.leanability.com/en/blog/2017/08/littles-law-and-system-stability) \[Accessed 28 June 2025\].
-21. Kanban University (2021) The Official Guide to The Kanban Method \[Online\]. Available at: [https://kanban.university/new-to-kanban-get-the-official-guide-to-the-kanban-method/](https://kanban.university/new-to-kanban-get-the-official-guide-to-the-kanban-method/) (Accessed: 29 June 2025).
+20. Leopold, K. (2017) Little's law and system stability – an interview with Daniel Vacanti. Leanability. Available at: [https://www.leanability.com/en/blog/2017/08/littles-law-and-system-stability](https://www.leanability.com/en/blog/2017/08/littles-law-and-system-stability) \[Visitado el 28 de junio de 2025\].
+21. Kanban University (2022) La Guía Oficial del Método Kanban V.2 \[Online\]. Disponible en: [https://kanban.university/kanban-guide/#download](https://kanban.university/kanban-guide/#download) (Visitado el 7 agosto de 2025).
 22. _Gilb, T. (2005) Competitive Engineering: A Handbook for Systems Engineering, Requirements Engineering, and Software Engineering Using Planguage. Oxford: Elsevier Butterworth-Heinemann. Also available at: [https://bit.ly/TomGilbCompEng](https://bit.ly/TomGilbCompEng)_
 23. Maassen, O., Matts, C. and Geary, C. (2013) Commitment: A novel about managing project risk. The Netherlands: Happy About.
-24. Vacanti, D. S. (2015) Actionable Agile Metrics for Predictability: An Introduction. United States: ActionableAgile Press.
+24. Vacanti, D. S. (2015), traducción González, U. (2022). Métricas Ágiles Accionables para la Predictibilidad: Introducción. Leanpub.
 25. Vacanti, D. S. (2023) Actionable Agile Metrics for Predictability Volume II: Advanced Topics. United States: ActionableAgile Press.
+
+## Información de la traducción
+
+Esta traducción ha sido realizada por:
+
+● Aitor Fernández-Ceballos [linkedin.com/in/aitorfcj/](https://www.linkedin.com/in/aitorfcj/)
+
+### Glosario y notas de la traducción
+
+Para comodidad del lector se incluye aquí el glosario combinado de la Guia Abierta de Kanban y la Guía Kanban.
+
+| **Español** | **Inglés** | **Notas** |
+|--------------|--------------|--------------|
+| Coste de Retraso (total) | Delay Cost |--------------|
+| Coste del Retraso | Cost of Delay |--------------|
+| Demanda por Fallos | Failure Demand | Por coherencia con la traducción oficial de La Guía Oficial del Método Kanban V.2 |
+| Edad del Elemento de Trabajo (WIA, por su acrónimo inglés) | Work Item Age (WIA) |--------------|
+| Edad Total de los Elementos de Trabajo (TWIA, por su acrónimo inglés) | Total Work Item Age (TWIA) |--------------|
+| Elemento de Trabajo | Work Item |--------------|
+| Expectativa de Nivel de Servicio (ENS) | Service Level Expectation (SLE) |--------------|
+| Finalizado | Finished | A veces se ha empleado "finalización" para sonar más natural, aún cuando en inglés no cambia. |
+| Holgura | Slack | Por coherencia con la traducción oficial de La Guía Oficial del Método Kanban V.2 |
+| Iniciado | Started | A veces se ha empleado "inicio" para sonar más natural, aún cuando en inglés no cambia. |
+| Real / obtención | Realized / realization | Referido al Valor. |
+| Pronóstico | Forecast | Por coherencia con la traducción oficial de la Guía de Scrum. |
+| Pull | Pull | Antaño traducido indistintamente como Tracción o Arrastre, en las obras más recientes publicadas se mantiene el original Pull. |
+| Punto de control | (noun) Control | Se mantiene "control" como verbo y gerundio. |
+| Rendimiento | Throughput |--------------|
+| Restricción de Flujo | Flow Constraint |--------------|
+| Resultados | Outcomes |--------------|
+| Retroalimentación | Feedback |--------------|
+| Stakeholder | Stakeholder | O "partes interesadas", la definición del término original es más amplia y está muy extendida, razón por la cual se mantiene. |
+| Tabla de Estimación de Impacto (TEI) | Impact Estimation Table (IET) |--------------|
+| Tiempo Acumulado en Búfer o Encolado (TABE) | Cumulative Queueing or Buffer Time (CQBT) |--------------|
+| Tiempo de Ciclo | Cycle Time |--------------|
+| Trabajo en Curso | Work in Progress | Se ha mantenido su acrónimo inglés (WIP) por estar su uso muy extendido. |
+| Trabajo Iniciado pero No Finalizado (TINoF) | Started but Not Finished Work (SNFW) |--------------|
+| Justitalla | Rightsizing | No es una palabra que exista en la RAE pero expresa el significado deseado, como justiprecio |
+| Marcar, evidenciar, indicar... | (verb) Signal | Según contexto, rara vez suena natural señalar |
+| Tiempo de Lanzamiento (TL) | Time to Market (T2M) |--------------|
+| Tiempo hasta la Validación de Valor / Tiempo hasta el Valor | Time to Validated Value / Time to Value (TTV) |--------------|
+| Tiempo Total transcurrido para Elementos ‘Iniciados’ pero No ‘Finalizados’ (TTEINoF) | Total Elapsed Time for ‘Started’ but Not ‘Finished’ Items (TETSNFI) |--------------|
+| Tiempo transcurrido Bloqueado para Elementos Finalizados (TiBEF) | Blocked Elapsed Time for Finished Items (BETFI) |--------------|
+| Tiempo transcurrido de ‘Iniciado’ a ‘Finalizado’ (TIF) | Elapsed Time from ‘Started’ to ‘Finished’ (ETSF) |--------------|
+| Tiempo transcurrido para Elementos ‘Iniciados’ pero No ‘Finalizados’ (TEINoF) |  Elapsed Time for ‘Started’ but Not ‘Finished’ Items(ETSNFI) |--------------|
