@@ -1,5 +1,7 @@
 baseURL: https://kanbanguides.org
 Environment: production
+enableMissingTranslationPlaceholders: false
+printI18nWarnings: false
 minifyOutput: true
 languages:
   min:
@@ -14,6 +16,8 @@ languages:
     disabled: true
   es-419:
     disabled: true
+  ja:
+    disabled: false
   es-ES:
     disabled: true
 

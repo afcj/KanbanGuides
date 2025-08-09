@@ -23,6 +23,19 @@
 - id: translations_button
   translation: "Peek-a-boo Languages"
 
+- id: translators_label
+  translation: "talky-translaters"
+
+- id: guide_translation_preview_note
+  translation: "Banana Peek-a-boo:"
+
+- id: guide_translation_preview_message
+  translation: "Dis guide iz banana peek, no all done-done or right-right. You help? Join da blabla!"
+
+- id: guide_preview_link
+  translation: "You help check banana words?"
+
+
 - id: history_title
   translation: "Old Timey Time"
 
@@ -134,8 +147,17 @@
 - id: download_table_status
   translation: "Banana State"
 
+- id: download_table_contributed_by
+  translation: "Made By Banana Friend"
+
 - id: download_preview_status
   translation: "Peeky Mode"
+
+- id: download_reference_status
+  translation: "Looky Book"
+
+- id: download_pdf_only_status
+  translation: "Only Paper-y"
 
 - id: download_preview_action
   translation: "Sneaky Peeky"
@@ -203,6 +225,9 @@
 
 - id: download_community_contributors
   translation: "Banana Crew Heroes"
+
+- id: contributors_label
+  translation: "Banana Helpers"
 
 - id: contributors_description
   translation: "These banana heads helped make all da booky stuff in all da timez."
@@ -302,6 +327,18 @@
 
 - id: guide_back_to_home
   translation: "← Backy to Bello House"
+
+- id: guide_historical_version_notice_title
+  translation: "Old Timey Booky Warning:"
+
+- id: guide_historical_version_notice_text
+  translation: "You peeky at old version {{ .CurrentVersion }} of dis booky."
+
+- id: guide_historical_version_notice_link
+  translation: "Looky newest booky ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "for fresh-fresh banana info."
 
 - id: not_sure_which_to_use_title
   translation: "Banana Confuse? Use Which??"
@@ -466,3 +503,9 @@
 
 - id: view_archive_button
   translation: "Looky at da Archive"
+- id: guide_version_current
+  translation: "Current"
+- id: guide_version_dropdown_label
+  translation: "Select version"
+- id: guide_version_latest
+  translation: "Latest"

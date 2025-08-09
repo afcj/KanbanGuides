@@ -1,0 +1,679 @@
+# Japanese translations
+- id: and
+  # translation: "and"
+  translation: "＆"
+
+- id: breadcrumb_home
+  # translation: "Home"
+  translation: "ホーム"
+
+- id: read_online_title
+  # translation: "Read Online"
+  translation: "オンラインで読む"
+
+- id: read_online_description
+  # translation: "Access the complete guide digitally with interactive features and easy navigation."
+  translation: "インタラクティブな操作と簡単なナビゲーションで、ガイド全体をデジタルで閲覧できます。"
+
+- id: read_online_button
+  # translation: "Read online"
+  translation: "オンラインで読む"
+
+
+- id: translations_title
+  # translation: "Translations"
+  translation: "翻訳"
+
+- id: translations_description
+  # translation: "Access this guide in multiple languages and help with translations."
+  translation: "カンバンガイドの多言語版を閲覧したり、翻訳に協力できます。"
+
+- id: translations_button
+  # translation: "View Translations"
+  translation: "翻訳版を閲覧する"
+
+- id: translators_label
+  translation: "翻訳者"
+
+- id: guide_translation_preview_note
+  translation: "翻訳プレビュー："
+
+- id: guide_translation_preview_message
+  translation: "このガイドは翻訳のプレビューであり、完全または正確でない可能性があります。レビューと改善にご協力ください。議論に参加しましょう。"
+
+- id: guide_preview_link
+  translation: "この翻訳のレビューにご協力ください"
+
+
+- id: history_title
+  # translation: "History"
+  translation: "履歴"
+
+- id: history_description
+  # translation: "Explore the evolution and development history of this guide."
+  translation: "このガイドの変遷や改訂の履歴を辿ることができます。"
+
+- id: history_button
+  # translation: "View History"
+  translation: "履歴を閲覧する"
+
+- id: what_is_guides_title
+  # translation: "What are the Kanban Guides?"
+  translation: "カンバンガイドとは？"
+
+- id: open_source_title
+  # translation: "Open Source & Community Driven"
+  translation: "オープンソース＆コミュニティ主体"
+
+- id: open_source_description
+  # translation: "The Open Guide to Kanban is an open source project that thrives on community collaboration. Whether you want to suggest improvements, report issues, or contribute content, we welcome your participation. The Kanban Guide is not open to contributions here, but is included here for reference. Together, we can make these resources even more valuable for the Kanban community worldwide and anyone wishing to improve the flow of value (potential and actual realized value)."
+  translation: "カンバンガイドは、コミュニティの協力によって成り立っているオープンソースプロジェクトです。改善提案、問題報告、コンテンツへの貢献など、どなたでも参加できます。「カンバンガイド」については、ここでは貢献を受け付けていませんが、参考のために掲載しています。共に、これらのリソースを世界中のカンバンコミュニティや価値フロー（潜在的な価値や実際に実現した価値）を改善したいと考える人たちにとって、より価値あるものにしていきましょう。"
+
+- id: at_a_glance_title
+  # translation: "At a Glance"
+  translation: "一目でわかる特長"
+
+- id: join_discussion_button
+  # translation: "Join the Discussion"
+  translation: "ディスカッションに参加する"
+
+- id: join_discussion_title
+  # translation: "Join the Kanban Guides Discussion"
+  translation: "カンバンガイドのディスカッションに参加する"
+
+- id: join_discussion_description
+  # translation: "Engage with the community, share your insights, and help shape the future of the Kanban Guides. Your contributions are invaluable in making these guides comprehensive resources for Kanban practitioners."
+  translation: "コミュニティに参加し、あなたの知見を共有し、カンバンガイドの未来を共に築きましょう。あなたの貢献は、カンバン実践者にとって包括的なリソースとなるために非常に重要なのです。"
+
+- id: guides_intro_text
+  # translation: "Learn what Kanban is and how to apply it to optimise the flow of value through a process. This is your comprehensive resource for Kanban knowledge and practices. Kanban Guides is the home of the The Kanban Guide, adn the Open Guide to Kanban. It is a free, community-driven reference for applying Kanban in knowledge work. The guides define the core practices, and metrics  necessary to improve flow, optimise value delivery, and enhance team sustainability. These guides support scalable Kanban adoptions across diverse industries and complement other agile, lean, and flow-based approaches."
+  translation: "カンバンとは何か、それをプロセスに適用して価値のフローを最適化する方法を学びましょう。このサイトは、カンバンの知識と実践に関する包括的なリソースです。カンバンガイドは、「カンバンガイド」と「オープン版カンバンガイド」のホームです。これは、ナレッジワークにおけるカンバンの適用に関する無料のコミュニティ主体のリファレンスです。ガイドでは、フローを改善し、価値提供を最適化し、チームの持続可能性を向上させるために必要な中核となるプラクティスと計測指標を定義しています。これらのガイドは、多様な業界でのスケーラブルなカンバン導入をサポートし、他のアジャイル、リーン、およびフローベースのアプローチを補完します。"
+
+- id: download_title
+  # translation: "Download {{ .Site.Title }}"
+  translation: "{{ .Site.Title }}をダウンロード"
+
+- id: download_description
+  # translation: "Download the complete {{ .Site.Title }} as a PDF file for offline reading and reference."
+  translation: "{{ .Site.Title }}をPDFファイルとしてダウンロードし、オフラインで閲覧・参照できます。"
+
+- id: download_button
+  # translation: "Download PDF"
+  translation: "PDFをダウンロード"
+
+- id: about_creators_title
+  # translation: "About the creators of {{ .Site.Title }}"
+  translation: "{{ .Site.Title }}の作成者について"
+
+- id: read_bio_button
+  # translation: "Read {{ .Name }}'s bio"
+  translation: "{{ .Name }}のプロフィールを読む"
+
+- id: guide_content_not_found
+  # translation: "Guide content not found"
+  translation: "ガイドのコンテンツが見つかりません"
+
+- id: reportTranslationError
+  # translation: "Report Translation Error"
+  translation: "翻訳の誤りを報告する"
+
+# Navigation translations
+- id: nav_read_online
+  # translation: "Read Online"
+  translation: "オンラインで読む"
+
+- id: nav_translations
+  # translation: "Translations"
+  translation: "翻訳"
+
+- id: nav_versions
+  # translation: "Versions"
+  translation: "バージョン"
+
+- id: nav_pdf_version
+  # translation: "PDF Version"
+  translation: "PDF版"
+
+- id: nav_creators
+  # translation: "Creators"
+  translation: "クリエイター"
+
+- id: nav_all_creators
+  # translation: "All Creators"
+  translation: "すべてのクリエイター"
+
+- id: nav_faq
+  # translation: "FAQ"
+  translation: "よくある質問"
+
+- id: nav_read_guide
+  # translation: "Read Guide"
+  translation: "ガイドを読む"
+
+- id: nav_history
+  # translation: "History"
+  translation: "履歴"
+
+- id: nav_overview
+  # translation: "Overview"
+  translation: "概要"
+
+# Guide page PDF download translations
+- id: guide_pdf_download_button
+  # translation: "Download PDF"
+  translation: "PDFをダウンロード"
+
+- id: guide_pdf_not_available
+  # translation: "PDF not available"
+  translation: "PDFは利用できません"
+
+- id: guide_pdf_intro_text
+  # translation: "You can also download this guide as a PDF for offline reading."
+  translation: "このガイドは、オフラインで読むためにPDFとしてダウンロードすることもできます。"
+
+- id: guide_pdf_intro_link
+  # translation: "Download PDF"
+  translation: "PDFをダウンロード"
+
+# Preview Translations functionality
+- id: download_preview_translations
+  # translation: "Preview Translations"
+  translation: "翻訳版のプレビュー"
+
+- id: download_preview_description
+  # translation: "These translations are available in preview and need at least 5 community reviewers before they can be moved to the main site. Help us review and improve these translations!"
+  translation: "これらの翻訳はプレビュー版であり、メインサイトに移行する前に少なくとも5人のコミュニティ翻訳レビュアーが必要です。翻訳のレビューと改善にご協力ください！"
+
+- id: download_visit_preview
+  # translation: "Visit preview site"
+  translation: "プレビューサイトを訪問"
+
+- id: download_table_status
+  # translation: "Status"
+  translation: "ステータス"
+
+- id: download_table_contributed_by
+  # translation: "Contributed By"
+  translation: "貢献者"
+
+- id: download_preview_status
+  # translation: "In Preview"
+  translation: "プレビュー中"
+
+- id: download_reference_status
+  # translation: "Reference"
+  translation: "参考"
+
+- id: download_pdf_only_status
+  # translation: "PDF Only"
+  translation: "PDFのみ"
+
+- id: download_preview_action
+  # translation: "Preview"
+  translation: "プレビュー"
+
+- id: download_discussion_action
+  # translation: "Discussion"
+  translation: "ディスカッション"
+
+# Download page translations
+- id: download_page_title
+  # translation: "Read & Download the official {{ .Title }}"
+  translation: "公式の{{ .Title }}を閲覧・ダウンロード"
+
+- id: download_page_description
+  # translation: "{{ .Title }} is defined here by"
+  translation: "ここで定義されている{{ .Title }}は"
+
+- id: download_page_originators
+  # translation: ", the originators of the {{ .Title }}."
+  translation: "、{{ .Title }}の作成者によるものです。"
+
+- id: download_translations_provided
+  # translation: "Translations provided by the generous individuals and groups listed below. Please select the guide in the language you would like to download."
+  translation: "翻訳版は、個人やグループの惜しみない支援によって提供されています。ダウンロードしたい言語のガイドを選択してください。"
+
+- id: download_translation_error
+  # translation: "If you have found a possible translation error with the {{ .Title }} please contact the translator directly. If you need additional support please contact us on"
+  translation: "もし、{{ .Title }}の翻訳に誤りがあると思う場合は、直接、翻訳者に連絡してください。追加のサポートが必要な場合は、以下の方法でお問い合わせください。"
+
+- id: download_official_version
+  # translation: "Official Version"
+  translation: "公式バージョン"
+
+- id: download_community_translations
+  # translation: "Community Translations"
+  translation: "コミュニティによる翻訳"
+
+- id: download_current_version_released
+  # translation: "The current official version of the {{ .Site.Title }} was released in"
+  translation: "現在の公式バージョンの{{ .Site.Title }}: "
+
+- id: download_older_translations_notice
+  # translation: "Translations of the {{ .Site.Title }} with older dates may not contain the most recent information."
+  translation: "掲載日付が古い{{ .Site.Title }}の翻訳版では、最新の情報が含まれていない可能性があります。"
+
+- id: download_table_language
+  # translation: "Language"
+  translation: "言語"
+
+- id: download_table_translations_by
+  # translation: "Translations By"
+  translation: "翻訳者"
+
+- id: download_table_written_by
+  # translation: "Written By"
+  translation: "作成者"
+
+- id: download_table_action
+  # translation: "Action"
+  translation: "利用方法"
+
+- id: download_official_current_version
+  # translation: "Official Current Version"
+  translation: "公式の現在バージョン"
+
+- id: download_button_text
+  # translation: "Download"
+  translation: "ダウンロード"
+
+- id: download_coming_soon
+  # translation: "Coming Soon"
+  translation: "近日公開予定"
+
+- id: download_missing_language
+  # translation: "Missing your language?"
+  translation: "あなたの言語が見つかりませんか？"
+
+- id: download_contribute_translation
+  # translation: "Help the community by contributing a new translation."
+  translation: "新しい翻訳版を提供して、コミュニティに貢献しましょう。"
+
+- id: download_add_translation
+  # translation: "Add Translation"
+  translation: "翻訳言語を追加"
+
+- id: download_community_contributors
+  # translation: "Community Contributors"
+  translation: "コミュニティの貢献者"
+
+- id: contributors_label
+  # translation: "Contributors"
+  translation: "貢献者"
+
+- id: contributors_description
+  # translation: "The contributors listed below are a collection of all contributors across all guides and versions."
+  translation: "以下の貢献者は、すべてのガイドとバージョンにわたる貢献者の集合です。"
+
+- id: read_online_action
+  # translation: "Read Online"
+  translation: "オンラインで読む"
+
+# PDF Download functionality
+- id: guide_pdf_download_button
+  # translation: "Download PDF"
+  translation: "PDFをダウンロード"
+
+- id: guide_pdf_not_available
+  # translation: "PDF not available"
+  translation: "PDFは利用できません"
+
+- id: guide_pdf_intro_text
+  # translation: "This guide is also available as a PDF download."
+  translation: "このガイドはPDFとしてもダウンロードできます。"
+
+- id: guide_pdf_intro_link
+  # translation: "Download PDF"
+  translation: "PDFをダウンロード"
+
+# History page translations
+- id: history_page_title
+  # translation: "Versions"
+  translation: "バージョン"
+
+- id: history_evolution_title
+  # translation: "Evolution of the Guide"
+  translation: "ガイドの変遷"
+
+- id: history_evolution_description
+  # translation: 'The current <strong><a href="{{ .GuideLink }}">Open Guide to Kanban</a></strong> is a living document that has evolved from previous historical versions, incorporating community feedback and modern Kanban practices. For ProKanban, <a href="/history/kanban-guide-2025/">The Kanban Guide</a> is their living guide.'
+  translation: '現在の<strong><a href="{{ .GuideLink }}">オープン版カンバンガイド</a></strong>は、以前の歴史的なバージョンから進化した鮮度を保ったドキュメントであり、コミュニティのフィードバックと最新のカンバンプラクティスを取り入れています。ProKanbanでは、<a href="/history/kanban-guide-2025/">カンバンガイド</a>を鮮度を保ったガイドとして扱います。'
+
+- id: history_fork_summary_historical
+  # translation: "Historical Versions"
+  translation: "バージョン履歴"
+
+- id: history_fork_summary_current
+  # translation: "Open Guide"
+  translation: "オープン版カンバンガイド"
+
+- id: history_fork_summary_description
+  # translation: "Current guide builds upon and extends previous versions"
+  translation: "現在のガイドは、以前のバージョンを基にして拡張されています"
+
+- id: history_fork_indicator
+  # translation: "Forked & Enhanced from These Historical Versions"
+  translation: "以下のバージョン履歴からフォークして拡張されています"
+
+- id: history_no_versions_available
+  # translation: "No versions are currently available."
+  translation: "現在、利用可能なバージョンはありません。"
+
+# Guide template translations
+- id: guide_join_discussion
+  # translation: "Join Discussion"
+  translation: "ディスカッションに参加"
+
+- id: guide_table_of_contents
+  # translation: "Table of Contents"
+  translation: "目次"
+
+- id: guide_coming_soon
+  # translation: "This guide is coming soon! Stay tuned for updates."
+  translation: "このガイドは近日公開予定です！最新情報をお待ちください。"
+
+- id: guide_no_content_available
+  # translation: "Content not yet available for this language."
+  translation: "この言語のコンテンツはまだ利用できません。"
+
+- id: guide_pdf_en
+  # translation: "PDF (EN)"
+  translation: "PDF (英語)"
+
+- id: guide_pdf_en_us
+  # translation: "PDF (EN-US)"
+  translation: "PDF (英語-米国)"
+
+- id: guide_pdf_en_not_available
+  # translation: "PDF (EN) not available"
+  translation: "PDF (英語) は利用できません"
+
+- id: guide_pdf_en_us_not_available
+  # translation: "PDF (EN-US) not available"
+  translation: "PDF (英語-米国) は利用できません"
+
+- id: guide_coming_label
+  # translation: "Coming:"
+  translation: "近日公開予定:"
+
+- id: guide_updated_label
+  # translation: "Updated:"
+  translation: "更新日:"
+
+- id: guide_version_label
+  # translation: "Version:"
+  translation: "バージョン:"
+
+- id: guide_content_unavailable_note
+  # translation: "Note:"
+  translation: "注:"
+
+- id: guide_content_unavailable_message
+  # translation: "This page content is currently unavailable in {{ .Language }}. Showing the default guide content below."
+  translation: "このページのコンテンツは現在、{{ .Language }}で利用できません。以下にデフォルトのガイドコンテンツを表示します。"
+
+- id: guide_content_unavailable_title
+  # translation: "Content Unavailable:"
+  translation: "コンテンツが利用できません:"
+
+- id: guide_content_unavailable_description
+  # translation: "The content for this page could not be loaded and no default content is available. Please"
+  translation: "このページのコンテンツを読み込めませんでした。デフォルトのコンテンツも利用できません。以下のリンクから"
+
+- id: guide_report_issue_link
+  # translation: "report this issue"
+  translation: "この問題を報告してください"
+
+- id: guide_report_issue_message
+  # translation: "to help us fix it."
+  translation: "この問題を修正するためにご協力ください。"
+
+- id: guide_back_to_home
+  # translation: "← Back to Home"
+  translation: "← ホームに戻る"
+
+- id: guide_historical_version_notice_title
+  # translation: "Historical Version Notice:"
+  translation: "過去バージョン履歴に関する注意事項:"
+
+- id: guide_historical_version_notice_text
+  # translation: "You are viewing version {{ .CurrentVersion }} of this guide."
+  translation: "あなたは、このガイドの{{ .CurrentVersion }}版を閲覧しています。"
+
+- id: guide_historical_version_notice_link
+  # translation: "View the latest version ({{ .LatestVersion }})"
+  translation: "最新バージョン（{{ .LatestVersion }}）を閲覧"
+
+- id: guide_historical_version_notice_suffix
+  # translation: "for the most up-to-date information."
+  translation: "し、最新の情報を得るためにご利用ください。"
+
+- id: not_sure_which_to_use_title
+  # translation: "Not Sure Which to Use?"
+  translation: "どれを使うか迷っていますか？"
+
+# Additional translations for guide/list.html
+- id: get_started_title
+  # translation: "Get Started"
+  translation: "始める"
+
+- id: community_driven_label
+  # translation: "Community Driven"
+  translation: "コミュニティ主体"
+
+- id: coming_soon
+  # translation: "Coming Soon"
+  translation: "近日公開予定"
+
+- id: purpose_title
+  # translation: "Purpose"
+  translation: "目的"
+
+- id: ethos_title
+  # translation: "Ethos"
+  translation: "価値基準"
+
+- id: audience_title
+  # translation: "Audience"
+  translation: "対象読者"
+
+- id: use_case_title
+  # translation: "Use Case"
+  translation: "利用例"
+
+- id: content_title
+  # translation: "Content"
+  translation: "コンテンツ"
+
+- id: update_model_title
+  # translation: "Update Model"
+  translation: "更新モデル"
+
+- id: guide_overview_title
+  # translation: "Guide Overview"
+  translation: "ガイドの概要"
+
+- id: guide_overview_description
+  # translation: "Key characteristics of this guide"
+  translation: "このガイドの主な特長"
+
+- id: when_to_use_title
+  # translation: "When to Use This Guide"
+  translation: "このガイドを用いる状況"
+
+- id: when_to_use_description
+  # translation: "Choose the right approach for your context"
+  translation: "あなたの状況に合ったアプローチを選択しましょう"
+
+- id: quick_decision_guide_title
+  # translation: "Quick Decision Guide"
+  translation: "簡単な決定の指針"
+
+- id: getting_started_title
+  # translation: "Getting Started" <-　初学者？
+  translation: "はじめての方へ"
+
+- id: for_practitioners_title
+  # translation: "For Practitioners"
+  translation: "実践者の方へ"
+
+- id: current_information_title
+  # translation: "Current Information"
+  translation: "現在の情報"
+
+- id: current_information_description
+  # translation: "Version details and community contributors"
+  translation: "バージョンの詳細とコミュニティへの貢献者"
+
+- id: current_version_title
+  # translation: "Current Version"
+  translation: "現在のバージョン"
+
+- id: current_version_updated_label
+  # translation: "Updated"
+  translation: "更新日"
+
+- id: current_version_description
+  # translation: "This is the current active version of the guide."
+  translation: "これは、ガイドの最新バージョンです。"
+
+- id: read_current_version_button
+  # translation: "Read Current Version"
+  translation: "現在のバージョンを読む"
+
+- id: version_info_not_available
+  # translation: "Version information not available"
+  translation: "バージョン情報は利用できません"
+
+- id: contributors_title
+  # translation: "Contributors"
+  translation: "貢献者"
+
+- id: contributors_description_card
+  # translation: "Community members who shape this guide"
+  translation: "このガイドを形作ったコミュニティメンバーたち"
+
+- id: contributors_thank_you
+  # translation: "Thank you to all contributors who help make this guide better."
+  translation: "このガイドをよりよいものにするために貢献してくれた、すべての貢献者に感謝します。"
+
+- id: join_community_button
+  # translation: "Join the Community"
+  translation: "コミュニティに参加する"
+
+- id: no_contributors_found
+  # translation: "No contributors found"
+  translation: "貢献者が見つかりません"
+
+- id: version_history_title
+  # translation: "Version History"
+  translation: "バージョン履歴"
+
+- id: version_history_description
+  # translation: "Previous versions and their evolution"
+  translation: "以前のバージョンとその変遷"
+
+- id: no_previous_versions_title
+  # translation: "No Previous Versions"
+  translation: "以前のバージョンはありません"
+
+- id: no_previous_versions_description
+  # translation: "This guide is just getting started. Check back later for historical versions."
+  translation: "このガイドはまだ始まったばかりです。バージョン履歴は後ほどご確認ください。"
+
+- id: what_is_guide_title
+  # translation: "What is this Guide?"
+  translation: "このガイドとは？"
+
+- id: license_title
+  # translation: "License"
+  translation: "ライセンス"
+
+- id: view_on_github_button
+  # translation: "View on GitHub"
+  translation: "GitHubを見る"
+
+# Additional translations for version-card.html
+- id: current_open_guide_label
+  # translation: "Current Open Guide"
+  translation: "現在のオープン版カンバンガイド"
+
+- id: active_status_label
+  # translation: "Active"
+  translation: "アクティブ"
+
+- id: current_fork_label
+  # translation: "Current Fork"
+  translation: "現在のフォーク"
+
+- id: active_fork_label
+  # translation: "Active Fork"
+  translation: "アクティブなフォーク"
+
+- id: fork_indicator
+  # translation: "Fork:"
+  translation: "フォーク:"
+
+- id: forked_from_indicator
+  # translation: "Forked from:"
+  translation: "フォーク元:"
+
+- id: this_is_fork_label
+  # translation: "This is a fork"
+  translation: "これはフォークです"
+
+- id: available_languages_label
+  # translation: "Available Languages:"
+  translation: "利用可能な言語:"
+
+- id: pdf_downloads_label
+  # translation: "PDF Downloads:"
+  translation: "PDFダウンロード:"
+
+- id: living_document_updated_label
+  # translation: "Living Document - Updated"
+  translation: "継続更新ドキュメント - 更新日"
+
+- id: active_fork_updated_label
+  # translation: "Active Fork - Updated"
+  translation: "アクティブなフォーク - 更新日"
+
+- id: historical_fork_label
+  # translation: "Historical Fork -"
+  translation: "フォークの履歴 -"
+
+- id: historical_version_label
+  # translation: "Historical Version -"
+  translation: "バージョン履歴 -"
+
+- id: current_version_label
+  # translation: "Current Version"
+  translation: "現在のバージョン"
+
+- id: read_guide_button
+  # translation: "Read Guide"
+  translation: "ガイドを読む"
+
+- id: translations_button_small
+  # translation: "Translations"
+  translation: "翻訳版"
+
+- id: read_fork_button
+  # translation: "Read Fork"
+  translation: "フォーク元を読む"
+
+- id: view_archive_button
+  # translation: "View Archive"
+  translation: "アーカイブを見る"
+
+- id: guide_version_current
+  # translation: "Current"
+  translation: "現行"
+
+- id: guide_version_dropdown_label
+  # translation: "Select version"
+  translation: "バージョンを選択"
+
+- id: guide_version_latest
+  # translation: "Latest"
+  translation: "最新"

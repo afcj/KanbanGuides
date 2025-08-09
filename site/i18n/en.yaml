@@ -20,8 +20,20 @@
 - id: translations_description
   translation: "Access this guide in multiple languages and help with translations."
 
+- id: translators_label
+  translation: "Translators"
+
 - id: translations_button
   translation: "View Translations"
+
+- id: guide_translation_preview_note
+  translation: "Translation Preview:"
+
+- id: guide_translation_preview_message
+  translation: "This guide is a translation preview and may not be fully complete or accurate. Please help us review and improve it, join the discussion."
+  
+- id: guide_preview_link
+  translation: "Help us review this translation"
 
 - id: history_title
   translation: "History"
@@ -134,8 +146,17 @@
 - id: download_table_status
   translation: "Status"
 
+- id: download_table_contributed_by
+  translation: "Contributed By"
+
 - id: download_preview_status
   translation: "In Preview"
+
+- id: download_reference_status
+  translation: "Reference"
+
+- id: download_pdf_only_status
+  translation: "PDF Only"
 
 - id: download_preview_action
   translation: "Preview"
@@ -203,6 +224,9 @@
 
 - id: download_community_contributors
   translation: "Community Contributors"
+
+- id: contributors_label
+  translation: "Contributors"
 
 - id: contributors_description
   translation: "The contributors listed below are a collection of all contributors across all guides and versions."
@@ -302,6 +326,18 @@
 
 - id: guide_back_to_home
   translation: "← Back to Home"
+
+- id: guide_historical_version_notice_title
+  translation: "Historical Version Notice:"
+
+- id: guide_historical_version_notice_text
+  translation: "You are viewing version {{ .CurrentVersion }} of this guide."
+
+- id: guide_historical_version_notice_link
+  translation: "View the latest version ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "for the most up-to-date information."
 
 - id: not_sure_which_to_use_title
   translation: "Not Sure Which to Use?"
@@ -466,3 +502,9 @@
 
 - id: view_archive_button
   translation: "View Archive"
+- id: guide_version_current
+  translation: "Current"
+- id: guide_version_dropdown_label
+  translation: "Select version"
+- id: guide_version_latest
+  translation: "Latest"
