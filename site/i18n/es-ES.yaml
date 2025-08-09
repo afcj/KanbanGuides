@@ -20,8 +20,20 @@
 - id: translations_description
   translation: "Accede a esta guía en múltiples idiomas y ayuda con las traducciones."
 
+- id: translators_label
+  translation: "Traductores"
+
 - id: translations_button
   translation: "Ver Traducciones"
+
+- id: guide_translation_preview_note
+  translation: "Vista previa de la traducción:"
+
+- id: guide_translation_preview_message
+  translation: "Esta guía es una vista previa de la traducción y puede no estar completamente terminada o ser precisa. Por favor, ayúdanos a revisarla y mejorarla, únete a la conversación."
+
+- id: guide_preview_link
+  translation: "Ayúdanos a revisar esta traducción"
 
 - id: history_title
   translation: "Historia"
@@ -134,8 +146,17 @@
 - id: download_table_status
   translation: "Estado"
 
+- id: download_table_contributed_by
+  translation: "Contribuido Por"
+
 - id: download_preview_status
   translation: "En Vista Previa"
+
+- id: download_reference_status
+  translation: "Referencia"
+
+- id: download_pdf_only_status
+  translation: "Solo PDF"
 
 - id: download_preview_action
   translation: "Vista Previa"
@@ -203,6 +224,9 @@
 
 - id: download_community_contributors
   translation: "Contribuidores de la Comunidad"
+
+- id: contributors_label
+  translation: "Contribuidores"
 
 - id: contributors_description
   translation: "Los contribuidores que se enumeran a continuación son una colección de todos los contribuidores de todas las guías y versiones."
@@ -302,6 +326,18 @@
 
 - id: guide_back_to_home
   translation: "← Volver al Inicio"
+
+- id: guide_historical_version_notice_title
+  translation: "Aviso de Versión Histórica:"
+
+- id: guide_historical_version_notice_text
+  translation: "Estás viendo la versión {{ .CurrentVersion }} de esta guía."
+
+- id: guide_historical_version_notice_link
+  translation: "Ver la versión más reciente ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "para obtener la información más actualizada."
 
 - id: not_sure_which_to_use_title
   translation: "¿No estás seguro cuál usar?"
@@ -466,3 +502,12 @@
 
 - id: view_archive_button
   translation: "Ver Archivo"
+
+- id: guide_version_current
+  translation: "Actual"
+
+- id: guide_version_dropdown_label
+  translation: "Seleccionar versión"
+
+- id: guide_version_latest
+  translation: "Última"

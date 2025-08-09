@@ -1,6 +1,7 @@
 ---
 title: "Historia"
 layout: history
+type: guide
 ---
 
 Kanban profesional se define completamente en la Guía Kanban, que fue creada por una comunidad de practicantes Kanban.

@@ -1,6 +1,6 @@
 ---
 title: "La Guía Kanban"
-description: "Kanban profesional se define completamente en la Guía Kanban, que fue creada por una comunidad de practicantes Kanban. Esta guía fue (es) desarrollada con la ayuda y el apoyo de muchos practicantes de Kanban. Es nuestro compromiso continuar promoviendo una comunidad segura, diversa e inclusiva para que todos los que participen puedan beneficiarse. Como punto de partida para ese fin, esta guía se ofrece gratuitamente a cualquiera que desee utilizarla."
+description: "La Guía Kanban es la referencia mínima oficial de Kanban. Clara, estable y focalizada, define las prácticas y principios básicos para gestionar el flujo y mejorar la entrega en todos los sectores."
 Type: "guide"
 Layout: "root"
 brand:
@@ -14,12 +14,18 @@ weight: 1
 guide_license: |
   This work is licensed by Orderly Disruption Limited and Daniel S. Vacanti, Inc. under a Creative Commons Attribution 4.0 International License.
 guide_comparison:
-  purpose: "Mínimo, referencia oficial"
-  ethos: "Focalizado, estable, canónico"
-  audience: "Miembros de sistemas Kanban que busquen un punto de partida claro"
-  use_case: "¿Qué es Kanban en esencia?"
-  content: "Claro, ligero y esencial"
-  update_model: "Periódico, revisado"
+  - title: Propósito
+    content: "Minimalista, referencia oficial"
+  - title: Ética
+    content: "Focalizado, estable, canónico"
+  - title: Audiencia
+    content: "Miembros de sistemas Kanban que busquen un punto de partida claro"
+  - title: Caso de uso
+    content: "¿Qué es Kanban en su esencia?"
+  - title: Contenido
+    content: "Claro, ligero y esencial"
+  - title: Modelo de actualización
+    content: "Periódico, revisado"
 which_to_use_summary: |
   Elige [La Guía Kanban](/es-ES/the-kanban-guide/latest) si eres nuevo en Kanban o necesitas una referencia mínima y estable. Es ideal para miembros de sistemas Kanban que quieran comenzar de forma sencilla y desarrollar su comprensión.
 layman_description: |

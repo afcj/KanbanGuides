@@ -1,7 +1,7 @@
 ---
-title: Guía Kanban (mayo de 2025)
-description: Este documento pretende ser una referencia unificadora para la comunidad, que ofrece la orientación mínima sobre Kanban. Dependiendo del contexto, varios enfoques pueden complementar Kanban, lo que le permite acomodar todo el espectro de entrega de valor y desafíos organizacionales.
-date: 2025-08-01T09:00:00Z
+title: La Guía Kanban (mayo de 2025)
+description: La Guía Kanban es la referencia mínima oficial de Kanban. Clara, estable y focalizada, define las prácticas y principios básicos para gestionar el flujo y mejorar la entrega en todos los sectores.
+date: 2025-08-08T09:00:00Z
 version: 2025.5
 keywords:
   - Kanban
@@ -129,7 +129,7 @@ La aplicación de Kanban requiere la recopilación y análisis de un conjunto m�
 
 - **WIP**: El número de elementos de trabajo iniciados pero no finalizados.
 - **Rendimiento**: El número de elementos de trabajo finalizados por unidad de tiempo. Ten en cuenta que el rendimiento es el recuento exacto de elementos de trabajo.
-- **Edad del Elemento de Trabajo**: El tiempo transcurrido desde que un elemento de trabajo es iniciado hasta el momento actual.
+- **Antigüedad del Elemento de Trabajo**: El tiempo transcurrido desde que un elemento de trabajo es iniciado hasta el momento actual.
 - **Tiempo de Ciclo**: El tiempo transcurrido desde que un elemento de trabajo es iniciado hasta que es finalizado.
 
 Siempre que los miembros del sistema Kanban utilicen estas métricas tal y como se describen en esta guía, pueden referirse a cualquiera de estas medidas utilizando cualquier otro nombre que elijan (p.ej., Tiempo de Ciclo podría ser Tiempo de Flujo, Rendimiento podría ser Tasa de Entrega, etc.).
@@ -178,32 +178,32 @@ Esta obra está licenciada por Orderly Disruption Limited y Daniel S. Vacanti, I
 
 La traducción de la versión 2025.05 ha sido realizada por:
 
-● Aitor Fernández-Ceballos [linkedin.com/in/aitorfcj/](https://www.linkedin.com/in/aitorfcj/)
+- Aitor Fernández-Ceballos | [linkedin.com/in/aitorfcj/](https://www.linkedin.com/in/aitorfcj/)
 
 De los párrafos sin cambios en la versión inglesa desde la versión 2020.12, algunos se han modificado ligeramente y otros se han mantenido tal cual la traducción original de:
 
-● Jose Antonio Molina | <jmolina.correoweb@gmail.com> | [Linkedin.com/in/molina2018/](https://www.linkedin.com/in/molina2018/) |
-
-● Youssef Oufaska | <hola@leanimprovements.es> | [Linkedin.com/in/youfaska/](https://www.linkedin.com/in/molina2018/)
+- Jose Antonio Molina | <jmolina.correoweb@gmail.com> | [Linkedin.com/in/molina2018/](https://www.linkedin.com/in/molina2018/) |
+- Youssef Oufaska | <hola@leanimprovements.es> | [Linkedin.com/in/youfaska/](https://www.linkedin.com/in/molina2018/)
 
 Revisada por:
 
-● Jose Casal | <jose.casal@actineo.xyz> | [https://www.linkedin.com/in/jcasal/](https://www.linkedin.com/in/jcasal/)
+- Jose Casal | <jose.casal@actineo.xyz> | [https://www.linkedin.com/in/jcasal/](https://www.linkedin.com/in/jcasal/)
 
 ### Glosario y notas de la traducción
 
 | **Español** | **Inglés** | **Notas** |
 |--------------|--------------|--------------|
-| Edad del Elemento de Trabajo | Work Item Age |--------------|
+| Antigüedad del Elemento de Trabajo | Work Item Age |--------------|
 | Elemento de Trabajo | Work Item |--------------|
 | Expectativa de Nivel de Servicio (ENS) | Service Level Expectation (SLE) |--------------|
 | Finalizado | Finished | A veces se ha empleado "finalización" para sonar más natural, aún cuando en inglés no cambia. |
 | Iniciado | Started | A veces se ha empleado "inicio" para sonar más natural, aún cuando en inglés no cambia. |
 | Real / obtención | Realized / realization | Referido al Valor. |
-| Pronóstico | Forecast | Por mantener la traducción oficial de la Guía de Scrum. |
-| Pull | Pull | Antaño traducido indistintamente como Tracción o Arrastre, en las obras más recientes publicadas se mantiene el original Pull. |
+| Pronóstico | Forecast | Como en traducciones oficiales de Scrum.org |
+| Pull | Pull | Traducido indistintamente como Tracción o Arrastre, lo menos confuso es mantener el original Pull. |
+| Push | Push | Empuje, se deja push por coherencia con pull. |
 | Punto de control | (noun) Control | Se mantiene "control" como verbo y gerundio. |
-| Rendimiento | Throughput |--------------|
+| Rendimiento | Throughput | En la traducción oficial de Kanban University le llaman indistintamente Tasa de Entrega. Se han traducido las apariciones de "performance" en el texto como "desempeño" para evitar confusiones. |
 | Stakeholder | Stakeholder | O "partes interesadas", la definición del término original es más amplia y está muy extendida, razón por la cual se mantiene. |
 | Tiempo de Ciclo | Cycle Time |--------------|
 | Trabajo en Curso | Work in Progress | Se ha mantenido su acrónimo inglés (WIP) por estar su uso muy extendido. |

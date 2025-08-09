@@ -16,12 +16,18 @@ weight: 2
 guide_license: |
   Esta obra, la Guía Abierta de Kanban, es una adaptación de la [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), cuya licencia está sujeta a la Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). The original guide is © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Changes were made to the original. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Portions highlighted in italic are © 2025_ Orderly Disruption Limited, licensed under CC BY-SA 4.0. All other content is from © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., also licensed under CC BY-SA 4.0.
 guide_comparison:
-  purpose: "Manual ampliado por la comunidad"
-  ethos: "Inclusivo, evolutivo, colaborativo"
-  audience: "Equipos que combinan Kanban con otros enfoques"
-  use_case: "¿Cómo aplicar Kanban en *nuestro* contexto?"
-  content: "Enriquecido con ejemplos y extendido"
-  update_model: "impulsado por la comunidad, iterativo"
+  - title: Propósito
+    content: "Manual ampliado por la comunidad"
+  - title: Ética
+    content: "Inclusivo, evolutivo, colaborativo"
+  - title: Audiencia
+    content: "Equipos que combinan Kanban con otros enfoques"
+  - title: Caso de uso
+    content: "¿Cómo aplicar Kanban en *nuestro* contexto?"
+  - title: Contenido
+    content: "Enriquecido con ejemplos y extendido"
+  - title: Modelo de actualización
+    content: "Impulsado por la comunidad, iterativo"
 which_to_use_summary: |
   Elige la [Guía Abierta de Kanban](/es-ES/open-guide-to-kanban/latest) si trabajas con distintos enfoques o quieres más contexto y flexibilidad. Es adecuado para quienes tengan experiencia en Lean, Agile, Scrum o Product Management y quieran adaptar Kanban a su entorno.
 layman_description: |
