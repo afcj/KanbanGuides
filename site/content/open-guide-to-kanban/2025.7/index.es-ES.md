@@ -26,7 +26,7 @@ keywords:
   - entrega orientada a resultados  
 author:
   - John Coleman
-date: 2025-08-08T09:00:00Z
+date: 2025-08-10T09:00:00Z
 type: guide
 forked_from: the-kanban-guide/2025.5
 lang: es-ES
