@@ -596,7 +596,7 @@
 # Additional translations for version-card.html
 - id: current_open_guide_label
   # translation: "Current Open Guide"
-  translation: "現在のオープン版カンバンガイド"
+  translation: "現在公開中のガイド"
 
 - id: active_status_label
   # translation: "Active"
