@@ -86,23 +86,23 @@ translators:
 ## 序文
 
 <!-- This document aims to provide _open_ _and adaptable_ guidance for Kanban _and Flow, drawing on ideas curated from various communities_. _It aims to serve as a coherent reference for various communities in addition to their own content._ Depending on the context, various approaches can complement Kanban, allowing it to accommodate a range of Value delivery and organizational challenges. -->
-このガイドは、カンバンと _フロー_ に関する _オープン_ で _適応可能な_ ガイダンスを提供することを目的としている。これは、_さまざまなコミュニティから収集されたアイデアを基にしている_。_それぞれのコミュニティ独自のコンテンツに加えて、一貫性のあるリファレンスとして機能することを目指している_。カンバンは、さまざまなアプローチによって補完することで、価値の提供や組織の課題に関するある程度、幅の広いニーズに柔軟に適応できるようになる。
+このガイドは、カンバンと*フロー*に関する*オープン*で*適応可能な*ガイダンスを提供することを目的としている。これは、*さまざまなコミュニティから収集されたアイデアを基にしている*。*それぞれのコミュニティ独自のコンテンツに加えて、一貫性のあるリファレンスとして機能することを目指している*。カンバンは、さまざまなアプローチによって補完することで、価値の提供や組織の課題に関するある程度、幅の広いニーズに柔軟に適応できるようになる。
 
 <!-- _The use of the italics font supports the Creative Commons adaptation notice on the cover page; italics are not for emphasis. The use of a capital letter at the start of a word indicates a convention listed in the appendix of this document, e.g., Value is either a potential or realized benefit for a Stakeholder, including meeting the needs of the customer, the end-user, the decision-maker, the organization, and the environment._ -->
-_斜体フォントの使用は、このガイドの表紙に記載されたクリエイティブ・コモンズの表示要件をサポートするためのものであり、強調を目的としたものではない。また、単語の冒頭を大文字で始めることで、このガイドの付録に記載された慣例を示す。例えば、Valueは顧客、エンドユーザー、意思決定者、組織、環境のニーズを満たすことを含む、ステークホルダーにとっての潜在的または実現された恩恵を指す。_
+*斜体フォントの使用は、このガイドの表紙に記載されたクリエイティブ・コモンズの表示要件をサポートするためのものであり、強調を目的としたものではない。また、単語の冒頭を大文字で始めることで、このガイドの付録に記載された慣例を示す。例えば、Valueは顧客、エンドユーザー、意思決定者、組織、環境のニーズを満たすことを含む、ステークホルダーにとっての潜在的または実現された恩恵を指す*。
 
 <!-- ## Definition of Kanban in the Context of Knowledge Work -->
 ## ナレッジワークにおけるカンバンの定義
 
 <!-- Kanban is a strategy for optimizing the _Flow_ of _Value_ through a _system_. It is a signaling system to call for Work or inventory. It comprises the following three practices working in tandem: -->
-カンバンとは、あるシステムを通じて _価値_ の _流れ（フロー）_ を最適化するための戦略である。それは、作業や在庫を必要なときに引き寄せるためのシグナリングシステム<!--（合図による呼び出しの仕組み）-->でもある。以下の3つのプラクティスが連携して機能する。
+カンバンとは、あるシステムを通じて*価値*の*流れ*（*フロー*）を最適化するための戦略である。それは、作業や在庫を必要なときに引き寄せるためのシグナリングシステム<!--（合図による呼び出しの仕組み）-->でもある。以下の3つのプラクティスが連携して機能する。
 
 <!-- - Defining and _Visualizing_ a workflow. -->
 - ワークフローを定義し _可視化する_
 <!-- - Actively managing _Items_ in a workflow. -->
 - ワークフロー内の _項目_ を主体的に管理する
 <!-- - Improving _Flow_. -->
-- _フロー_ を改善する
+- *フロー*を改善する
 
 <!-- In their implementation, these Kanban practices are collectively called a Kanban system. Those who participate in the Value delivery of a Kanban system are called Kanban system members. -->
 これらのカンバンのプラクティスを実装したものを、総称してカンバンシステムと呼ぶ。カンバンシステムの価値提供に参加する人たちを、カンバンシステムメンバーと呼ぶ。
@@ -111,29 +111,29 @@ _斜体フォントの使用は、このガイドの表紙に記載されたク�
 ## カンバンを使う理由
 
 <!-- Central to the _understanding_ of Kanban is the concept of _Flow_. _In a Kanban system, Flow_ is the movement of Value through that Kanban system. As most _Kanban_ workflows exist to optimize Value, the strategy of Kanban is to optimize Value by optimizing Flow, which means striving to find the right balance of effectiveness, efficiency, and predictability: -->
-カンバンの _理解_ の中心にあるのは、_フロー_ の概念である。_カンバンシステムにおけるフロー_ とは、価値がそのシステム内を移動することを指す。ほとんどの _カンバン_ のワークフローが価値を最適化するために存在するように、カンバンの戦略はフローを最適化することで価値を最適化する。これは、効果性、効率性、予測可能性の適切なバランスを追求することを意味する。
+カンバンの*理解*の中心にあるのは、*フロー*の概念である。*カンバンシステムにおけるフロー*とは、価値がそのシステム内を移動することを指す。ほとんどの*カンバン*のワークフローが価値を最適化するために存在するように、カンバンの戦略はフローを最適化することで価値を最適化する。これは、効果性、効率性、予測可能性の適切なバランスを追求することを意味する。
 
 <!-- - An effective workflow is one that delivers what stakeholders _desire,_ when they _desire_ it. -->
-- 効果的なワークフローは、ステークホルダーが _求めるもの_ を _求めるタイミング_ で提供する
+- 効果的なワークフローは、ステークホルダーが*求めるもの*を*求めるタイミング*で提供する
 <!-- - An efficient workflow allocates available _capacity_ optimally to deliver Value. -->
-- 効率的なワークフローは、利用可能な _キャパシティ_ をできるだけ最適に配分し、価値を提供する
+- 効率的なワークフローは、利用可能な*キャパシティ*をできるだけ最適に配分し、価値を提供する
 <!-- - A predictable workflow means being able to _reasonably_ forecast Value delivery within an acceptable degree of uncertainty. -->
-- 予測可能なワークフローは、許容できる不確実性の範囲内で価値の提供を _ある程度_ 予測できることを意味する
+- 予測可能なワークフローは、許容できる不確実性の範囲内で価値の提供を*ある程度*予測できることを意味する
 
 <!-- The strategy of _a_ Kanban _system_ is to _enable_ Kanban system members to ask the right questions sooner as part of a continuous improvement effort in pursuit of these goals. Kanban system members should aim for a sustainable balance among these three elements. _Kanban is also a way to reduce overburden (excessive workload) and to manage demand so that Work is delivered optimally given the available capacity. It is not perfect, but it should foster constant improvement and an optimized Flow of Value._ -->
-カンバン _システム_ の戦略は、カンバンシステムメンバーが、これらの目標を追求するための継続的な改善の一環として、適切な質問を早期に行えるように _支援する_。カンバンシステムメンバーは、これら3つの要素の持続可能なバランスを目指すべきである。_カンバンは、過剰な作業負荷（オーバーバーデン）を軽減し、利用可能なキャパシティに応じて作業結果が最適に提供されるように需要を管理する手段でもある。完璧な手段ではないが、継続的な改善と価値フローの最適化を促すものであるべきだ。_
+カンバン*システム*の戦略は、カンバンシステムメンバーが、これらの目標を追求するための継続的な改善の一環として、適切な質問を早期に行えるように*支援する*。カンバンシステムメンバーは、これら3つの要素の持続可能なバランスを目指すべきである。*カンバンは、過剰な作業負荷（オーバーバーデン）を軽減し、利用可能なキャパシティに応じて作業結果が最適に提供されるように需要を管理する手段でもある。完璧な手段ではないが、継続的な改善と価値フローの最適化を促すものであるべきだ*。
 
 <!-- _Side benefits are happier Kanban system members, higher quality, and the ability to adapt to demand. A good Kanban system is self-regulating, i.e., the Kanban system signals and adjusts to issues without intervention._ -->
-_副次的な恩恵としては、カンバンシステムメンバーの満足度の向上、品質の向上、需要への適応力の向上が挙げられる。優れたカンバンシステムは自己調整的であり、すなわち、介入なしにシグナルを発し、課題に応じて自ら調整を行うものである_。
+*副次的な恩恵としては、カンバンシステムメンバーの満足度の向上、品質の向上、需要への適応力の向上が挙げられる。優れたカンバンシステムは自己調整的であり、すなわち、介入なしにシグナルを発し、課題に応じて自ら調整を行うものである*。
 
 <!-- Because Kanban _can_ _Visualize_ virtually any workflow, its application is not limited to any specific industry or context. Professional Knowledge Workers in finance, utilities, healthcare, and software (to name a few), have benefited from Kanban practices. Kanban in most contexts where Value is delivered. -->
-カンバンは、ほぼすべてのワークフローを _可視化できる_ ため、その適用範囲は特定の業界や状況に限定されない。金融、ヘルスケア、ソフトウェアなどの分野で働くプロフェッショナルなナレッジワーカーが、カンバンのプラクティスから恩恵を受けている。カンバンは、価値を提供するほとんどの状況において使うことができる。
+カンバンは、ほぼすべてのワークフローを*可視化できる*ため、その適用範囲は特定の業界や状況に限定されない。金融、ヘルスケア、ソフトウェアなどの分野で働くプロフェッショナルなナレッジワーカーが、カンバンのプラクティスから恩恵を受けている。カンバンは、価値を提供するほとんどの状況において使うことができる。
 
 <!-- ## Kanban Theory -->
 ## カンバンの理論
 
 <!-- _The Kanban system_ draws on _various approaches and understanding_ including, but not limited to, systems thinking _(5)_, lean principles _(4)_, queuing theory (batch size _(6-7)_ and queue size _(1,13-14)_), variation _(2,11)_, and quality control _(2,8,10)_. Continually improving a Kanban system based on these approaches and understanding is one way organizations can attempt to optimize the delivery of Value. Many existing _Value_\-oriented approaches share the _ideas_ upon which Kanban is based. Because of these similarities, Kanban can be used to augment those delivery approaches. -->
-_カンバンシステム_ は、システム思考 _(5)_、リーン原則 _(4)_、待ち行列理論（バッチサイズ _(6-7)_ とキューサイズ _(1,13014)_）、変動（プロセスのばらつき） _(2,11)_、品質管理 _(1,8,10)_ といった、_さまざまなアプローチや理解_ に基づいている。これらのアプローチや理解に基づいてカンバンシステムを継続的に改善していくことは、組織が価値の提供を最適化しようとする手段のひとつである。既存の多くの _価値_ 指向なアプローチは、カンバンの基礎となる _考え方_ と共通点を持つ。こうした共通性から、カンバンはそれらの提供アプローチを補完するために活用できる。
+*カンバンシステム*は、システム思考 *(5)*、リーン原則 *(4)*、待ち行列理論（バッチサイズ *(6-7)* とキューサイズ *(1,13-14)*）、変動（プロセスのばらつき） *(2,11)*、品質管理 *(1,8,10)* といった、*さまざまなアプローチや理解*に基づいている。これらのアプローチや理解に基づいてカンバンシステムを継続的に改善していくことは、組織が価値の提供を最適化しようとする手段のひとつである。既存の多くの*価値*指向なアプローチは、カンバンの基礎となる*考え方*と共通点を持つ。こうした共通性から、カンバンはそれらの提供アプローチを補完するために活用できる。
 
 <!-- ## Kanban Practices -->
 ## カンバンのプラクティス
