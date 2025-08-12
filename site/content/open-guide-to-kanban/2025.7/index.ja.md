@@ -162,7 +162,7 @@ _最適なワークフローの運用を実現し、継続的な改善を促進�
    <!-- - [ ] A definition of how WIP will be controlled from ‘started’ to ‘finished.’ -->
    - [ ] 「開始」から「終了」までの間のWIPの制御方法の定義
    <!-- - [ ] _A set of_ Explicit policies about how _Work Items_ can _Flow_ through each state from ‘started’ to ‘finished’ _defect-free_. _For example, Kanban system members might have a policy that is explicit about fixing any known defects in an Item before moving it to the next state, so that no known defect is passed to a subsequent process._ -->
-   - [ ] _作業項目_ が _「開始」から「終了」までの各状態を _欠陥なく_、どのように _流れる_ かについての _一連の_ 明示的なポリシー       
+   - [ ] _作業項目_ が 「開始」から「終了」までの各状態を _欠陥なく_、どのように _流れる_ かについての _一連の_ 明示的なポリシー       
 	  例えば、カンバンシステムメンバーが、「既知の欠陥を修正しない限りは項目を次の状態に移してはならない」というポリシーを明示していれば、既知の欠陥が後続のプロセスに渡ることはない
    <!-- - [ ] A _Service Level Expectation_ (SLE): A forecast of how long it should take a _Work Item_ to _Flow_ from ‘started’ to ‘finished.’ _Note that there is no guarantee that what happened in the past will happen in the future._ -->
    - [ ] _サービスレベル期待値（SLE: Service Level Expectation）_  
