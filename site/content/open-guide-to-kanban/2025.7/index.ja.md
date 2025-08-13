@@ -98,9 +98,9 @@ translators:
 カンバンとは、あるシステムを通じて*価値*の*流れ*（*フロー*）を最適化するための戦略である。それは、作業や在庫を必要なときに引き寄せるためのシグナリングシステム<!--（合図による呼び出しの仕組み）-->でもある。以下の3つのプラクティスが連携して機能する。
 
 <!-- - Defining and _Visualizing_ a workflow. -->
-- ワークフローを定義し _可視化する_
+- ワークフローを定義し*可視化する*
 <!-- - Actively managing _Items_ in a workflow. -->
-- ワークフロー内の _項目_ を主体的に管理する
+- ワークフロー内の*項目*を主体的に管理する
 <!-- - Improving _Flow_. -->
 - *フロー*を改善する
 
@@ -203,7 +203,7 @@ translators:
 - *ブロックされている作業やプロセスを引き起こしている障害物を解消する*
 
 <!-- A common practice is for Kanban system members to review the active _Items_ _on a regular basis_. This review can occur continuously or at regular intervals. Kanban system members must explicitly control the number of _Work Items_ in a workflow from ‘started’ to ‘finished,’ directly or indirectly. That control can be represented on a Kanban board in any way that _Kanban system_ members deem appropriate. -->
-カンバンシステムメンバーは、進行中の*項目*を*一定の頻度で*レビューするのが一般的である。このレビューは、継続的または定期的に行う。カンバンシステムメンバーは、「開始」から「終了」までの _作業項目_ の数を、明示的に、直接または間接に制御しなければならない。この制御は、*カンバンシステム*メンバーが適切と判断する任意の方法でカンバンボード上に表現できる。
+カンバンシステムメンバーは、進行中の*項目*を*一定の頻度で*レビューするのが一般的である。このレビューは、継続的または定期的に行う。カンバンシステムメンバーは、「開始」から「終了」までの*作業項目*の数を、明示的に、直接または間接に制御しなければならない。この制御は、*カンバンシステム*メンバーが適切と判断する任意の方法でカンバンボード上に表現できる。
 
 <!-- _The use of WIP limits (16) in Kanban for Knowledge Work typically indicates that demand can exceed the team’s capacity, so WIP limits (16) are used to regulate and balance the Flow of Work Items and prevent overload._ -->
 *ナレッジワークにおけるカンバンでWIP制限(16)が用いられているのは、需要がチームのキャパシティを上回る可能性があることを示している場合が多い。そのため、WIP制限(16)は、作業項目のフローを調整し、バランスを保ち、過負荷を防ぐために用いられる*。
@@ -477,7 +477,7 @@ translators:
 <!-- - **Kanban or Kanban system**: The holistic set of concepts in this guide. _Kanban is rooted in the idea of a signaling system (a way to call for Work or inventory in a production system)._   -->
 - **カンバン（Kanban）またはカンバンシステム（Kanban system）**: 本ガイドで述べられている一連の概念全体のこと。*カンバンは、作業や在庫を呼び出すための仕組み（生産システムにおけるシグナリングシステム）という考え方に根ざしている*。
   <!-- _When this guide says Kanban, assume a Kanban system._ -->
-  _本ガイドでカンバンと記されている場合は、カンバンシステムを指すものと見なす_。
+  *本ガイドでカンバンと記されている場合は、カンバンシステムを指すものと見なす*。
 <!-- - **Kanban Board:** A Visual representation of one or more Definitions of Workflow. -->
 - **カンバンボード（Kanban Board）**: ひとつ以上のワークフローの定義を視覚的に表現したもの。
 <!-- - **Knowledge Work:** The creation, application, or management of information through cognitive processes to solve (often) complex problems, make decisions, or innovate, typically requiring expertise, judgment, and collaboration. Often, Knowledge Work & associated waste are invisible. -->
