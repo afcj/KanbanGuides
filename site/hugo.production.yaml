@@ -18,4 +18,6 @@ languages:
     disabled: true
   ja:
     disabled: false
+  es-ES:
+    disabled: true
 
