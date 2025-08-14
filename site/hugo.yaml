@@ -46,6 +46,14 @@ languages:
       description: カンバンガイドとオープン版カンバンガイドの公式サイトです。カンバンを適用して、フローと価値のデリバリーを最適化する方法を学びましょう。
       # keywords: Kanban, Open Guide to Kanban, kanban guide, kanban method, knowledge work, flow optimisation, WIP limits, value delivery, agile, lean, continuous improvement, service level expectation, cumulative flow, throughput, metrics, work item age, flow efficiency, visualisation, work in progress, process improvement, kanban board, definition of workflow, outcome-oriented delivery
       keywords: カンバン, オープン版カンバンガイド, カンバンガイド, カンバン手法, ナレッジワーク, フロー最適化, WIP制限, 価値提供, アジャイル, リーン, 継続的改善, サービスレベル期待値, 累積フロー, スループット, 計測指標, 作業項目の年齢, フロー効率, 可視化, 進行中の作業, プロセス改善, カンバンボード, ワークフローの定義, アウトカム指向の提供
+  es-ES:
+    languageName: Spanish (Spain)
+    weight: 4
+    title: Guías de Kanban
+    params:
+      description: Aprende cómo aplicar Kanban para optimizar el flujo y la entrega de valor. El hogar de la Guía Abierta de Kanban y La Guía Kanban.
+      keywords: Kanban, Guía Abierta de Kanban, guía de kanban, método kanban, trabajo del conocimiento, optimización del flujo, límites de WIP, entrega de valor, agile, lean, mejora continua, expectativa de nivel de servicio, flujo acumulativo, rendimiento, métricas, edad de elemento de trabajo (WIA), eficiencia de flujo, visualización, trabajo en curso (WIP), mejora de procesos, tablero kanban, definición de flujo de trabajo, entrega orientada a resultados
+      status: reference
       
 params:
   description: Authoritative and Open Resources for Flow-Based Work
