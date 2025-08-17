@@ -212,7 +212,7 @@ translators:
 *これに対して、トヨタのジャストインタイム（JIT）によるプルシステムは、需要が供給を上回ることを防ぐ仕組みである。前の要請が処理されるまでは、次の要請には対応しないため、これは自己制限的あるいは自己調整的なシステムであり、実際の顧客需要と生産の同期を図り、安定的かつ予測可能な製造環境における在庫の最小化を目的として設計されている*。
 
 <!-- _Making only what is needed just-in-time is the cornerstone of the Toyota Production System. The Kanban system in the Toyota Production System pulls exactly what is needed when it is needed._ -->
-*必要なものを、必要な時に、必要なだけ作ること——これこそがトヨタ生産方式の礎である。トヨタ生産方式における「かんばん方式」は、必要なものを必要なときに正確に引き取る仕組み（プルシステム）である*。
+*必要なものを、必要な時に、必要なだけ作ること——ジャストインタイム——これこそがトヨタ生産方式の礎である。トヨタ生産方式における「かんばん方式」は、必要なものを必要なときに正確に引き取る仕組み（プルシステム）である*。
 
 <!-- For Knowledge Work, Kanban system members should start Work on (_select_) an Item only when there is a clear signal that there is capacity to do so. When WIP drops below the control set in the _Definition of Workflow_, that can be a signal to select new work. Kanban system members should refrain from selecting more _Work_ into a given part of the workflow _beyond the relevant WIP control(s)_ _or selecting Work greater than their capacity. When needed, the Work should be split into smaller yet still potentially valuable Items._ -->
 ナレッジワークにおいては、カンバンシステムメンバーは、対応できるキャパシティに余力があるという明確な合図があるときにのみ、（*選択した*）項目に着手すべきである。*ワークフローの定義*で定められた制限をWIPが下回ったとき、それが新たな作業を選択してよい合図となりうる。カンバンシステムメンバーは、ワークフローの特定の場所において、*WIPの制御を超えて作業*を選択したり、*自身のキャパシティを超えて作業を選択したりすることは控えるべきである。必要に応じて、作業をより小さく、それでも価値が見込まれる項目に分割するべきである*。
