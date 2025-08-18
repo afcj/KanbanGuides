@@ -89,7 +89,9 @@ translators:
 このガイドは、カンバンと*フロー*に関する*オープン*で*適応可能な*ガイダンスを提供することを目的としている。これは、*さまざまなコミュニティから収集されたアイデアを基にしている*。*それぞれのコミュニティ独自のコンテンツに加えて、一貫性のあるリファレンスとして機能することを目指している*。カンバンは、さまざまなアプローチによって補完することで、価値の提供や組織の課題に関する、ある程度幅の広いニーズに柔軟に適応できるようになる。
 
 <!-- _The use of the italics font supports the Creative Commons adaptation notice on the cover page; italics are not for emphasis. The use of a capital letter at the start of a word indicates a convention listed in the appendix of this document, e.g., Value is either a potential or realized benefit for a Stakeholder, including meeting the needs of the customer, the end-user, the decision-maker, the organization, and the environment._ -->
-*斜体フォントの使用は、このガイドの表紙に記載されたクリエイティブ・コモンズの表示要件をサポートするためのものであり、強調を目的としたものではない。また、単語の冒頭を大文字で始めることで、このガイドの付録に記載された慣例を示す。例えば、Valueは顧客、エンドユーザー、意思決定者、組織、環境のニーズを満たすことを含む、ステークホルダーにとっての潜在的または実現された恩恵を指す*。
+*斜体フォントの使用は、このガイドの表紙に記載されたクリエイティブ・コモンズの表示要件をサポートするためのものであり、強調を目的としたものではない。また、単語の冒頭を大文字で始めることで、このガイドの付録に記載された慣例を示す。例えば、価値（Value）は顧客、エンドユーザー、意思決定者、組織、環境のニーズを満たすことを含む、ステークホルダーにとっての潜在的または実現された恩恵を指す*。
+
+   *訳注: 冒頭大文字の語句は、用語一覧などを参照のこと*。
 
 <!-- ## Definition of Kanban in the Context of Knowledge Work -->
 ## ナレッジワークにおけるカンバンの定義
@@ -283,13 +285,13 @@ translators:
 
 <!-- - **_Flow Efficiency:_** The ratio of active working time to the total time an Item or a selection of Items spends in the workflow, including waiting times, between the ‘started’ and ‘finished’ points on a Definition of Workflow. _It is expressed as a percentage. It can be misleading, as time spent in active states may not be actual active time. ((ETSF-(CQBT+other non-value-adding time))/ETSF) 100\. \[metric\] Example of other non-value-adding time: Blocked Elapsed Time for Finished Items_ -->
 - ***フロー効率***: ワークフローにおける「開始」から「終了」までの間に、項目または複数項目の集合が費やした総時間に対する実際に作業した時間の割合。待機時間なども含めた全体の時間を母数とする。*パーセンテージで表現されるが、注意が必要である。なぜなら、進行中を示す状態にあった時間が、必ずしも実際に作業していた時間とは限らないからである*。*\[計測指標\]*  
-  *計算式: ((ETSF−(CQBT+その他の付加価値を生まない時間))／ETSF)×100*  
+  *計算式: ((ETSF − (CQBT ＋ その他の付加価値を生まない時間)) ÷ ETSF) × 100*  
   *例: その他の付加価値を生まない時間 ＝ 終了した項目におけるブロックされている経過時間（BETFI）*
 <!-- - **Number of Blockers:** The number of impediments, partial or complete, at a given point in time (usually current datetime), to the Flow of Work Items from ‘started’ to ‘finished.’ \[measure\] -->
 - **ブロックされている要因の数（Number of Blockers）**: 「開始」から「終了」までの作業項目のフローを妨げている（部分的または完全な）障害物の数。ある時点（通常は、現在日時）で計測される。\[指標\]
 <!-- - **Process Cycle Efficiency:** Measures the Work efficiency of a system or its parts. It is calculated by dividing Value-adding time by Time to Market and then multiplying by 100 to get a percentage. This means Kanban system members have to measure all Value-adding and all non-Value-adding time (including, but not limited to, waiting time). ((T2M-(CQBT+other non-value-adding time))/T2M) 100\. \[metric\] -->
 - **プロセスサイクル効率**: システム全体またはその一部における作業効率を計測する指標。付加価値を生み出す時間（Value-adding time）を市場に出すまでの時間（T2M: Time to Market）で割り、100をかけてパーセンテージとして算出する。これはカンバンシステムメンバーが、すべての付加価値を生み出す時間と、すべての付加価値を生み出さない時間（待ち時間を含むが、それに限らない）を計測しなければならないことを意味する。\[指標\]   
-  計算式: ((T2M−(CQBT＋その他の付加価値を生み出さない時間))／T2M×100) 
+  計算式: ((T2M − (CQBT ＋ その他の付加価値を生み出さない時間)) ÷ T2M × 100) 
 <!-- - **_Service Level Expectation:_** A forecast of how long it should take a _Work Item_ to Flow from ‘started’ to ‘finished.’ The _Service Level Expectation_ itself has two parts: a period of elapsed time and a probability associated with that period (e.g., ‘85% of _Work Items_ will be ‘finished’ in eight days or less’). _It is based on a selection of Elapsed Time from ‘Started’ to ‘Finished’ from all history, a subset of history, or if data does not exist or is insufficient, an educated guess. \[metric\]_ -->
 - **サービスレベル期待値（SLE）**: ひとつの作業項目がフローの「開始」から「終了」までにかかると見込まれる時間の予測値。_サービスレベル期待値_ 自体は経過時間とその期間で終了する確率の2つの部分からなる（例: 「85%の作業項目は8日以内に『終了』する」）。*この値は、「開始」から「終了」までの経過時間に関する、過去すべて、または一部の履歴データに基づいて算出される。データが存在しない、あるいは不十分な場合は、経験的な推定によって設定する*。*\[指標\]*
 <!-- - **‘Started but Not Finished Work’ (SNFW)** or **Work In Progress/Process (WIP)** _or **Flow Load**_: _The_ number of _Work Items_ ‘started’ but not ‘finished’. _\[measure\]_ -->
@@ -409,7 +411,7 @@ translators:
 ## 付録
 
 <!-- ### Controlling Work In Progress/Process \= Controlling ‘Started but not Finished Work’ -->
-### 進行中の作業を制御する \= 「開始しているが終了していない作業」を制御すること
+### 進行中の作業を制御する、すなわち「開始しているが終了していない作業」を制御する
 
 <!-- Control of _‘Started but not Finished Work’, also referred to as_ WIP control, can be represented on a Kanban board in any way that _Kanban system_ members deem appropriate, including, but not limited to, painter’s tape spots, Total Work Item Age or Total Elapsed Time for ‘Started’ but Not Finished Items (TETSNFI), queue controls, WIP control numbers, or WIP control ranges. -->
 *「開始しているが終了していない作業（SNFW）」を制御すること*、もしくはWIPの制御*とも呼ばれること*は、カンバンシステムメンバーが適切と見なす方法でカンバンボード上に表現できる。例えば、ペインターテープで印をつける、作業項目の年齢の合計（TWIA）、「開始している」が終了していない項目の経過時間の合計（TETSNFI）、キューの制御、WIPの制御数、WIPの制御範囲などがある。
@@ -420,7 +422,7 @@ translators:
 <!-- - **CONWIP (Constant Work In Progress/Process)** (16)**:** CONWIP is a pull system that maintains a fixed total ‘Started but Not Finished Work’ (SNFW) or Work In Progress/Process (WIP) limit across the entire workflow, ‘starting’ new Work only when a ‘finished’ or ‘completed’ Item exits, regulating Flow with a single system-wide constraint. Example: A software support team allows only 15 open tickets at any time; when a ticket is resolved, a new one can be ‘started.’ Not everyone supports it. -->
 - **CONWIP（一定のWIP数: Constant WIP）**(16): CONWIPとは、ワークフロー全体にわたって「開始しているが終了していない作業（SNFW）」または進行中の作業（WIP）の総数に制限を設けるプルシステムのことである。「終了」または「完了」した項目がワークフローから出るときにのみ新しい作業を「開始」し、システム全体に設定された単一の制約によってフローを制御する。例えば、ソフトウェアサポートチームが常に最大15件の未解決チケットまでしか対応せず、あるチケットを解決したタイミングで新しいチケットの対応を「開始」する場合などが該当する。この仕組みをすべての人が支持しているわけではない。
 <!-- - **DBR** (3,16)**:** An advanced approach that manages the Flow Constraint with Buffers before the Flow Constraint and at system outputs, maximizing Throughput while protecting against variability in complex systems. Example: In a product development group, UX review (primary Flow Constraint) sets the pace (drum) with a Buffer of designs before it, a secondary Buffer before legal approval prevents overload, and new Work is released only when both Buffers have capacity. Not everyone supports it. -->
-- **DBR（ドラム-バッファ-ロープ: Drum-Buffer-Rope）**(3,16): DBRは、フロー制約の前やシステムの出口にバッファを設けることで、フロー制約を管理する高度なアプローチである。複雑なシステムにおいてスループットを最大化しつつ、ばらつきから保護することを目的とする。例えば、あるプロダクト開発グループでは、UXレビュー（主たるフロー制約）がペースメーカー（ドラム）として進行のペースを決定し、その前に設けられたデザインのバッファや法務承認の前に設けられた第二のバッファによって過負荷を防ぐ。その両方のバッファに空きがあるときにのみ、新しい作業を開始する。この仕組みをすべての人が支持しているわけではない。
+- **DBR（ドラム ー バッファ ー ロープ: Drum-Buffer-Rope）**(3,16): DBRは、フロー制約の前やシステムの出口にバッファを設けることで、フロー制約を管理する高度なアプローチである。複雑なシステムにおいてスループットを最大化しつつ、ばらつきから保護することを目的とする。例えば、あるプロダクト開発グループでは、UXレビュー（主たるフロー制約）がペースメーカー（ドラム）として進行のペースを決定し、その前に設けられたデザインのバッファや法務承認の前に設けられた第二のバッファによって過負荷を防ぐ。その両方のバッファに空きがあるときにのみ、新しい作業を開始する。この仕組みをすべての人が支持しているわけではない。
 <!-- - **Flow Constraint** (16)**:** The bottleneck with the least capacity in the Definition of Workflow. There can be multiple bottlenecks (all with less capacity than what is required by the demand), and the Flow Constraint is the most limited one. It restricts the Kanban system’s overall Throughput, determining the pace at which Value is delivered. Example: In a software development team, if the testing takes the longest and limits the release of features, testing is the Flow Constraint that sets the system’s pace. In Knowledge Work, bottlenecks often exhibit turbulent behaviour and can move around the workflow in unpredictable ways. But sometimes bottlenecks are stubborn. -->
 - **フロー制約（Flow Constraint）**(16): ワークフローの定義の中でキャパシティが最も小さいボトルネックのこと。ボトルネックは複数存在しうる（いずれも需要に対してキャパシティが不足している）が、その中で最も制限的なものがフロー制約である。これは、カンバンシステム全体のスループットを制限し、価値提供のペースを決定する。例えば、ソフトウェア開発チームにおいて、テストに最も時間がかかり、それがフィーチャーのリリースを制限している場合、テストがシステム全体のペースを決めるフロー制約となる。ナレッジワークにおいては、ボトルネックが不安定に振る舞い、ワークフロー内を予測不可能な形で移動することがよくある。ただし、ボトルネックが固定されることもある。
 <!-- - **Simplified DBR (Drum-Buffer-Rope)** (3,16)**:** A simplified scheduling method where the Kanban system’s Throughput sets the workflow pace, and Throughput acts as a replenishment signal like in CONWIP. Suppose there is a Kanban system using Simplified Drum-Buffer-Rope, and the Definition of Workflow is designed to handle up to 15 Items, with 12 actively in progress/process (drum) and a Buffer of 3 Items ready to start, ensuring Work continues smoothly if any of the 12 Items face issues by pulling from the Buffer, maintaining Flow with, for example, 13 in progress/process and 2 in reserve. The rope signals replenishment when an Item is delivered, keeping the total within the 15-Item limit, and the system prioritizes rebuilding the Buffer quickly if it is depleted, proactively resolving issues to sustain Flow. Not everyone supports it. -->
@@ -541,7 +543,7 @@ translators:
 9. _Ohno, T. (1988). Toyota Production System: Beyond Large-Scale Production. Portland, OR: Productivity Press._
 10. _Juran, J. M. (1992). Juran on Quality by Design: The New Steps for Planning Quality into Goods and Services. New York: The Free Press._
 11. _Wheeler, D. J. (1993). Understanding Variation: The Key to Managing Chaos. Knoxville, TN: SPC Press._
-12. _Wikipedia (2025) ‘Kanban (development)’. Available at: [https://en.wikipedia.org/wiki/Kanban\_(development)](https://en.wikipedia.org/wiki/Kanban_(development)) (Accessed: 22 June 2025)._
+12. _Wikipedia (2025) ‘Kanban (development)’. Available at: [https://en.wikipedia.org/wiki/Kanban\_(development)](https://en.wikipedia.org/wiki/Kanban\_(development))(Accessed: 22 June 2025)._
 13. _Kingman, J. F. C. (1961) ‘The single server queue in heavy traffic’, Mathematical Proceedings of the Cambridge Philosophical Society, 57(4), pp. 902–904. doi: 10.1017/S0305004100035783, and the stable URL is [https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37)._
 14. _Roser, C. (2018) ‘The Kingman Formula – Variation, Utilization, and Lead Time’, AllAboutLean.com, 2 March. Available at: [https://www.allaboutlean.com/kingman-formula/](https://www.allaboutlean.com/kingman-formula/) (Accessed: 22 June 2025\)_
 15. _Csíkszentmihályi, M. (1990) Flow: The Psychology of Optimal Experience. NY: Harper & Row_
