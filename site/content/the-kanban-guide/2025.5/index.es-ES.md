@@ -33,7 +33,7 @@ Esta guía contiene convenciones para algunos términos. No pretenden sustituir 
 
 ### Convenciones utilizadas
 
-**Kanban o sistema Kanban**: El conjunto holístico de conceptos de esta guía (específicamente en lo que se refiere al trabajo del conocimiento).
+**Kanban o sistema Kanban**: El conjunto holístico de conceptos de esta guía (específicamente en lo que se refiere al trabajo del conocimiento, knowledge work).
 
 **Stakeholder**: Entidad, individuo o grupo responsable, interesado en (o afectado por) las entradas, actividades y resultados del sistema Kanban.
 
@@ -52,7 +52,7 @@ Commons, la cual puede consultarse en <http://creativecommons.org/licenses/by-sa
 
 Kanban es una estrategia para optimizar el flujo de valor a través de un proceso. Comprende las siguientes tres prácticas, que funcionan de manera complementaria:
 
-- Definición y visualización de un flujo de trabajo.
+- Definición y visualización de un flujo de trabajo (workflow).
 - Gestión activa de los elementos en un flujo de trabajo.
 - Mejora del flujo de trabajo.
 
@@ -68,7 +68,7 @@ El concepto de flujo es esencial en la definición de Kanban. El flujo es el mov
 
 La estrategia de Kanban consiste en lograr que los miembros del sistema Kanban se hagan las preguntas adecuadas de forma más temprana, como parte de un esfuerzo de mejora continua en pos de estos objetivos. Los miembros del sistema Kanban deben buscar un equilibrio sostenible entre estos tres elementos. En última instancia, la estrategia de Kanban radica en ayudarte a entender compromisos y gestionar riesgos.
 
-Dado que Kanban puede funcionar con prácticamente cualquier flujo de trabajo, su aplicación no se limita a ningún sector o contexto específico. Profesionales del conocimiento en áreas como finanzas, servicios públicos, sanidad y software (por mencionar algunas) se han beneficiado de las prácticas de Kanban. Kanban puede utilizarse a cualquier escala y en la mayoría de contextos en  que hay entrega de valor.
+Dado que Kanban puede funcionar con prácticamente cualquier flujo de trabajo, su aplicación no se limita a ningún sector o contexto específico. Profesionales del conocimiento (Knowledge workers) en áreas como finanzas, servicios públicos, sanidad y software (por mencionar algunas) se han beneficiado de las prácticas de Kanban. Kanban puede utilizarse a cualquier escala y en la mayoría de contextos en  que hay entrega de valor.
 
 ## Teoría de Kanban
 
@@ -80,16 +80,16 @@ Muchos enfoques orientados al valor comparten la teoría en la que se basa Kanba
 
 ### Definición y Visualización del Flujo de Trabajo
 
-Optimizar el flujo requiere definir lo que significa flujo en un contexto dado. La comprensión explícita y compartida del flujo entre los miembros del sistema Kanban dentro de su contexto se denomina Definición del Flujo de Trabajo (DoW, por su acrónimo inglés). La DoW es un concepto fundamental de Kanban. Todos los demás componentes de esta guía dependen en gran medida de cómo se define el flujo de trabajo.
+Optimizar el flujo requiere definir lo que significa flujo en un contexto dado. La comprensión explícita y compartida del flujo entre los miembros del sistema Kanban dentro de su contexto se denomina Definición del Flujo de Trabajo (Definition of Workflow, DoW). La DoW es un concepto fundamental de Kanban. Todos los demás componentes de esta guía dependen en gran medida de cómo se define el flujo de trabajo.
 
 Como mínimo, los miembros del sistema Kanban deben crear su DoW utilizando todos los componentes siguientes:
 
 1. Una definición de las unidades individuales de valor que se mueven a través del flujo de trabajo. Estas unidades de valor se denominan elementos de trabajo (o elementos).
-2. Una definición de cuándo se consideran iniciados y finalizados los elementos de trabajo dentro del flujo de trabajo. Dependiendo del elemento de trabajo, su flujo de trabajo puede tener más de un punto de inicio o finalización.
+2. Una definición de cuándo se consideran iniciados y finalizados (finished) los elementos de trabajo dentro del flujo de trabajo. Dependiendo del elemento de trabajo, su flujo de trabajo puede tener más de un punto de inicio o finalización.
 3. Uno o más estados definidos por los que fluyen los elementos de trabajo desde que son iniciados hasta que son finalizados. Cualquier elemento de trabajo entre un punto de inicio y un punto de finalización se considera trabajo en curso (en adelante WIP, por su acrónimo inglés).
 4. Una definición de cómo se controlará el WIP desde su inicio hasta su finalización.
 5. Políticas explícitas sobre cómo los elementos de trabajo pueden fluir a través de cada estado desde iniciado hasta finalizado.
-6. Una expectativa de nivel de servicio (ENS), que es un pronóstico del tiempo que debería tardar un elemento de trabajo en pasar de iniciado a finalizado. La propia ENS consta de dos partes: un periodo de tiempo transcurrido y una probabilidad asociada a ese periodo (p.ej. "el 85% de los elementos de trabajo estarán finalizados en ocho días o menos"). La ENS debe basarse en el tiempo de ciclo histórico y, una vez calculada, debe visualizarse en la DoW. Si no se dispone de datos históricos de tiempo de ciclo, bastará con hacer una estimación aproximada hasta que se disponga de datos históricos suficientes para calcular correctamente la ENS.
+6. Una expectativa de nivel de servicio (service level expectation), ENS (SLE), que es un pronóstico del tiempo que debería tardar un elemento de trabajo en pasar de iniciado a finalizado. La propia ENS consta de dos partes: un periodo de tiempo transcurrido y una probabilidad asociada a ese periodo (p.ej. "el 85% de los elementos de trabajo estarán finalizados en ocho días o menos"). La ENS debe basarse en el tiempo de ciclo histórico y, una vez calculada, debe visualizarse en la DoW. Si no se dispone de datos históricos de tiempo de ciclo (cycle time), bastará con hacer una estimación aproximada hasta que se disponga de datos históricos suficientes para calcular correctamente la ENS.
 
 El orden en que se apliquen no es importante, siempre que se adopten todos.
 
@@ -105,7 +105,7 @@ No hay normas específicas sobre el aspecto que debe tener una visualización. S
 
 Los elementos en el flujo de trabajo deben gestionarse activamente. La gestión activa de los elementos en un flujo de trabajo puede adoptar diversas formas, incluyendo, pero no limitándose a, las siguientes:
 
-- Control del WIP.
+- Control del WIP (controlling WIP).
 - Asegurarse que los elementos de trabajo no envejezcan innecesariamente, utilizando la ENS como referencia.
 - Desbloquear los elementos de trabajo bloqueados.
 
@@ -128,8 +128,8 @@ Es una práctica común revisar la DoW de vez en cuando para discutir e implemen
 La aplicación de Kanban requiere la recopilación y análisis de un conjunto mínimo de métricas de flujo. Estas son un reflejo de la salud y el rendimiento actuales del sistema Kanban, y ayudarán a tomar decisiones informadas sobre cómo se entrega valor. Las cuatro métricas de flujo obligatorias a monitorizar en Kanban son:
 
 - **WIP**: El número de elementos de trabajo iniciados pero no finalizados.
-- **Rendimiento**: El número de elementos de trabajo finalizados por unidad de tiempo. Ten en cuenta que el rendimiento es el recuento exacto de elementos de trabajo.
-- **Antigüedad del Elemento de Trabajo**: El tiempo transcurrido desde que un elemento de trabajo es iniciado hasta el momento actual.
+- **Rendimiento** (throughput): El número de elementos de trabajo finalizados por unidad de tiempo. Ten en cuenta que el rendimiento es el recuento exacto de elementos de trabajo.
+- **Antigüedad del Elemento de Trabajo** (work item age): El tiempo transcurrido desde que un elemento de trabajo es iniciado hasta el momento actual.
 - **Tiempo de Ciclo**: El tiempo transcurrido desde que un elemento de trabajo es iniciado hasta que es finalizado.
 
 Siempre que los miembros del sistema Kanban utilicen estas métricas tal y como se describen en esta guía, pueden referirse a cualquiera de estas medidas utilizando cualquier otro nombre que elijan (p.ej., Tiempo de Ciclo podría ser Tiempo de Flujo, Rendimiento podría ser Tasa de Entrega, etc.).
