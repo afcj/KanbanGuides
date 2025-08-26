@@ -26,7 +26,7 @@ keywords:
   - entrega orientada a resultados  
 author:
   - John Coleman
-date: 2025-08-10T09:00:00Z
+date: 2025-08-26T09:00:00Z
 type: guide
 forked_from: the-kanban-guide/2025.5
 lang: es-ES
@@ -39,7 +39,7 @@ aliases:
   - /open-guide-to-kanban/latest/
 ---
 
-Esta obra, la Guía Abierta de Kanban, es una adaptación de la [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), cuya licencia está sujeta a la Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). La guía original es © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Se han introducido cambios en el original. Bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Las partes resaltadas en cursiva son © 2025_ Orderly Disruption Limited, bajo licencia CC BY-SA 4.0. El resto del contenido es © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., también bajo licencia CC BY-SA 4.0.
+This work, Open Guide to Kanban, is an adaptation of the [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), which is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). The original guide is © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Changes were made to the original. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Portions highlighted in italic are © 2025_ Orderly Disruption Limited, licensed under CC BY-SA 4.0. All other content is from © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., also licensed under CC BY-SA 4.0.
 
 ## Prefacio
 
@@ -293,41 +293,17 @@ _He aquí algunas técnicas opcionales ajenas a Kanban que algunas comunidades, 
 - **Valor:** Beneficio real o potencial para un Stakeholder. Algunos ejemplos incluyen satisfacer las necesidades del cliente, del usuario final, de los que toman las decisiones, de la organización y del entorno.
 - **Visualizar, visualización:** Cualquier método para transmitir ideas de forma efectiva, incluyendo aclaraciones conceptuales, y no necesariamente solo medios visuales.
 
-## Referencias
-
-Las referencias se incluyen aquí para informar al lector de oportunidades de estudio adicionales. No respaldan necesariamente el texto de esta guía:
-
-1. _Little, J. D. C. (1961). A proof for the queuing formula: L \= λW. Operations Research, 9(3), 383–387. [https://doi.org/10.1287/opre.9.3.383](https://doi.org/10.1287/opre.9.3.383)._
-2. _Deming, W. E. (1986), traducción Nicolau, J., Gozalbes, M. (1989). Calidad, productividad y competitividad: la salida de la crisis. ES: Ediciones Díaz de Santos. (Revisado por pares mediante adopción académica en la gestión de la calidad.)_
-3. _Goldratt, E. M. (1990). Theory of Constraints. North River Press. (Revisado por pares mediante adopción académica en investigación operativa.)_
-4. _Womack, J. P., & Jones, D. T. (1996), traducción Atmetlla, E. (2012). Lean Thinking: Cómo utilizar el pensamiento Lean para eliminar los despilfarros y crear valor en la empresa. ES: Gestión 2000._
-5. _Ackoff, R. L. (1999), traducción Piña, R. (2002). El Paradigma De Ackoff: Una Administración Sistemática. MX: Editorial Limusa._
-6. _Hopp, W. J. and Spearman, M. L. (2004) ‘To pull or not to pull: what is the question?’, Manufacturing & Service Operations Management, 6(2), pp. 133–148. [https://doi.org/10.1287/msom.1030.0028](https://doi.org/10.1287/msom.1030.0028)._
-7. _Reinertsen, D. G. (2009). The Principles of Product Development Flow: Second Generation Lean Product Development. Redondo Beach, CA: Celeritas Publishing_
-8. _Shewhart, W. A. (1931), traducción Nicolau, J., Gozalbes, M. (1997). Control Económico de la Calidad de Productos Manufacturados. ES: Ediciones Díaz de Santos._
-9. _Ohno, T. (1988), traducción SAX traductors (1991). El Sistema de Producción Toyota: Más allá de la producción a gran escala. Productivity Press._
-10. _Juran, J. M. (1992), traducción Nicolau, J., Gozalbes, M. (1996). Juran y la Calidad por el Diseño. ES: Ediciones Díaz de Santos._
-11. _Wheeler, D. J. (1993). Understanding Variation: The Key to Managing Chaos. Knoxville, TN: SPC Press._
-12. _Wikipedia (2025) ‘Kanban (desarrollo)’. Disponible en: [https://es.wikipedia.org/wiki/Kanban\_(desarrollo)](<https://es.wikipedia.org/wiki/Kanban_(desarrollo)>) (Visitado el 7 de agosto de 2025)._
-13. _Kingman, J. F. C. (1961) ‘The single server queue in heavy traffic’, Mathematical Proceedings of the Cambridge Philosophical Society, 57(4), pp. 902–904. doi: 10.1017/S0305004100035783, y la URL estable es [https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37)._
-14. _Roser, C. (2018) ‘The Kingman Formula – Variation, Utilization, and Lead Time’, AllAboutLean.com, 2 March. Disponible en: [https://www.allaboutlean.com/kingman-formula/](https://www.allaboutlean.com/kingman-formula/) (Visitado el 22 de junio de 2025\)_
-15. _Csíkszentmihályi, M. (1990), traducción López, N. (1997). Fluir: Una psicología de la felicidad. Editorial Kairós, Debolsillo, Audible Audio_
-16. _Tendon, S. and Müller, W. (2015). Hyper-Productive Knowledge Work Performance: The TameFlow Approach and Its Application to Scrum and Kanban. Plantation, FL: J. Ross Publishing._
-17. _Seddon, J. (2019). Failure demand | Vanguard. \[online\] Vanguard-method.net. Available at: [https://vanguard-method.net/library/systems-principles/failure-demand/](https://vanguard-method.net/library/systems-principles/failure-demand/) \[Visitado el 22 de marzo de 2019\]_
-18. Christensen, C.M., Hall, T., Dillon, K. and Duncan, D.S., 2016\. Know your customers' 'jobs to be done'. _Harvard Business Review_, 94(9), pp.54-62.
-19. DeMarco, T. (2001). _Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency_. Broadway Books.
-20. Leopold, K. (2017) Little's law and system stability – an interview with Daniel Vacanti. Leanability. Available at: [https://www.leanability.com/en/blog/2017/08/littles-law-and-system-stability](https://www.leanability.com/en/blog/2017/08/littles-law-and-system-stability) \[Visitado el 28 de junio de 2025\].
-21. Kanban University (2022) La Guía Oficial del Método Kanban V.2 \[Online\]. Disponible en: [https://kanban.university/kanban-guide/#download](https://kanban.university/kanban-guide/#download) (Visitado el 7 agosto de 2025).
-22. _Gilb, T. (2005) Competitive Engineering: A Handbook for Systems Engineering, Requirements Engineering, and Software Engineering Using Planguage. Oxford: Elsevier Butterworth-Heinemann. Also available at: [https://bit.ly/TomGilbCompEng](https://bit.ly/TomGilbCompEng)_
-23. Maassen, O., Matts, C. and Geary, C. (2013) Commitment: A novel about managing project risk. The Netherlands: Happy About.
-24. Vacanti, D. S. (2015), traducción González, U. (2022). Métricas Ágiles Accionables para la Predictibilidad: Introducción. Leanpub.
-25. Vacanti, D. S. (2023) Actionable Agile Metrics for Predictability Volume II: Advanced Topics. United States: ActionableAgile Press.
-
 ## Información de la traducción
 
 Esta traducción ha sido realizada por:
 
 - Aitor Fernández-Ceballos | [linkedin.com/in/aitorfcj/](https://www.linkedin.com/in/aitorfcj/)
+
+Revisada por:
+
+- David Zalazar | [linkedin.com/in/david-zalazar-6ba55610b/](https://www.linkedin.com/in/david-zalazar-6ba55610b/)
+- Imanol Calo | [linkedin.com/in/imanol-calo-granillo-icg/](https://www.linkedin.com/in/imanol-calo-granillo-icg/)
+- Luis Chueca | [linkedin.com/in/luischueca/](https://www.linkedin.com/in/luischueca/)
 
 ### Glosario y notas de la traducción
 
@@ -369,3 +345,33 @@ Para comodidad del lector se incluye aquí el glosario combinado de la Guia Abie
 | Tiempo transcurrido Bloqueado para Elementos Finalizados (TiBEF) | Blocked Elapsed Time for Finished Items (BETFI) |--------------|
 | Tiempo transcurrido de ‘Iniciado’ a ‘Finalizado’ (TIF) | Elapsed Time from ‘Started’ to ‘Finished’ (ETSF) |--------------|
 | Tiempo transcurrido para Elementos ‘Iniciados’ pero No ‘Finalizados’ (TEINoF) |  Elapsed Time for ‘Started’ but Not ‘Finished’ Items(ETSNFI) |--------------|
+
+## Referencias
+
+Las referencias se incluyen aquí para informar al lector de oportunidades de estudio adicionales. No respaldan necesariamente el texto de esta guía:
+
+1. _Little, J. D. C. (1961). A proof for the queuing formula: L \= λW. Operations Research, 9(3), 383–387. [https://doi.org/10.1287/opre.9.3.383](https://doi.org/10.1287/opre.9.3.383)._
+2. _Deming, W. E. (1986), traducción Nicolau, J., Gozalbes, M. (1989). Calidad, productividad y competitividad: la salida de la crisis. ES: Ediciones Díaz de Santos. (Revisado por pares mediante adopción académica en la gestión de la calidad.)_
+3. _Goldratt, E. M. (1990). Theory of Constraints. North River Press. (Revisado por pares mediante adopción académica en investigación operativa.)_
+4. _Womack, J. P., & Jones, D. T. (1996), traducción Atmetlla, E. (2012). Lean Thinking: Cómo utilizar el pensamiento Lean para eliminar los despilfarros y crear valor en la empresa. ES: Gestión 2000._
+5. _Ackoff, R. L. (1999), traducción Piña, R. (2002). El Paradigma De Ackoff: Una Administración Sistemática. MX: Editorial Limusa._
+6. _Hopp, W. J. and Spearman, M. L. (2004) ‘To pull or not to pull: what is the question?’, Manufacturing & Service Operations Management, 6(2), pp. 133–148. [https://doi.org/10.1287/msom.1030.0028](https://doi.org/10.1287/msom.1030.0028)._
+7. _Reinertsen, D. G. (2009). The Principles of Product Development Flow: Second Generation Lean Product Development. Redondo Beach, CA: Celeritas Publishing_
+8. _Shewhart, W. A. (1931), traducción Nicolau, J., Gozalbes, M. (1997). Control Económico de la Calidad de Productos Manufacturados. ES: Ediciones Díaz de Santos._
+9. _Ohno, T. (1988), traducción SAX traductors (1991). El Sistema de Producción Toyota: Más allá de la producción a gran escala. Productivity Press._
+10. _Juran, J. M. (1992), traducción Nicolau, J., Gozalbes, M. (1996). Juran y la Calidad por el Diseño. ES: Ediciones Díaz de Santos._
+11. _Wheeler, D. J. (1993). Understanding Variation: The Key to Managing Chaos. Knoxville, TN: SPC Press._
+12. _Wikipedia (2025) ‘Kanban (desarrollo)’. Disponible en: [https://es.wikipedia.org/wiki/Kanban\_(desarrollo)](<https://es.wikipedia.org/wiki/Kanban_(desarrollo)>) (Visitado el 7 de agosto de 2025)._
+13. _Kingman, J. F. C. (1961) ‘The single server queue in heavy traffic’, Mathematical Proceedings of the Cambridge Philosophical Society, 57(4), pp. 902–904. doi: 10.1017/S0305004100035783, y la URL estable es [https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37](https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/single-server-queue-in-heavy-traffic/81C55BC00A68FE6D5385638AA0B0AF37)._
+14. _Roser, C. (2018) ‘The Kingman Formula – Variation, Utilization, and Lead Time’, AllAboutLean.com, 2 March. Disponible en: [https://www.allaboutlean.com/kingman-formula/](https://www.allaboutlean.com/kingman-formula/) (Visitado el 22 de junio de 2025\)_
+15. _Csíkszentmihályi, M. (1990), traducción López, N. (1997). Fluir: Una psicología de la felicidad. Editorial Kairós, Debolsillo, Audible Audio_
+16. _Tendon, S. and Müller, W. (2015). Hyper-Productive Knowledge Work Performance: The TameFlow Approach and Its Application to Scrum and Kanban. Plantation, FL: J. Ross Publishing._
+17. _Seddon, J. (2019). Failure demand | Vanguard. \[online\] Vanguard-method.net. Available at: [https://vanguard-method.net/library/systems-principles/failure-demand/](https://vanguard-method.net/library/systems-principles/failure-demand/) \[Visitado el 22 de marzo de 2019\]_
+18. Christensen, C.M., Hall, T., Dillon, K. and Duncan, D.S., 2016\. Know your customers' 'jobs to be done'. _Harvard Business Review_, 94(9), pp.54-62.
+19. DeMarco, T. (2001). _Slack: Getting Past Burnout, Busywork, and the Myth of Total Efficiency_. Broadway Books.
+20. Leopold, K. (2017) Little's law and system stability – an interview with Daniel Vacanti. Leanability. Available at: [https://www.leanability.com/en/blog/2017/08/littles-law-and-system-stability](https://www.leanability.com/en/blog/2017/08/littles-law-and-system-stability) \[Visitado el 28 de junio de 2025\].
+21. Kanban University (2022) La Guía Oficial del Método Kanban V.2 \[Online\]. Disponible en: [https://kanban.university/kanban-guide/#download](https://kanban.university/kanban-guide/#download) (Visitado el 7 agosto de 2025).
+22. _Gilb, T. (2005) Competitive Engineering: A Handbook for Systems Engineering, Requirements Engineering, and Software Engineering Using Planguage. Oxford: Elsevier Butterworth-Heinemann. Also available at: [https://bit.ly/TomGilbCompEng](https://bit.ly/TomGilbCompEng)_
+23. Maassen, O., Matts, C. and Geary, C. (2013) Commitment: A novel about managing project risk. The Netherlands: Happy About.
+24. Vacanti, D. S. (2015), traducción González, U. (2022). Métricas Ágiles Accionables para la Predictibilidad: Introducción. Leanpub.
+25. Vacanti, D. S. (2023) Actionable Agile Metrics for Predictability Volume II: Advanced Topics. United States: ActionableAgile Press.

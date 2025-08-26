@@ -1,7 +1,7 @@
 ---
 title: La Guía Kanban (mayo de 2025)
 description: La Guía Kanban es la referencia mínima oficial de Kanban. Clara, estable y focalizada, define las prácticas y principios básicos para gestionar el flujo y mejorar la entrega en todos los sectores.
-date: 2025-08-10T09:00:00Z
+date: 2025-08-26T09:00:00Z
 version: 2025.5
 keywords:
   - Kanban
@@ -172,13 +172,19 @@ Con el fin de transmitir su intención, se añadieron convenciones para:
 
 ## Licencia
 
-Esta obra está licenciada por Orderly Disruption Limited y Daniel S. Vacanti, Inc. bajo licencia Creative Commons Attribution 4.0 International License.
+This work is licensed by Orderly Disruption Limited and Daniel S. Vacanti, Inc. under a Creative Commons Attribution 4.0 International License.
 
 ## Información de la traducción
 
 La traducción de la versión 2025.05 ha sido realizada por:
 
 - Aitor Fernández-Ceballos | [linkedin.com/in/aitorfcj/](https://www.linkedin.com/in/aitorfcj/)
+
+Revisada por:
+
+- David Zalazar | [linkedin.com/in/david-zalazar-6ba55610b/](https://www.linkedin.com/in/david-zalazar-6ba55610b/)
+- Imanol Calo | [linkedin.com/in/imanol-calo-granillo-icg/](https://www.linkedin.com/in/imanol-calo-granillo-icg/)
+- Luis Chueca | [linkedin.com/in/luischueca/](https://www.linkedin.com/in/luischueca/)
 
 De los párrafos sin cambios en la versión inglesa desde la versión 2020.12, algunos se han modificado ligeramente y otros se han mantenido tal cual la traducción original de:
 
