@@ -26,7 +26,7 @@ keywords:
   - entrega orientada a resultados  
 author:
   - John Coleman
-date: 2025-08-26T09:00:00Z
+date: 2025-08-28T13:34:00Z
 type: guide
 forked_from: the-kanban-guide/2025.5
 lang: es-ES
@@ -147,7 +147,7 @@ Dada una Definición explícita del Flujo de Trabajo, la responsabilidad de los 
 
 _Las mejoras suelen hacerse en su preciso momento. Las mejoras no están limitadas por su tamaño o alcance. A veces, la mejora escapa al control o la influencia de los miembros del sistema Kanban. Las interacciones con intención y propósito, la promoción de cambios, y la eliminación de Bloqueos a todos los niveles son claves para la mejora._
 
-_Mejor aún, las personas que demuestran liderazgo, también conocidas como líderes, Van a Ver por sí mismos, Escuchan, y entienden de verdad la necesidad de recopilar hechos que fundamenten la toma de decisiones. Es lo que se conoce como Genchi Genbutsu. Los líderes hacen Genchi Genbutsu tan a menudo que la verdad emerge. Saber lo que hay que hacer es una cosa, pero una acción deliberada, firme, iterativa y vehemente para mejorar (incluido ciclos de retroalimentación más cortos) es otra._
+_Mejor aún, las personas que demuestran liderazgo, también conocidas como líderes, Van a Ver por sí mismos, Escuchan, y entienden de verdad la necesidad de recopilar hechos que fundamenten la toma de decisiones. Es lo que se conoce como Genchi Genbutsu. Los líderes hacen Genchi Genbutsu tan a menudo que la verdad emerge. Saber lo que hay que hacer es una cosa, pero una acción deliberada, constante, iterativa y empática para mejorar (incluido ciclos de retroalimentación más cortos) es otra._
 
 _Kanban favorece el cambio evolutivo, pero no prohíbe cambios estructurales de mayor envergadura, basados en evidencias y en una comprensión clara del sistema. Los cambios deben tener un propósito y estar impulsados por el contexto._
 
@@ -223,7 +223,7 @@ El origen del actual Kanban se remonta al Sistema de Producción Toyota (y sus a
 
 ## Agradecimientos
 
-_Las personas aquí reconocidas no están necesariamente de acuerdo con lo que está escrito en este documento, y eso está bien. No obstante, la Guía Abierta de Kanban tiene una enorme deuda de gratitud con:_
+_Las personas aquí reconocidas no están necesariamente de acuerdo con lo que está escrito en este documento, y eso está bien. No obstante, la Guía Abierta de Kanban agradece profundamente a:_
 
 - Todos los que ayudaron a desarrollar Kanban, incluidos los que prefirieron no ser nombrados
 - _Los revisores de las versiones de julio 2020 o diciembre 2020 de Kanban Guide: Jean-Paul Bayley, Jose Casal, Colleen Johnson, Todd Miller, Eric Naiburg, Steve Porter, Ryan Ripley, Dave West, Julia Wester, Yuval Yeret, and Deborah Zanke_
