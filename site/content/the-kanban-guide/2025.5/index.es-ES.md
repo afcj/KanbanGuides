@@ -20,7 +20,7 @@ guide_whatis: |
 
    Esta guía contiene convenciones para algunos términos. No pretenden sustituir a otras definiciones existentes, sino aclarar cómo deben aplicarse aquí.
 aliases:
-  - /the-kanban-guide/latest
+  - /es-es/the-kanban-guide/latest
 ---
 
 ## Prefacio

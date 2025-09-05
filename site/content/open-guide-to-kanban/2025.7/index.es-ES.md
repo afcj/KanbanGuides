@@ -36,7 +36,7 @@ monofont: "Courier New"
 sitemap:
   priority: 1.0
 aliases:
-  - /open-guide-to-kanban/latest/
+  - /es/open-guide-to-kanban/latest/
 ---
 
 Esta obra, la Guía Abierta de Kanban, es una adaptación de la [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), cuya licencia está sujeta a la Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). La guía original es © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Se han introducido cambios en el original. Bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Las partes resaltadas en cursiva son © 2025_ Orderly Disruption Limited, bajo licencia CC BY-SA 4.0. El resto del contenido es © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., también bajo licencia CC BY-SA 4.0.
