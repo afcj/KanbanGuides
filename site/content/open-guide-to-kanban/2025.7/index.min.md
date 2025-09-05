@@ -44,5 +44,5 @@ sitemap:
   priority: 1.0
 
 aliases:
-  - /open-guide-to-kanban/latest/
+  - /min/open-guide-to-kanban/latest/
 ---
