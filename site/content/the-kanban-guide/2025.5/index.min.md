@@ -28,5 +28,5 @@ guide_whatis: |
   Dis booky got termy-term lingo. Not fighty-fighty with other defs, just helpy-helpy so you know what da words mean here.
 
 aliases:
-  - /the-kanban-guide/latest
+  - /min/the-kanban-guide/latest
 ---
