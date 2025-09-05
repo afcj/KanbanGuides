@@ -67,7 +67,7 @@ monofont: "Courier New"
 sitemap:
   priority: 1.0
 aliases:
-  - /open-guide-to-kanban/latest/
+  - /ja//open-guide-to-kanban/latest/
 translationDraft: false
 translators:
 - name: Tomoharu Nagasawa
