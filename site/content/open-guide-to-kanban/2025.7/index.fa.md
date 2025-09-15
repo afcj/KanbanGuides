@@ -38,6 +38,26 @@ sitemap:
   priority: 1.0
 aliases:
   - /fa/open-guide-to-kanban/latest/
+translators:
+- name: Pedram Keshavarzi
+  githubUsername: pedicurus
+  url: https://www.agile-gap.com/p/pedram-keshavarzi
+  role: Translator
+  founder: true
+  weight: 1
+- name: Orod Semsarzadeh
+  githubUsername: orodsem
+  url: https://www.linkedin.com/in/orod-semsarzadeh/
+  role: Reviewer
+  founder: False
+  weight: 2
+- name: Ali Naderivarandi
+  githubUsername: Alinaderivarandi
+  url: https://www.linkedin.com/in/ali-naderivarandi-9a269a261/
+  role: Reviewer
+  founder: False
+  weight: 3
+
 ---
 
 This work, Open Guide to Kanban, is an adaptation of the [Kanban Guide (May 2025 version)](https://kanbanguides.org/history/kanban-guide-2025/), which is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). The original guide is © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc. Changes were made to the original. Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). _Portions highlighted in italic are © 2025_ Orderly Disruption Limited, licensed under CC BY-SA 4.0. All other content is from © 2019-2025 Orderly Disruption Limited, Daniel S. Vacanti, Inc., also licensed under CC BY-SA 4.0.
