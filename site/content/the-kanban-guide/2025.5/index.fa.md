@@ -10,15 +10,36 @@ author:
   - دانیال وَکانتی
 type: guide
 lang: fa
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
+dir: rtl
+mainfont: HMXRoya
+sansfont: HMXRoya
+monofont: HMXRoya
+pdf-engine: xelatex
 sitemap:
   priority: 0.6
 guide_whatis: |
   این سند (Document) با هدف ایجاد یک مرجع یکپارچه برای جامعه تهیه شده است و حداقل راهنمایی لازم برای «کانبان (Kanban)» را ارائه می‌دهد. بسته به زمینه، رویکردهای گوناگون می‌توانند مکمل کانبان باشند و به آن امکان دهند تا طیف کامل تحویل ارزش (Value Delivery) و چالش‌های سازمانی را پوشش دهد. این راهنما برای برخی اصطلاحات، قراردادهایی را مشخص کرده است. این قراردادها جایگزین تعاریف موجود دیگر نیستند، بلکه صرفاً برای روشن ساختن نحوه‌ی به‌کارگیری آن‌ها در اینجا ارائه شده‌اند.
 aliases:
   - /fa/the-kanban-guide/latest
+translators:
+- name: Pedram Keshavarzi
+  githubUsername: pedicurus
+  url: https://www.agile-gap.com/p/pedram-keshavarzi
+  role: Translator
+  founder: true
+  weight: 1
+- name: Orod Semsarzadeh
+  githubUsername: orodsem
+  url: https://www.linkedin.com/in/orod-semsarzadeh/
+  role: Reviewer
+  founder: False
+  weight: 2
+- name: Ali Naderivarandi
+  githubUsername: Alinaderivarandi
+  url: https://www.linkedin.com/in/ali-naderivarandi-9a269a261/
+  role: Reviewer
+  founder: False
+  weight: 3
 ---
 
 ## پیش‌گفتار
