@@ -31,9 +31,11 @@ date: 2025-07-02T09:00:00Z
 type: guide
 forked_from: the-kanban-guide/2025.5
 lang: fa
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
+dir: rtl
+mainfont: HMXRoya
+sansfont: HMXRoya
+monofont: HMXRoya
+pdf-engine: xelatex
 sitemap:
   priority: 1.0
 aliases:

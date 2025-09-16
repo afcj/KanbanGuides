@@ -10,9 +10,11 @@ author:
   - دانیال وَکانتی
 type: guide
 lang: fa
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
+dir: rtl
+mainfont: HMXRoya
+sansfont: HMXRoya
+monofont: HMXRoya
+pdf-engine: xelatex
 sitemap:
   priority: 0.6
 guide_whatis: |
