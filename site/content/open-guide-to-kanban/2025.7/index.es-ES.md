@@ -26,7 +26,7 @@ keywords:
   - entrega orientada a resultados  
 author:
   - John Coleman
-date: 2025-08-28T13:34:00Z
+date: 2025-09-19T10:30:00Z
 type: guide
 forked_from: the-kanban-guide/2025.5
 lang: es-ES
@@ -88,7 +88,7 @@ _Para informar sobre el funcionamiento óptimo del flujo de trabajo y facilitar 
    - [ ] Uno o más estados definidos por los que _Fluyen_ los _Elementos de Trabajo_ desde que son ‘iniciados’ hasta que son ‘finalizados’ (finished).
    - [ ] Los _Elementos de Trabajo_ entre los puntos de ‘inicio’ y ‘finalización’, incluso aquellos esperando en una Cola o Búfer, se consideran:
      - _‘Trabajo Iniciado pero No Finalizado’ (TINoF) o_
-     - _Trabajo en Curso_/_Proceso_ (WIP, por su acrónimo inglés).
+     - _Trabajo en Curso_ (WIP, por su acrónimo inglés).
    - [ ] Una definición de cómo se controlará el WIP desde su ‘inicio’ hasta su ‘finalización’.
    - [ ] _Un conjunto de_ Políticas explícitas (Explicit policies) sobre cómo los Elementos de Trabajo pueden fluir a través de cada estado desde ‘iniciado’ hasta ‘finalizado’ _libres de defectos_. _Por ejemplo, los miembros del sistema Kanban podrían tener una política que sea explícita sobre la corrección de cualquier defecto conocido en un Elemento antes de moverlo al siguiente estado, de modo que ningún defecto conocido se transfiera a un proceso posterior._
    - [ ] Una _Expectativa de Nivel de Servicio_ (service level expectation), ENS (SLE): un pronóstico del tiempo que debería tardar un _Elemento de Trabajo_ en _Fluir_ desde ‘iniciado’ hasta ‘finalizado’. _Ten en cuenta que nada garantiza que lo ocurrido en el pasado ocurra en el futuro._
@@ -124,7 +124,7 @@ _Fabricar sólo lo que se necesita justo-a-tiempo es la piedra angular del Siste
 
 _Para Trabajo del Conocimiento,_ los miembros del sistema Kanban deben empezar a _Trabajar_ en un _Elemento_ (seleccionar) sólo cuando haya evidencia de que hay capacidad para hacerlo. Cuando el WIP cae por debajo del punto de control establecido en la _Definición de Flujo de Trabajo_, puede ser indicativo para seleccionar nuevo trabajo. Los miembros del sistema Kanban deberían abstenerse de seleccionar más _Trabajo_ en una parte dada del flujo de trabajo _sobrepasando el(los) punto(s) de control del WIP (controlling WIP) pertinente(s), o de seleccionar Trabajo por encima de su capacidad. Cuando sea necesario, el Trabajo debería dividirse en Elementos más pequeños pero aún potencialmente valiosos._
 
-_No es necesario disponer de un repositorio de los Elementos de Trabajo que aún no están En Curso/Proceso, lo que se conoce como lista de pendientes (backlog en inglés). Un backlog va emergiendo y puede incluir diferentes etapas o aspectos de la preparación del Trabajo. Si existe, no es necesario que esté en formato de lista ni secuenciada._
+_No es necesario disponer de un repositorio de los Elementos de Trabajo que aún no están En Curso, lo que se conoce como lista de pendientes (backlog en inglés). Un backlog va emergiendo y puede incluir diferentes etapas o aspectos de la preparación del Trabajo. Si existe, no es necesario que esté en formato de lista ni secuenciada._
 
 _Lo ideal es que el trabajo entre en el sistema Kanban guiado por políticas en lugar de ser asignado a un individuo. En busca de gestionar el trabajo inactivo, no las personas inactivas:_
 
@@ -242,7 +242,7 @@ _También existen algunas alternativas opcionales ajenas a Kanban, respaldadas p
 - **CONWIP (acrónimo de CONstant Work In Progress, Trabajo Constante En Curso)** (16)**:** CONWIP es un sistema pull que mantiene un límite total fijo de ‘Trabajo Iniciado pero No Finalizado’ (TINoF) o Trabajo En Curso (WIP) en todo el flujo de trabajo, ‘iniciando’ nuevo Trabajo únicamente cuando un Elemento ‘finalizado’ o ‘completado’ sale, regulando el Flujo con una única restricción para todo el sistema. Ejemplo: Un equipo de soporte de software sólo permite 15 tiques (tickets) abiertos en cualquier momento; cuando se resuelve un tique, puede ‘iniciarse’ uno nuevo. No todo el mundo apoya esta alternativa.
 - **DBR** (3,16)**:** Un enfoque avanzado que gestiona la Restricción del Flujo con Búferes previos a la Restricción del Flujo y en las salidas del sistema, maximizando el Rendimiento y al mismo tiempo protegiendo contra la variabilidad en sistemas complejos. Ejemplo: En un grupo de desarrollo de producto, la revisión de UX (Restricción del Flujo primaria) marca el ritmo (en inglés drum, tambor) con un Búfer de diseños previos, un Búfer secundario previo a la aprobación legal evita la sobrecarga, y el Trabajo nuevo solo se libera cuando ambos Búferes tienen capacidad. No todo el mundo apoya esta alternativa.
 - **Restricción del Flujo** (16)**:** El cuello de botella con menor capacidad de la Definición del Flujo de Trabajo. Puede haber múltiples cuellos de botella (todos con menos capacidad de la requerida por la demanda), y la Restricción del Flujo es el más limitante. Limita el Rendimiento global del sistema Kanban, determinando el ritmo al que se entrega el Valor. Ejemplo: En un equipo de desarrollo de software, si las pruebas llevan el mayor tiempo y limitan la entrega de funcionalidades, las pruebas son la Restricción del Flujo que marca el ritmo del sistema. En el Trabajo del Conocimiento, los cuellos de botella a menudo muestran comportamientos inesperados y pueden desplazarse por el flujo de trabajo de forma impredecible. Pero a veces los cuellos de botella son persistentes.
-- **DBR Simplificado (Drum-Buffer-Rope, Tambor-Búfer-Cuerda)** (3,16)**:** Un método de programación simplificado en el que el Rendimiento del sistema Kanban marca el ritmo del flujo de trabajo, y el Rendimiento actúa como indicador de reabastecimiento del mismo modo que en CONWIP. Supongamos que existe un sistema Kanban que utiliza Drum-Buffer-Rope Simplificado, y la Definición del Flujo de Trabajo está diseñada para gestionar hasta 15 Elementos: con 12 activamente en curso/proceso (drum) y un Búfer de 3 Elementos listos para comenzar, se asegura que el Trabajo continua ininterrumpidamente haciendo pull del Búfer en caso que alguno de los 12 Elementos encuentre problemas, manteniendo el Flujo con, por ejemplo, 13 en curso/proceso y 2 en reserva. La cuerda (rope) avisa para reabastecer cuando se entrega un Elemento, manteniendo el total dentro del límite de 15 Elementos, y el sistema da prioridad a restaurar rápidamente el Búfer si se agota, resolviendo los problemas de sustento de Flujo proactivamente. No todo el mundo apoya esta alternativa.
+- **DBR Simplificado (Drum-Buffer-Rope, Tambor-Búfer-Cuerda)** (3,16)**:** Un método de programación simplificado en el que el Rendimiento del sistema Kanban marca el ritmo del flujo de trabajo, y el Rendimiento actúa como indicador de reabastecimiento del mismo modo que en CONWIP. Supongamos que existe un sistema Kanban que utiliza Drum-Buffer-Rope Simplificado, y la Definición del Flujo de Trabajo está diseñada para gestionar hasta 15 Elementos: con 12 activamente en curso (drum) y un Búfer de 3 Elementos listos para comenzar, se asegura que el Trabajo continua ininterrumpidamente haciendo pull del Búfer en caso que alguno de los 12 Elementos encuentre problemas, manteniendo el Flujo con, por ejemplo, 13 en curso y 2 en reserva. La cuerda (rope) avisa para reabastecer cuando se entrega un Elemento, manteniendo el total dentro del límite de 15 Elementos, y el sistema da prioridad a restaurar rápidamente el Búfer si se agota, resolviendo los problemas de sustento de Flujo proactivamente. No todo el mundo apoya esta alternativa.
 
 ### Si los miembros del sistema Kanban necesitan priorizar un Elemento de Trabajo a ‘iniciar’
 
@@ -303,6 +303,8 @@ Revisada por:
 
 - David Zalazar | [linkedin.com/in/david-zalazar-6ba55610b/](https://www.linkedin.com/in/david-zalazar-6ba55610b/)
 - Imanol Calo | [linkedin.com/in/imanol-calo-granillo-icg/](https://www.linkedin.com/in/imanol-calo-granillo-icg/)
+- Iván Garrido | [linkedin.com/in/ivangarridog/](https://www.linkedin.com/in/ivangarridog)
+- Jorge Messina | [linkedin.com/in/jormessina/](https://www.linkedin.com/in/jormessina)
 - Luis Chueca | [linkedin.com/in/luischueca/](https://www.linkedin.com/in/luischueca/)
 
 ### Glosario y notas de la traducción
@@ -324,7 +326,7 @@ Para comodidad del lector se incluye aquí el glosario combinado de la Guia Abie
 | Lista de pendientes | Backlog | No se mantiene coherencia con la traducción oficial de la Guía de Scrum por evitar confusión con el concepto informático de LIFO, ni con Kanban University dónde le llaman Opciones. |
 | Real / obtención | Realized / realization | Referido al Valor. |
 | Pronóstico | Forecast | Como en las traducciones oficiales de Scrum.org |
-| Pull | Pull | Traducido indistintamente como Tracción o Arrastre, lo menos confuso es mantener el original Pull. |
+| Pull | Pull | Traducido indistintamente como Tracción, Extracción o Arrastre, lo menos confuso es mantener el original Pull. |
 | Push | Push | Empuje, se deja push por coherencia con pull. |
 | Punto de control | (noun) Control | Se mantiene "control" como verbo y gerundio. |
 | Rendimiento | Throughput | En la traducción oficial de Kanban University le llaman indistintamente Tasa de Entrega. Se han traducido las apariciones de "performance" en el texto como "desempeño" para evitar confusiones. |
@@ -334,7 +336,7 @@ Para comodidad del lector se incluye aquí el glosario combinado de la Guia Abie
 | Stakeholder | Stakeholder | O "partes interesadas", la definición del término original es más amplia y está muy extendida, razón por la cual se mantiene. |
 | Tabla de Estimación de Impacto (TEI) | Impact Estimation Table (IET) |--------------|
 | Tiempo Acumulado en Búfer o Encolado (TABE) | Cumulative Queueing or Buffer Time (CQBT) |--------------|
-| Trabajo en Curso | Work in Progress/Process | El término español abarca ambos. Se ha mantenido su acrónimo inglés (WIP) por estar su uso muy extendido. |
+| Trabajo en Curso | Work in Progress/Process | El término español abarca ambos. Se ha mantenido su acrónimo inglés (WIP) por estar muy extendido y para mayor diferenciación de los acrónimos de tiempos, aunque puede encontrarse como TEC en otras obras. |
 | Trabajo Iniciado pero No Finalizado (TINoF) | Started but Not Finished Work (SNFW) |--------------|
 | Justitalla | Rightsizing | No es una palabra que exista en la RAE pero expresa el significado deseado, como justiprecio |
 | Marcar, evidenciar, indicar... | (verb) Signal | Según contexto, rara vez suena natural señalar |

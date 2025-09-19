@@ -1,7 +1,7 @@
 ---
 title: La Guía Kanban (mayo de 2025)
 description: La Guía Kanban es la referencia mínima oficial de Kanban. Clara, estable y focalizada, define las prácticas y principios básicos para gestionar el flujo y mejorar la entrega en todos los sectores.
-date: 2025-08-26T09:00:00Z
+date: 2025-09-19T10:30:00Z
 version: 2025.5
 keywords:
   - Kanban
@@ -184,6 +184,8 @@ Revisada por:
 
 - David Zalazar | [linkedin.com/in/david-zalazar-6ba55610b/](https://www.linkedin.com/in/david-zalazar-6ba55610b/)
 - Imanol Calo | [linkedin.com/in/imanol-calo-granillo-icg/](https://www.linkedin.com/in/imanol-calo-granillo-icg/)
+- Iván Garrido | [linkedin.com/in/ivangarridog/](https://www.linkedin.com/in/ivangarridog)
+- Jorge Messina | [linkedin.com/in/jormessina/](https://www.linkedin.com/in/jormessina)
 - Luis Chueca | [linkedin.com/in/luischueca/](https://www.linkedin.com/in/luischueca/)
 
 De los párrafos sin cambios en la versión inglesa desde la versión 2020.12, algunos se han modificado ligeramente y otros se han mantenido tal cual la traducción original de:
@@ -206,10 +208,10 @@ Revisada por:
 | Iniciado | Started | A veces se ha empleado "inicio" para sonar más natural, aún cuando en inglés no cambia. |
 | Real / obtención | Realized / realization | Referido al Valor. |
 | Pronóstico | Forecast | Como en traducciones oficiales de Scrum.org |
-| Pull | Pull | Traducido indistintamente como Tracción o Arrastre, lo menos confuso es mantener el original Pull. |
+| Pull | Pull | Traducido indistintamente como Tracción, Extracción o Arrastre, lo menos confuso es mantener el original Pull. |
 | Push | Push | Empuje, se deja push por coherencia con pull. |
 | Punto de control | (noun) Control | Se mantiene "control" como verbo y gerundio. |
 | Rendimiento | Throughput | En la traducción oficial de Kanban University le llaman indistintamente Tasa de Entrega. Se han traducido las apariciones de "performance" en el texto como "desempeño" para evitar confusiones. |
 | Stakeholder | Stakeholder | O "partes interesadas", la definición del término original es más amplia y está muy extendida, razón por la cual se mantiene. |
 | Tiempo de Ciclo | Cycle Time |--------------|
-| Trabajo en Curso | Work in Progress | Se ha mantenido su acrónimo inglés (WIP) por estar su uso muy extendido. |
+| Trabajo en Curso | Work in Progress | Se ha mantenido su acrónimo inglés (WIP) por estar muy extendido, aunque puede encontrarse como TEC en otras obras. |
