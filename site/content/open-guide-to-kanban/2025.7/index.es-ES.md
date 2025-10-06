@@ -49,7 +49,7 @@ _El uso de la letra cursiva respalda el aviso de adaptación de Creative Commons
 
 ## Definición de Kanban en el Contexto del Trabajo del Conocimiento (knowledge work)
 
-Kanban es una estrategia para optimizar el _Flujo de Valor_ a través de un _sistema_. _Es un mecanismo de señalización para reclamar Trabajo o inventario_. Comprende las siguientes tres prácticas, que funcionan de manera complementaria:
+Kanban es una estrategia para optimizar el _Flujo de Valor_ a través de un _sistema_. _Es un mecanismo de señalización para requerir Trabajo o inventario_. Comprende las siguientes tres prácticas, que funcionan de manera complementaria:
 
 - Definición y _Visualización_ de un flujo de trabajo (workflow).
 - Gestión activa de los _Elementos_ en un flujo de trabajo.
@@ -65,15 +65,15 @@ El concepto de _Flujo_ es esencial para _entender_ Kanban. _En un sistema Kanban
 - Un flujo de trabajo eficiente asigna _la capacidad disponible_ de la forma más óptima posible, para entregar Valor.
 - Un flujo de trabajo predecible es capaz de pronosticar _razonablemente_ la entrega de Valor, con un margen de incertidumbre aceptable.
 
-La estrategia de _un sistema Kanban_ consiste en _posibilitar_ que los miembros del sistema Kanban se hagan las preguntas adecuadas de forma más temprana, como parte de un esfuerzo de mejora continua en pos de estos objetivos. Los miembros del sistema Kanban deben buscar un equilibrio sostenible entre estos tres componentes. _Kanban es también una forma de reducir la sobrecarga (excesiva carga de trabajo) y de gestionar la demanda para que el Trabajo se entregue de forma óptima dada la capacidad disponible. No es perfecto, pero debería fomentar la mejora continua y un Flujo de Valor optimizado._
+La estrategia de _un sistema Kanban_ consiste en _permitir_ que los miembros del sistema Kanban se hagan las preguntas adecuadas de forma más temprana, como parte de un esfuerzo de mejora continua en pos de estos objetivos. Los miembros del sistema Kanban deben buscar un equilibrio sostenible entre estos tres componentes. _Kanban es también una forma de reducir la sobrecarga (excesiva carga de trabajo) y gestionar la demanda para que el Trabajo se entregue de forma óptima dada la capacidad disponible. No es perfecto, pero debería fomentar la mejora continua y un Flujo de Valor optimizado._
 
-_Los beneficios colaterales son miembros del sistema Kanban más felices, mayor calidad, y facilidad de adaptación a la demanda. Un buen sistema Kanban se autorregula, p. ej. el sistema Kanban evidencia y se ajusta a los problemas sin intervención._
+_Los beneficios adicionales son miembros del sistema Kanban más felices, mayor calidad, y capacidad de adaptación a la demanda. Un buen sistema Kanban se autorregula, p. ej. el sistema Kanban evidencia y se ajusta a los problemas sin intervención._
 
-Dado que Kanban puede _Visualizar_ prácticamente cualquier flujo de trabajo, su aplicación no se limita a ningún sector o contexto específico. Profesionales del conocimiento (knowledge workers) en áreas como finanzas, servicios públicos, sanidad y software (por mencionar algunas) se han beneficiado de las prácticas de Kanban. Kanban puede utilizarse a cualquier escala y en la mayoría de contextos en que hay entrega de valor.
+Dado que Kanban puede _Visualizar_ prácticamente cualquier flujo de trabajo, su aplicación no se limita a ningún sector o contexto específico. Profesionales del conocimiento (knowledge workers) en áreas como finanzas, servicios públicos, sanidad y software (por mencionar algunas) se han beneficiado de las prácticas de Kanban. Kanban puede utilizarse a cualquier escala y en la mayoría de contextos en los que hay entrega de valor.
 
 ## Teoría de Kanban
 
-_El sistema Kanban_ se fundamenta en _varios enfoques y conocimientos_ que abarcan, entre otros, el pensamiento sistémico _(5)_, los principios lean _(4)_, la teoría de colas (tamaño de lote, batch _(6-7)_ y tamaño de cola _(1,13-14)_), la variabilidad _(2,11)_, y el control de calidad _(2,8,10)_. La mejora continua, basada en estas teorías, de un sistema Kanban, es una forma en que las organizaciones pueden intentar optimizar la entrega de _Valor_. Muchos enfoques orientados al _Valor_ comparten las _ideas_ en las que se basa Kanban. Debido a estas similitudes, Kanban puede y debe ser utilizado para potenciar esas técnicas de entrega.
+_El sistema Kanban_ se fundamenta en _varios enfoques y conocimientos_ que abarcan, entre otros, el pensamiento sistémico _(5)_, los principios lean _(4)_, la teoría de colas (tamaño de lote, batch _(6-7)_ y tamaño de cola _(1,13-14)_), la variabilidad _(2,11)_, y el control de calidad _(2,8,10)_. La mejora continua, basada en estos enfoques, de un sistema Kanban, es una forma en que las organizaciones pueden intentar optimizar la entrega de _Valor_. Muchos enfoques orientados al _Valor_ comparten las _ideas_ en las que se basa Kanban. Debido a estas similitudes, Kanban puede y debe ser utilizado para potenciar esas técnicas de entrega.
 
 ## Prácticas de Kanban
 
@@ -223,7 +223,7 @@ El origen del actual Kanban se remonta al Sistema de Producción Toyota (y sus a
 
 ## Agradecimientos
 
-_Las personas aquí reconocidas no están necesariamente de acuerdo con lo que está escrito en este documento, y eso está bien. No obstante, la Guía Abierta de Kanban agradece profundamente a:_
+_Las personas aquí reconocidas, no tienen por qué estar necesariamente de acuerdo con lo que está escrito en este documento, y eso está bien. No obstante, la Guía Abierta de Kanban agradece profundamente a:_
 
 - Todos los que ayudaron a desarrollar Kanban, incluidos los que prefirieron no ser nombrados
 - _Los revisores de las versiones de julio 2020 o diciembre 2020 de Kanban Guide: Jean-Paul Bayley, Jose Casal, Colleen Johnson, Todd Miller, Eric Naiburg, Steve Porter, Ryan Ripley, Dave West, Julia Wester, Yuval Yeret, and Deborah Zanke_

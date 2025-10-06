@@ -68,11 +68,11 @@ El concepto de flujo es esencial en la definición de Kanban. El flujo es el mov
 
 La estrategia de Kanban consiste en lograr que los miembros del sistema Kanban se hagan las preguntas adecuadas de forma más temprana, como parte de un esfuerzo de mejora continua en pos de estos objetivos. Los miembros del sistema Kanban deben buscar un equilibrio sostenible entre estos tres elementos. En última instancia, la estrategia de Kanban radica en ayudarte a entender compromisos y gestionar riesgos.
 
-Dado que Kanban puede funcionar con prácticamente cualquier flujo de trabajo, su aplicación no se limita a ningún sector o contexto específico. Profesionales del conocimiento (Knowledge workers) en áreas como finanzas, servicios públicos, sanidad y software (por mencionar algunas) se han beneficiado de las prácticas de Kanban. Kanban puede utilizarse a cualquier escala y en la mayoría de contextos en  que hay entrega de valor.
+Dado que Kanban puede funcionar con prácticamente cualquier flujo de trabajo, su aplicación no se limita a ningún sector o contexto específico. Profesionales del conocimiento (Knowledge workers) en áreas como finanzas, servicios públicos, sanidad y software (por mencionar algunas) se han beneficiado de las prácticas de Kanban. Kanban puede utilizarse a cualquier escala y en la mayoría de contextos en los que hay entrega de valor.
 
 ## Teoría de Kanban
 
-Kanban se fundamenta en la teoría de flujo, la cual abarcan, entre otros, el pensamiento sistémico, los principios lean, la teoría de colas (incluyendo el tamaño de lote y el tamaño de cola), la variabilidad y el control de calidad. La mejora continua, basada en estas teorías, de un sistema Kanban, es una forma en que las organizaciones pueden intentar optimizar la entrega de valor.
+Kanban se fundamenta en la teoría de flujo, la cual abarcan, entre otros, el pensamiento sistémico, los principios lean, la teoría de colas (incluyendo el tamaño de lote y el tamaño de cola), la variabilidad y el control de calidad. La mejora continua, basada en estos enfoques, de un sistema Kanban, es una forma en que las organizaciones pueden intentar optimizar la entrega de valor.
 
 Muchos enfoques orientados al valor comparten la teoría en la que se basa Kanban. Debido a estas similitudes, Kanban puede y debe ser utilizado para potenciar esas técnicas de entrega.
 
