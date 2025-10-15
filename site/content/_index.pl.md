@@ -1,6 +1,5 @@
 ---
 title: "Kanban Guides"
-url: "/"
 not_sure_which_to_use: |
   Nowicjusz w Kanbanie? Zacznij od [The Kanban Guide](/the-kanban-guide/latest).
 
