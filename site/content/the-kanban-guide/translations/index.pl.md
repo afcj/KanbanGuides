@@ -4,8 +4,8 @@ layout: translations
 type: guide
 description: Oryginały i tłymaczenia Kanban Guide
 aliases:
-  - /downloads/
-  - /download/
-  - /translationsdirectory/
+  - /pl/downloads/
+  - /pl/download/
+  - /pl/translationsdirectory/
 ---
 
