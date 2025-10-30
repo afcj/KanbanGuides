@@ -1,0 +1,511 @@
+# Polish translations
+- id: and
+  translation: "i"
+
+- id: breadcrumb_home
+  translation: "Home"
+
+- id: read_online_title
+  translation: "Czytaj Online"
+
+- id: read_online_description
+  translation: "Uzyskaj dostęp do kompletnego przewodnika w formie cyfrowej z interaktywnymi funkcjami i łatwą nawigacją."
+
+- id: read_online_button
+  translation: "Czytaj online"
+
+- id: translations_title
+  translation: "Tłumaczenia"
+
+- id: translations_description
+  translation: "Uzyskaj dostęp do tego przewodnika w wielu językach i pomóż w tłumaczeniach."
+
+- id: translators_label
+  translation: "Tłumaczenia"
+
+- id: translations_button
+  translation: "Zobacz tłumaczenia"
+
+- id: guide_translation_preview_note
+  translation: "Podgląd tłumaczeń:"
+
+- id: guide_translation_preview_message
+  translation: "Ten przewodnik jest podglądem tłumaczenia i może nie być w pełni kompletny lub dokładny. Pomóż nam go zweryfikować i udoskonalić, dołącz do dyskusji."
+  
+- id: guide_preview_link
+  translation: "Help us review this translation"
+
+- id: history_title
+  translation: "Historia"
+
+- id: history_description
+  translation: "Explore the evolution and development history of this guide."
+
+- id: history_button
+  translation: "Zobacz Historię"
+
+- id: what_is_guides_title
+  translation: "Czym jest Kanban Guide?"
+
+- id: open_source_title
+  translation: "open source i rozwijany przez społeczność"
+
+- id: open_source_description
+  translation: "Open Guide to Kanban jest projektem o otwartych źródłach, który rozwija się dzięki współpracy społeczności. Niezależnie od tego, czy chcesz zaproponować ulepszenia, zgłosić problemy, czy wnieść wkład w treść, zachęcamy do udziału. Kanban Guide nie jest tu otwarty na wkład, ale jest umieszczony jako punkt odniesienia. Wspólnie możemy sprawić, że te zasoby będą jeszcze bardziej wartościowe dla społeczności Kanban na całym świecie oraz dla każdego, kto pragnie poprawić przepływ wartości (potencjalnej i rzeczywiście zrealizowanej)."
+
+- id: at_a_glance_title
+  translation: "W skrócie"
+
+- id: join_discussion_button
+  translation: "Dołącz do dyskusji"
+
+- id: join_discussion_title
+  translation: "Dołącz do dyskusji o Kanban Guides"
+
+- id: join_discussion_description
+  translation: "Engage with the community, share your insights, and help shape the future of the Kanban Guides. Your contributions are invaluable in making these guides comprehensive resources for Kanban practitioners."
+
+- id: guides_intro_text
+  translation: "Dowiedz się, czym jest Kanban i jak go zastosować, aby zoptymalizować przepływ wartości przez proces. To Twój kompletny zasób wiedzy i praktyk Kanban. Kanban Guides jest domem dla przewodnika The Kanban Guide oraz Open Guide to Kanban. Jest to darmowe, tworzone przez społeczność źródło informacji dotyczących stosowania Kanban w pracy umysłowej. Przewodniki definiują kluczowe praktyki i metryki niezbędne do poprawy przepływu, optymalizacji dostarczania wartości i zwiększenia trwałości zespołów. Te przewodniki wspierają skalowalne wdrożenia Kanban w różnorodnych branżach i uzupełniają inne podejścia zwinne, lean oraz oparte na przepływie."
+
+- id: download_title
+  translation: "Pobierz {{ .Site.Title }}"
+
+- id: download_description
+  translation: "Download the complete {{ .Site.Title }} as a PDF file for offline reading and reference."
+
+- id: download_button
+  translation: "Pobierz PDF"
+
+- id: about_creators_title
+  translation: "O twórcach {{ .Site.Title }}"
+
+- id: read_bio_button
+  translation: "Czytaj bio: {{ .Name }}"
+
+- id: guide_content_not_found
+  translation: "Guide content not found"
+
+- id: reportTranslationError
+  translation: "Zgłoś błędy tłumaczenia"
+
+# Navigation translations
+- id: nav_read_online
+  translation: "Czytaj Online"
+
+- id: nav_translations
+  translation: "Tłumaczenia"
+
+- id: nav_versions
+  translation: "Wersje"
+
+- id: nav_pdf_version
+  translation: "Wersja PDF"
+
+- id: nav_creators
+  translation: "Twórcy"
+
+- id: nav_all_creators
+  translation: "Wszyscy twórcy"
+
+- id: nav_faq
+  translation: "FAQ"
+
+- id: nav_read_guide
+  translation: "Czytaj przewodnik"
+
+- id: nav_history
+  translation: "Historia"
+
+- id: nav_overview
+  translation: "Overview"
+
+# Guide page PDF download translations
+- id: guide_pdf_download_button
+  translation: "Pobierz PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF niedostępny"
+
+- id: guide_pdf_intro_text
+  translation: "You can also download this guide as a PDF for offline reading."
+
+- id: guide_pdf_intro_link
+  translation: "Pobierz PDF"
+
+# Preview Translations functionality
+- id: download_preview_translations
+  translation: "Podgląd tłumaczeń"
+
+- id: download_preview_description
+  translation: "Te tłumaczenia są dostępne jako podgląd i wymagają przynajmniej 5 recenzentów ze społeczności, zanim będą mogły zostać przeniesione na główną stronę. Pomóż nam zweryfikować i udoskonalić te tłumaczenia!"
+
+- id: download_visit_preview
+  translation: "Odwiedź stronę przeglądu"
+
+- id: download_table_status
+  translation: "Status"
+
+- id: download_table_contributed_by
+  translation: " Opracowane przez" 
+
+- id: download_preview_status
+  translation: "W przeglądzie"
+
+- id: download_reference_status
+  translation: "Referencja"
+
+- id: download_pdf_only_status
+  translation: "Tylko PDF"
+
+- id: download_preview_action
+  translation: "Podgląd"
+
+- id: download_discussion_action
+  translation: "Dyskusja"
+
+# Download page translations
+- id: download_page_title
+  translation: "Czytaj i pobierz oficjalny {{ .Title }}"
+
+- id: download_page_description
+  translation: "{{ .Title }} jest zdefiniowany tutaj przez"
+
+- id: download_page_originators
+  translation: "twórców {{ .Title }}."
+
+- id: download_translations_provided
+  translation: "Wersje językowe dostępne dzięki wymienionym niżej osobom i grupom. Wybierz język przewodnika do pobrania."
+
+- id: download_translation_error
+  translation: "Jeśli znalazłeś możliwy błąd w tłumaczeniu {{ .Title }}, skontaktuj się bezpośrednio z tłumaczem. Jeśli potrzebujesz dodatkowego wsparcia, skontaktuj się z nami na"
+
+- id: download_official_version
+  translation: "Wersja oficjalna"
+
+- id: download_community_translations
+  translation: "Tłumaczenia społeczności"
+
+- id: download_current_version_released
+  translation: "Aktualna oficjalna wersja {{ .Site.Title }} została wydana w"
+
+- id: download_older_translations_notice
+  translation: "Tłumaczenia {{ .Site.Title }}  wcześniejszymi datami mogą nie zawierać najnowszych informacji."
+
+- id: download_table_language
+  translation: "Język"
+
+- id: download_table_translations_by
+  translation: "Tłumaczone przez"
+
+- id: download_table_written_by
+  translation: "Written By"
+
+- id: download_table_action
+  translation: "Akcja"
+
+- id: download_official_current_version
+  translation: "Oficjalna Wersja Aktualna"
+
+- id: download_button_text
+  translation: "Pobierz"
+
+- id: download_coming_soon
+  translation: "Coming Soon"
+
+- id: download_missing_language
+  translation: "Brakuje Twojego języka?"
+
+- id: download_contribute_translation
+  translation: "Pomóż społeczności dostarczając nowe tłumaczenia."
+
+- id: download_add_translation
+  translation: "Dodaj tłumaczenie"
+
+- id: download_community_contributors
+  translation: "Autorzy społecznościowi"
+
+- id: contributors_label
+  translation: "Współtwórcy"
+
+- id: contributors_description
+  translation: "Wymienieni współtwórcy stanowią zbiór wszystkich współtwórców ze wszystkich przewodników i wersji."
+
+- id: read_online_action
+  translation: "Czytaj Online"
+
+# PDF Download functionality
+- id: guide_pdf_download_button
+  translation: "Pobierz PDF"
+
+- id: guide_pdf_not_available
+  translation: "PDF not available"
+
+- id: guide_pdf_intro_text
+  translation: "This guide is also available as a PDF download."
+
+- id: guide_pdf_intro_link
+  translation: "Download PDF"
+
+# History page translations
+- id: history_page_title
+  translation: "Wersje"
+
+- id: history_evolution_title
+  translation: "Evolution of the Guide"
+
+- id: history_evolution_description
+  translation: 'The current <strong><a href="{{ .GuideLink }}">Open Guide to Kanban</a></strong> is a living document that has evolved from previous historical versions, incorporating community feedback and modern Kanban practices. For ProKanban, <a href="/history/kanban-guide-2025/">The Kanban Guide</a> is their living guide.'
+
+- id: history_fork_summary_historical
+  translation: "Historical Versions"
+
+- id: history_fork_summary_current
+  translation: "Open Guide"
+
+- id: history_fork_summary_description
+  translation: "Current guide builds upon and extends previous versions"
+
+- id: history_fork_indicator
+  translation: "Forked & Enhanced from These Historical Versions"
+
+- id: history_no_versions_available
+  translation: "No versions are currently available."
+
+# Guide template translations
+- id: guide_join_discussion
+  translation: "Dołącz do dyskusji"
+
+- id: guide_table_of_contents
+  translation: "Spis treści"
+
+- id: guide_coming_soon
+  translation: "This guide is coming soon! Stay tuned for updates."
+
+- id: guide_no_content_available
+  translation: "Content not yet available for this language."
+
+- id: guide_pdf_en
+  translation: "PDF (EN)"
+
+- id: guide_pdf_en_us
+  translation: "PDF (EN-US)"
+
+- id: guide_pdf_en_not_available
+  translation: "PDF (EN) not available"
+
+- id: guide_pdf_en_us_not_available
+  translation: "PDF (EN-US) not available"
+
+- id: guide_coming_label
+  translation: "Coming:"
+
+- id: guide_updated_label
+  translation: "Uaktualniony:"
+
+- id: guide_version_label
+  translation: "Wersja:"
+
+- id: guide_content_unavailable_note
+  translation: "Nota:"
+
+- id: guide_content_unavailable_message
+  translation: "This page content is currently unavailable in {{ .Language }}. Showing the default guide content below."
+
+- id: guide_content_unavailable_title
+  translation: "Content Unavailable:"
+
+- id: guide_content_unavailable_description
+  translation: "The content for this page could not be loaded and no default content is available. Please"
+
+- id: guide_report_issue_link
+  translation: "report this issue"
+
+- id: guide_report_issue_message
+  translation: "to help us fix it."
+
+- id: guide_back_to_home
+  translation: "← Back to Home"
+
+- id: guide_historical_version_notice_title
+  translation: "Historical Version Notice:"
+
+- id: guide_historical_version_notice_text
+  translation: "You are viewing version {{ .CurrentVersion }} of this guide."
+
+- id: guide_historical_version_notice_link
+  translation: "View the latest version ({{ .LatestVersion }})"
+
+- id: guide_historical_version_notice_suffix
+  translation: "for the most up-to-date information."
+
+- id: not_sure_which_to_use_title
+  translation: "Nie wiesz, którego użyć?"
+
+# Additional translations for guide/list.html
+- id: get_started_title
+  translation: "Get Started"
+
+- id: community_driven_label
+  translation: "Community Driven"
+
+- id: coming_soon
+  translation: "Coming Soon"
+
+- id: purpose_title
+  translation: "Cel"
+
+- id: ethos_title
+  translation: "Etos"
+
+- id: audience_title
+  translation: "Odbiorcy"
+
+- id: use_case_title
+  translation: "Przypadek użycia"
+
+- id: content_title
+  translation: "Zawartość"
+
+- id: update_model_title
+  translation: "Update Model"
+
+- id: guide_overview_title
+  translation: "Guide Overview"
+
+- id: guide_overview_description
+  translation: "Key characteristics of this guide"
+
+- id: when_to_use_title
+  translation: "When to Use This Guide"
+
+- id: when_to_use_description
+  translation: "Choose the right approach for your context"
+
+- id: quick_decision_guide_title
+  translation: "Quick Decision Guide"
+
+- id: getting_started_title
+  translation: "Getting Started"
+
+- id: for_practitioners_title
+  translation: "For Practitioners"
+
+- id: current_information_title
+  translation: "Current Information"
+
+- id: current_information_description
+  translation: "Version details and community contributors"
+
+- id: current_version_title
+  translation: "Aktualna wersja"
+
+- id: current_version_updated_label
+  translation: "Updated"
+
+- id: current_version_description
+  translation: "This is the current active version of the guide."
+
+- id: read_current_version_button
+  translation: "Read Current Version"
+
+- id: version_info_not_available
+  translation: "Version information not available"
+
+- id: contributors_title
+  translation: "Współtwórcy"
+
+- id: contributors_description_card
+  translation: "Community members who shape this guide"
+
+- id: contributors_thank_you
+  translation: "Thank you to all contributors who help make this guide better."
+
+- id: join_community_button
+  translation: "Join the Community"
+
+- id: no_contributors_found
+  translation: "No contributors found"
+
+- id: version_history_title
+  translation: "Version History"
+
+- id: version_history_description
+  translation: "Previous versions and their evolution"
+
+- id: no_previous_versions_title
+  translation: "No Previous Versions"
+
+- id: no_previous_versions_description
+  translation: "This guide is just getting started. Check back later for historical versions."
+
+- id: what_is_guide_title
+  translation: "What is this Guide?"
+
+- id: license_title
+  translation: "Licencja"
+
+- id: view_on_github_button
+  translation: "View on GitHub"
+
+# Additional translations for version-card.html
+- id: current_open_guide_label
+  translation: "Aktualny Open Guide"
+
+- id: active_status_label
+  translation: "Active"
+
+- id: current_fork_label
+  translation: "Current Fork"
+
+- id: active_fork_label
+  translation: "Active Fork"
+
+- id: fork_indicator
+  translation: "Fork:"
+
+- id: forked_from_indicator
+  translation: "Forked from:"
+
+- id: this_is_fork_label
+  translation: "This is a fork"
+
+- id: available_languages_label
+  translation: "Dostępne języki:"
+
+- id: pdf_downloads_label
+  translation: "Pobieranie PDF:"
+
+- id: living_document_updated_label
+  translation: "Living Document - Updated"
+
+- id: active_fork_updated_label
+  translation: "Active Fork - Updated"
+
+- id: historical_fork_label
+  translation: "Historical Fork -"
+
+- id: historical_version_label
+  translation: "Historical Version -"
+
+- id: current_version_label
+  translation: "Aktualna wersja"
+
+- id: read_guide_button
+  translation: "Czytaj przewodnik"
+
+- id: translations_button_small
+  translation: "Tłumaczenia"
+
+- id: read_fork_button
+  translation: "Read Fork"
+
+- id: view_archive_button
+  translation: "Zobacz archiwum"
+- id: guide_version_current
+  translation: "Aktualny"
+- id: guide_version_dropdown_label
+  translation: "Wybierz wersję"
+- id: guide_version_latest
+  translation: "Najnowsza"
+
