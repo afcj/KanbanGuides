@@ -19,5 +19,5 @@ languages:
   ja:
     disabled: false
   es-ES:
-    disabled: true
+    disabled: false
 
