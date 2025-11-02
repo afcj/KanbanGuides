@@ -27,37 +27,37 @@ translators:
   url: https://www.agile-gap.com/p/pedram-keshavarzi
   role: Translator
   founder: true
-  weight: 1
+  weight: 6
 - name: Orod Semsarzadeh
   githubUsername: orodsem
   url: https://www.linkedin.com/in/orod-semsarzadeh/
   role: Reviewer
   founder: False
-  weight: 2
+  weight: 5
 - name: Shahrzad Lotfi
   githubUsername: shahrzadlotfi92
   url: https://www.linkedin.com/in/shahrzad-lotfi-a6163ba2/
   role: Reviewer
   founder: False
-  weight: 3
+  weight: 4
 - name: Morteza Moalagh
   githubUsername: Aragornsprint
   url: https://www.linkedin.com/in/morteza-moalagh-abb5ba33/
   role: Reviewer
   founder: False
-  weight: 4
+  weight: 3
 - name: Mohammad Esmaeil Pedaran
   githubUsername: mohped
   url: https://www.linkedin.com/in/mohammad-esmaeil-pedaran/
   role: Reviewer
   founder: False
-  weight: 5
+  weight: 2
 - name: Ali Naderivarandi
   githubUsername: Alinaderivarandi
   url: https://www.linkedin.com/in/ali-naderivarandi-9a269a261/
   role: Reviewer
   founder: False
-  weight: 6
+  weight: 1
 ---
 
 ## پیش‌گفتار
