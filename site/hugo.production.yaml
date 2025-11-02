@@ -7,7 +7,7 @@ languages:
   min:
     disabled: true
   fa:
-    disabled: true
+    disabled: false
   pl:
     disabled: true
   nl:
