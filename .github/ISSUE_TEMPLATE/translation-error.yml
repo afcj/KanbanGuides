@@ -21,6 +21,7 @@ body:
         - English (en)
         - Farsi (fa)
         - Japanese (ja)
+        - Spanish (es)
         - Other (please specify in description)
     validations:
       required: true
